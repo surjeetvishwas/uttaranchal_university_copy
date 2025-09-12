@@ -1,0 +1,125 @@
+
+.ee-form-widget {
+    font-size: 9px;
+    font-family: var(--primary-font) !important;
+    padding-bottom: 15px;
+}
+.ee-form-widget :not(.modal-content) {
+    font-family: var(--primary-font);
+}
+#ee-form-1-modal-swapper{
+    padding: 0;
+}
+.ee-form-widget .ee-row{
+    width: 50%!important;
+    margin-top: 0!important;
+    display: inline-block;
+    vertical-align: top;
+}
+.ee-row.check-box-field.full-width{
+    display: block;
+    width: 100% !important;
+}
+.ee-form-widget .ee-row.controls {
+    width: 100% !important;
+    padding: 0 5px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+}
+.select2-container .select2-selection--single{
+    height: 36px;
+    border: 1px solid var(--ee-border-color);
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 36px;
+    padding-left: 12px;
+}
+.ee-form-widget input:not([type=checkbox]):not([type=tel]):not([type=radio]):not([type=search]), .ee-form-widget select, .ee-form-widget textarea {
+    width: 100% !important;
+    border: 1px solid var(--ee-border-color) !important;
+    height: 36px !important;
+    padding: 0 12px !important;
+}
+.ee-form-widget label[for="ee-form-1-form-1-iAgree"] span {
+    left: 10px;
+    top: 0;
+    text-align: left;
+    font-size: 12px;
+    line-height: 12px;
+    vertical-align: top;
+}
+.ee-form-footer .btn {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 10px 0 0 !important;
+    background: var(--bg-gray) !important;
+    color: var(--text-black) !important;
+    border: 1px solid #ddd !important;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family: var(--primary-sub-font);
+    text-transform: uppercase;
+}
+.ee-form-footer .btn#ee-form-1-form-1-submit{
+    background: var(--bg-green) !important;
+    border-color: var(--bg-green) !important;
+    color: var(--text-white) !important;
+}
+.ee-form-footer .btn:hover{
+    background: var(--bg-blue) !important;
+    border-color: var(--bg-blue) !important;
+    color: var(--text-white) !important;
+}
+.ee-form-widget .col-25, .ee-form-widget .col-75 {
+    padding: 0 5px;
+    margin-top: 10px !important;
+}
+.ee-row.check-box-field.full-width {
+    padding: 0 5px 5px;
+}
+.check-box-field label[for="ee-form-1-form-1-iAgree"] {
+    display: block;
+    color: black;
+    position: relative;
+}
+.check-box-field input {
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+.check-box-field span {
+    position: static !important;
+    width: 100%;
+    padding-left: 25px;
+    display: block;
+}
+.iti__country-list {
+    width: 200px;
+}
+.iti input, .iti input[type=tel], .iti input[type=text] {
+    height: 36px;
+}
+
+.select2-results__option {
+    text-align: left;
+    padding: 2px 8px;
+    font-size: 12px !important;
+    line-height: 14px;
+    margin-bottom: 5px;
+}
+
+.ee-form-widget-feedback{
+    height: auto;
+}
+.ee-form-widget-feedback .close-modal {
+    top: 10px !important;
+    right: 10px !important;
+}
+
+.ee-form-widget .btn.btn-feedback-control {
+    background-color: var(--bg-green);
+    color: var(--ee-white-color);
+    border: 1px solid var(--bg-green);
+}

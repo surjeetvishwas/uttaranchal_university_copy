@@ -1,0 +1,381 @@
+.darkmode body p,
+.darkmode .tns-item a,
+.darkmode .top-notification-slider .slick-arrow,
+.darkmode .header-social a,
+.darkmode .header__top--links ul li a,
+.darkmode .navbar-nav .nav-item:hover a,
+.darkmode .specialization-thumb h3 .sm,
+.darkmode .specialization-thumb h3 .md,
+.darkmode .specialization-thumb h3 .lg,
+.darkmode .ddMenu-numbers__top-no,
+.darkmode .ddMenu-numbers h3,
+.darkmode .admi-dd-block__content,
+.darkmode .acc-list,
+.darkmode .rh-list,
+.darkmode .placement-dd h3,
+.darkmode .hero-banner__content--inner h2,
+.darkmode .hero-banner__content--inner p,
+.darkmode .bannerQuote p,
+.darkmode .top-no,
+.darkmode .top-no p,
+.darkmode .navbar-nav .nav-item>a,
+.darkmode .noti-slider__item p,
+.darkmode .hns-date small,
+.darkmode .nav-tabs-2 .nav-link,
+.darkmode .welcome-section__bottom--content .main-heading h1,
+.darkmode .welcome-section__bottom--content p,
+.darkmode .accredation-section .main-sub-heading h2,
+.darkmode .whyUU-section .card small,
+.darkmode .findProgram-section__block .main-heading h2,
+.darkmode .menu-programs-list>ul>li>a,
+.darkmode .menu-programs-list__graduates ul li a,
+.darkmode .stories-section__videoThumb--content h5,
+.darkmode .facMsg p b,
+.darkmode .facName,
+.darkmode .infraSection-slider__heading--content.main-heading h2,
+.darkmode .infraSection-slider__heading--content.main-heading p,
+.darkmode .infraSection-slider__heading--content.page-heading h2,
+.darkmode .infraSection-slider__heading--content.page-heading p,
+.darkmode .club-section .page-heading h2,
+.darkmode .club-section p,
+.darkmode .infra-content h2,
+.darkmode .infra-content p,
+.darkmode .bannerQuote__name span,
+.darkmode .research-section__numbers small,
+.darkmode .achievement-section .main-heading h2,
+.darkmode .achievement-section .main-heading p,
+.darkmode .achievement-section .card p,
+.darkmode .st-name small,
+.darkmode .footer a,
+.darkmode .footer p,
+.darkmode .copyrights p,
+.darkmode .gotoTop__icon,
+.darkmode .allNotification__icon,
+.darkmode .allNotification__list li h6,
+.darkmode .aboutBanner__content h1,
+.darkmode .aboutBanner__content h2,
+.darkmode .aboutBanner__content p,
+.darkmode .aboutNumber-section__nos,
+.darkmode .quote-msg,
+.darkmode .step-div__content,
+.darkmode .steps-thumb,
+.darkmode .adv-thumb__content h3,
+.darkmode .adv-thumb__content p,
+.darkmode .leader-quote-content h2,
+.darkmode .modal .modal-body h2,
+.darkmode .modal .modal-body .leader-name small,
+.darkmode .pageBanner__content,
+.darkmode .list-icon-3>li,
+.darkmode .list-icon-3>li a,
+.darkmode .list-icon-4>li,
+.darkmode .list-icon-4>li a,
+.darkmode .breadcrumb li a,
+.darkmode .pageBanner__content p,
+.darkmode .table td,
+.darkmode .programBanner__content h2,
+.darkmode .programBanner__content p,
+.darkmode .industry-collab h4,
+.darkmode .applyForm__header,
+.darkmode .applyForm__fields label,
+.darkmode .deanMessage h5,
+.darkmode .deanMessage p,
+.darkmode .deanMessage__dp--content,
+.darkmode .modal-title,
+.darkmode .page-sub-heading h3,
+.darkmode .club-listings-slider__item li a,
+.darkmode .adn-item .card,
+.darkmode .aps-item .card ul,
+.darkmode .library-banner ul small,
+.darkmode .page-heading h5,
+.darkmode .page-heading h6,
+.darkmode .research-banner .main-heading h1,
+.darkmode .research-banner p,
+.darkmode .academics-banner .main-heading h1,
+.darkmode .academics-banner .main-heading h2,
+.darkmode .academics-banner p,
+.darkmode .academics-in-banner__content h1,
+.darkmode .academics-in-banner__content h2,
+.darkmode .academics-in-banner__content p,
+.darkmode .job-fullDetails ul li,
+.darkmode .leader-quote-content p,
+.darkmode .programDetailBanner__content h2,
+.darkmode .programDetailBanner__content p,
+.darkmode .contactAddress-sec__content ul li small,
+.darkmode .e-services-section__thumb .card-footer h6,
+.darkmode .e-services-section__thumb .card-footer a {
+     color: #fff !important;
+    filter: brightness(0.9);
+    -webkit-filter: brightness(0.9);
+}
+
+.darkmode .research-section__numbers h3,
+.darkmode .testimoni-section__slider--item h3,
+.darkmode .st-name h5,
+.darkmode .hero-banner__content--number,
+.darkmode .footer h4,
+.darkmode .whyUU-section .card h3,
+.darkmode .choose-section__content .card,
+.darkmode .applyForm small,
+.darkmode .deanMessage h3,
+.darkmode .programList-links h4,
+.darkmode .programList-links h6,
+.darkmode .admission-banner__notification h3,
+.darkmode .adn-item .card a,
+.darkmode .aps-item .card h4,
+.darkmode .educationLoan-section .card .card-body h5,
+.darkmode .educationLoan-section .card .card-footer a,
+.darkmode .reseacrhStory-section h6 b,
+.darkmode .otherFacilities .card h3,
+.darkmode .contactAddress-sec__content h4 {
+    color: var(--text-green) !important;
+}
+
+.darkmode .footer a::after,
+.darkmode .menu-programs-list>ul>li>a::after,
+.darkmode .t-dot,
+.darkmode .t-dot::after,
+.darkmode .step-div__icon,
+.darkmode .pagination-style-2 .slick-arrow,
+.darkmode .aps-item .card ul li a::after,
+.darkmode .rightFixed-btns__content {
+    background-color: var(--text-green) !important;
+}
+
+.darkmode .header,
+.darkmode .noti-slider__item,
+.darkmode .hero-banner__content--inner,
+.darkmode .hero-banner__content--inner::after,
+.darkmode .hero-banner__content--inner::before,
+.darkmode .modal-content,
+.darkmode .programList-links,
+.darkmode .admission-banner__notification::before,
+.darkmode .educationLoan-section .card {
+    background: var(--bg-blue) !important;
+}
+
+.darkmode .white-overlay,
+.darkmode .achievement-section::before,
+.darkmode .adv-thumb__content,
+.darkmode .programBanner::before,
+.darkmode .educationLoan-section .row .col-md-6.active .card,
+.darkmode .green-gradient::before,
+.darkmode .club-section .rht-col,
+.darkmode .club-section .rht-col::after {
+    background: rgb(9 17 36/80%) !important
+}
+
+.darkmode .welcome-section__top .col-lg-5,
+.darkmode .welcome-section__bottom,
+.darkmode .research-section .col-md-6:first-child,
+.darkmode .t-details img {
+    border-color: #151c36;
+}
+
+.darkmode .pageBanner .col-lg-6,
+.darkmode .pageBanner .col-lg-6::before {
+    background: var(--bg-gray);
+    color: var(--text-black);
+}
+
+.darkmode .play-btn svg:hover {
+    fill: var(--text-green) !important;
+}
+
+.darkmode .facSpeaks-section .carousel-indicators button.active,
+.darkmode .contact-heading {
+    border-color: var(--text-green) !important;
+}
+
+.darkmode .allNotification__list:after {
+    border-top-color: var(--bg-white)
+}
+
+.darkmode .hero-banner__content--inner p {
+    border-color: var(--text-black)
+}
+
+
+/* .darkmode .btn-info {
+    background: var(--bg-blue);
+    border-color: var(--bg-blue);
+    color: var(--text-black);
+} */
+
+.darkmode .btn-shadow {
+    box-shadow: 0 0 40px rgba(15, 15, 15, 0.2);
+}
+
+.darkmode img {
+    filter: brightness(0.7);
+    -webkit-filter: brightness(0.7);
+}
+
+.darkmode .aboutBanner::before {
+    background: rgb(9 17 36/80%)
+}
+
+.darkmode .ft-logo,
+.darkmode .footer,
+.darkmode .black-section,
+.darkmode .ee-form-widget :not(.modal-content),
+.darkmode #ee-form-1 {
+    background: var(--bg-white) !important;
+}
+
+.darkmode .nav-tabs-2 .nav-item.show .nav-link,
+.darkmode .nav-tabs-2 .nav-link.active {
+    color: var(--text-black);
+    background: transparent;
+    border-bottom: 2px solid var(--text-black);
+}
+
+.darkmode .c-n {
+    color: rgb(161 161 161 / 20%);
+}
+
+.darkmode .facMsg>img,
+.darkmode .bannerQuote img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.darkmode .border {
+    border-color: #151c36 !important;
+}
+
+.darkmode .whyUU-section .row .col-lg-4:first-child .card:nth-child(2) {
+    background: var(--bg-blue) !important;
+}
+
+.darkmode .modal-header .btn-close {
+    background-color: #fff
+}
+
+.darkmode .leadersip-section,
+.darkmode .leadersip-banner,
+.darkmode .leadership-testimonial {
+    background-color: var(--bg-white) !important;
+    background-blend-mode: luminosity;
+}
+
+.darkmode .nav-sld__item .card,
+.darkmode table.dataTable.no-footer,
+.darkmode .accreditions-section::before {
+    background: var(--bg-blue);
+    color: var(--text-black);
+}
+
+.darkmode .nav-sld__item.slick-current .card {
+    background: var(--bg-gray);
+}
+
+.darkmode .accordion-item,
+.darkmode .accordion-button,
+.darkmode .academics-sec__content .card,
+.darkmode .academics-objective .card,
+.darkmode .programmeStructure-section .card,
+.darkmode .library-sec__exLink li a,
+.darkmode .reseacrhStory-section .card,
+.darkmode .reseacrhPublication-section .card,
+.darkmode .alert,
+.darkmode .whyCareer-section .card,
+.darkmode .positions-section__list .card,
+.darkmode .btn-info,
+.darkmode .btn-primary {
+    background-color: var(--bg-gray) !important;
+    border-color: var(--text-green) !important;
+    color: var(--text-black)
+}
+
+.darkmode .accordion-button::after {
+    background-color: #707070;
+    border-radius: 4px;
+}
+
+.darkmode .table thead th,
+.darkmode .top-notification-slider.stickyBottom,
+.darkmode .library-sec__exLink li.active a,
+.darkmode .short-name {
+    background: var(--text-green) !important;
+    color: var(--text-black);
+}
+
+.darkmode .uu-logo .uu-pc-logo {
+    display: none;
+}
+
+.darkmode .uu-pc-logo.uu-pc-dark-logo {
+    display: block !important;
+}
+
+.darkmode .aps-item .card,
+.darkmode .form-control,
+.darkmode .form-select {
+    background-color: var(--bg-gray);
+    border-color: #293b5c;
+    color: var(--text-black)
+}
+
+.darkmode .specialization-thumb {
+    filter: brightness(0.8);
+    -webkit-filter: brightness(0.8);
+}
+
+.darkmode .dm {
+    display: none;
+}
+
+.darkmode .lm {
+    display: block !important;
+}
+
+.darkmode .navbar-toggler .navbar-toggler-icon {
+    background-image: url('../images/menu-white.svg');
+}
+
+.darkmode .header__top {
+    background: var(--bg-gray);
+}
+
+.darkmode .nav-tabs,
+.darkmode .nav-tabs .nav-item.show .nav-link,
+.darkmode .nav-tabs .nav-link.active {
+    border-color: var(--text-green);
+}
+
+.darkmode .dataTables_wrapper .dataTables_paginate .paginate_button,
+.darkmode .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.darkmode .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+.darkmode .dataTables_wrapper .dataTables_length,
+.darkmode .dataTables_wrapper .dataTables_filter,
+.darkmode .dataTables_wrapper .dataTables_info,
+.darkmode .dataTables_wrapper .dataTables_processing,
+.darkmode .dataTables_wrapper .dataTables_paginate,
+.darkmode .dataTables_wrapper .dataTables_length select,
+.darkmode .dataTables_wrapper .dataTables_filter input,
+.darkmode .ee-form-footer .btn#ee-form-1-form-1-submit {
+    color: var(--text-black) !important
+}
+
+.darkmode table .odd {
+    background: var(--bg-gray);
+}
+
+.darkmode .ee-form-widget input:not([type=checkbox]):not([type=tel]):not([type=radio]):not([type=search]),
+.darkmode .ee-form-widget select,
+.darkmode .ee-form-widget textarea,
+.darkmode .ee-form-widget input:not([type=checkbox]):not([type=radio]):not([type=search]),
+.darkmode .ee-form-widget select,
+.darkmode .ee-form-widget textarea,
+.darkmode .select2-container .select2-selection--single,
+.darkmode .ee-form-widget :not(.modal-content) {
+    border-color: var(--text-green) !important;
+    color: var(--text-black) !important;
+    border-radius: 6px;
+}
+
+
+.darkmode .navbar-nav .nav-item a{
+    color:#fff !important;
+}
+
