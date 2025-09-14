@@ -35,341 +35,676 @@
 <link href="newassets/css/visitor-box-css.css" rel="stylesheet"/>
 <link href="newassets/js-new/member-carousel-css.css" rel="stylesheet" type="text/css"/>
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-<style type="text/css">
-            .LogoBox a{
-               /* background: #fff;
-                padding-top: 6px;
-                padding-bottom: 11px;
-                padding-left: 6px;
-                padding-right: 6px;
-                border-bottom-left-radius: 15px;
-                border-bottom-right-radius: 15px;
-                margin-top: 0px;*/
-            }
-
-            .btn-custom{
-                background: #61b239;
-/*                background: linear-gradient(to left, #14701e, #2132cf) !important;*/
-                border-radius: 100px !important;
-                }
-            .btn-apply{
-                    background: #61b239;
-                    border-radius: 100px !important;
-                    font-size: 18px;
-                    padding: 8px 18px;
-                    color: #fff;
-                    font-weight: bold;
-                }
-				.btn-apply:hover{
-				  background-color:darkblue !important;
-				}
-                .videoPlay{
-                    background: #1bcb1b;
-                    font-size: 44px;
-                    padding: 0px 4px 0px 4px;
-                    color: #fff;
-                    border-radius: 100%;
-                }
-                .VideoLink{
-                        padding-top: 45px !important;
-                }
-				
-				.AboutUUSection{
-					background: url("newassets/images/pattren-bg.jpg") !important;
-					
-					background-repeat:repeat !important;
-				}
-				#topnav .navigation-menu > li .submenu li a {
-					    display: block;
-						padding: 11px 25px 1px 19px;
-						clear: both;
-						white-space: nowrap;
-						font-size: 14px;
-						color: #000;
-						transition: all 0.3s;
-
-				}
-				#topnav .navigation-menu > li .submenu li a:hover{
-				 color:navy !important;
-				}
-				.backtowebsite{
-				    background-color: #000;
-					padding-top: 0;
-					padding-bottom: 0px;
-				}
-				
-				.backtowebsite p{
-					padding-top: 6px;
-					padding-bottom: 4px;
-					font-size: 11px;
-				}
-				
-				@media (max-width: 991px){
-				#navigation {
-						position: absolute;
-						top: 100px;
-						left: 0;
-						width: 100% !important;
-						display: none;
-						height: auto;
-						padding-bottom: 0;
-						overflow: auto;
-						border-top: 1px solid #f0f0f0;
-						border-bottom: 1px solid #f0f0f0;
-						background-color: #ffffff;
-					}
-					
-					#topnav .logo {
-						 padding: 0px !important;
-						}
-				}
-				.service-boxed{
-				background-color: #ffffff;
-				padding:0px;
-				text-align:left !important;
-				min-height: 484px !important;
-				}
-				
-				.service-boxed .serviceImg{
-				width:100%;
-				}
-				.service-boxed p{
-				text-align:left;
-				padding: 8px 4px 0px 12px;
-				margin-bottom: 15px !important;
-				line-height: 22px;
-				margin-top: 0px !important;
-				}
-				.service-boxed h2{
-				font-size: 23px !important;
-				padding: 8px 4px 0px 12px;
-				margin-top: 8px;
-				}
-				.ServiceTitle{
-				color: #333;
-				}
-				.ServiceText{
-				color: #333 !important;
-				
-				}		
-				
-				.uuRankings{
-				    background: url("newassets/images/uu-infra.jpg") !important;
-					background-size: cover !important;
-					background-repeat:no-repeat !important;
-					background-attachment: fixed;
-					 background-position: center center;
-                     padding-top: 150px;
-                    padding-bottom: 150px;
-				}
-				.RankingOverview{
-/*				     padding: 29px 0px;*/
-					border-radius: 7px;
-                    min-height: 300px;
-				}
-                .RankIcon{
-
-                }
-                .bg-overlay-icon{
-                   background: url("newassets/images/leaf-icon.png") !important;
-                    background-size: cover !important;
-                    /* opacity: 0.6; */
-                    width: 100%;
-                    height: 222px;
-                    padding: 69px 30px;
-                  }
-                  .counter-name {
-                    font-size: 16px;
-                    color: #333;
-                }
-                .IntDir{
-                    padding-left: 30px;
-                    padding-right: 10px;
-                }
-
-                .IntDir p{
-                    font-size: 17px;
-                }
-
-                @media (max-width: 768px)
-                    .home-title {
-                        font-size: 28px;
-                        margin-top: 14px !important;
-                    }
-
-                    #team .item .img-fluid {
-                       /* width: 85px;
-                        height: 85px;
-                        border-radius: 100%;
-                        position: absolute;
-                        left: 40%;
-                        top: 0px;
-                        border:0px solid #52d952;*/
-                    }
-
-                .team-info h5 {
-                    text-transform: uppercase;
-
-                }
-
-                #team .item {
-                 padding-top: 40px;
-                    }
-
-                    .team-info {
-                    padding-top: 30px;
-                    padding-left: 25px;
-                    padding-right: 25px;
-                    padding-bottom: 30px;
-                }
-
-                .home-title {
-                    /*  font-size: 30px !important;*/
-                }
-
-                .client-images img {
-                    opacity: 1 !important; 
-                    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-                     border-radius: 6px;
-                }
-                .owl-theme .owl-controls .owl-page span {
-                    background: darkblue !important;
-                }
-                .gac{
-                padding: 40px 0;
-                }
-                .MoreFeatures{
-                  padding: 40px 0;
-                }
-                .intHighlights h4{
-                     line-height: 1;
-                }
-
-                .intHighlights p{
-                    line-height: 1;
-                }
-                .HighBoxInt{
-                    padding: 33px 10px 15px 11px !important;
-                    
-                    margin-top:5px;
-                }
-                #topnav .navigation-menu > li .submenu li a i {
-                    margin-right: 0px !important;
-                    font-size: 14px;
-                }
-
-                /* ############# */
-                #headerPopup{
-                  width:60%;
-                  margin:0 auto;
-                }
-
-                #headerPopup iframe{
-                  width:100%;
-                  margin:0 auto;
-                }
-                .FooterContat a{
-                    color:#fff;
-                }
-                .FooterContat a:hover{
-                    text-decoration: underline;
-                }
-                .drestinationImg{
-                    height: auto !important;
-                    width: 100% !important;
-                }
-                /*.drestinationFixed{
-                    position: absolute;
-                  
-                    right: 0;
-                    z-index: 1;
-                    text-align: left;
-                    bottom: 65px;
-                    background: #61b239;
-                    padding-right: 150px;
-                    padding-top: 15px;
-                    padding-bottom: 12px;
-                    padding-left: 30px;
-                    border-top-left-radius: 43px;
-                }
-
-                .drestinationFixed h1{
-                 font-size: 26px;
-                }
-
-                .drestinationFixed p{
-                    color:#fff;
-                    font-size: 16px;
-                    line-height: 22px;
-                }
-                @media (max-width: 768px){
-
-                    .drestinationImg{
-                    height: 500px;
-                    
-                   }
-                     .drestinationFixed{
-
-                     }
-                }*/
-
-                .team-img {
-                    clip-path: polygon(0 0, 98% 0, 89% 83%, 8% 95%) !important;
-                    /* border-radius: 10px; */
-                }
-
-                .team-desc {
-                    line-height: 20px;
-                    font-size: 14px;
-                    padding-left: 15px;
-                    padding-right: 15px;
-                    padding-bottom: 20px;
-                }
-
-                    @media (max-width: 768px)
-                    .home-center {
-                        padding-top: 135px !important;
-                    }
-
-                  @media (max-width: 768px){
-                    .home-title {
-                      margin-top: 0px !important;
-                    }
-
-                  @media (max-width: 768px){
-                    .directorTitle {
-                        margin-top: 20px !important;
-                   }
-
-                   .mfp-close-btn-in .mfp-close {
-                      color: yellow !important;
-                    }
-
-                    #topnav .navigation-menu > li > a { 
-                     color:#000 !important;
-                    }
-
-                    /*.menu-arrow {
-                      border: solid #000 !important;
-                    }
-
-                    @media (max-width: 768px){
-                   
-                    .menu-arrow {
-                        border: none;
-                    }
-                  }*/
-
-                    .bg-overlay-gredient {
-                        background: #000000 !important;
-                        opacity: 0.2 !important;
-                    }
-/*
-                    .leftBox{
-                            padding: 35px 10px 10px 48px !important;
-                    }
-             */
-                  
+<style type="text/css">
+
+            /* .LogoBox a{
+
+               background: #fff;
+
+                padding-top: 6px;
+
+                padding-bottom: 11px;
+
+                padding-left: 6px;
+
+                padding-right: 6px;
+
+                border-bottom-left-radius: 15px;
+
+                border-bottom-right-radius: 15px;
+
+                margin-top: 0px;
+
+            } */
+
+
+
+            .btn-custom{
+
+                background: #61b239;
+
+/*                background: linear-gradient(to left, #14701e, #2132cf) !important;*/
+
+                border-radius: 100px !important;
+
+                }
+
+            .btn-apply{
+
+                    background: #61b239;
+
+                    border-radius: 100px !important;
+
+                    font-size: 18px;
+
+                    padding: 8px 18px;
+
+                    color: #fff;
+
+                    font-weight: bold;
+
+                }
+
+				.btn-apply:hover{
+
+				  background-color:darkblue !important;
+
+				}
+
+                .videoPlay{
+
+                    background: #1bcb1b;
+
+                    font-size: 44px;
+
+                    padding: 0px 4px 0px 4px;
+
+                    color: #fff;
+
+                    border-radius: 100%;
+
+                }
+
+                .VideoLink{
+
+                        padding-top: 45px !important;
+
+                }
+
+				
+
+				.AboutUUSection{
+
+					background: url("newassets/images/pattren-bg.jpg") !important;
+
+					
+
+					background-repeat:repeat !important;
+
+				}
+
+				#topnav .navigation-menu > li .submenu li a {
+
+					    display: block;
+
+						padding: 11px 25px 1px 19px;
+
+						clear: both;
+
+						white-space: nowrap;
+
+						font-size: 14px;
+
+						color: #000;
+
+						transition: all 0.3s;
+
+
+
+				}
+
+				#topnav .navigation-menu > li .submenu li a:hover{
+
+				 color:navy !important;
+
+				}
+
+				.backtowebsite{
+
+				    background-color: #000;
+
+					padding-top: 0;
+
+					padding-bottom: 0px;
+
+				}
+
+				
+
+				.backtowebsite p{
+
+					padding-top: 6px;
+
+					padding-bottom: 4px;
+
+					font-size: 11px;
+
+				}
+
+				
+
+				@media (max-width: 991px){
+
+				#navigation {
+
+						position: absolute;
+
+						top: 100px;
+
+						left: 0;
+
+						width: 100% !important;
+
+						display: none;
+
+						height: auto;
+
+						padding-bottom: 0;
+
+						overflow: auto;
+
+						border-top: 1px solid #f0f0f0;
+
+						border-bottom: 1px solid #f0f0f0;
+
+						background-color: #ffffff;
+
+					}
+
+					
+
+					#topnav .logo {
+
+						 padding: 0px !important;
+
+						}
+
+				}
+
+				.service-boxed{
+
+				background-color: #ffffff;
+
+				padding:0px;
+
+				text-align:left !important;
+
+				min-height: 484px !important;
+
+				}
+
+				
+
+				.service-boxed .serviceImg{
+
+				width:100%;
+
+				}
+
+				.service-boxed p{
+
+				text-align:left;
+
+				padding: 8px 4px 0px 12px;
+
+				margin-bottom: 15px !important;
+
+				line-height: 22px;
+
+				margin-top: 0px !important;
+
+				}
+
+				.service-boxed h2{
+
+				font-size: 23px !important;
+
+				padding: 8px 4px 0px 12px;
+
+				margin-top: 8px;
+
+				}
+
+				.ServiceTitle{
+
+				color: #333;
+
+				}
+
+				.ServiceText{
+
+				color: #333 !important;
+
+				
+
+				}		
+
+				
+
+				.uuRankings{
+
+				    background: url("newassets/images/uu-infra.jpg") !important;
+
+					background-size: cover !important;
+
+					background-repeat:no-repeat !important;
+
+					background-attachment: fixed;
+
+					 background-position: center center;
+
+                     padding-top: 150px;
+
+                    padding-bottom: 150px;
+
+				}
+
+				.RankingOverview{
+
+/*				     padding: 29px 0px;*/
+
+					border-radius: 7px;
+
+                    min-height: 300px;
+
+				}
+
+                .RankIcon{
+
+
+
+                }
+
+                .bg-overlay-icon{
+
+                   background: url("newassets/images/leaf-icon.png") !important;
+
+                    background-size: cover !important;
+
+                    /* opacity: 0.6; */
+
+                    width: 100%;
+
+                    height: 222px;
+
+                    padding: 69px 30px;
+
+                  }
+
+                  .counter-name {
+
+                    font-size: 16px;
+
+                    color: #333;
+
+                }
+
+                .IntDir{
+
+                    padding-left: 30px;
+
+                    padding-right: 10px;
+
+                }
+
+
+
+                .IntDir p{
+
+                    font-size: 17px;
+
+                }
+
+
+
+                @media (max-width: 768px) {
+                    .home-title {
+
+                        font-size: 28px;
+
+                        margin-top: 14px !important;
+
+                    }
+                }
+
+
+
+                    #team .item .img-fluid {
+
+                       /* width: 85px;
+
+                        height: 85px;
+
+                        border-radius: 100%;
+
+                        position: absolute;
+
+                        left: 40%;
+
+                        top: 0px;
+
+                        border:0px solid #52d952;*/
+
+                    }
+
+
+
+                .team-info h5 {
+
+                    text-transform: uppercase;
+
+
+
+                }
+
+
+
+                #team .item {
+
+                 padding-top: 40px;
+
+                    }
+
+
+
+                    .team-info {
+
+                    padding-top: 30px;
+
+                    padding-left: 25px;
+
+                    padding-right: 25px;
+
+                    padding-bottom: 30px;
+
+                }
+
+
+
+                .home-title {
+
+                    /*  font-size: 30px !important;*/
+
+                }
+
+
+
+                .client-images img {
+
+                    opacity: 1 !important; 
+
+                    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+                     border-radius: 6px;
+
+                }
+
+                .owl-theme .owl-controls .owl-page span {
+
+                    background: darkblue !important;
+
+                }
+
+                .gac{
+
+                padding: 40px 0;
+
+                }
+
+                .MoreFeatures{
+
+                  padding: 40px 0;
+
+                }
+
+                .intHighlights h4{
+
+                     line-height: 1;
+
+                }
+
+
+
+                .intHighlights p{
+
+                    line-height: 1;
+
+                }
+
+                .HighBoxInt{
+
+                    padding: 33px 10px 15px 11px !important;
+
+                    
+
+                    margin-top:5px;
+
+                }
+
+                #topnav .navigation-menu > li .submenu li a i {
+
+                    margin-right: 0px !important;
+
+                    font-size: 14px;
+
+                }
+
+
+
+                /* ############# */
+
+                #headerPopup{
+
+                  width:60%;
+
+                  margin:0 auto;
+
+                }
+
+
+
+                #headerPopup iframe{
+
+                  width:100%;
+
+                  margin:0 auto;
+
+                }
+
+                .FooterContat a{
+
+                    color:#fff;
+
+                }
+
+                .FooterContat a:hover{
+
+                    text-decoration: underline;
+
+                }
+
+                .drestinationImg{
+
+                    height: auto !important;
+
+                    width: 100% !important;
+
+                }
+
+                /*.drestinationFixed{
+
+                    position: absolute;
+
+                  
+
+                    right: 0;
+
+                    z-index: 1;
+
+                    text-align: left;
+
+                    bottom: 65px;
+
+                    background: #61b239;
+
+                    padding-right: 150px;
+
+                    padding-top: 15px;
+
+                    padding-bottom: 12px;
+
+                    padding-left: 30px;
+
+                    border-top-left-radius: 43px;
+
+                }
+
+
+
+                .drestinationFixed h1{
+
+                 font-size: 26px;
+
+                }
+
+
+
+                .drestinationFixed p{
+
+                    color:#fff;
+
+                    font-size: 16px;
+
+                    line-height: 22px;
+
+                }
+
+                @media (max-width: 768px){
+
+
+
+                    .drestinationImg{
+
+                    height: 500px;
+
+                    
+
+                   }
+
+                     .drestinationFixed{
+
+
+
+                     }
+
+                }*/
+
+
+
+                .team-img {
+
+                    clip-path: polygon(0 0, 98% 0, 89% 83%, 8% 95%) !important;
+
+                    /* border-radius: 10px; */
+
+                }
+
+
+
+                .team-desc {
+
+                    line-height: 20px;
+
+                    font-size: 14px;
+
+                    padding-left: 15px;
+
+                    padding-right: 15px;
+
+                    padding-bottom: 20px;
+
+                }
+
+
+
+                    @media (max-width: 768px) {
+                        .home-center {
+    
+                            padding-top: 135px !important;
+    
+                        }
+                    }
+
+
+
+                  @media (max-width: 768px){
+
+                    .home-title {
+
+                      margin-top: 0px !important;
+
+                    }
+
+
+
+                  @media (max-width: 768px){
+
+                    .directorTitle {
+
+                        margin-top: 20px !important;
+
+                   }
+
+
+
+                   .mfp-close-btn-in .mfp-close {
+
+                      color: yellow !important;
+
+                    }
+
+
+
+                    #topnav .navigation-menu > li > a { 
+
+                     color:#000 !important;
+
+                    }
+
+
+
+                    /*.menu-arrow {
+
+                      border: solid #000 !important;
+
+                    }
+
+
+
+                    @media (max-width: 768px){
+
+                   
+
+                    .menu-arrow {
+
+                        border: none;
+
+                    }
+
+                  }*/
+
+
+
+                    .bg-overlay-gredient {
+
+                        background: #000000 !important;
+
+                        opacity: 0.2 !important;
+
+                    }
+
+/*
+
+                    .leftBox{
+
+                            padding: 35px 10px 10px 48px !important;
+
+                    }
+
+             */
+
+                  
+
                 </style>
 </link></link></link></link></head>
 <body>
@@ -468,66 +803,116 @@
 <p class="home-sub-title text-left d-none" style="color:#000">You will enjoy studying in India!</p>
 <!-- <h2 class="text-left" style="font-size: ;margin-bottom: 0px;font-weight:bold;color: #333;">WANT TO<br> <span style="color:#61b239;font-weight:bold">STUDY IN INDIA?</span></h2><br> -->
 <!-- <a href="https://www.uudoon.in/admissions/" class="btn-apply"><span>APPLY TODAY <i class="mdi mdi-play"></i></span></a> -->
-<!--                 <div class="row" style="--bs-gutter-x: 0rem;">
-                     <div class="col-md-12 text-center" style="padding-top: 50px;padding-bottom: 20px;">
-                         <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn-outline-danger popup-modal">
-                            <i class="mdi mdi-play" style="font-size:20px;font-size: 44px;color: #61b239;border: 3px solid;border-radius: 100%;padding: 0px 4px;"></i>
-                            </a>
-
-                             <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
-                                <iframe class="embed-responsive-item" width="100%" height="550" src="https://www.youtube.com/embed/8rrxH4jpRzY?autoplay=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                              </div>
-                     </div>
+<!--                 <div class="row" style="--bs-gutter-x: 0rem;">
+
+                     <div class="col-md-12 text-center" style="padding-top: 50px;padding-bottom: 20px;">
+
+                         <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn-outline-danger popup-modal">
+
+                            <i class="mdi mdi-play" style="font-size:20px;font-size: 44px;color: #61b239;border: 3px solid;border-radius: 100%;padding: 0px 4px;"></i>
+
+                            </a>
+
+
+
+                             <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+
+                                <iframe class="embed-responsive-item" width="100%" height="550" src="https://www.youtube.com/embed/8rrxH4jpRzY?autoplay=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                              </div>
+
+                     </div>
+
                 </div> -->
 </div>
 </div>
 </div>
-<!--  <div class="bg-overlay-gredient"></div>
-            <div class="home-center">
-                <div class="home-desc-center">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-9 text-left" style="z-index:0;">
-                                <h4 class="text-white text-left" style="    font-size: 20px;margin-bottom: 0px;">INTERNATIONAL ADMISSIONS</h4>
-                                <h1 class="home-title text-white"><span style="color:#1bcb1b">EQUAL OPPORTUNITY</span><br> AND HIGH ASPIRATIONS <br>FOR ALL GLOBALIZING <br>PERSPECTIVES.</h1>
-                                <p class="home-sub-title text-white text-left">You will enjoy studying in India!</p>
-                                
-                                <div class="row">
-                                <div class="col-md-12">
-                                    <div class="pt-4">
-                                        <h2 class="text-white text-left" style="font-size: ;margin-bottom: 0px;font-weight:bold;floa">WANT TO<br> <span style="color:#1bcb1b;font-weight:bold">STUDY IN INDIA?</span></h2><br>
-
-                                        <a href="https://www.uudoon.in/admissions/" class="btn-apply"><span>APPLY TODAY <i class="mdi mdi-play"></i></span></a>
-                                        
-                                    </div>
-                                </div>
-
-                               </div>
-
-                            </div>
-
-                            <div class="col-lg-3 text-center VideoLink" style="z-index:0;">
-                                 <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn-outline-danger popup-modal">
-                                    <i class="mdi mdi-play" style="font-size:20px;font-size: 44px;color: #61b239;border: 3px solid;border-radius: 100%;padding: 0px 4px;"></i>
-                                </a>
-                            </div>
-
-                            <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
-                                <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/_UlIH3UkhLk?autoplay=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                              </div>
-                        </div>
-                    </div>
-                </div>
+<!--  <div class="bg-overlay-gredient"></div>
+
+            <div class="home-center">
+
+                <div class="home-desc-center">
+
+                    <div class="container">
+
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-9 text-left" style="z-index:0;">
+
+                                <h4 class="text-white text-left" style="    font-size: 20px;margin-bottom: 0px;">INTERNATIONAL ADMISSIONS</h4>
+
+                                <h1 class="home-title text-white"><span style="color:#1bcb1b">EQUAL OPPORTUNITY</span><br> AND HIGH ASPIRATIONS <br>FOR ALL GLOBALIZING <br>PERSPECTIVES.</h1>
+
+                                <p class="home-sub-title text-white text-left">You will enjoy studying in India!</p>
+
+                                
+
+                                <div class="row">
+
+                                <div class="col-md-12">
+
+                                    <div class="pt-4">
+
+                                        <h2 class="text-white text-left" style="font-size: ;margin-bottom: 0px;font-weight:bold;floa">WANT TO<br> <span style="color:#1bcb1b;font-weight:bold">STUDY IN INDIA?</span></h2><br>
+
+
+
+                                        <a href="https://www.uudoon.in/admissions/" class="btn-apply"><span>APPLY TODAY <i class="mdi mdi-play"></i></span></a>
+
+                                        
+
+                                    </div>
+
+                                </div>
+
+
+
+                               </div>
+
+
+
+                            </div>
+
+
+
+                            <div class="col-lg-3 text-center VideoLink" style="z-index:0;">
+
+                                 <a href="#headerPopup" id="headerVideoLink" target="_blank" class="btn-outline-danger popup-modal">
+
+                                    <i class="mdi mdi-play" style="font-size:20px;font-size: 44px;color: #61b239;border: 3px solid;border-radius: 100%;padding: 0px 4px;"></i>
+
+                                </a>
+
+                            </div>
+
+
+
+                            <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+
+                                <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/_UlIH3UkhLk?autoplay=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                              </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div> -->
 </section>
 <!-- Home end -->
 <!-- About UU -->
 <section class="section services-wrapper AboutUUSection text-white">
 <div class="container">
-<!--<div class="row">
-                    <div class="col-12 text-center">
-                        <h3 class="title">How it work ?</h3>
-                    </div>
+<!--<div class="row">
+
+                    <div class="col-12 text-center">
+
+                        <h3 class="title">How it work ?</h3>
+
+                    </div>
+
                 </div> -->
 <div class="row">
 <div class="col-lg-5">
@@ -543,8 +928,10 @@
 <img alt="Academic Excellence" class="serviceImg" src="newassets/images/academic.jpg"/>
 <div class="service-body">
 <h2 class="ServiceTitle">Academic Excellence</h2>
-<p class="ServiceText">
-                                    We attract the best minds towards teaching and research so that our graduates are a force to reckon within the new interconnected and border- less world of the new millennium. Our faculty members inspire students to develop holistically for a meaningful life.
+<p class="ServiceText">
+
+                                    We attract the best minds towards teaching and research so that our graduates are a force to reckon within the new interconnected and border- less world of the new millennium. Our faculty members inspire students to develop holistically for a meaningful life.
+
                                 </p>
 </div>
 </div>
@@ -554,8 +941,10 @@
 <img alt="Gain Industry Knowledge" class="serviceImg" src="newassets/images/industry.jpg"/>
 <div class="service-body">
 <h2>Industry Experience</h2>
-<p>
-                                    Placements are a key part of courses at Uttaranchal University. We know how much employers value graduates who have real-world experience, and that is why we encourage our students to make the most of the opportunities available.
+<p>
+
+                                    Placements are a key part of courses at Uttaranchal University. We know how much employers value graduates who have real-world experience, and that is why we encourage our students to make the most of the opportunities available.
+
                                 </p>
 </div>
 </div>
@@ -565,8 +954,10 @@
 <img alt="Wellbeing" class="serviceImg" src="newassets/images/wellbeing.jpg"/>
 <div class="service-body">
 <h2 class="ServiceTitle">Support Well-being</h2>
-<p class="ServiceText">
-                                    Student life at University is a great experience, providing you with the opportunity to make new friends and learn lots of new things. However, there may be times when you have concerns or need someone to talk to. It is at times like these, where we are to offer moral support &amp; help.
+<p class="ServiceText">
+
+                                    Student life at University is a great experience, providing you with the opportunity to make new friends and learn lots of new things. However, there may be times when you have concerns or need someone to talk to. It is at times like these, where we are to offer moral support &amp; help.
+
                                 </p>
 </div>
 </div>
@@ -599,40 +990,73 @@
 </section>
 <!--Rankings Section end-->
 <!-- Director Section-->
-<!-- <section class="section" style="background-color:#fff;padding:0px">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-5 col-md-12 align-self-center" style="background-color:#e9f1f5;padding: 0px">
-                        <img src="newassets/images/director-inter.jpg" alt="Director- International Admissions" class="img-fluid m-l-auto" style="padding-top: 40px;">
-                    </div>
-                    <div class="col-lg-7 col-md-12 me-auto align-self-center">
-                        <div class="IntDir">
-
-                            <h1 class="home-title directorTitle" style="color:#333;text-transform: uppercase;text-shadow: none;    margin-bottom: 20px;">
-                                Director<br> International Admissions,<br>
-                                International Affairs Office
-                            </h1>
-                            <p>
-                            
-                            Uttaranchal University offers its students a truly global environment by offering excellent education. Uttaranchal University welcomes hundreds of international students from around the world. Our international students enhance the cultural diversity of our campus and distinguish the university as a top emerging university on a global platform.</p>
-
-                            <p>At Uttaranchal University, we provide a highly focused research atmosphere, as well as top-notch instructional resources and facilities. We welcome applicants to our more than 100 academic degree programs. You will feel supported and at home at Uttaranchal University!</p>
-
-                            <h3 style="line-height: 21px;"><span style="color:#0f9b0f">Dr. Sarvesh Rustagi</span><br>
-                               <span style="color:#555;font-size:18px"> Director- International Admissions</span><br>
-                                <span style="color:#555;font-size:18px">
-                                    <a href="tel:+91-6399171122" style="color:#333">+91-6399171122</a>, 
-                                    <a href="mailto: int.admission@uumail.in"> int.admission@uumail.in</span>
-                                    </a>
-                            </h3>
-                          </div>
-                    </div>
-                  </div>
-                 </div>
-            </div>
+<!-- <section class="section" style="background-color:#fff;padding:0px">
+
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-5 col-md-12 align-self-center" style="background-color:#e9f1f5;padding: 0px">
+
+                        <img src="newassets/images/director-inter.jpg" alt="Director- International Admissions" class="img-fluid m-l-auto" style="padding-top: 40px;">
+
+                    </div>
+
+                    <div class="col-lg-7 col-md-12 me-auto align-self-center">
+
+                        <div class="IntDir">
+
+
+
+                            <h1 class="home-title directorTitle" style="color:#333;text-transform: uppercase;text-shadow: none;    margin-bottom: 20px;">
+
+                                Director<br> International Admissions,<br>
+
+                                International Affairs Office
+
+                            </h1>
+
+                            <p>
+
+                            
+
+                            Uttaranchal University offers its students a truly global environment by offering excellent education. Uttaranchal University welcomes hundreds of international students from around the world. Our international students enhance the cultural diversity of our campus and distinguish the university as a top emerging university on a global platform.</p>
+
+
+
+                            <p>At Uttaranchal University, we provide a highly focused research atmosphere, as well as top-notch instructional resources and facilities. We welcome applicants to our more than 100 academic degree programs. You will feel supported and at home at Uttaranchal University!</p>
+
+
+
+                            <h3 style="line-height: 21px;"><span style="color:#0f9b0f">Dr. Sarvesh Rustagi</span><br>
+
+                               <span style="color:#555;font-size:18px"> Director- International Admissions</span><br>
+
+                                <span style="color:#555;font-size:18px">
+
+                                    <a href="tel:+91-6399171122" style="color:#333">+91-6399171122</a>, 
+
+                                    <a href="mailto: int.admission@uumail.in"> int.admission@uumail.in</span>
+
+                                    </a>
+
+                            </h3>
+
+                          </div>
+
+                    </div>
+
+                  </div>
+
+                 </div>
+
+            </div>
+
         </section>  -->
-<!--  <section class="container-fluid" style="padding:0px;margin:0px">
-             <img src="newassets/images/director-int.jpg" alt="Director International Affairs" width="100%">
+<!--  <section class="container-fluid" style="padding:0px;margin:0px">
+
+             <img src="newassets/images/director-int.jpg" alt="Director International Affairs" width="100%">
+
         </section>  -->
 <!-- Director Section end -->
 <!-- Member -->
@@ -647,8 +1071,10 @@
 <div class="container">
 <div class="row">
 <div class="col-12 text-center">
-<h1 class="home-title WhyTitle" style="color:#333;text-transform: uppercase;text-shadow: none;    margin-bottom: 20px;">
-                                WHY CHOOSE INDIA?
+<h1 class="home-title WhyTitle" style="color:#333;text-transform: uppercase;text-shadow: none;    margin-bottom: 20px;">
+
+                                WHY CHOOSE INDIA?
+
                             </h1>
 <p style="font-size: 17px;">The Indian educational system is the second largest in the world, and it is well-structured and rigorous,<br/> producing some of the world’s most skilled students. It's no wonder that India is often recognized as one<br/> of the most popular destinations in the world.</p>
 </div>
@@ -659,8 +1085,10 @@
 <img alt="Academic Excellence" class="serviceImg" src="newassets/images/courses-abound.jpg">
 <div class="service-body">
 <h2 class="ServiceTitle">Courses Abound</h2>
-<p class="ServiceText">
-                                    India's higher education system is extensive not only in terms of size, but also in terms of academic offerings. Because of the country's rich history and thriving future, a wide range of courses, from the traditional to the cutting edge, are accessible.
+<p class="ServiceText">
+
+                                    India's higher education system is extensive not only in terms of size, but also in terms of academic offerings. Because of the country's rich history and thriving future, a wide range of courses, from the traditional to the cutting edge, are accessible.
+
                                 </p>
 </div>
 </img></div>
@@ -670,8 +1098,10 @@
 <img alt="Its Economy is on the Rise" class="serviceImg" src="newassets/images/india-economy.png">
 <div class="service-body">
 <h2 class="text-white">Economy On-Rise</h2>
-<p class="text-white">
-                                    India's economy continues to grow at a rapid pace. It is not only anticipated to be the world's third largest economy by 2030, but also to grow at the highest rate in the decade ahead, according to experts.
+<p class="text-white">
+
+                                    India's economy continues to grow at a rapid pace. It is not only anticipated to be the world's third largest economy by 2030, but also to grow at the highest rate in the decade ahead, according to experts.
+
                                 </p>
 </div>
 </img></div>
@@ -681,9 +1111,12 @@
 <img alt="Wellbeing" class="serviceImg" src="newassets/images/uu-international-students.png">
 <div class="service-body">
 <h2 class="ServiceTitle">Campus Life</h2>
-<p class="ServiceText">
-                                    The best part of campus life in India is that the majority of the country's universities are residential, allowing international students to live in a safe and close-knit community. One of the most compelling reasons to study in India is the abundance of opportunities for international students to interact and socialise in extracurricular activities.
-
+<p class="ServiceText">
+
+                                    The best part of campus life in India is that the majority of the country's universities are residential, allowing international students to live in a safe and close-knit community. One of the most compelling reasons to study in India is the abundance of opportunities for international students to interact and socialise in extracurricular activities.
+
+
+
                                 </p>
 </div>
 </img></div>
@@ -706,10 +1139,14 @@
 <!-- More Features -->
 <section class="section bg-light" id="features" style="background: #dbe9ed !important;padding-top:0px;padding-bottom:0px">
 <div class="container">
-<!--  <div class="row">
-                    <div class="col-12 text-center">
-                        <h3 class="title">Awsome New Features</h3>
-                    </div>
+<!--  <div class="row">
+
+                    <div class="col-12 text-center">
+
+                        <h3 class="title">Awsome New Features</h3>
+
+                    </div>
+
                 </div> -->
 <div class="row justify-content-center">
 <div class="col-lg-6" style="padding: 0px 38px;">
@@ -771,8 +1208,10 @@
 <section class="section bg-light">
 <div class="container">
 <div class="row">
-<h1 class="home-title text-center InernationalTitle" style="color:#333;text-transform: uppercase;text-shadow: none;margin-bottom: 30px;">INTERNATIONAL COLLABORATIONS &amp; TIE-UPS
-
+<h1 class="home-title text-center InernationalTitle" style="color:#333;text-transform: uppercase;text-shadow: none;margin-bottom: 30px;">INTERNATIONAL COLLABORATIONS &amp; TIE-UPS
+
+
+
                    </h1>
 <p style="font-size: 17px;text-align: center;margin-bottom: 50px;">Uttaranchal University has established international collaborations &amp; <br/>tie-ups with several universities including:</p>
 </div>
@@ -936,7 +1375,8 @@
 <section class="section" style="background:#dbe9ed !important;padding-top: 40px;padding-bottom: 40px;">
 <div class="container">
 <div class="row">
-<h1 class="home-title text-center InernationalTitle" style="color:#333;text-transform: uppercase;text-shadow: none;    margin-bottom: -10px;">INTERNATIONAL STUDENT EXPERIENCE
+<h1 class="home-title text-center InernationalTitle" style="color:#333;text-transform: uppercase;text-shadow: none;    margin-bottom: -10px;">INTERNATIONAL STUDENT EXPERIENCE
+
                    </h1>
 </div>
 <div class="row">
@@ -1000,13 +1440,20 @@
 </div>
 </section>
 <!-- Testimonials end -->
-<!-- <div class="row">
-        <div class="container">
-            <section class="customer-logos slider">
-                <div class="slide"><img src="newassets/images/director-int.jpg" width="100%"></div>
-                <div class="slide"><img src="newassets/images/incharge-int.jpg" width="100%"></div>
-            </section>
-        </div>
+<!-- <div class="row">
+
+        <div class="container">
+
+            <section class="customer-logos slider">
+
+                <div class="slide"><img src="newassets/images/director-int.jpg" width="100%"></div>
+
+                <div class="slide"><img src="newassets/images/incharge-int.jpg" width="100%"></div>
+
+            </section>
+
+        </div>
+
     </div> -->
 <!-- Footer -->
 <section class="bg-dark footer" id="contact" style="background:#1a1717 !important">
@@ -1057,8 +1504,10 @@
 <h5 class="text-white footer-title">Contact</h5>
 <div class="mt-4 FooterContat">
 <p>
-<small>Address:</small><br/>
-                             Premnagar, Dehradun - 248007,<br/>Uttarakhand,INDIA
+<small>Address:</small><br/>
+
+                             Premnagar, Dehradun - 248007,<br/>Uttarakhand,INDIA
+
                             </p>
 <p>
 <small>Phone:</small><br/>
@@ -1067,7 +1516,8 @@
 <a href="+91-6399171122.html">+91-6399171122</a><br/>
 <small>Email:</small><br/>
 <a href="int.admission@uumail.in">int.admission@uumail.in</a><br/>
-<!-- <small>Email:</small><br>
+<!-- <small>Email:</small><br>
+
                               <a href="mailto:ad.international@uumail.in">ad.international@uumail.in</a> -->
 </p>
 <p><span style="font-size:18px;color:#61b239">For Africa and Myanmar</span><br/>
@@ -1086,8 +1536,10 @@
 <div class="col-lg-12">
 <div class="text-white text-center">
 <p class="footer-terms">
-<a href="privacy-policy.php">Privacy Policy</a>   
-                                <a href="disclaimer.php">Disclaimer</a>   
+<a href="privacy-policy.php">Privacy Policy</a>   
+
+                                <a href="disclaimer.php">Disclaimer</a>   
+
                                 <a href="javascript.html">© Uttaranchal University</a>
 </p>
 </div>
@@ -1108,13 +1560,20 @@
 <script src="newassets/js/jquery.counterup.min.js"></script>
 <!--common script for all pages-->
 <script src="newassets/js/jquery.app.js"></script>
-<script type="text/javascript">
-            $(document).ready(function() {
-              $('#headerVideoLink').magnificPopup({
-                type:'inline',
-                midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-              });         
-            });
+<script type="text/javascript">
+
+            $(document).ready(function() {
+
+              $('#headerVideoLink').magnificPopup({
+
+                type:'inline',
+
+                midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+
+              });         
+
+            });
+
         </script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
 <script src="newassets/js/bootstrap-js-min.js"></script>
@@ -1122,80 +1581,152 @@
 <!-- <script src="js/jquery.min-new.js"></script> -->
 <!-- <script src="js/owl.carousel.min-new.js"></script> -->
 <script charset="utf-8" src="newassets/js-new/member-slick-js.js" type="text/javascript"></script>
-<script>
-        $(".testmonial_slider_area").owlCarousel({
-                autoplay: true,
-                slideSpeed:2000,
-                items : 4,
-                loop: true,
-                nav:true,
-                navText:['<i class="fa fa-arrow-left"></i>','<i class="fa fa-arrow-right"></i>'],
-                margin: 30,
-                dots: true,
-                responsive:{
-                    320:{
-                        items:1
-                    },
-                    767:{
-                        items:2
-                    },
-                    600:{
-                        items:2
-                    },
-                    1000:{
-                        items:3
-                    }
-                }
-                
-            });
+<script>
+
+        $(".testmonial_slider_area").owlCarousel({
+
+                autoplay: true,
+
+                slideSpeed:2000,
+
+                items : 4,
+
+                loop: true,
+
+                nav:true,
+
+                navText:['<i class="fa fa-arrow-left"></i>','<i class="fa fa-arrow-right"></i>'],
+
+                margin: 30,
+
+                dots: true,
+
+                responsive:{
+
+                    320:{
+
+                        items:1
+
+                    },
+
+                    767:{
+
+                        items:2
+
+                    },
+
+                    600:{
+
+                        items:2
+
+                    },
+
+                    1000:{
+
+                        items:3
+
+                    }
+
+                }
+
+                
+
+            });
+
     </script>
-<script type="text/javascript">
-        $(document).ready(function(){
-            $('.customer-logos').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 4000,
-                arrows: false,
-                dots: false,
-                    pauseOnHover: false,
-                    responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }, {
-                    breakpoint: 520,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }]
-            });
-        });
+<script type="text/javascript">
+
+        $(document).ready(function(){
+
+            $('.customer-logos').slick({
+
+                slidesToShow: 1,
+
+                slidesToScroll: 1,
+
+                autoplay: true,
+
+                autoplaySpeed: 4000,
+
+                arrows: false,
+
+                dots: false,
+
+                    pauseOnHover: false,
+
+                    responsive: [{
+
+                    breakpoint: 768,
+
+                    settings: {
+
+                        slidesToShow: 1
+
+                    }
+
+                }, {
+
+                    breakpoint: 520,
+
+                    settings: {
+
+                        slidesToShow: 1
+
+                    }
+
+                }]
+
+            });
+
+        });
+
     </script>
-<script type="text/javascript">
-        $(document).ready(function(){
-            $('.ranking-logos').slick({
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 4000,
-                arrows: false,
-                dots: false,
-                    pauseOnHover: false,
-                    responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 3
-                    }
-                }, {
-                    breakpoint: 520,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }]
-            });
-        });
+<script type="text/javascript">
+
+        $(document).ready(function(){
+
+            $('.ranking-logos').slick({
+
+                slidesToShow: 4,
+
+                slidesToScroll: 1,
+
+                autoplay: true,
+
+                autoplaySpeed: 4000,
+
+                arrows: false,
+
+                dots: false,
+
+                    pauseOnHover: false,
+
+                    responsive: [{
+
+                    breakpoint: 768,
+
+                    settings: {
+
+                        slidesToShow: 3
+
+                    }
+
+                }, {
+
+                    breakpoint: 520,
+
+                    settings: {
+
+                        slidesToShow: 1
+
+                    }
+
+                }]
+
+            });
+
+        });
+
     </script>
 </body>
 </html>
