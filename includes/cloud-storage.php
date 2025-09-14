@@ -11,8 +11,25 @@ class CloudStorageHelper {
     /**
      * Get access token for Google Cloud API
      */
-    private function getAccessToken() {
+    private function getAccessToken    /**
+     * Sync database to cloud after operations
+     */
+    private function syncToCloud() {
         try {
+            // Create CloudStorageHelper instance to upload database
+            $cloudHelper = new CloudStorageHelper();
+            $success = $cloudHelper->saveDatabase($this->db);
+            if ($success) {
+                error_log("Database synced to cloud: gs://resultexyx/UUD/mapping.db");
+            } else {
+                error_log("Failed to sync database to cloud");
+            }
+            return $success;
+        } catch (Exception $e) {
+            error_log("Error syncing to cloud: " . $e->getMessage());
+            return false;
+        }
+    } {
             // Get token from metadata server (available in Cloud Run)
             $url = 'http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token';
             $context = stream_context_create([
@@ -24,22 +41,12 @@ class CloudStorageHelper {
             
             $response = @file_get_contents($url, false, $context);
             if ($response === false) {
-                error_log("Failed to get access token from metadata server");
                 return null;
             }
             
             $data = json_decode($response, true);
-            $token = $data['access_token'] ?? null;
-            
-            if ($token) {
-                error_log("Successfully obtained access token (length: " . strlen($token) . ")");
-            } else {
-                error_log("Access token not found in response: " . $response);
-            }
-            
-            return $token;
+            return $data['access_token'] ?? null;
         } catch (Exception $e) {
-            error_log("Exception getting access token: " . $e->getMessage());
             return null;
         }
     }
@@ -105,9 +112,6 @@ class CloudStorageHelper {
                 return false;
             }
             
-            error_log("Attempting to upload database to gs://{$this->bucketName}/{$objectName}");
-            error_log("Database content size: " . strlen($dbContent) . " bytes");
-            
             $url = "https://storage.googleapis.com/upload/storage/v1/b/{$this->bucketName}/o?uploadType=media&name=" . urlencode($objectName);
             
             $context = stream_context_create([
@@ -127,15 +131,9 @@ class CloudStorageHelper {
             
             if ($response !== false) {
                 error_log("Database uploaded successfully to gs://{$this->bucketName}/{$objectName}");
-                error_log("Upload response: " . substr($response, 0, 200));
                 return true;
             } else {
-                // Get more detailed error information
-                $error = error_get_last();
-                $httpHeaders = isset($http_response_header) ? implode(', ', $http_response_header) : 'No headers';
                 error_log("Failed to upload database to cloud storage");
-                error_log("HTTP Response Headers: " . $httpHeaders);
-                error_log("Last Error: " . ($error ? $error['message'] : 'Unknown error'));
                 return false;
             }
         } catch (Exception $e) {
@@ -399,8 +397,9 @@ class StudentManager {
      */
     private function syncToCloud() {
         try {
-            // Use the existing CloudStorageHelper instance
-            $success = $this->storage->saveDatabase($this->db);
+            // Create CloudStorageHelper instance to upload database
+            $cloudHelper = new CloudStorageHelper();
+            $success = $cloudHelper->saveDatabase($this->db);
             if ($success) {
                 error_log("Database synced to cloud: gs://resultexyx/UUD/mapping.db");
             } else {
@@ -501,7 +500,7 @@ class StudentManager {
     public function getStudentResult($rollNumber, $semester) {
         try {
             $stmt = $this->db->prepare("
-                SELECT r.*, s.name
+                SELECT r.*, s.student_name as name
                 FROM results r 
                 LEFT JOIN students s ON r.roll_number = s.roll_number 
                 WHERE r.roll_number = ? AND r.semester = ?
@@ -539,20 +538,8 @@ class StudentManager {
     /**
      * Add student result
      */
-    public function addStudentResult($studentId, $semester, $filePath) {
+    public function addStudentResult($rollNumber, $semester, $filePath) {
         try {
-            // First get the roll number for this student ID
-            $stmt = $this->db->prepare("SELECT roll_number FROM students WHERE id = ?");
-            $stmt->execute([$studentId]);
-            $student = $stmt->fetch(PDO::FETCH_ASSOC);
-            
-            if (!$student) {
-                error_log("Student not found with ID: $studentId");
-                return false;
-            }
-            
-            $rollNumber = $student['roll_number'];
-            
             $stmt = $this->db->prepare("
                 INSERT OR REPLACE INTO results (roll_number, semester, file_path) 
                 VALUES (?, ?, ?)
@@ -598,20 +585,6 @@ class StudentManager {
         } catch (Exception $e) {
             $this->db->rollBack();
             throw new Exception('Error deleting student: ' . $e->getMessage());
-        }
-    }
-    
-    /**
-     * Get all results for debugging
-     */
-    public function getAllResults() {
-        try {
-            $stmt = $this->db->prepare("SELECT * FROM results ORDER BY roll_number, semester");
-            $stmt->execute();
-            return $stmt->fetchAll(PDO::FETCH_ASSOC);
-        } catch (PDOException $e) {
-            error_log("Error in getAllResults: " . $e->getMessage());
-            return [];
         }
     }
 }
