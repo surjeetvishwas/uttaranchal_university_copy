@@ -91,6 +91,7 @@ class CloudStorageHelper {
             $token = $this->getAccessToken();
             
             if (!$token) {
+                error_log("No access token available for cloud upload");
                 return false;
             }
             
@@ -110,8 +111,16 @@ class CloudStorageHelper {
             ]);
             
             $response = @file_get_contents($url, false, $context);
-            return $response !== false;
+            
+            if ($response !== false) {
+                error_log("Database uploaded successfully to gs://{$this->bucketName}/{$objectName}");
+                return true;
+            } else {
+                error_log("Failed to upload database to cloud storage");
+                return false;
+            }
         } catch (Exception $e) {
+            error_log("Database upload error: " . $e->getMessage());
             return false;
         }
     }
@@ -259,16 +268,27 @@ class CloudStorageHelper {
      */
     public function saveDatabase($pdo) {
         try {
-            // Get the database file content
+            // Get the database file path
             $result = $pdo->query("PRAGMA database_list")->fetch();
             $dbFile = $result['file'];
             
             if ($dbFile && file_exists($dbFile)) {
                 $dbContent = file_get_contents($dbFile);
-                return $this->uploadDatabase($dbContent);
+                $success = $this->uploadDatabase($dbContent);
+                
+                if ($success) {
+                    error_log("Database successfully synced to gs://resultexyx/UUD/mapping.db");
+                } else {
+                    error_log("Failed to sync database to cloud storage");
+                }
+                
+                return $success;
+            } else {
+                error_log("Database file not found: " . $dbFile);
+                return false;
             }
-            return false;
         } catch (Exception $e) {
+            error_log("Error saving database: " . $e->getMessage());
             return false;
         }
     }
@@ -278,60 +298,32 @@ class CloudStorageHelper {
      */
     private function initializeDatabase($pdo) {
         try {
-            // Check if tables exist and what their schema is
-            $tablesExist = false;
+            // Check if students table exists
             $stmt = $pdo->query("SELECT name FROM sqlite_master WHERE type='table' AND name='students'");
-            if ($stmt->fetchColumn()) {
-                $tablesExist = true;
-                
-                // Check if we need to migrate the schema
-                $columns = $pdo->query("PRAGMA table_info(students)")->fetchAll();
-                $hasStudentName = false;
-                $hasName = false;
-                
-                foreach ($columns as $column) {
-                    if ($column['name'] === 'student_name') {
-                        $hasStudentName = true;
-                    }
-                    if ($column['name'] === 'name') {
-                        $hasName = true;
-                    }
-                }
-                
-                // If we have 'name' but not 'student_name', add student_name column
-                if ($hasName && !$hasStudentName) {
-                    try {
-                        $pdo->exec("ALTER TABLE students ADD COLUMN student_name VARCHAR(100)");
-                        $pdo->exec("UPDATE students SET student_name = name WHERE student_name IS NULL");
-                    } catch (Exception $e) {
-                        // Column might already exist, ignore error
-                    }
-                }
-                
-                // If we have 'student_name' but not 'name', add name column
-                if ($hasStudentName && !$hasName) {
-                    try {
-                        $pdo->exec("ALTER TABLE students ADD COLUMN name VARCHAR(100)");
-                        $pdo->exec("UPDATE students SET name = student_name WHERE name IS NULL");
-                    } catch (Exception $e) {
-                        // Column might already exist, ignore error
-                    }
-                }
-            }
+            $studentsTableExists = $stmt->fetchColumn() ? true : false;
             
-            if (!$tablesExist) {
-                // Create new tables with both name columns for compatibility
+            // Check if results table exists
+            $stmt = $pdo->query("SELECT name FROM sqlite_master WHERE type='table' AND name='results'");
+            $resultsTableExists = $stmt->fetchColumn() ? true : false;
+            
+            if (!$studentsTableExists) {
+                // Create students table with comprehensive schema
                 $sql = "
-                    CREATE TABLE IF NOT EXISTS students (
+                    CREATE TABLE students (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
                         roll_number VARCHAR(50) UNIQUE NOT NULL,
                         student_name VARCHAR(100) NOT NULL,
-                        name VARCHAR(100) NOT NULL,
-                        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-                        updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+                        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
                     );
-                    
-                    CREATE TABLE IF NOT EXISTS results (
+                ";
+                $pdo->exec($sql);
+                error_log("Created students table");
+            }
+            
+            if (!$resultsTableExists) {
+                // Create results table
+                $sql = "
+                    CREATE TABLE results (
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
                         roll_number VARCHAR(50) NOT NULL,
                         semester INTEGER NOT NULL,
@@ -341,33 +333,43 @@ class CloudStorageHelper {
                         UNIQUE(roll_number, semester)
                     );
                 ";
-                
                 $pdo->exec($sql);
+                error_log("Created results table");
             }
+            
+            // If tables exist, check if we need to add missing columns
+            if ($studentsTableExists) {
+                $columns = $pdo->query("PRAGMA table_info(students)")->fetchAll();
+                $existingColumns = array_column($columns, 'name');
+                
+                // Add student_name column if it doesn't exist
+                if (!in_array('student_name', $existingColumns)) {
+                    try {
+                        $pdo->exec("ALTER TABLE students ADD COLUMN student_name VARCHAR(100)");
+                        // Copy data from name column if it exists
+                        if (in_array('name', $existingColumns)) {
+                            $pdo->exec("UPDATE students SET student_name = name WHERE student_name IS NULL");
+                        }
+                        error_log("Added student_name column");
+                    } catch (Exception $e) {
+                        error_log("Could not add student_name column: " . $e->getMessage());
+                    }
+                }
+                
+                // Add created_at column if it doesn't exist
+                if (!in_array('created_at', $existingColumns)) {
+                    try {
+                        $pdo->exec("ALTER TABLE students ADD COLUMN created_at DATETIME DEFAULT CURRENT_TIMESTAMP");
+                        error_log("Added created_at column");
+                    } catch (Exception $e) {
+                        error_log("Could not add created_at column: " . $e->getMessage());
+                    }
+                }
+            }
+            
         } catch (Exception $e) {
             error_log("Database initialization error: " . $e->getMessage());
-            // Try basic table creation as fallback
-            $sql = "
-                CREATE TABLE IF NOT EXISTS students (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    roll_number VARCHAR(50) UNIQUE NOT NULL,
-                    student_name VARCHAR(100) NOT NULL,
-                    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-                    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
-                );
-                
-                CREATE TABLE IF NOT EXISTS results (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    roll_number VARCHAR(50) NOT NULL,
-                    semester INTEGER NOT NULL,
-                    file_path VARCHAR(255) NOT NULL,
-                    uploaded_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-                    FOREIGN KEY (roll_number) REFERENCES students(roll_number),
-                    UNIQUE(roll_number, semester)
-                );
-            ";
-            
-            $pdo->exec($sql);
+            throw new Exception("Failed to initialize database: " . $e->getMessage());
         }
     }
 }
@@ -388,7 +390,18 @@ class StudentManager {
      * Sync database to cloud after operations
      */
     private function syncToCloud() {
-        return $this->storage->saveDatabase($this->db);
+        try {
+            $success = $this->saveDatabase($this->db);
+            if ($success) {
+                error_log("Database synced to cloud: gs://resultexyx/UUD/mapping.db");
+            } else {
+                error_log("Failed to sync database to cloud");
+            }
+            return $success;
+        } catch (Exception $e) {
+            error_log("Sync error: " . $e->getMessage());
+            return false;
+        }
     }
     
     /**
@@ -412,41 +425,72 @@ class StudentManager {
     }
     
     /**
-     * Add or update student
+     * Add or update student with robust column handling
      */
     public function saveStudent($rollNumber, $studentName) {
         try {
-            $nameColumn = $this->getNameColumn();
+            // First, try to determine the correct table structure
+            $columns = $this->db->query("PRAGMA table_info(students)")->fetchAll();
+            $columnNames = array_column($columns, 'name');
             
-            // Try to insert into both columns if they exist for maximum compatibility
-            try {
-                if ($nameColumn === 'student_name') {
-                    $stmt = $this->db->prepare("
-                        INSERT OR REPLACE INTO students (roll_number, student_name, name, updated_at) 
-                        VALUES (?, ?, ?, CURRENT_TIMESTAMP)
-                    ");
-                    $result = $stmt->execute([$rollNumber, $studentName, $studentName]);
-                } else {
-                    $stmt = $this->db->prepare("
-                        INSERT OR REPLACE INTO students (roll_number, name, student_name, updated_at) 
-                        VALUES (?, ?, ?, CURRENT_TIMESTAMP)
-                    ");
-                    $result = $stmt->execute([$rollNumber, $studentName, $studentName]);
-                }
-            } catch (PDOException $e) {
-                // Fallback to single column if the above fails
-                $stmt = $this->db->prepare("
-                    INSERT OR REPLACE INTO students (roll_number, {$nameColumn}, updated_at) 
-                    VALUES (?, ?, CURRENT_TIMESTAMP)
+            // Build the appropriate INSERT statement based on available columns
+            if (in_array('student_name', $columnNames) && in_array('created_at', $columnNames)) {
+                // Standard schema with student_name and created_at
+                $sql = "INSERT OR REPLACE INTO students (roll_number, student_name) VALUES (?, ?)";
+            } elseif (in_array('name', $columnNames)) {
+                // Alternative schema with name column
+                $sql = "INSERT OR REPLACE INTO students (roll_number, name) VALUES (?, ?)";
+            } else {
+                // Create the table if it doesn't exist properly
+                $this->db->exec("
+                    CREATE TABLE IF NOT EXISTS students (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        roll_number VARCHAR(50) UNIQUE NOT NULL,
+                        student_name VARCHAR(100) NOT NULL,
+                        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+                    )
                 ");
-                $result = $stmt->execute([$rollNumber, $studentName]);
+                $sql = "INSERT OR REPLACE INTO students (roll_number, student_name) VALUES (?, ?)";
             }
             
-            // Sync to UUD folder in cloud
-            $this->syncToCloud();
+            $stmt = $this->db->prepare($sql);
+            $result = $stmt->execute([$rollNumber, $studentName]);
             
-            return $result;
+            if ($result) {
+                error_log("Student saved successfully: $rollNumber - $studentName");
+                // Sync to cloud
+                $this->syncToCloud();
+                return true;
+            } else {
+                error_log("Failed to save student: $rollNumber - $studentName");
+                return false;
+            }
+            
         } catch (PDOException $e) {
+            error_log("Database error in saveStudent: " . $e->getMessage());
+            
+            // Try creating a fresh database
+            try {
+                $this->db->exec("
+                    CREATE TABLE IF NOT EXISTS students (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        roll_number VARCHAR(50) UNIQUE NOT NULL,
+                        student_name VARCHAR(100) NOT NULL,
+                        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+                    )
+                ");
+                
+                $stmt = $this->db->prepare("INSERT OR REPLACE INTO students (roll_number, student_name) VALUES (?, ?)");
+                $result = $stmt->execute([$rollNumber, $studentName]);
+                
+                if ($result) {
+                    $this->syncToCloud();
+                    return true;
+                }
+            } catch (Exception $retryError) {
+                error_log("Retry failed: " . $retryError->getMessage());
+            }
+            
             throw new Exception('Error saving student: ' . $e->getMessage());
         }
     }
@@ -585,16 +629,22 @@ class StudentManager {
     public function addStudentResult($rollNumber, $semester, $filePath) {
         try {
             $stmt = $this->db->prepare("
-                INSERT OR REPLACE INTO results (roll_number, semester, file_path, uploaded_at) 
-                VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+                INSERT OR REPLACE INTO results (roll_number, semester, file_path) 
+                VALUES (?, ?, ?)
             ");
             $result = $stmt->execute([$rollNumber, $semester, $filePath]);
             
-            // Sync to UUD folder in cloud
-            $this->syncToCloud();
+            if ($result) {
+                error_log("Result saved: $rollNumber - Semester $semester - $filePath");
+                // Sync to UUD folder in cloud
+                $this->syncToCloud();
+            } else {
+                error_log("Failed to save result: $rollNumber - Semester $semester");
+            }
             
             return $result;
         } catch (PDOException $e) {
+            error_log("Error adding result: " . $e->getMessage());
             throw new Exception('Error adding result: ' . $e->getMessage());
         }
     }
