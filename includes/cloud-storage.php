@@ -235,35 +235,24 @@ class CloudStorageHelper {
     }
     
     /**
-     * Get database connection with UUD folder sync
+     * Get database connection - ONLY uses cloud storage gs://resultexyx/UUD/mapping.db
      */
     public function getDatabaseConnection() {
-        // For Cloud Run deployment, always try cloud first
-        if (isset($_SERVER['K_SERVICE'])) {
-            // Running on Cloud Run
-            $cloudDb = $this->downloadDatabase();
-            if ($cloudDb && file_exists($cloudDb)) {
-                $dbPath = $cloudDb;
-            } else {
-                // Create new database in temp directory
-                $dbPath = '/tmp/uud_mapping.db';
-            }
+        // ALWAYS try to download from cloud storage first
+        $cloudDb = $this->downloadDatabase();
+        
+        if ($cloudDb && file_exists($cloudDb)) {
+            // Cloud database exists, use it
+            $dbPath = $cloudDb;
+            error_log("Using cloud database from gs://resultexyx/UUD/mapping.db");
         } else {
-            // For local development, use local database
-            $localDbPath = __DIR__ . '/../mapping.db';
+            // Cloud database doesn't exist, create new empty database in temp
+            $dbPath = '/tmp/uud_mapping.db';
+            error_log("Cloud database not found, creating new database at: " . $dbPath);
             
-            if (file_exists($localDbPath)) {
-                $dbPath = $localDbPath;
-            } else {
-                // Try to download existing database from UUD folder
-                $cloudDb = $this->downloadDatabase();
-                
-                if ($cloudDb && file_exists($cloudDb)) {
-                    $dbPath = $cloudDb;
-                } else {
-                    // Create new database in temp directory
-                    $dbPath = '/tmp/uud_mapping.db';
-                }
+            // Delete any existing temp file to start fresh
+            if (file_exists($dbPath)) {
+                unlink($dbPath);
             }
         }
         
@@ -424,55 +413,14 @@ class StudentManager {
     }
     
     /**
-     * Check which name column exists in the database
-     */
-    private function getNameColumn() {
-        try {
-            $columns = $this->db->query("PRAGMA table_info(students)")->fetchAll();
-            foreach ($columns as $column) {
-                if ($column['name'] === 'student_name') {
-                    return 'student_name';
-                }
-                if ($column['name'] === 'name') {
-                    return 'name';
-                }
-            }
-            return 'name'; // default fallback
-        } catch (Exception $e) {
-            return 'name'; // fallback
-        }
-    }
-    
-    /**
-     * Add or update student with comprehensive schema handling
+     * Add or update student - ONLY uses student_name column
      */
     public function saveStudent($rollNumber, $studentName) {
         try {
-            // Get the actual table structure
-            $columns = $this->db->query("PRAGMA table_info(students)")->fetchAll();
-            $columnInfo = [];
-            foreach ($columns as $col) {
-                $columnInfo[$col['name']] = [
-                    'type' => $col['type'],
-                    'notnull' => $col['notnull'],
-                    'default' => $col['dflt_value']
-                ];
-            }
-            
-            // Build INSERT statement based on schema
-            $insertData = [$rollNumber, $studentName]; // roll_number, name (required)
-            $sql = "INSERT OR REPLACE INTO students (roll_number, name";
-            
-            // Add student_name if it exists (for compatibility)
-            if (isset($columnInfo['student_name'])) {
-                $sql .= ", student_name";
-                $insertData[] = $studentName;
-            }
-            
-            $sql .= ") VALUES (?" . str_repeat(", ?", count($insertData) - 1) . ")";
-            
+            // Use simple, clean schema with student_name column
+            $sql = "INSERT OR REPLACE INTO students (roll_number, student_name) VALUES (?, ?)";
             $stmt = $this->db->prepare($sql);
-            $result = $stmt->execute($insertData);
+            $result = $stmt->execute([$rollNumber, $studentName]);
             
             if ($result) {
                 error_log("Student saved successfully: $rollNumber - $studentName");
@@ -485,24 +433,6 @@ class StudentManager {
             
         } catch (PDOException $e) {
             error_log("PDO Error in saveStudent: " . $e->getMessage());
-            
-            // If the above fails, try the simplest approach based on the diagnostic
-            try {
-                // Based on diagnostic: 'name' column is NOT NULL and required
-                $stmt = $this->db->prepare("INSERT OR REPLACE INTO students (roll_number, name, student_name) VALUES (?, ?, ?)");
-                $result = $stmt->execute([$rollNumber, $studentName, $studentName]);
-                
-                if ($result) {
-                    error_log("Student saved with fallback method: $rollNumber - $studentName");
-                    $this->syncToCloud();
-                    return true;
-                } else {
-                    error_log("Fallback method also failed for: $rollNumber - $studentName");
-                }
-            } catch (Exception $retryError) {
-                error_log("Fallback method error: " . $retryError->getMessage());
-            }
-            
             throw new Exception('Error saving student: ' . $e->getMessage());
         }
     }
@@ -547,14 +477,7 @@ class StudentManager {
      */
     public function getStudent($rollNumber) {
         try {
-            $nameColumn = $this->getNameColumn();
-            
-            if ($nameColumn === 'student_name') {
-                $stmt = $this->db->prepare("SELECT *, student_name as name FROM students WHERE roll_number = ?");
-            } else {
-                $stmt = $this->db->prepare("SELECT * FROM students WHERE roll_number = ?");
-            }
-            
+            $stmt = $this->db->prepare("SELECT *, student_name as name FROM students WHERE roll_number = ?");
             $stmt->execute([$rollNumber]);
             return $stmt->fetch(PDO::FETCH_ASSOC);
         } catch (PDOException $e) {
@@ -567,7 +490,7 @@ class StudentManager {
      * Get all students
      */
     public function getAllStudents() {
-        $stmt = $this->db->query("SELECT * FROM students ORDER BY roll_number");
+        $stmt = $this->db->query("SELECT *, student_name as name FROM students ORDER BY roll_number");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
     
@@ -576,23 +499,12 @@ class StudentManager {
      */
     public function getStudentResult($rollNumber, $semester) {
         try {
-            $nameColumn = $this->getNameColumn();
-            
-            if ($nameColumn === 'student_name') {
-                $stmt = $this->db->prepare("
-                    SELECT r.*, s.student_name as name
-                    FROM results r 
-                    LEFT JOIN students s ON r.roll_number = s.roll_number 
-                    WHERE r.roll_number = ? AND r.semester = ?
-                ");
-            } else {
-                $stmt = $this->db->prepare("
-                    SELECT r.*, s.name
-                    FROM results r 
-                    LEFT JOIN students s ON r.roll_number = s.roll_number 
-                    WHERE r.roll_number = ? AND r.semester = ?
-                ");
-            }
+            $stmt = $this->db->prepare("
+                SELECT r.*, s.student_name as name
+                FROM results r 
+                LEFT JOIN students s ON r.roll_number = s.roll_number 
+                WHERE r.roll_number = ? AND r.semester = ?
+            ");
             
             $stmt->execute([$rollNumber, $semester]);
             return $stmt->fetch(PDO::FETCH_ASSOC);
@@ -607,25 +519,13 @@ class StudentManager {
      */
     public function getStudentResults($rollNumber) {
         try {
-            $nameColumn = $this->getNameColumn();
-            
-            if ($nameColumn === 'student_name') {
-                $stmt = $this->db->prepare("
-                    SELECT r.*, s.student_name as name
-                    FROM results r 
-                    LEFT JOIN students s ON r.roll_number = s.roll_number 
-                    WHERE r.roll_number = ? 
-                    ORDER BY r.semester
-                ");
-            } else {
-                $stmt = $this->db->prepare("
-                    SELECT r.*, s.name
-                    FROM results r 
-                    LEFT JOIN students s ON r.roll_number = s.roll_number 
-                    WHERE r.roll_number = ? 
-                    ORDER BY r.semester
-                ");
-            }
+            $stmt = $this->db->prepare("
+                SELECT r.*, s.student_name as name
+                FROM results r 
+                LEFT JOIN students s ON r.roll_number = s.roll_number 
+                WHERE r.roll_number = ? 
+                ORDER BY r.semester
+            ");
             
             $stmt->execute([$rollNumber]);
             return $stmt->fetchAll(PDO::FETCH_ASSOC);
