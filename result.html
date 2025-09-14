@@ -279,7 +279,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h1 class="result-title">Examination Results</h1>
             <p class="result-subtitle">Check your examination results online</p>
             
-            <form>
+            <form id="resultForm">
                 <div class="form-row">
                     <div class="form-group">
                         <label for="semester" class="form-label">Semester</label>
@@ -296,13 +296,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="dob" class="form-label">Date of Birth</label>
-                    <input type="date" class="form-control" id="dob" required>
+                    <label for="studentName" class="form-label">Student Name</label>
+                    <input type="text" class="form-control" id="studentName" placeholder="Enter your full name" required>
                 </div>
-                <button type="submit" class="btn-primary">
+                <button type="submit" class="btn-primary" id="submitBtn">
                     <i class="fa fa-search"></i> View Result
                 </button>
             </form>
+            
+            <!-- Loading State -->
+            <div id="loadingState" style="display: none; text-align: center; margin-top: 20px;">
+                <i class="fa fa-spinner fa-spin" style="font-size: 24px; color: #21337d;"></i>
+                <p style="margin-top: 10px; color: #666;">Checking your result...</p>
+            </div>
+            
+            <!-- Error Message -->
+            <div id="errorMessage" style="display: none; margin-top: 20px; padding: 15px; background: #f8d7da; color: #721c24; border-radius: 8px;">
+                <i class="fa fa-exclamation-triangle"></i>
+                <span id="errorText"></span>
+            </div>
+            
+            <!-- Result Display -->
+            <div id="resultDisplay" style="display: none; margin-top: 30px;">
+                <div style="background: #d4edda; color: #155724; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                    <i class="fa fa-check-circle"></i>
+                    <strong>Result Found!</strong> Your result is displayed below.
+                </div>
+                <div style="background: white; border-radius: 10px; padding: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <div style="text-align: center; margin-bottom: 15px;">
+                        <h3 style="color: #21337d; margin: 0;">Result for <span id="resultStudentName"></span></h3>
+                        <p style="color: #666; margin: 5px 0;">Roll Number: <span id="resultRollNumber"></span> | Semester: <span id="resultSemester"></span></p>
+                    </div>
+                    <iframe id="pdfViewer" style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px;"></iframe>
+                    <div style="text-align: center; margin-top: 15px;">
+                        <a id="downloadLink" href="#" target="_blank" class="btn-primary" style="text-decoration: none; display: inline-block;">
+                            <i class="fa fa-download"></i> Download Result
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <div class="services-grid">
@@ -354,5 +386,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </footer>
 
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/cloud-storage.js"></script>
+<script src="assets/js/results.js"></script>
 </body>
 </html>

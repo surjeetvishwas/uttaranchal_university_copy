@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Test - Cloud Storage Integration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3><i class="fa fa-cog"></i> System Setup & Test</h3>
+                    </div>
+                    <div class="card-body">
+                        <div id="alertContainer"></div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5><i class="fa fa-database"></i> Database Operations</h5>
+                                <button id="initializeBtn" class="btn btn-success mb-2">
+                                    <i class="fa fa-plus"></i> Initialize Database
+                                </button>
+                                <button id="testDownloadBtn" class="btn btn-info mb-2">
+                                    <i class="fa fa-download"></i> Test Download
+                                </button>
+                                <button id="testUploadBtn" class="btn btn-warning mb-2">
+                                    <i class="fa fa-upload"></i> Test Upload
+                                </button>
+                            </div>
+                            <div class="col-md-6">
+                                <h5><i class="fa fa-link"></i> Quick Links</h5>
+                                <a href="result.html" class="btn btn-primary btn-block mb-2">
+                                    <i class="fa fa-search"></i> Student Portal
+                                </a>
+                                <a href="admin.html" class="btn btn-dark btn-block mb-2">
+                                    <i class="fa fa-user-shield"></i> Admin Panel
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <hr>
+                        
+                        <h5><i class="fa fa-info-circle"></i> System Information</h5>
+                        <ul>
+                            <li><strong>Cloud Storage:</strong> gs://resultexyx/UUD</li>
+                            <li><strong>Admin Credentials:</strong> admin / Admin@123</li>
+                            <li><strong>Architecture:</strong> Pure Frontend JavaScript</li>
+                            <li><strong>Data Format:</strong> JSON stored in cloud</li>
+                        </ul>
+                        
+                        <div id="statusContainer" class="mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/cloud-storage.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Button handlers
+            document.getElementById('initializeBtn').addEventListener('click', initializeDatabase);
+            document.getElementById('testDownloadBtn').addEventListener('click', testDownload);
+            document.getElementById('testUploadBtn').addEventListener('click', testUpload);
+            
+            async function initializeDatabase() {
+                try {
+                    showAlert('Initializing database...', 'info');
+                    
+                    const initialData = {
+                        students: [
+                            {
+                                roll_number: "UU2024001",
+                                student_name: "Test Student 1",
+                                created_at: new Date().toISOString()
+                            },
+                            {
+                                roll_number: "UU2024002", 
+                                student_name: "Test Student 2",
+                                created_at: new Date().toISOString()
+                            }
+                        ],
+                        results: [],
+                        version: "1.0",
+                        created_at: new Date().toISOString(),
+                        last_updated: new Date().toISOString()
+                    };
+                    
+                    await window.cloudStorage.uploadDatabase(initialData);
+                    showAlert('Database initialized successfully with sample data!', 'success');
+                    updateStatus('Database initialized and uploaded to cloud storage');
+                } catch (error) {
+                    console.error('Error initializing database:', error);
+                    showAlert('Failed to initialize database: ' + error.message, 'danger');
+                }
+            }
+            
+            async function testDownload() {
+                try {
+                    showAlert('Testing database download...', 'info');
+                    const database = await window.cloudStorage.downloadDatabase();
+                    showAlert('Database downloaded successfully!', 'success');
+                    updateStatus(`Downloaded database with ${database.students.length} students and ${database.results.length} results`);
+                } catch (error) {
+                    console.error('Error downloading database:', error);
+                    showAlert('Failed to download database: ' + error.message, 'danger');
+                }
+            }
+            
+            async function testUpload() {
+                try {
+                    showAlert('Testing database upload...', 'info');
+                    
+                    // Download current database, modify it, and upload back
+                    const database = await window.cloudStorage.downloadDatabase();
+                    database.last_updated = new Date().toISOString();
+                    database.test_field = 'Test upload at ' + new Date().toLocaleString();
+                    
+                    await window.cloudStorage.uploadDatabase(database);
+                    showAlert('Database upload test successful!', 'success');
+                    updateStatus('Upload test completed successfully');
+                } catch (error) {
+                    console.error('Error testing upload:', error);
+                    showAlert('Failed to test upload: ' + error.message, 'danger');
+                }
+            }
+            
+            function showAlert(message, type) {
+                const container = document.getElementById('alertContainer');
+                const alertClass = type === 'info' ? 'alert-primary' : `alert-${type}`;
+                
+                container.innerHTML = `
+                    <div class="alert ${alertClass}">
+                        <i class="fa fa-${type === 'success' ? 'check' : type === 'danger' ? 'exclamation-triangle' : 'info-circle'}"></i>
+                        ${message}
+                    </div>
+                `;
+                
+                if (type === 'success' || type === 'danger') {
+                    setTimeout(() => {
+                        container.innerHTML = '';
+                    }, 5000);
+                }
+            }
+            
+            function updateStatus(message) {
+                const container = document.getElementById('statusContainer');
+                const timestamp = new Date().toLocaleTimeString();
+                
+                container.innerHTML = `
+                    <div class="alert alert-light border">
+                        <small class="text-muted">${timestamp}</small><br>
+                        ${message}
+                    </div>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>
