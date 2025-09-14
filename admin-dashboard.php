@@ -182,22 +182,22 @@ $students = $studentManager->getAllStudents();
                 <h4><i class="fa fa-graduation-cap"></i> Admin Panel</h4>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#dashboard" onclick="showSection('dashboard')">
+                        <a class="nav-link active" href="#dashboard" onclick="showSection('dashboard', event)">
                             <i class="fa fa-dashboard"></i> Dashboard
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#add-student" onclick="showSection('add-student')">
+                        <a class="nav-link" href="#add-student" onclick="showSection('add-student', event)">
                             <i class="fa fa-user-plus"></i> Add Student
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#upload-result" onclick="showSection('upload-result')">
+                        <a class="nav-link" href="#upload-result" onclick="showSection('upload-result', event)">
                             <i class="fa fa-upload"></i> Upload Result
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#manage-students" onclick="showSection('manage-students')">
+                        <a class="nav-link" href="#manage-students" onclick="showSection('manage-students', event)">
                             <i class="fa fa-users"></i> Manage Students
                         </a>
                     </li>
@@ -451,7 +451,12 @@ $students = $studentManager->getAllStudents();
         // Ensure DOM is loaded before defining functions
         document.addEventListener('DOMContentLoaded', function() {
             // Define showSection function globally
-            window.showSection = function(sectionId) {
+            window.showSection = function(sectionId, event) {
+                // Prevent default link behavior
+                if (event) {
+                    event.preventDefault();
+                }
+                
                 // Hide all sections
                 const sections = document.querySelectorAll('.section');
                 sections.forEach(section => {
@@ -473,6 +478,12 @@ $students = $studentManager->getAllStudents();
                 // Add active class to clicked link
                 if (event && event.target) {
                     event.target.classList.add('active');
+                } else {
+                    // Find and activate the corresponding nav link
+                    const navLink = document.querySelector(`a[href="#${sectionId}"]`);
+                    if (navLink) {
+                        navLink.classList.add('active');
+                    }
                 }
             };
             

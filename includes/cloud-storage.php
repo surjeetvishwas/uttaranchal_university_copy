@@ -277,27 +277,98 @@ class CloudStorageHelper {
      * Initialize database tables
      */
     private function initializeDatabase($pdo) {
-        $sql = "
-            CREATE TABLE IF NOT EXISTS students (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                roll_number VARCHAR(50) UNIQUE NOT NULL,
-                student_name VARCHAR(100) NOT NULL,
-                created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-                updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
-            );
+        try {
+            // Check if tables exist and what their schema is
+            $tablesExist = false;
+            $stmt = $pdo->query("SELECT name FROM sqlite_master WHERE type='table' AND name='students'");
+            if ($stmt->fetchColumn()) {
+                $tablesExist = true;
+                
+                // Check if we need to migrate the schema
+                $columns = $pdo->query("PRAGMA table_info(students)")->fetchAll();
+                $hasStudentName = false;
+                $hasName = false;
+                
+                foreach ($columns as $column) {
+                    if ($column['name'] === 'student_name') {
+                        $hasStudentName = true;
+                    }
+                    if ($column['name'] === 'name') {
+                        $hasName = true;
+                    }
+                }
+                
+                // If we have 'name' but not 'student_name', add student_name column
+                if ($hasName && !$hasStudentName) {
+                    try {
+                        $pdo->exec("ALTER TABLE students ADD COLUMN student_name VARCHAR(100)");
+                        $pdo->exec("UPDATE students SET student_name = name WHERE student_name IS NULL");
+                    } catch (Exception $e) {
+                        // Column might already exist, ignore error
+                    }
+                }
+                
+                // If we have 'student_name' but not 'name', add name column
+                if ($hasStudentName && !$hasName) {
+                    try {
+                        $pdo->exec("ALTER TABLE students ADD COLUMN name VARCHAR(100)");
+                        $pdo->exec("UPDATE students SET name = student_name WHERE name IS NULL");
+                    } catch (Exception $e) {
+                        // Column might already exist, ignore error
+                    }
+                }
+            }
             
-            CREATE TABLE IF NOT EXISTS results (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                roll_number VARCHAR(50) NOT NULL,
-                semester INTEGER NOT NULL,
-                file_path VARCHAR(255) NOT NULL,
-                uploaded_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-                FOREIGN KEY (roll_number) REFERENCES students(roll_number),
-                UNIQUE(roll_number, semester)
-            );
-        ";
-        
-        $pdo->exec($sql);
+            if (!$tablesExist) {
+                // Create new tables with both name columns for compatibility
+                $sql = "
+                    CREATE TABLE IF NOT EXISTS students (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        roll_number VARCHAR(50) UNIQUE NOT NULL,
+                        student_name VARCHAR(100) NOT NULL,
+                        name VARCHAR(100) NOT NULL,
+                        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                        updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+                    );
+                    
+                    CREATE TABLE IF NOT EXISTS results (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        roll_number VARCHAR(50) NOT NULL,
+                        semester INTEGER NOT NULL,
+                        file_path VARCHAR(255) NOT NULL,
+                        uploaded_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                        FOREIGN KEY (roll_number) REFERENCES students(roll_number),
+                        UNIQUE(roll_number, semester)
+                    );
+                ";
+                
+                $pdo->exec($sql);
+            }
+        } catch (Exception $e) {
+            error_log("Database initialization error: " . $e->getMessage());
+            // Try basic table creation as fallback
+            $sql = "
+                CREATE TABLE IF NOT EXISTS students (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    roll_number VARCHAR(50) UNIQUE NOT NULL,
+                    student_name VARCHAR(100) NOT NULL,
+                    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+                );
+                
+                CREATE TABLE IF NOT EXISTS results (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    roll_number VARCHAR(50) NOT NULL,
+                    semester INTEGER NOT NULL,
+                    file_path VARCHAR(255) NOT NULL,
+                    uploaded_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                    FOREIGN KEY (roll_number) REFERENCES students(roll_number),
+                    UNIQUE(roll_number, semester)
+                );
+            ";
+            
+            $pdo->exec($sql);
+        }
     }
 }
 
@@ -321,15 +392,55 @@ class StudentManager {
     }
     
     /**
+     * Check which name column exists in the database
+     */
+    private function getNameColumn() {
+        try {
+            $columns = $this->db->query("PRAGMA table_info(students)")->fetchAll();
+            foreach ($columns as $column) {
+                if ($column['name'] === 'student_name') {
+                    return 'student_name';
+                }
+                if ($column['name'] === 'name') {
+                    return 'name';
+                }
+            }
+            return 'name'; // default fallback
+        } catch (Exception $e) {
+            return 'name'; // fallback
+        }
+    }
+    
+    /**
      * Add or update student
      */
     public function saveStudent($rollNumber, $studentName) {
         try {
-            $stmt = $this->db->prepare("
-                INSERT OR REPLACE INTO students (roll_number, student_name, updated_at) 
-                VALUES (?, ?, CURRENT_TIMESTAMP)
-            ");
-            $result = $stmt->execute([$rollNumber, $studentName]);
+            $nameColumn = $this->getNameColumn();
+            
+            // Try to insert into both columns if they exist for maximum compatibility
+            try {
+                if ($nameColumn === 'student_name') {
+                    $stmt = $this->db->prepare("
+                        INSERT OR REPLACE INTO students (roll_number, student_name, name, updated_at) 
+                        VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+                    ");
+                    $result = $stmt->execute([$rollNumber, $studentName, $studentName]);
+                } else {
+                    $stmt = $this->db->prepare("
+                        INSERT OR REPLACE INTO students (roll_number, name, student_name, updated_at) 
+                        VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+                    ");
+                    $result = $stmt->execute([$rollNumber, $studentName, $studentName]);
+                }
+            } catch (PDOException $e) {
+                // Fallback to single column if the above fails
+                $stmt = $this->db->prepare("
+                    INSERT OR REPLACE INTO students (roll_number, {$nameColumn}, updated_at) 
+                    VALUES (?, ?, CURRENT_TIMESTAMP)
+                ");
+                $result = $stmt->execute([$rollNumber, $studentName]);
+            }
             
             // Sync to UUD folder in cloud
             $this->syncToCloud();
@@ -380,17 +491,9 @@ class StudentManager {
      */
     public function getStudent($rollNumber) {
         try {
-            // Check if student_name column exists
-            $columns = $this->db->query("PRAGMA table_info(students)")->fetchAll();
-            $hasStudentName = false;
-            foreach ($columns as $column) {
-                if ($column['name'] === 'student_name') {
-                    $hasStudentName = true;
-                    break;
-                }
-            }
+            $nameColumn = $this->getNameColumn();
             
-            if ($hasStudentName) {
+            if ($nameColumn === 'student_name') {
                 $stmt = $this->db->prepare("SELECT *, student_name as name FROM students WHERE roll_number = ?");
             } else {
                 $stmt = $this->db->prepare("SELECT * FROM students WHERE roll_number = ?");
@@ -417,17 +520,9 @@ class StudentManager {
      */
     public function getStudentResult($rollNumber, $semester) {
         try {
-            // Check if student_name column exists
-            $columns = $this->db->query("PRAGMA table_info(students)")->fetchAll();
-            $hasStudentName = false;
-            foreach ($columns as $column) {
-                if ($column['name'] === 'student_name') {
-                    $hasStudentName = true;
-                    break;
-                }
-            }
+            $nameColumn = $this->getNameColumn();
             
-            if ($hasStudentName) {
+            if ($nameColumn === 'student_name') {
                 $stmt = $this->db->prepare("
                     SELECT r.*, s.student_name as name
                     FROM results r 
@@ -456,17 +551,9 @@ class StudentManager {
      */
     public function getStudentResults($rollNumber) {
         try {
-            // First check if student_name column exists
-            $columns = $this->db->query("PRAGMA table_info(students)")->fetchAll();
-            $hasStudentName = false;
-            foreach ($columns as $column) {
-                if ($column['name'] === 'student_name') {
-                    $hasStudentName = true;
-                    break;
-                }
-            }
+            $nameColumn = $this->getNameColumn();
             
-            if ($hasStudentName) {
+            if ($nameColumn === 'student_name') {
                 $stmt = $this->db->prepare("
                     SELECT r.*, s.student_name as name
                     FROM results r 
@@ -475,7 +562,6 @@ class StudentManager {
                     ORDER BY r.semester
                 ");
             } else {
-                // Fallback to name column
                 $stmt = $this->db->prepare("
                     SELECT r.*, s.name
                     FROM results r 
