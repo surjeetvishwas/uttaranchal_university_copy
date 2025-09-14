@@ -9,10 +9,10 @@ RUN echo 'server { \
     listen 8080; \
     server_name _; \
     root /usr/share/nginx/html; \
-    index result.html contact.html; \
+    index index.html index.htm; \
     \
     location / { \
-        try_files $uri $uri/ /result.html; \
+        try_files $uri $uri/ /index.html; \
     } \
     \
     location /health { \
