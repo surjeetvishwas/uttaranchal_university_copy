@@ -250,9 +250,14 @@ $students = $studentManager->getAllStudents();
                                     <i class="fa fa-file-pdf-o fa-3x text-success mb-3"></i>
                                     <h3><?php 
                                         $totalResults = 0;
-                                        foreach ($students as $student) {
-                                            $results = $studentManager->getStudentResults($student['roll_number']);
-                                            $totalResults += count($results);
+                                        try {
+                                            foreach ($students as $student) {
+                                                $results = $studentManager->getStudentResults($student['roll_number']);
+                                                $totalResults += count($results);
+                                            }
+                                        } catch (Exception $e) {
+                                            // Handle error gracefully
+                                            $totalResults = "Error";
                                         }
                                         echo $totalResults;
                                     ?></h3>
@@ -443,23 +448,37 @@ $students = $studentManager->getAllStudents();
     
     <script src="assets/js/bootstrap.min.js"></script>
     <script>
-        function showSection(sectionId) {
-            // Hide all sections
-            const sections = document.querySelectorAll('.section');
-            sections.forEach(section => {
-                section.style.display = 'none';
-            });
+        // Ensure DOM is loaded before defining functions
+        document.addEventListener('DOMContentLoaded', function() {
+            // Define showSection function globally
+            window.showSection = function(sectionId) {
+                // Hide all sections
+                const sections = document.querySelectorAll('.section');
+                sections.forEach(section => {
+                    section.style.display = 'none';
+                });
+                
+                // Show selected section
+                const targetSection = document.getElementById(sectionId);
+                if (targetSection) {
+                    targetSection.style.display = 'block';
+                }
+                
+                // Update nav links
+                const navLinks = document.querySelectorAll('.nav-link');
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                });
+                
+                // Add active class to clicked link
+                if (event && event.target) {
+                    event.target.classList.add('active');
+                }
+            };
             
-            // Show selected section
-            document.getElementById(sectionId).style.display = 'block';
-            
-            // Update nav links
-            const navLinks = document.querySelectorAll('.nav-link');
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-            });
-            event.target.classList.add('active');
-        }
+            // Show dashboard by default
+            showSection('dashboard');
+        });
     </script>
 </body>
 </html>

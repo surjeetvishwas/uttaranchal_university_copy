@@ -212,20 +212,32 @@ class CloudStorageHelper {
      * Get database connection with UUD folder sync
      */
     public function getDatabaseConnection() {
-        // For development, use local database
-        $localDbPath = __DIR__ . '/../mapping.db';
-        
-        if (file_exists($localDbPath)) {
-            $dbPath = $localDbPath;
-        } else {
-            // Try to download existing database from UUD folder
+        // For Cloud Run deployment, always try cloud first
+        if (isset($_SERVER['K_SERVICE'])) {
+            // Running on Cloud Run
             $cloudDb = $this->downloadDatabase();
-            
             if ($cloudDb && file_exists($cloudDb)) {
                 $dbPath = $cloudDb;
             } else {
                 // Create new database in temp directory
                 $dbPath = '/tmp/uud_mapping.db';
+            }
+        } else {
+            // For local development, use local database
+            $localDbPath = __DIR__ . '/../mapping.db';
+            
+            if (file_exists($localDbPath)) {
+                $dbPath = $localDbPath;
+            } else {
+                // Try to download existing database from UUD folder
+                $cloudDb = $this->downloadDatabase();
+                
+                if ($cloudDb && file_exists($cloudDb)) {
+                    $dbPath = $cloudDb;
+                } else {
+                    // Create new database in temp directory
+                    $dbPath = '/tmp/uud_mapping.db';
+                }
             }
         }
         
@@ -367,9 +379,29 @@ class StudentManager {
      * Get student by roll number
      */
     public function getStudent($rollNumber) {
-        $stmt = $this->db->prepare("SELECT *, student_name as name FROM students WHERE roll_number = ?");
-        $stmt->execute([$rollNumber]);
-        return $stmt->fetch(PDO::FETCH_ASSOC);
+        try {
+            // Check if student_name column exists
+            $columns = $this->db->query("PRAGMA table_info(students)")->fetchAll();
+            $hasStudentName = false;
+            foreach ($columns as $column) {
+                if ($column['name'] === 'student_name') {
+                    $hasStudentName = true;
+                    break;
+                }
+            }
+            
+            if ($hasStudentName) {
+                $stmt = $this->db->prepare("SELECT *, student_name as name FROM students WHERE roll_number = ?");
+            } else {
+                $stmt = $this->db->prepare("SELECT * FROM students WHERE roll_number = ?");
+            }
+            
+            $stmt->execute([$rollNumber]);
+            return $stmt->fetch(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {
+            error_log("Error in getStudent: " . $e->getMessage());
+            return false;
+        }
     }
     
     /**
@@ -384,29 +416,81 @@ class StudentManager {
      * Get result for specific roll number and semester
      */
     public function getStudentResult($rollNumber, $semester) {
-        $stmt = $this->db->prepare("
-            SELECT r.*, s.student_name as name
-            FROM results r 
-            LEFT JOIN students s ON r.roll_number = s.roll_number 
-            WHERE r.roll_number = ? AND r.semester = ?
-        ");
-        $stmt->execute([$rollNumber, $semester]);
-        return $stmt->fetch(PDO::FETCH_ASSOC);
+        try {
+            // Check if student_name column exists
+            $columns = $this->db->query("PRAGMA table_info(students)")->fetchAll();
+            $hasStudentName = false;
+            foreach ($columns as $column) {
+                if ($column['name'] === 'student_name') {
+                    $hasStudentName = true;
+                    break;
+                }
+            }
+            
+            if ($hasStudentName) {
+                $stmt = $this->db->prepare("
+                    SELECT r.*, s.student_name as name
+                    FROM results r 
+                    LEFT JOIN students s ON r.roll_number = s.roll_number 
+                    WHERE r.roll_number = ? AND r.semester = ?
+                ");
+            } else {
+                $stmt = $this->db->prepare("
+                    SELECT r.*, s.name
+                    FROM results r 
+                    LEFT JOIN students s ON r.roll_number = s.roll_number 
+                    WHERE r.roll_number = ? AND r.semester = ?
+                ");
+            }
+            
+            $stmt->execute([$rollNumber, $semester]);
+            return $stmt->fetch(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {
+            error_log("Error in getStudentResult: " . $e->getMessage());
+            return false;
+        }
     }
     
     /**
      * Get all results for a roll number
      */
     public function getStudentResults($rollNumber) {
-        $stmt = $this->db->prepare("
-            SELECT r.*, s.student_name as name
-            FROM results r 
-            LEFT JOIN students s ON r.roll_number = s.roll_number 
-            WHERE r.roll_number = ? 
-            ORDER BY r.semester
-        ");
-        $stmt->execute([$rollNumber]);
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        try {
+            // First check if student_name column exists
+            $columns = $this->db->query("PRAGMA table_info(students)")->fetchAll();
+            $hasStudentName = false;
+            foreach ($columns as $column) {
+                if ($column['name'] === 'student_name') {
+                    $hasStudentName = true;
+                    break;
+                }
+            }
+            
+            if ($hasStudentName) {
+                $stmt = $this->db->prepare("
+                    SELECT r.*, s.student_name as name
+                    FROM results r 
+                    LEFT JOIN students s ON r.roll_number = s.roll_number 
+                    WHERE r.roll_number = ? 
+                    ORDER BY r.semester
+                ");
+            } else {
+                // Fallback to name column
+                $stmt = $this->db->prepare("
+                    SELECT r.*, s.name
+                    FROM results r 
+                    LEFT JOIN students s ON r.roll_number = s.roll_number 
+                    WHERE r.roll_number = ? 
+                    ORDER BY r.semester
+                ");
+            }
+            
+            $stmt->execute([$rollNumber]);
+            return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {
+            error_log("Error in getStudentResults: " . $e->getMessage());
+            return [];
+        }
     }
     
     /**
