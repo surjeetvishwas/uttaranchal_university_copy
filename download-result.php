@@ -32,9 +32,17 @@ try {
         die('Result not found for the selected semester.');
     }
     
-    // Get the file from cloud storage
+    // Get the file from cloud storage or local storage
     $cloudStorage = new CloudStorageHelper();
     $fileContent = $cloudStorage->downloadFile($result['file_path']);
+    
+    // Fallback to local file for development
+    if (!$fileContent) {
+        $localPath = __DIR__ . '/' . $result['file_path'];
+        if (file_exists($localPath)) {
+            $fileContent = file_get_contents($localPath);
+        }
+    }
     
     if (!$fileContent) {
         http_response_code(500);

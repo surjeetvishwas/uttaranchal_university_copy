@@ -9,24 +9,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     try {
         $rollNumber = trim($_POST['roll_number']);
         $semester = intval($_POST['semester']);
-        $dob = trim($_POST['dob']);
+        $studentName = trim($_POST['student_name']);
         
-        if (empty($rollNumber) || !in_array($semester, [1, 2, 3]) || empty($dob)) {
+        if (empty($rollNumber) || !in_array($semester, [1, 2, 3]) || empty($studentName)) {
             throw new Exception('All fields are required.');
         }
         
         $studentManager = new StudentManager();
         
-        // Verify student exists with matching DOB
+        // Verify student exists with matching name
         $student = $studentManager->getStudent($rollNumber);
         if (!$student) {
-            throw new Exception('Student not found.');
+            throw new Exception('Student not found with this roll number.');
         }
         
-        // For demo purposes, we'll check if DOB matches the format YYYY-MM-DD
-        // In a real system, you would store and verify actual DOB
-        if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $dob)) {
-            throw new Exception('Invalid date format. Use YYYY-MM-DD.');
+        // Verify the student name matches (case-insensitive)
+        if (strtolower($student['name']) !== strtolower($studentName)) {
+            throw new Exception('Student name does not match our records.');
         }
         
         // Get the result for the specified semester
@@ -381,9 +380,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="dob">Date of Birth</label>
-                        <input type="date" class="form-control" id="dob" name="dob" required 
-                               value="<?php echo isset($_POST['dob']) ? htmlspecialchars($_POST['dob']) : ''; ?>">
+                        <label for="student_name">Student Name</label>
+                        <input type="text" class="form-control" id="student_name" name="student_name" 
+                               placeholder="Enter your full name as per records" required 
+                               value="<?php echo isset($_POST['student_name']) ? htmlspecialchars($_POST['student_name']) : ''; ?>">
                     </div>
                     <button type="submit" class="btn-primary">
                         <i class="fa fa-search"></i> View Result

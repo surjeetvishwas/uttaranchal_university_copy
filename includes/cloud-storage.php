@@ -212,21 +212,28 @@ class CloudStorageHelper {
      * Get database connection with UUD folder sync
      */
     public function getDatabaseConnection() {
-        // Try to download existing database from UUD folder
-        $cloudDb = $this->downloadDatabase();
+        // For development, use local database
+        $localDbPath = __DIR__ . '/../mapping.db';
         
-        if ($cloudDb && file_exists($cloudDb)) {
-            $dbPath = $cloudDb;
+        if (file_exists($localDbPath)) {
+            $dbPath = $localDbPath;
         } else {
-            // Create new database in temp directory
-            $dbPath = '/tmp/uud_mapping.db';
+            // Try to download existing database from UUD folder
+            $cloudDb = $this->downloadDatabase();
+            
+            if ($cloudDb && file_exists($cloudDb)) {
+                $dbPath = $cloudDb;
+            } else {
+                // Create new database in temp directory
+                $dbPath = '/tmp/uud_mapping.db';
+            }
         }
         
         try {
             $pdo = new PDO('sqlite:' . $dbPath);
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             
-            // Create tables if not exist
+            // Create tables if not exist (for new databases)
             $this->initializeDatabase($pdo);
             
             return $pdo;
@@ -322,6 +329,13 @@ class StudentManager {
     }
     
     /**
+     * Add student (alias for backward compatibility)
+     */
+    public function addStudent($rollNumber, $studentName) {
+        return $this->saveStudent($rollNumber, $studentName);
+    }
+    
+    /**
      * Save result PDF to UUD folder structure
      */
     public function saveResult($rollNumber, $semester, $fileContent, $fileName) {
@@ -353,7 +367,7 @@ class StudentManager {
      * Get student by roll number
      */
     public function getStudent($rollNumber) {
-        $stmt = $this->db->prepare("SELECT * FROM students WHERE roll_number = ?");
+        $stmt = $this->db->prepare("SELECT *, student_name as name FROM students WHERE roll_number = ?");
         $stmt->execute([$rollNumber]);
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
@@ -371,7 +385,7 @@ class StudentManager {
      */
     public function getStudentResult($rollNumber, $semester) {
         $stmt = $this->db->prepare("
-            SELECT r.*, s.student_name 
+            SELECT r.*, s.student_name as name
             FROM results r 
             LEFT JOIN students s ON r.roll_number = s.roll_number 
             WHERE r.roll_number = ? AND r.semester = ?
@@ -385,7 +399,7 @@ class StudentManager {
      */
     public function getStudentResults($rollNumber) {
         $stmt = $this->db->prepare("
-            SELECT r.*, s.student_name 
+            SELECT r.*, s.student_name as name
             FROM results r 
             LEFT JOIN students s ON r.roll_number = s.roll_number 
             WHERE r.roll_number = ? 
@@ -393,6 +407,26 @@ class StudentManager {
         ");
         $stmt->execute([$rollNumber]);
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+    
+    /**
+     * Add student result
+     */
+    public function addStudentResult($rollNumber, $semester, $filePath) {
+        try {
+            $stmt = $this->db->prepare("
+                INSERT OR REPLACE INTO results (roll_number, semester, file_path, uploaded_at) 
+                VALUES (?, ?, ?, CURRENT_TIMESTAMP)
+            ");
+            $result = $stmt->execute([$rollNumber, $semester, $filePath]);
+            
+            // Sync to UUD folder in cloud
+            $this->syncToCloud();
+            
+            return $result;
+        } catch (PDOException $e) {
+            throw new Exception('Error adding result: ' . $e->getMessage());
+        }
     }
     
     /**
