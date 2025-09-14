@@ -11,25 +11,8 @@ class CloudStorageHelper {
     /**
      * Get access token for Google Cloud API
      */
-    private function getAccessToken    /**
-     * Sync database to cloud after operations
-     */
-    private function syncToCloud() {
+    private function getAccessToken() {
         try {
-            // Create CloudStorageHelper instance to upload database
-            $cloudHelper = new CloudStorageHelper();
-            $success = $cloudHelper->saveDatabase($this->db);
-            if ($success) {
-                error_log("Database synced to cloud: gs://resultexyx/UUD/mapping.db");
-            } else {
-                error_log("Failed to sync database to cloud");
-            }
-            return $success;
-        } catch (Exception $e) {
-            error_log("Error syncing to cloud: " . $e->getMessage());
-            return false;
-        }
-    } {
             // Get token from metadata server (available in Cloud Run)
             $url = 'http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token';
             $context = stream_context_create([
@@ -41,12 +24,22 @@ class CloudStorageHelper {
             
             $response = @file_get_contents($url, false, $context);
             if ($response === false) {
+                error_log("Failed to get access token from metadata server");
                 return null;
             }
             
             $data = json_decode($response, true);
-            return $data['access_token'] ?? null;
+            $token = $data['access_token'] ?? null;
+            
+            if ($token) {
+                error_log("Successfully obtained access token (length: " . strlen($token) . ")");
+            } else {
+                error_log("Access token not found in response: " . $response);
+            }
+            
+            return $token;
         } catch (Exception $e) {
+            error_log("Exception getting access token: " . $e->getMessage());
             return null;
         }
     }
@@ -112,6 +105,9 @@ class CloudStorageHelper {
                 return false;
             }
             
+            error_log("Attempting to upload database to gs://{$this->bucketName}/{$objectName}");
+            error_log("Database content size: " . strlen($dbContent) . " bytes");
+            
             $url = "https://storage.googleapis.com/upload/storage/v1/b/{$this->bucketName}/o?uploadType=media&name=" . urlencode($objectName);
             
             $context = stream_context_create([
@@ -131,9 +127,15 @@ class CloudStorageHelper {
             
             if ($response !== false) {
                 error_log("Database uploaded successfully to gs://{$this->bucketName}/{$objectName}");
+                error_log("Upload response: " . substr($response, 0, 200));
                 return true;
             } else {
+                // Get more detailed error information
+                $error = error_get_last();
+                $httpHeaders = isset($http_response_header) ? implode(', ', $http_response_header) : 'No headers';
                 error_log("Failed to upload database to cloud storage");
+                error_log("HTTP Response Headers: " . $httpHeaders);
+                error_log("Last Error: " . ($error ? $error['message'] : 'Unknown error'));
                 return false;
             }
         } catch (Exception $e) {
@@ -397,9 +399,8 @@ class StudentManager {
      */
     private function syncToCloud() {
         try {
-            // Create CloudStorageHelper instance to upload database
-            $cloudHelper = new CloudStorageHelper();
-            $success = $cloudHelper->saveDatabase($this->db);
+            // Use the existing CloudStorageHelper instance
+            $success = $this->storage->saveDatabase($this->db);
             if ($success) {
                 error_log("Database synced to cloud: gs://resultexyx/UUD/mapping.db");
             } else {
