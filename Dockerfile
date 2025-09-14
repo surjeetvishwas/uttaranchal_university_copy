@@ -11,8 +11,26 @@ RUN echo 'server { \
     root /usr/share/nginx/html; \
     index index.html index.htm; \
     \
+    # Add CORS headers for all requests \
+    add_header Access-Control-Allow-Origin "*" always; \
+    add_header Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS" always; \
+    add_header Access-Control-Allow-Headers "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization" always; \
+    \
     location / { \
         try_files $uri $uri/ /index.html; \
+    } \
+    \
+    # Handle preflight requests \
+    location ~* \.(json)$ { \
+        if ($request_method = OPTIONS) { \
+            add_header Access-Control-Allow-Origin "*"; \
+            add_header Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"; \
+            add_header Access-Control-Allow-Headers "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization"; \
+            add_header Access-Control-Max-Age 1728000; \
+            add_header Content-Type "text/plain; charset=utf-8"; \
+            add_header Content-Length 0; \
+            return 204; \
+        } \
     } \
     \
     location /health { \
