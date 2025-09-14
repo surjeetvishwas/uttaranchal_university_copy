@@ -45,26 +45,35 @@
 <body>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RRKVSHXFXQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RRKVSHXFXQ');
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-RRKVSHXFXQ');
+
 </script>
 <header class="header shadow shadow-sm">
 <div class="header__top">
 <div class="container">
 <div class="row d-block d-md-none bg-white py-2">
-<div class="text-center text-danger fw-bold">
+<div class="text-center text-danger fw-bold">
+
                     Toll Free: <a class="text-decoration-none" href="../18002124201.html">18002124201</a>
 </div>
 </div>
 <div class="row">
 <div class="col-lg-5">
 <div class="top-notification-slider" style="line-height: 15px;">
-<!--                             <div class="tns-item">
-                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+<!--                             <div class="tns-item">
+
+                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+
                             </div>  -->
 <div class="tns-item">
 <a href="bsc-biotechnology-research.php" style="color:chartreuse" target="_blank">Summer Research Advisory Committee Meeting Proposed in July (1st - 15th)</a>
@@ -123,10 +132,14 @@
 <div class="uu-logo">
 <a class="uu-pc-logo" href="../index.html"><img alt="Uttranchal University" src="../assets/images/UU-Logo-Naac-Nirf.png" title="Uttranchal University" width="400"/></a>
 </div>
-<!--                 <div class="cuetbx d-none d-md-block">
-                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
-                    Last Date: 31 August 2025 - Apply Now
-                  </a>
+<!--                 <div class="cuetbx d-none d-md-block">
+
+                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
+
+                    Last Date: 31 August 2025 - Apply Now
+
+                  </a>
+
                 </div> -->
 <div class="header__center--right d-flex align-items-center justify-content-end">
 <div class="headerApply d-flex justify-content-center">
@@ -148,10 +161,14 @@
 <div class="header-bottom">
 <nav class="navbar navbar-expand-lg p-0">
 <div class="container">
-<!--                     <a href="https://www.uudoon.in/admissions/" 
-                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
-                       style="font-size: 15px;">
-                      Last Date: 31 August 2025 - Apply Now
+<!--                     <a href="https://www.uudoon.in/admissions/" 
+
+                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
+
+                       style="font-size: 15px;">
+
+                      Last Date: 31 August 2025 - Apply Now
+
                     </a> -->
 <button aria-label="Toggle navigation" class="navbar-toggler p-0 border-0" id="navbarSideCollapse" type="button">
 <span class="navbar-toggler-icon"></span>
@@ -288,8 +305,10 @@
 <li>
 <a href="../computing-sciences/index.html">Computer Applications</a>
 </li>
-<!-- <li>
-                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+<!-- <li>
+
+                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+
                                                                     </li> -->
 <li>
 <a href="../hotel-and-hospitality-management/index.html">Hotel &amp; Hospitality Management</a>
@@ -397,8 +416,10 @@
 <li>
 <a href="../management/index.html">Top Management Program</a>
 </li>
-<!--<li>
-                                                                                <a href="">Program Fee</a>
+<!--<li>
+
+                                                                                <a href="">Program Fee</a>
+
                                                                             </li>-->
 <li>
 <a href="../admissions/how-to-apply.php">How to Apply</a>
@@ -423,8 +444,10 @@
 <div class="ol-learning">
 <a href="../international.html" target="_blank"><i aria-hidden="true" class="fa fa-external-link me-2"></i> International</a>
 </div>
-<!--  <div class="ol-learning">
-                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+<!--  <div class="ol-learning">
+
+                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+
                                                                          </div> -->
 </div>
 </div>
@@ -535,29 +558,45 @@
 <li>
 <a href="../campus-life/sports.php">Sports</a>
 </li>
-<!--                                                         <li>
-                                                            <a href="../campus-life/seminars.php">Seminars</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/seminars.php">Seminars</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/workshops.php">Workshops</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/workshops.php">Workshops</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/convocations.php">Convocations</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/convocations.php">Convocations</a>
+
                                                         </li> -->
-<!-- <li>
-                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+<!-- <li>
+
+                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+
                                                         </li>-->
-<!--                                                         <li>
-                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/conferences.php">Conferences</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/conferences.php">Conferences</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+<!--                                                         <li>
+
+                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+
                                                         </li> -->
 <li>
 <a href="../ncc/index.html">NCC</a>
@@ -603,8 +642,10 @@
 <li>
 <a href="../research/index.html">Overview</a>
 </li>
-<!-- <li>
-                                                            <a href="">Distinguished Faculty Members</a>
+<!-- <li>
+
+                                                            <a href="">Distinguished Faculty Members</a>
+
                                                         </li>-->
 <li>
 <a href="../research/research-and-development-cell.php">Research &amp; Development Cell</a>
@@ -618,8 +659,10 @@
 <li>
 <a href="../research/student-research-cell.php">Student Research Cell</a>
 </li>
-<!-- <li>
-                                                            <a href="../research/research-groups/">Research Groups</a>
+<!-- <li>
+
+                                                            <a href="../research/research-groups/">Research Groups</a>
+
                                                         </li> -->
 <li>
 <a href="../research/startups-and-enterpreneurship.php">Startups, Entrepreneurship, and Innovation Cell</a>
@@ -652,55 +695,104 @@
 <li class="nav-item">
 <a class="nav-link" href="../placements/index.php">Placements</a>
 </li>
-<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
-                                <a class="nav-link" href="javascript:void(0)">Placements</a>
-                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
-                                    <div class="menu-programs-list__style">
-                                        <div class="row g-0">
-                                            <div class="col-lg-6">
-                                                <div class="pt-4 pb-4 ps-4">
-                                                    <h5>Placements</h5>
-                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
-                                                        <li>
-                                                            <a href="../placements/index.php">Placement Overview</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/best-packages.php">Best Packages</a>
-                                                        </li>
-                                                        <<li>
-                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
-                                                <div class="p-4">
-                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
-                                                    <div class="row g-0">
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
+
+                                <a class="nav-link" href="javascript:void(0)">Placements</a>
+
+                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
+
+                                    <div class="menu-programs-list__style">
+
+                                        <div class="row g-0">
+
+                                            <div class="col-lg-6">
+
+                                                <div class="pt-4 pb-4 ps-4">
+
+                                                    <h5>Placements</h5>
+
+                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
+
+                                                        <li>
+
+                                                            <a href="../placements/index.php">Placement Overview</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/best-packages.php">Best Packages</a>
+
+                                                        </li>
+
+                                                        <<li>
+
+                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
+
+                                                        </li>
+
+                                                    </ul>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
+
+                                                <div class="p-4">
+
+                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
+
+                                                    <div class="row g-0">
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </li> -->
 <li class="nav-item">
 <a class="nav-link" href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
@@ -844,8 +936,10 @@
 <li class="nav-item" role="presentation">
 <button aria-controls="home-tab-pane" aria-selected="true" class="nav-link active" data-bs-target="#home-tab-pane" data-bs-toggle="tab" id="home-tab" role="tab" type="button">Fee Structure</button>
 </li>
-<!--<li class="nav-item" role="presentation">
-                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Lateral Entry Fee Structure</button>
+<!--<li class="nav-item" role="presentation">
+
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Lateral Entry Fee Structure</button>
+
                             </li>-->
 <li class="nav-item" role="presentation">
 <button aria-controls="contact-tab-pane" aria-selected="false" class="nav-link" data-bs-target="#contact-tab-pane" data-bs-toggle="tab" id="contact-tab" role="tab" type="button">Other Fees</button>
@@ -1311,10 +1405,14 @@
 <li>10+2 examination with Physics, Chemistry and Mathematics / Biology</li>
 <li>Minimum 50% aggregate marks or 45% aggregate marks (in case of SC/ST category</li>
 </ul>
-<!--<h6 class="mb-2 mt-4"><b>For Lateral Entry</b> </h6>
-                        <ul class="list-unstyled p-0 list-icon-3 ps-4">
-                            <li>Passed 3 years Diploma in Engineering/ 2 years Diploma in Engineering (Lateral Entry)/B.Sc. with PCM Examination.</li>
-                            <li>Minimum 60% marks in case of general category; 55% marks in case of SC/ST category</li>
+<!--<h6 class="mb-2 mt-4"><b>For Lateral Entry</b> </h6>
+
+                        <ul class="list-unstyled p-0 list-icon-3 ps-4">
+
+                            <li>Passed 3 years Diploma in Engineering/ 2 years Diploma in Engineering (Lateral Entry)/B.Sc. with PCM Examination.</li>
+
+                            <li>Minimum 60% marks in case of general category; 55% marks in case of SC/ST category</li>
+
                         </ul>-->
 </div>
 <div class="note-block br-20 shadow-sm border p-4">
@@ -1322,7 +1420,8 @@
 <h3>Note:</h3>
 </div>
 <ul class="list-unstyled p-0 list-icon-3 ps-4">
-<li>Only one choice of scholarship will be allowed to the candidate from the following:
+<li>Only one choice of scholarship will be allowed to the candidate from the following:
+
                                 <ul class="list-unstyled p-0 list-icon-4 ps-4 mt-3">
 <li>5% scholarship on Net Academic Fee (after merit scholarship) to Girl Candidate for complete programme.</li>
 <li>5% scholarship on Net Academic Fee (after merit scholarship) to ward of Defence Personnel for complete programme.</li>
@@ -1360,8 +1459,10 @@
 <div class="accordion mb-4" id="accordionExample">
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingOne">
-<button aria-controls="collapseOne" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
-                              Semester 1
+<button aria-controls="collapseOne" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
+
+                              Semester 1
+
                             </button>
 </h2>
 <div aria-labelledby="headingOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample" id="collapseOne">
@@ -1376,101 +1477,157 @@
 </thead>
 <tbody>
 <tr>
-<td width="56">
-1.
+<td width="56">
+
+1.
+
 </td>
-<td width="104">
-TBBT / PBBT-101
+<td width="104">
+
+TBBT / PBBT-101
+
 </td>
-<td width="307">
-Introductory biotechnology (CC-1)
+<td width="307">
+
+Introductory biotechnology (CC-1)
+
 </td>
-<td width="81">
-5
-</td>
-</tr>
-<tr>
-<td width="56">
-2.
-</td>
-<td width="104">
-TBBT / PBBT-102
-</td>
-<td width="307">
-Minor Stream-1 
-</td>
-<td width="81">
-4
+<td width="81">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="56">
-3.
+<td width="56">
+
+2.
+
 </td>
-<td width="104">
-TBBT 103 
+<td width="104">
+
+TBBT / PBBT-102
+
 </td>
-<td width="307">
-Multidisciplinary-1
+<td width="307">
+
+Minor Stream-1 
+
 </td>
-<td width="81">
-3
-</td>
-</tr>
-<tr>
-<td width="56">
-4.
-</td>
-<td width="104">
-TBBT 104
-</td>
-<td width="307">
-(AEC-1) 
-</td>
-<td width="81">
-2
+<td width="81">
+
+4
+
 </td>
 </tr>
 <tr>
-<td width="56">
-5.
+<td width="56">
+
+3.
+
 </td>
-<td width="104">
-TBBT / PBBT-105
+<td width="104">
+
+TBBT 103 
+
 </td>
-<td width="307">
-SEC-1
+<td width="307">
+
+Multidisciplinary-1
+
 </td>
-<td width="81">
-4
-</td>
-</tr>
-<tr>
-<td width="56">
-6.
-</td>
-<td width="104">
-TBBT106
-</td>
-<td width="307">
-VAC-1 
-</td>
-<td width="81">
-3
+<td width="81">
+
+3
+
 </td>
 </tr>
 <tr>
-<td width="56">
-7.
+<td width="56">
+
+4.
+
 </td>
-<td width="104">
-TBBT 107
+<td width="104">
+
+TBBT 104
+
 </td>
-<td width="307">
-Essential Biology/ Mathematics
+<td width="307">
+
+(AEC-1) 
+
 </td>
-<td width="81">
-2
+<td width="81">
+
+2
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+5.
+
+</td>
+<td width="104">
+
+TBBT / PBBT-105
+
+</td>
+<td width="307">
+
+SEC-1
+
+</td>
+<td width="81">
+
+4
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+6.
+
+</td>
+<td width="104">
+
+TBBT106
+
+</td>
+<td width="307">
+
+VAC-1 
+
+</td>
+<td width="81">
+
+3
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+7.
+
+</td>
+<td width="104">
+
+TBBT 107
+
+</td>
+<td width="307">
+
+Essential Biology/ Mathematics
+
+</td>
+<td width="81">
+
+2
+
 </td>
 </tr>
 </tbody>
@@ -1489,8 +1646,10 @@ Essential Biology/ Mathematics
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading4">
-<button aria-controls="collapse4" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse4" data-bs-toggle="collapse" type="button">
-                              Semester 2
+<button aria-controls="collapse4" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse4" data-bs-toggle="collapse" type="button">
+
+                              Semester 2
+
                             </button>
 </h2>
 <div aria-labelledby="heading4" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse4">
@@ -1505,87 +1664,135 @@ Essential Biology/ Mathematics
 </thead>
 <tbody>
 <tr>
-<td width="56">
-1.
+<td width="56">
+
+1.
+
 </td>
-<td width="104">
-TBBT / PBBT-151
+<td width="104">
+
+TBBT / PBBT-151
+
 </td>
-<td width="307">
-Cell biology &amp; Genetics (CC-2)
+<td width="307">
+
+Cell biology &amp; Genetics (CC-2)
+
 </td>
-<td width="81">
-5
-</td>
-</tr>
-<tr>
-<td width="56">
-2.
-</td>
-<td width="104">
-TBBT / PBBT-152
-</td>
-<td width="307">
-Minor Stream-2
-</td>
-<td width="81">
-4
+<td width="81">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="56">
-3.
+<td width="56">
+
+2.
+
 </td>
-<td width="104">
-TBBT 153
+<td width="104">
+
+TBBT / PBBT-152
+
 </td>
-<td width="307">
-Multidisciplinary-2 
+<td width="307">
+
+Minor Stream-2
+
 </td>
-<td width="81">
-3
-</td>
-</tr>
-<tr>
-<td width="56">
-4.
-</td>
-<td width="104">
-TBBT-154
-</td>
-<td width="307">
-AEC-2 
-</td>
-<td width="81">
-2
+<td width="81">
+
+4
+
 </td>
 </tr>
 <tr>
-<td width="56">
-5.
+<td width="56">
+
+3.
+
 </td>
-<td width="104">
-TBBT / PBBT-155
+<td width="104">
+
+TBBT 153
+
 </td>
-<td width="307">
-SEC-2
+<td width="307">
+
+Multidisciplinary-2 
+
 </td>
-<td width="81">
-4
+<td width="81">
+
+3
+
 </td>
 </tr>
 <tr>
-<td width="56">
-6.
+<td width="56">
+
+4.
+
 </td>
-<td width="104">
-TBBT-156
+<td width="104">
+
+TBBT-154
+
 </td>
-<td width="307">
-VAC-2
+<td width="307">
+
+AEC-2 
+
 </td>
-<td width="81">
-3
+<td width="81">
+
+2
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+5.
+
+</td>
+<td width="104">
+
+TBBT / PBBT-155
+
+</td>
+<td width="307">
+
+SEC-2
+
+</td>
+<td width="81">
+
+4
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+6.
+
+</td>
+<td width="104">
+
+TBBT-156
+
+</td>
+<td width="307">
+
+VAC-2
+
+</td>
+<td width="81">
+
+3
+
 </td>
 </tr>
 </tbody>
@@ -1610,8 +1817,10 @@ VAC-2
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading7">
-<button aria-controls="collapse7" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse7" data-bs-toggle="collapse" type="button">
-                              Semester 3
+<button aria-controls="collapse7" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse7" data-bs-toggle="collapse" type="button">
+
+                              Semester 3
+
                             </button>
 </h2>
 <div aria-labelledby="heading7" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse7">
@@ -1626,73 +1835,113 @@ VAC-2
 </thead>
 <tbody>
 <tr>
-<td width="56">
-1.
+<td width="56">
+
+1.
+
 </td>
-<td width="104">
-TBBT / PBBT-201
+<td width="104">
+
+TBBT / PBBT-201
+
 </td>
-<td width="307">
-Molecular biology (CC-3)
+<td width="307">
+
+Molecular biology (CC-3)
+
 </td>
-<td width="81">
-5
-</td>
-</tr>
-<tr>
-<td width="56">
-2.
-</td>
-<td width="104">
-TBBT / PBBT-202
-</td>
-<td width="307">
-Immunology (CC-4)
-</td>
-<td width="81">
-5
+<td width="81">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="56">
-3.
+<td width="56">
+
+2.
+
 </td>
-<td width="104">
-TBBT / PBBT-203
+<td width="104">
+
+TBBT / PBBT-202
+
 </td>
-<td width="307">
-Minor Stream-3
+<td width="307">
+
+Immunology (CC-4)
+
 </td>
-<td width="81">
-4
-</td>
-</tr>
-<tr>
-<td width="56">
-4.
-</td>
-<td width="104">
-TBBT-204
-</td>
-<td width="307">
-Multidisciplinary -3 
-</td>
-<td width="81">
-3
+<td width="81">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="56">
-5.
+<td width="56">
+
+3.
+
 </td>
-<td width="104">
-TBBT / PBBT-206
+<td width="104">
+
+TBBT / PBBT-203
+
 </td>
-<td width="307">
-SEC-3 
+<td width="307">
+
+Minor Stream-3
+
 </td>
-<td width="81">
-4
+<td width="81">
+
+4
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+4.
+
+</td>
+<td width="104">
+
+TBBT-204
+
+</td>
+<td width="307">
+
+Multidisciplinary -3 
+
+</td>
+<td width="81">
+
+3
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+5.
+
+</td>
+<td width="104">
+
+TBBT / PBBT-206
+
+</td>
+<td width="307">
+
+SEC-3 
+
+</td>
+<td width="81">
+
+4
+
 </td>
 </tr>
 </tbody>
@@ -1717,8 +1966,10 @@ SEC-3
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading13">
-<button aria-controls="collapse13" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse13" data-bs-toggle="collapse" type="button">
-                              Semester 4
+<button aria-controls="collapse13" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse13" data-bs-toggle="collapse" type="button">
+
+                              Semester 4
+
                             </button>
 </h2>
 <div aria-labelledby="heading13" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse13">
@@ -1733,73 +1984,113 @@ SEC-3
 </thead>
 <tbody>
 <tr>
-<td width="56">
-1.
+<td width="56">
+
+1.
+
 </td>
-<td width="104">
-TBBT / PBBT-251
+<td width="104">
+
+TBBT / PBBT-251
+
 </td>
-<td width="307">
-General Microbiology (CC-5)
+<td width="307">
+
+General Microbiology (CC-5)
+
 </td>
-<td width="81">
-5
-</td>
-</tr>
-<tr>
-<td width="56">
-2.
-</td>
-<td width="104">
-TBBT / PBBT-252
-</td>
-<td width="307">
-Bioprocess technology (CC-6)
-</td>
-<td width="81">
-5
+<td width="81">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="56">
-3.
+<td width="56">
+
+2.
+
 </td>
-<td width="104">
-TBBT / PBBT-253
+<td width="104">
+
+TBBT / PBBT-252
+
 </td>
-<td width="307">
-Recombinant DNA technology (CC-7)
+<td width="307">
+
+Bioprocess technology (CC-6)
+
 </td>
-<td width="81">
-5
-</td>
-</tr>
-<tr>
-<td width="56">
-4.
-</td>
-<td width="104">
-TBBT / PBBT-254
-</td>
-<td width="307">
-Minor Stream-4
-</td>
-<td width="81">
-4
+<td width="81">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="56">
-5.
+<td width="56">
+
+3.
+
 </td>
-<td width="104">
-TBBT-255
+<td width="104">
+
+TBBT / PBBT-253
+
 </td>
-<td width="307">
-AEC-3
+<td width="307">
+
+Recombinant DNA technology (CC-7)
+
 </td>
-<td width="81">
-2
+<td width="81">
+
+5
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+4.
+
+</td>
+<td width="104">
+
+TBBT / PBBT-254
+
+</td>
+<td width="307">
+
+Minor Stream-4
+
+</td>
+<td width="81">
+
+4
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+5.
+
+</td>
+<td width="104">
+
+TBBT-255
+
+</td>
+<td width="307">
+
+AEC-3
+
+</td>
+<td width="81">
+
+2
+
 </td>
 </tr>
 </tbody>
@@ -1824,8 +2115,10 @@ AEC-3
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading14">
-<button aria-controls="collapse14" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse14" data-bs-toggle="collapse" type="button">
-                              Semester 5
+<button aria-controls="collapse14" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse14" data-bs-toggle="collapse" type="button">
+
+                              Semester 5
+
                             </button>
 </h2>
 <div aria-labelledby="heading14" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse14">
@@ -1840,87 +2133,135 @@ AEC-3
 </thead>
 <tbody>
 <tr>
-<td width="66">
-1
+<td width="66">
+
+1
+
 </td>
-<td width="113">
-TBBT / PBBT-301
+<td width="113">
+
+TBBT / PBBT-301
+
 </td>
-<td width="348">
-Bio Analytical Tools and Techniques (CC-8)
+<td width="348">
+
+Bio Analytical Tools and Techniques (CC-8)
+
 </td>
-<td width="65">
-5
-</td>
-</tr>
-<tr>
-<td width="66">
-2
-</td>
-<td width="113">
-TBBT / PBBT-302
-</td>
-<td width="348">
-Bioinformatics (CC-9)
-</td>
-<td width="65">
-5
+<td width="65">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="66">
-3
+<td width="66">
+
+2
+
 </td>
-<td width="113">
-TBBT / PBBT-303
+<td width="113">
+
+TBBT / PBBT-302
+
 </td>
-<td width="348">
-Minor Stream-5
+<td width="348">
+
+Bioinformatics (CC-9)
+
 </td>
-<td width="65">
-4
-</td>
-</tr>
-<tr>
-<td width="66">
-4
-</td>
-<td width="113">
-TBBT -304
-</td>
-<td width="348">
-AEC-4
-</td>
-<td width="65">
-2
+<td width="65">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="66">
-5
+<td width="66">
+
+3
+
 </td>
-<td width="113">
-PBBT-304
+<td width="113">
+
+TBBT / PBBT-303
+
 </td>
-<td width="348">
-Summer Internship
+<td width="348">
+
+Minor Stream-5
+
 </td>
-<td width="65">
-1
+<td width="65">
+
+4
+
 </td>
 </tr>
 <tr>
-<td width="66">
-6
+<td width="66">
+
+4
+
 </td>
-<td width="113">
-PBBT-305
+<td width="113">
+
+TBBT -304
+
 </td>
-<td width="348">
-Community Activity/NSS/NCC
+<td width="348">
+
+AEC-4
+
 </td>
-<td width="65">
-1
+<td width="65">
+
+2
+
+</td>
+</tr>
+<tr>
+<td width="66">
+
+5
+
+</td>
+<td width="113">
+
+PBBT-304
+
+</td>
+<td width="348">
+
+Summer Internship
+
+</td>
+<td width="65">
+
+1
+
+</td>
+</tr>
+<tr>
+<td width="66">
+
+6
+
+</td>
+<td width="113">
+
+PBBT-305
+
+</td>
+<td width="348">
+
+Community Activity/NSS/NCC
+
+</td>
+<td width="65">
+
+1
+
 </td>
 </tr>
 </tbody>
@@ -1945,8 +2286,10 @@ Community Activity/NSS/NCC
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading16">
-<button aria-controls="collapse16" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse16" data-bs-toggle="collapse" type="button">
-                              Semester 6
+<button aria-controls="collapse16" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse16" data-bs-toggle="collapse" type="button">
+
+                              Semester 6
+
                             </button>
 </h2>
 <div aria-labelledby="heading16" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse16">
@@ -1961,73 +2304,113 @@ Community Activity/NSS/NCC
 </thead>
 <tbody>
 <tr>
-<td width="66">
-1
+<td width="66">
+
+1
+
 </td>
-<td width="113">
-TBBT / PBBT-351
+<td width="113">
+
+TBBT / PBBT-351
+
 </td>
-<td width="348">
-Environmental Biotechnology (CC-10)
+<td width="348">
+
+Environmental Biotechnology (CC-10)
+
 </td>
-<td width="65">
-5
-</td>
-</tr>
-<tr>
-<td width="66">
-2
-</td>
-<td width="113">
-TBBT / PBBT-352
-</td>
-<td width="348">
-Animal Biotechnology (CC-11)
-</td>
-<td width="65">
-5
+<td width="65">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="66">
-3
+<td width="66">
+
+2
+
 </td>
-<td width="113">
-TBBT / PBBT-353
+<td width="113">
+
+TBBT / PBBT-352
+
 </td>
-<td width="348">
-Agricultural Biotechnology (CC-12)
+<td width="348">
+
+Animal Biotechnology (CC-11)
+
 </td>
-<td width="65">
-5
-</td>
-</tr>
-<tr>
-<td width="66">
-4
-</td>
-<td width="113">
-TBBT / PBBT-354
-</td>
-<td width="348">
-Minor Stream-6
-</td>
-<td width="65">
-4
+<td width="65">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="66">
-5
+<td width="66">
+
+3
+
 </td>
-<td width="113">
-PBBT-355
+<td width="113">
+
+TBBT / PBBT-353
+
 </td>
-<td width="348">
-Seminar
+<td width="348">
+
+Agricultural Biotechnology (CC-12)
+
 </td>
-<td width="65">
-1
+<td width="65">
+
+5
+
+</td>
+</tr>
+<tr>
+<td width="66">
+
+4
+
+</td>
+<td width="113">
+
+TBBT / PBBT-354
+
+</td>
+<td width="348">
+
+Minor Stream-6
+
+</td>
+<td width="65">
+
+4
+
+</td>
+</tr>
+<tr>
+<td width="66">
+
+5
+
+</td>
+<td width="113">
+
+PBBT-355
+
+</td>
+<td width="348">
+
+Seminar
+
+</td>
+<td width="65">
+
+1
+
 </td>
 </tr>
 </tbody>
@@ -2053,8 +2436,10 @@ Seminar
 <h4 style="padding: 9px 10px;font-size: 18px; text-decoration: underline;">B.Sc. (Hons.) Biotechnology</h4>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading116">
-<button aria-controls="collapse116" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse116" data-bs-toggle="collapse" type="button">
-                              Semester 7
+<button aria-controls="collapse116" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse116" data-bs-toggle="collapse" type="button">
+
+                              Semester 7
+
                             </button>
 </h2>
 <div aria-labelledby="heading116" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse116">
@@ -2069,73 +2454,113 @@ Seminar
 </thead>
 <tbody>
 <tr>
-<td width="66">
-1
+<td width="66">
+
+1
+
 </td>
-<td width="113">
-TBBT / PBBT-401
+<td width="113">
+
+TBBT / PBBT-401
+
 </td>
-<td width="348">
-Bioethics and bio-safety (CC-13)
+<td width="348">
+
+Bioethics and bio-safety (CC-13)
+
 </td>
-<td width="65">
-5
-</td>
-</tr>
-<tr>
-<td width="66">
-2
-</td>
-<td width="113">
-TBBT / PBBT-402
-</td>
-<td width="348">
-Basics of Forensic Science (CC-14)
-</td>
-<td width="65">
-5
+<td width="65">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="66">
-3
+<td width="66">
+
+2
+
 </td>
-<td width="113">
-TBBT / PBBT-403
+<td width="113">
+
+TBBT / PBBT-402
+
 </td>
-<td width="348">
-Minor Stream-7
+<td width="348">
+
+Basics of Forensic Science (CC-14)
+
 </td>
-<td width="65">
-4
-</td>
-</tr>
-<tr>
-<td width="66">
-4
-</td>
-<td width="113">
-TBBT-404
-</td>
-<td width="348">
-Multidisciplinary/open   elective /MOOC/ SWAYAM
-</td>
-<td width="65">
-3
+<td width="65">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="66">
-5
+<td width="66">
+
+3
+
 </td>
-<td width="113">
-PBBT-404
+<td width="113">
+
+TBBT / PBBT-403
+
 </td>
-<td width="348">
-Seminar Training
+<td width="348">
+
+Minor Stream-7
+
 </td>
-<td width="65">
-3
+<td width="65">
+
+4
+
+</td>
+</tr>
+<tr>
+<td width="66">
+
+4
+
+</td>
+<td width="113">
+
+TBBT-404
+
+</td>
+<td width="348">
+
+Multidisciplinary/open   elective /MOOC/ SWAYAM
+
+</td>
+<td width="65">
+
+3
+
+</td>
+</tr>
+<tr>
+<td width="66">
+
+5
+
+</td>
+<td width="113">
+
+PBBT-404
+
+</td>
+<td width="348">
+
+Seminar Training
+
+</td>
+<td width="65">
+
+3
+
 </td>
 </tr>
 </tbody>
@@ -2160,8 +2585,10 @@ Seminar Training
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading416">
-<button aria-controls="collapse416" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse416" data-bs-toggle="collapse" type="button">
-                              Semester 8
+<button aria-controls="collapse416" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse416" data-bs-toggle="collapse" type="button">
+
+                              Semester 8
+
                             </button>
 </h2>
 <div aria-labelledby="heading416" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse416">
@@ -2176,59 +2603,91 @@ Seminar Training
 </thead>
 <tbody>
 <tr>
-<td width="66">
-1
+<td width="66">
+
+1
+
 </td>
-<td width="113">
-TBBT / PBBT-451
+<td width="113">
+
+TBBT / PBBT-451
+
 </td>
-<td width="348">
-Nanotechnology (CC-15)
+<td width="348">
+
+Nanotechnology (CC-15)
+
 </td>
-<td width="65">
-5
-</td>
-</tr>
-<tr>
-<td width="66">
-2
-</td>
-<td width="113">
-TBBT / PBBT-452
-</td>
-<td width="348">
-Genomics and Proteomics (CC-16)
-</td>
-<td width="65">
-5
+<td width="65">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="66">
-3
+<td width="66">
+
+2
+
 </td>
-<td width="113">
-TBBT / PBBT-453
+<td width="113">
+
+TBBT / PBBT-452
+
 </td>
-<td width="348">
-Minor Stream -8
+<td width="348">
+
+Genomics and Proteomics (CC-16)
+
 </td>
-<td width="65">
-4
+<td width="65">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="66">
-4
+<td width="66">
+
+3
+
 </td>
-<td width="113">
-PBBT-454
+<td width="113">
+
+TBBT / PBBT-453
+
 </td>
-<td width="348">
-Dissertation from discipline/core
+<td width="348">
+
+Minor Stream -8
+
 </td>
-<td width="65">
-6
+<td width="65">
+
+4
+
+</td>
+</tr>
+<tr>
+<td width="66">
+
+4
+
+</td>
+<td width="113">
+
+PBBT-454
+
+</td>
+<td width="348">
+
+Dissertation from discipline/core
+
+</td>
+<td width="65">
+
+6
+
 </td>
 </tr>
 </tbody>
@@ -2254,8 +2713,10 @@ Dissertation from discipline/core
 <h4 style="padding: 9px 10px;font-size: 18px; text-decoration: underline;">B.Sc. Biotechnology (Hons.) With Research</h4>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading311">
-<button aria-controls="collapse311" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse311" data-bs-toggle="collapse" type="button">
-                              Semester 7
+<button aria-controls="collapse311" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse311" data-bs-toggle="collapse" type="button">
+
+                              Semester 7
+
                             </button>
 </h2>
 <div aria-labelledby="heading311" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse311">
@@ -2270,73 +2731,113 @@ Dissertation from discipline/core
 </thead>
 <tbody>
 <tr>
-<td width="66">
-1
+<td width="66">
+
+1
+
 </td>
-<td width="113">
-TBTR/ PBTR-401
+<td width="113">
+
+TBTR/ PBTR-401
+
 </td>
-<td width="348">
-Bioethics and Biosafety (CC-13)
+<td width="348">
+
+Bioethics and Biosafety (CC-13)
+
 </td>
-<td width="65">
-5
-</td>
-</tr>
-<tr>
-<td width="66">
-2
-</td>
-<td width="113">
-TBTR / PBTR-402
-</td>
-<td width="348">
-Basic of forensic sciences (C-14)
-</td>
-<td width="65">
-5
+<td width="65">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="66">
-3
+<td width="66">
+
+2
+
 </td>
-<td width="113">
-TBTR/ PBTR -403
+<td width="113">
+
+TBTR / PBTR-402
+
 </td>
-<td width="348">
-Nanotechnology (CC-15)
+<td width="348">
+
+Basic of forensic sciences (C-14)
+
 </td>
-<td width="65">
-5
-</td>
-</tr>
-<tr>
-<td width="66">
-4
-</td>
-<td width="113">
-TBBT-404
-</td>
-<td width="348">
-Multidisciplinary/open   elective /MOOC/ SWAYAM
-</td>
-<td width="65">
-4
+<td width="65">
+
+5
+
 </td>
 </tr>
 <tr>
-<td width="66">
-5
+<td width="66">
+
+3
+
 </td>
-<td width="113">
-TBTR-405
+<td width="113">
+
+TBTR/ PBTR -403
+
 </td>
-<td width="348">
-Patent Drafting and filing
+<td width="348">
+
+Nanotechnology (CC-15)
+
 </td>
-<td width="65">
-2
+<td width="65">
+
+5
+
+</td>
+</tr>
+<tr>
+<td width="66">
+
+4
+
+</td>
+<td width="113">
+
+TBBT-404
+
+</td>
+<td width="348">
+
+Multidisciplinary/open   elective /MOOC/ SWAYAM
+
+</td>
+<td width="65">
+
+4
+
+</td>
+</tr>
+<tr>
+<td width="66">
+
+5
+
+</td>
+<td width="113">
+
+TBTR-405
+
+</td>
+<td width="348">
+
+Patent Drafting and filing
+
+</td>
+<td width="65">
+
+2
+
 </td>
 </tr>
 </tbody>
@@ -2361,8 +2862,10 @@ Patent Drafting and filing
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading211">
-<button aria-controls="collapse211" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse211" data-bs-toggle="collapse" type="button">
-                              Semester 8
+<button aria-controls="collapse211" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse211" data-bs-toggle="collapse" type="button">
+
+                              Semester 8
+
                             </button>
 </h2>
 <div aria-labelledby="heading211" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse211">
@@ -2377,45 +2880,69 @@ Patent Drafting and filing
 </thead>
 <tbody>
 <tr>
-<td width="66">
-1
+<td width="66">
+
+1
+
 </td>
-<td width="113">
-TBTR-451
+<td width="113">
+
+TBTR-451
+
 </td>
-<td width="348">
-Research Methodology &amp; ethics
+<td width="348">
+
+Research Methodology &amp; ethics
+
 </td>
-<td width="65">
-4
-</td>
-</tr>
-<tr>
-<td width="66">
-2
-</td>
-<td width="113">
-TBTR-452
-</td>
-<td width="348">
-Minor Stream /open elective /Swayam /MOOC
-</td>
-<td width="65">
-4
+<td width="65">
+
+4
+
 </td>
 </tr>
 <tr>
-<td width="66">
-3
+<td width="66">
+
+2
+
 </td>
-<td width="113">
-PBTR-451
+<td width="113">
+
+TBTR-452
+
 </td>
-<td width="348">
-Research Project
+<td width="348">
+
+Minor Stream /open elective /Swayam /MOOC
+
 </td>
-<td width="65">
-12
+<td width="65">
+
+4
+
+</td>
+</tr>
+<tr>
+<td width="66">
+
+3
+
+</td>
+<td width="113">
+
+PBTR-451
+
+</td>
+<td width="348">
+
+Research Project
+
+</td>
+<td width="65">
+
+12
+
 </td>
 </tr>
 </tbody>
@@ -2438,182 +2965,354 @@ Research Project
 </div>
 </div>
 </div>
-<!--<div class="accordion-item">
-                            <h2 class="accordion-header" id="heading20">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
-                              Semester 7
-                            </button>
-                            </h2>
-                            <div id="collapse20" class="accordion-collapse collapse" aria-labelledby="heading20" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                   <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <th width="70">Sr. No.</th>
-                                                <th width="200">Course Code</th>
-                                                <th>Course Name</th>
-                                                <th>Credits</th>
-                                            </thead>
-											<tbody>
-												<tr>
-												<td width="66">
-												1
-												</td>
-												<td width="113">
-												TBBT 701
-												</td>
-												<td width="348">
-												Research Methodology
-												</td>
-												<td width="65">
-												4
-												</td>
-												</tr>
-												<tr>
-												<td width="66">
-												2
-												</td>
-												<td width="113">
-												TBBT 702
-												</td>
-												<td width="348">
-												Research Publication &amp; ethics
-												</td>
-												<td width="65">
-												4
-												</td>
-												</tr>
-												<tr>
-												<td width="66">
-												3
-												</td>
-												<td width="113">
-												TBBT-703
-												</td>
-												<td width="348">
-												Review of literature/ Minor Project
-												</td>
-												<td width="65">
-												8
-												</td>
-												</tr>
-												<tr>
-												<td width="66">
-												4
-												</td>
-												<td width="113">
-												PBBT704
-												</td>
-												<td width="348">
-												Research Seminar Presentation-I
-												</td>
-												<td width="65">
-												4
-												</td>
-												</tr>
-												</tbody>
-                                            <tfoot>
-                                               <tr>
-<td colspan="3" width="527">
-Total credit Sem. VII
-</td>
-<td width="65">
-20
-</td>
-</tr>
-                                            </tfoot>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
+<!--<div class="accordion-item">
+
+                            <h2 class="accordion-header" id="heading20">
+
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+
+                              Semester 7
+
+                            </button>
+
+                            </h2>
+
+                            <div id="collapse20" class="accordion-collapse collapse" aria-labelledby="heading20" data-bs-parent="#accordionExample">
+
+                                <div class="accordion-body">
+
+                                   <div class="table-responsive">
+
+                                        <table class="table table-bordered">
+
+                                            <thead>
+
+                                                <th width="70">Sr. No.</th>
+
+                                                <th width="200">Course Code</th>
+
+                                                <th>Course Name</th>
+
+                                                <th>Credits</th>
+
+                                            </thead>
+
+											<tbody>
+
+												<tr>
+
+												<td width="66">
+
+												1
+
+												</td>
+
+												<td width="113">
+
+												TBBT 701
+
+												</td>
+
+												<td width="348">
+
+												Research Methodology
+
+												</td>
+
+												<td width="65">
+
+												4
+
+												</td>
+
+												</tr>
+
+												<tr>
+
+												<td width="66">
+
+												2
+
+												</td>
+
+												<td width="113">
+
+												TBBT 702
+
+												</td>
+
+												<td width="348">
+
+												Research Publication &amp; ethics
+
+												</td>
+
+												<td width="65">
+
+												4
+
+												</td>
+
+												</tr>
+
+												<tr>
+
+												<td width="66">
+
+												3
+
+												</td>
+
+												<td width="113">
+
+												TBBT-703
+
+												</td>
+
+												<td width="348">
+
+												Review of literature/ Minor Project
+
+												</td>
+
+												<td width="65">
+
+												8
+
+												</td>
+
+												</tr>
+
+												<tr>
+
+												<td width="66">
+
+												4
+
+												</td>
+
+												<td width="113">
+
+												PBBT704
+
+												</td>
+
+												<td width="348">
+
+												Research Seminar Presentation-I
+
+												</td>
+
+												<td width="65">
+
+												4
+
+												</td>
+
+												</tr>
+
+												</tbody>
+
+                                            <tfoot>
+
+                                               <tr>
+
+<td colspan="3" width="527">
+
+Total credit Sem. VII
+
+</td>
+
+<td width="65">
+
+20
+
+</td>
+
+</tr>
+
+                                            </tfoot>
+
+                                        </table>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
                         </div>-->
-<!--	<div class="accordion-item">
-                            <h2 class="accordion-header" id="heading21">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
-                              Semester 8
-                            </button>
-                            </h2>
-                            <div id="collapse21" class="accordion-collapse collapse" aria-labelledby="heading21" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                   <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <th width="70">Sr. No.</th>
-                                                <th width="200">Course Code</th>
-                                                <th>Course Name</th>
-                                                <th>Credits</th>
-                                            </thead>
-										<tbody>
-<tr>
-<td width="66">
-1
-</td>
-<td width="113">
-PBBT 801
-</td>
-<td width="348">
-Major Project/ Dissertation
-</td>
-<td width="65">
-12
-</td>
-</tr>
-<tr>
-<td width="66">
-2
-</td>
-<td width="113">
-TBBT 802
-</td>
-<td width="348">
-Research publications &amp;Patents
-</td>
-<td width="65">
-4
-</td>
-</tr>
-<tr>
-<td width="66">
-3
-</td>
-<td width="113">
-PBBT 803
-</td>
-<td width="348">
-Research Seminar Presentation-II
-</td>
-<td width="65">
-4
-</td>
-</tr>
-<tr>
-<td colspan="3" width="527">
-Total credit Sem. VIII
-</td>
-<td width="65">
-20
-</td>
-</tr>
-</tbody>
-                                            <tfoot>
-                                               <tr>
-<td colspan="3" width="527">
-Total credit Sem. VIII
-</td>
-<td width="65">
-180
-</td>
-</tr>
-                                            </tfoot>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
+<!--	<div class="accordion-item">
+
+                            <h2 class="accordion-header" id="heading21">
+
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+
+                              Semester 8
+
+                            </button>
+
+                            </h2>
+
+                            <div id="collapse21" class="accordion-collapse collapse" aria-labelledby="heading21" data-bs-parent="#accordionExample">
+
+                                <div class="accordion-body">
+
+                                   <div class="table-responsive">
+
+                                        <table class="table table-bordered">
+
+                                            <thead>
+
+                                                <th width="70">Sr. No.</th>
+
+                                                <th width="200">Course Code</th>
+
+                                                <th>Course Name</th>
+
+                                                <th>Credits</th>
+
+                                            </thead>
+
+										<tbody>
+
+<tr>
+
+<td width="66">
+
+1
+
+</td>
+
+<td width="113">
+
+PBBT 801
+
+</td>
+
+<td width="348">
+
+Major Project/ Dissertation
+
+</td>
+
+<td width="65">
+
+12
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="66">
+
+2
+
+</td>
+
+<td width="113">
+
+TBBT 802
+
+</td>
+
+<td width="348">
+
+Research publications &amp;Patents
+
+</td>
+
+<td width="65">
+
+4
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="66">
+
+3
+
+</td>
+
+<td width="113">
+
+PBBT 803
+
+</td>
+
+<td width="348">
+
+Research Seminar Presentation-II
+
+</td>
+
+<td width="65">
+
+4
+
+</td>
+
+</tr>
+
+<tr>
+
+<td colspan="3" width="527">
+
+Total credit Sem. VIII
+
+</td>
+
+<td width="65">
+
+20
+
+</td>
+
+</tr>
+
+</tbody>
+
+                                            <tfoot>
+
+                                               <tr>
+
+<td colspan="3" width="527">
+
+Total credit Sem. VIII
+
+</td>
+
+<td width="65">
+
+180
+
+</td>
+
+</tr>
+
+                                            </tfoot>
+
+                                        </table>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
                         </div>-->
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading17">
-<button aria-controls="collapse17" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse17" data-bs-toggle="collapse" type="button">
-                              List of Generic Electives, Skill Enhancement and Open Elective Courses
+<button aria-controls="collapse17" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse17" data-bs-toggle="collapse" type="button">
+
+                              List of Generic Electives, Skill Enhancement and Open Elective Courses
+
                             </button>
 </h2>
 <div aria-labelledby="heading17" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse17">
@@ -2622,201 +3321,307 @@ Total credit Sem. VIII
 <table class="table table-bordered">
 <tbody>
 <tr>
-<td width="57">
-1.
+<td width="57">
+
+1.
+
 </td>
-<td width="161">
-TBBT/PBBT-103 (I)
+<td width="161">
+
+TBBT/PBBT-103 (I)
+
 </td>
-<td width="378">
-Biotechnology and Human Welfare
+<td width="378">
+
+Biotechnology and Human Welfare
+
 </td>
 <td rowspan="2" width="104">
-<strong> </strong>
-GE -1
+<strong> </strong>
+
+GE -1
+
 </td>
 </tr>
 <tr>
-<td width="57">
-2.
+<td width="57">
+
+2.
+
 </td>
-<td width="161">
-TBBT/PBBT-103 (II)
+<td width="161">
+
+TBBT/PBBT-103 (II)
+
 </td>
-<td width="378">
-Fundamental &amp; Computer Programming
-</td>
-</tr>
-<tr>
-<td width="57">
-3.
-</td>
-<td width="161">
-TBBT 204 (I)
-</td>
-<td width="378">
-Artificial Intelligence
-</td>
-<td rowspan="2" width="104">
-GE -2
+<td width="378">
+
+Fundamental &amp; Computer Programming
+
 </td>
 </tr>
 <tr>
-<td width="57">
-4.
+<td width="57">
+
+3.
+
 </td>
-<td width="161">
-TBBT 204 (II)
+<td width="161">
+
+TBBT 204 (I)
+
 </td>
-<td width="378">
-Bioethics and biosafety
+<td width="378">
+
+Artificial Intelligence
+
 </td>
-</tr>
-<tr>
-<td width="57">
-5.
-</td>
-<td width="161">
-TBBT/PBBT-304
-</td>
-<td width="378">
-Basic mathematics and Statistics
-</td>
-<td width="104">
-GE -3
+<td rowspan="2" width="104">
+
+GE -2
+
 </td>
 </tr>
 <tr>
-<td width="57">
-6.
+<td width="57">
+
+4.
+
 </td>
-<td width="161">
-TBBT/PBBT-404 (I)
+<td width="161">
+
+TBBT 204 (II)
+result.html
 </td>
-<td width="378">
-Molecular Diagnostics
-</td>
-<td rowspan="2" width="104">
-GE -4
-</td>
-</tr>
-<tr>
-<td width="57">
-7.
-</td>
-<td width="161">
-TBBT/PBBT-404 (II)
-</td>
-<td width="378">
-Algal technology
-</td>
-</tr>
-</tbody>
-<tbody>
-<tr>
-<td width="62">
-1.
-</td>
-<td width="142">
-TBBT-305 (I)
-</td>
-<td width="378">
-Entrepreneurship Development
-</td>
-<td rowspan="2" width="106">
-<strong> </strong>
-(SEC)-1
+<td width="378">
+
+Bioethics and biosafety
+
 </td>
 </tr>
 <tr>
-<td width="62">
-2.
+<td width="57">
+
+5.
+
 </td>
-<td width="142">
-TBBT-305 (II)
+<td width="161">
+
+TBBT/PBBT-304
+
 </td>
-<td width="378">
-Biofertilizer &amp; Biopesticide
+<td width="378">
+
+Basic mathematics and Statistics
+
 </td>
-</tr>
-<tr>
-<td width="62">
-3.
-</td>
-<td width="142">
-TBBT-405 (I)
-</td>
-<td width="378">
-Drug Designing
-</td>
-<td rowspan="2" width="106">
-<strong> </strong>
-(SEC)-2
+<td width="104">
+
+GE -3
+
 </td>
 </tr>
 <tr>
-<td width="62">
-4.
+<td width="57">
+
+6.
+
 </td>
-<td width="142">
-TBBT-405 (II)
+<td width="161">
+
+TBBT/PBBT-404 (I)
+
 </td>
-<td width="378">
-Basics of Forensic Science
+<td width="378">
+
+Molecular Diagnostics
+
+</td>
+<td rowspan="2" width="104">
+
+GE -4
+
+</td>
+</tr>
+<tr>
+<td width="57">
+
+7.
+
+</td>
+<td width="161">
+
+TBBT/PBBT-404 (II)
+
+</td>
+<td width="378">
+
+Algal technology
+
 </td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td width="62">
-1.
+<td width="62">
+
+1.
+
 </td>
-<td width="142">
-TBBT-305 (III)
+<td width="142">
+
+TBBT-305 (I)
+
 </td>
-<td width="378">
-Principle of management
-</td>
-<td rowspan="2" width="106">
-<strong> </strong>
-OE -1
-</td>
-</tr>
-<tr>
-<td width="62">
-2.
-</td>
-<td width="142">
-TBBT-305 (IV)
-</td>
-<td width="378">
-Intellectual Property Rights
-</td>
-</tr>
-<tr>
-<td width="62">
-3.
-</td>
-<td width="142">
-TBBT-405 (III)
-</td>
-<td width="378">
-Human Ethics
+<td width="378">
+
+Entrepreneurship Development
+
 </td>
 <td rowspan="2" width="106">
-<strong> </strong>
-OE -2
+<strong> </strong>
+
+(SEC)-1
+
 </td>
 </tr>
 <tr>
-<td width="62">
-4.
+<td width="62">
+
+2.
+
 </td>
-<td width="142">
-TBBT-405 (IV)
+<td width="142">
+
+TBBT-305 (II)
+
 </td>
-<td width="378">
-Renewable energy Technology
+<td width="378">
+
+Biofertilizer &amp; Biopesticide
+
+</td>
+</tr>
+<tr>
+<td width="62">
+
+3.
+
+</td>
+<td width="142">
+
+TBBT-405 (I)
+
+</td>
+<td width="378">
+
+Drug Designing
+
+</td>
+<td rowspan="2" width="106">
+<strong> </strong>
+
+(SEC)-2
+
+</td>
+</tr>
+<tr>
+<td width="62">
+
+4.
+
+</td>
+<td width="142">
+
+TBBT-405 (II)
+
+</td>
+<td width="378">
+
+Basics of Forensic Science
+
+</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td width="62">
+
+1.
+
+</td>
+<td width="142">
+
+TBBT-305 (III)
+
+</td>
+<td width="378">
+
+Principle of management
+
+</td>
+<td rowspan="2" width="106">
+<strong> </strong>
+
+OE -1
+
+</td>
+</tr>
+<tr>
+<td width="62">
+
+2.
+
+</td>
+<td width="142">
+
+TBBT-305 (IV)
+
+</td>
+<td width="378">
+
+Intellectual Property Rights
+
+</td>
+</tr>
+<tr>
+<td width="62">
+
+3.
+
+</td>
+<td width="142">
+
+TBBT-405 (III)
+
+</td>
+<td width="378">
+
+Human Ethics
+
+</td>
+<td rowspan="2" width="106">
+<strong> </strong>
+
+OE -2
+
+</td>
+</tr>
+<tr>
+<td width="62">
+
+4.
+
+</td>
+<td width="142">
+
+TBBT-405 (IV)
+
+</td>
+<td width="378">
+
+Renewable energy Technology
+
 </td>
 </tr>
 </tbody>
@@ -2827,8 +3632,10 @@ Renewable energy Technology
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading19">
-<button aria-controls="collapse19" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse19" data-bs-toggle="collapse" type="button">
-                              List of Discipline Specific Elective Courses
+<button aria-controls="collapse19" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse19" data-bs-toggle="collapse" type="button">
+
+                              List of Discipline Specific Elective Courses
+
                             </button>
 </h2>
 <div aria-labelledby="heading19" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse19">
@@ -2837,184 +3644,284 @@ Renewable energy Technology
 <table class="table table-bordered">
 <tbody>
 <tr>
-<td width="57">
-1.
+<td width="57">
+
+1.
+
 </td>
-<td width="238">
-TBBT-503 (I)/ PBBT-503 (1)
+<td width="238">
+
+TBBT-503 (I)/ PBBT-503 (1)
+
 </td>
-<td width="281">
-Bioinformatics
+<td width="281">
+
+Bioinformatics
+
 </td>
-<td width="104"> 
-
-</td>
-</tr>
-<tr>
-<td width="57">
-2.
-</td>
-<td width="238">
-TBBT-503 (II)/ PBBT 503 (II)
-</td>
-<td width="281">
-Enzymology
-</td>
-<td width="104">
-DSE –1
+<td width="104"> 
+
+
+
 </td>
 </tr>
 <tr>
-<td width="57">
-3.
+<td width="57">
+
+2.
+
 </td>
-<td width="238">
-TBBT-503 (III) / PBBT 503 (III)
+<td width="238">
+
+TBBT-503 (II)/ PBBT 503 (II)
+
 </td>
-<td width="281">
-Microbial Physiology
+<td width="281">
+
+Enzymology
+
 </td>
-<td width="104"> 
-
-</td>
-</tr>
-<tr>
-<td width="57">
-4.
-</td>
-<td width="238">
-TBBT-504-(I)/ PBBT 504 (I)
-</td>
-<td width="281">
-Ecology and Environment Management
-</td>
-<td width="104"> 
-
+<td width="104">
+
+DSE –1
+
 </td>
 </tr>
 <tr>
-<td width="57">
-5.
+<td width="57">
+
+3.
+
 </td>
-<td width="238">
-TBBT-504-(II)/ PBBT 504 (II)
+<td width="238">
+
+TBBT-503 (III) / PBBT 503 (III)
+
 </td>
-<td width="281">
-Environmental Biotechnology
+<td width="281">
+
+Microbial Physiology
+
 </td>
-<td rowspan="2" width="104">
-DSE –2
-</td>
-</tr>
-<tr>
-<td width="57">
-6.
-</td>
-<td width="238">
-TBBT-504-(III)/ PBBT 504 (II)
-</td>
-<td width="281">
-Medical Microbiology
+<td width="104"> 
+
+
+
 </td>
 </tr>
 <tr>
-<td width="57">
-7.
+<td width="57">
+
+4.
+
 </td>
-<td width="238">
-TBBT-504-(IV)/ PBBT 504 (IV)
+<td width="238">
+
+TBBT-504-(I)/ PBBT 504 (I)
+
 </td>
-<td width="281">
-Plant Anatomy &amp; Physiology
+<td width="281">
+
+Ecology and Environment Management
+
 </td>
-<td width="104"> 
-
+<td width="104"> 
+
+
+
 </td>
 </tr>
 <tr>
-<td width="57">
-8.
+<td width="57">
+
+5.
+
 </td>
-<td width="238">
-TBBT-603-(I)/ PBBT-603 (I)
+<td width="238">
+
+TBBT-504-(II)/ PBBT 504 (II)
+
 </td>
-<td width="281">
-Plant Biotechnology
+<td width="281">
+
+Environmental Biotechnology
+
+</td>
+<td rowspan="2" width="104">
+
+DSE –2
+
+</td>
+</tr>
+<tr>
+<td width="57">
+
+6.
+
+</td>
+<td width="238">
+
+TBBT-504-(III)/ PBBT 504 (II)
+
+</td>
+<td width="281">
+
+Medical Microbiology
+
+</td>
+</tr>
+<tr>
+<td width="57">
+
+7.
+
+</td>
+<td width="238">
+
+TBBT-504-(IV)/ PBBT 504 (IV)
+
+</td>
+<td width="281">
+
+Plant Anatomy &amp; Physiology
+
+</td>
+<td width="104"> 
+
+
+
+</td>
+</tr>
+<tr>
+<td width="57">
+
+8.
+
+</td>
+<td width="238">
+
+TBBT-603-(I)/ PBBT-603 (I)
+
+</td>
+<td width="281">
+
+Plant Biotechnology
+
 </td>
 <td rowspan="3" width="104">
-<strong> </strong>
-DSE –3
+<strong> </strong>
+
+DSE –3
+
 </td>
 </tr>
 <tr>
-<td width="57">
-9.
+<td width="57">
+
+9.
+
 </td>
-<td width="238">
-TBBT-603-(II)/ PBBT-603 (II)
+<td width="238">
+
+TBBT-603-(II)/ PBBT-603 (II)
+
 </td>
-<td width="281">
-Animal Diversity I
-</td>
-</tr>
-<tr>
-<td width="57">
-10.
-</td>
-<td width="238">
-TBBT-603-(III)/ PBBT-603 (III)
-</td>
-<td width="281">
-Plant Diversity I
+<td width="281">
+
+Animal Diversity I
+
 </td>
 </tr>
 <tr>
-<td width="57">
-11.
+<td width="57">
+
+10.
+
 </td>
-<td width="238">
-TBBT-604-(I)/ PBBT-604-(I)
+<td width="238">
+
+TBBT-603-(III)/ PBBT-603 (III)
+
 </td>
-<td width="281">
-Industrial Fermentation
+<td width="281">
+
+Plant Diversity I
+
+</td>
+</tr>
+<tr>
+<td width="57">
+
+11.
+
+</td>
+<td width="238">
+
+TBBT-604-(I)/ PBBT-604-(I)
+
+</td>
+<td width="281">
+
+Industrial Fermentation
+
 </td>
 <td rowspan="4" width="104">
 <strong> </strong>
-<strong> </strong>
-DSE –4
+<strong> </strong>
+
+DSE –4
+
 </td>
 </tr>
 <tr>
-<td width="57">
-12.
+<td width="57">
+
+12.
+
 </td>
-<td width="238">
-TBBT-604-(II)/ PBBT-604-(II)
+<td width="238">
+
+TBBT-604-(II)/ PBBT-604-(II)
+
 </td>
-<td width="281">
-Animal Biotechnology
-</td>
-</tr>
-<tr>
-<td width="57">
-13.
-</td>
-<td width="238">
-TBBT-604-(III)/ PBBT-604-(III)
-</td>
-<td width="281">
-Animal Diversity II
+<td width="281">
+
+Animal Biotechnology
+
 </td>
 </tr>
 <tr>
-<td width="57">
-14.
+<td width="57">
+
+13.
+
 </td>
-<td width="238">
-TBBT-604-(IV)/ PBBT-604-(IV)
+<td width="238">
+
+TBBT-604-(III)/ PBBT-604-(III)
+
 </td>
-<td width="281">
-Plant Diversity II
+<td width="281">
+
+Animal Diversity II
+
+</td>
+</tr>
+<tr>
+<td width="57">
+
+14.
+
+</td>
+<td width="238">
+
+TBBT-604-(IV)/ PBBT-604-(IV)
+
+</td>
+<td width="281">
+
+Plant Diversity II
+
 </td>
 </tr>
 </tbody>
@@ -3261,9 +4168,11 @@ Plant Diversity II
 </div>
 <p>School of Applied and Life Sciences, a constituent institute of Uttaranchal University with an aim to prepare highly knowledgeable and more competent fraternities in the field of Applied and Life Sciences. The institution is committed to creating and grooming the students to deal with the demanding challenges in the various fields of School of Applied and Life Sciences at the National and International levels.</p>
 <ul class="list-unstyled p-0 list-icon-3 ps-4">
-<li>The campus is well conceptualized and planned.
+<li>The campus is well conceptualized and planned.
+
                             </li>
-<li>The institute is abundantly enabled with the provision of rich resource center in the form of :
+<li>The institute is abundantly enabled with the provision of rich resource center in the form of :
+
                                 <ul class="list-unstyled p-0 list-icon-4 ps-4 mt-3">
 <li>Centrally operated library</li>
 <li>Modern laboratories</li>
@@ -3299,8 +4208,10 @@ Plant Diversity II
 <i aria-hidden="true" class="fa fa-sign-in"></i>
 </div>
 <div class="step-div__content">
-<small>Step 1</small>
-                                                    Registration
+<small>Step 1</small>
+
+                                                    Registration
+
                                                 </div>
 </div>
 </button>
@@ -3310,8 +4221,10 @@ Plant Diversity II
 <i aria-hidden="true" class="fa fa-shield"></i>
 </div>
 <div class="step-div__content">
-<small>Step 2</small>
-                                                    Application form
+<small>Step 2</small>
+
+                                                    Application form
+
                                                 </div>
 </div>
 </button>
@@ -3321,8 +4234,10 @@ Plant Diversity II
 <i aria-hidden="true" class="fa fa-user"></i>
 </div>
 <div class="step-div__content">
-<small>Step 3</small>
-                                                    Document verification &amp; Admission
+<small>Step 3</small>
+
+                                                    Document verification &amp; Admission
+
                                                 </div>
 </div>
 </button>
@@ -3369,11 +4284,16 @@ Plant Diversity II
 </div>
 </div>
 </div>
-</section>
-
-     
-
-
+</section>
+
+
+
+     
+
+
+
+
+
     ﻿<div id="left" style="bottom: 85px !important">
 <a class="handle ui-slideouttab-handle-rounded" style="text-decoration: none">ENQUIRE NOW<i class="fa fa-icon fa-television"></i></a>
 <span style="padding-left:20px; font-weight: 500">Submit Your Enquiry</span>
@@ -3530,8 +4450,10 @@ Plant Diversity II
 <li>
 <a href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
 </li>
-<!--                                     <li>
-                                        <a href="../nirf.php">NIRF</a>
+<!--                                     <li>
+
+                                        <a href="../nirf.php">NIRF</a>
+
                                     </li> -->
 <li>
 <a href="https://www.digilocker.gov.in/" rel="nofollow" target="_blank">DigiLocker</a>
@@ -3588,8 +4510,10 @@ Plant Diversity II
 <div class="col-lg-6 col-md-6 col-12">
 <div class="footerInfo">
 <h4>About</h4>
-<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
-                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
+
+                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+
                                     this firmly positions us among the top 5% HEIs of the nation. <a href="../about/index.html">Read More</a></p>
 </div>
 </div>
@@ -3622,7 +4546,8 @@ Plant Diversity II
 </a>
 </div>
 <div class="uu-varification">
-<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+
                                         UU Degree Verification Service<br/>
 <span>Click Here</span>
 </a>
@@ -3719,163 +4644,319 @@ Plant Diversity II
 </li>
 </ul>
 </div>
-<style>
-        /* Set display to none for image*/
-        #image {
-            display: none;
-        }
-        @media print {
-            #printableArea {
-               display : block;
-            }
-        }
-        #left {
-            border-color: #0a58ca;
-        	width: 300px;
-        	border-radius: 4px;
-            bottom: 60px !important;
-        }
-        #left .handle {
-            background-color: #0a58ca;
-        }
-
-        	/*
-            tabSlideOUt
-
-            By  Michael Fielding
-            License: GPL v3.0
-        */
-
-        .ui-slideouttab-panel, .ui-slideouttab-handle {
-            background-color: white;
-            padding: 0.4em;
-            box-sizing: border-box;
-        }
-        .ui-slideouttab-panel {
-        	display: block;
-        	position: fixed;
-            border: 2px solid grey;
-        }
-        /* This class is added after the tabs are initialised, otherwise the user sees the 
-           tabs slide out of the way when the page is initialised. */
-        .ui-slideouttab-ready {
-        	transition: transform 0.5s ease 0s;
-        }
-
-        /* Hide tabs and panels when printed. */
-        @media print {
-            .ui-slideouttab-panel {
-                display: none;
-            }
-        }
-
-        /* Tab handles */
-        .ui-slideouttab-handle {
-            display: block;
-            position: absolute;
-            cursor: pointer;
-            color: white;
-            background-color: grey;
-        }
-        .ui-slideouttab-handle-image {
-            transform: rotate(0);
-        }
-
-        /* Right */
-        .ui-slideouttab-right {
-        	right: 0px;
-        	transform: translateX(100%);
-        	border-right: none;
-        }
-        .ui-slideouttab-right.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle {
-            transform-origin: 0% 0%;
-            transform: rotate(-90deg) translate(-100%,-100%);   
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
-            transform-origin: 0% 100%;
-            transform: rotate(-90deg);
-        }
-        /* Left */
-        .ui-slideouttab-left {
-        	left: 0px;
-        	transform: translateX(-100%);
-        	border-left: none;
-        }
-        .ui-slideouttab-left.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle {
-            transform-origin: 100% 0%;
-            transform: rotate(-90deg);   
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
-            transform-origin: 100% 100%;
-            transform: rotate(-90deg) translate(100%,100%);   
-        }
-        /* Top */
-        .ui-slideouttab-top {
-        	top: 0px;
-        	transform: translateY(-100%);
-        	border-top: none;
-        }
-        .ui-slideouttab-top.ui-slideouttab-open {
-        	transform: translateY(0%);
-        }
-        /* Bottom */
-        .ui-slideouttab-bottom {
-        	bottom: 0px;
-        	transform: translateY(100%);
-        	border-bottom: none;
-        }
-        .ui-slideouttab-bottom.ui-slideouttab-open {
-        		transform: translateY(0%);
-        }
-
-        /* turn font awesome icon in a tab upright */
-        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
-        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
-            transform: rotate(90deg);
-        }
-        .ui-slideouttab-handle>.fa-icon {
-            margin-left: 0.5em;
-        }
-
-        /* apply rounded corners if handle has the -rounded class */
-        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
-        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
-            border-radius: 0 0 4px 4px;
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
-        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
-            border-radius: 4px 4px 0 0;
-        }
+<style>
+
+        /* Set display to none for image*/
+
+        #image {
+
+            display: none;
+
+        }
+
+        @media print {
+
+            #printableArea {
+
+               display : block;
+
+            }
+
+        }
+
+        #left {
+
+            border-color: #0a58ca;
+
+        	width: 300px;
+
+        	border-radius: 4px;
+
+            bottom: 60px !important;
+
+        }
+
+        #left .handle {
+
+            background-color: #0a58ca;
+
+        }
+
+
+
+        	/*
+
+            tabSlideOUt
+
+
+
+            By  Michael Fielding
+
+            License: GPL v3.0
+
+        */
+
+
+
+        .ui-slideouttab-panel, .ui-slideouttab-handle {
+
+            background-color: white;
+
+            padding: 0.4em;
+
+            box-sizing: border-box;
+
+        }
+
+        .ui-slideouttab-panel {
+
+        	display: block;
+
+        	position: fixed;
+
+            border: 2px solid grey;
+
+        }
+
+        /* This class is added after the tabs are initialised, otherwise the user sees the 
+
+           tabs slide out of the way when the page is initialised. */
+
+        .ui-slideouttab-ready {
+
+        	transition: transform 0.5s ease 0s;
+
+        }
+
+
+
+        /* Hide tabs and panels when printed. */
+
+        @media print {
+
+            .ui-slideouttab-panel {
+
+                display: none;
+
+            }
+
+        }
+
+
+
+        /* Tab handles */
+
+        .ui-slideouttab-handle {
+
+            display: block;
+
+            position: absolute;
+
+            cursor: pointer;
+
+            color: white;
+
+            background-color: grey;
+
+        }
+
+        .ui-slideouttab-handle-image {
+
+            transform: rotate(0);
+
+        }
+
+
+
+        /* Right */
+
+        .ui-slideouttab-right {
+
+        	right: 0px;
+
+        	transform: translateX(100%);
+
+        	border-right: none;
+
+        }
+
+        .ui-slideouttab-right.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle {
+
+            transform-origin: 0% 0%;
+
+            transform: rotate(-90deg) translate(-100%,-100%);   
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
+
+            transform-origin: 0% 100%;
+
+            transform: rotate(-90deg);
+
+        }
+
+        /* Left */
+
+        .ui-slideouttab-left {
+
+        	left: 0px;
+
+        	transform: translateX(-100%);
+
+        	border-left: none;
+
+        }
+
+        .ui-slideouttab-left.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle {
+
+            transform-origin: 100% 0%;
+
+            transform: rotate(-90deg);   
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
+
+            transform-origin: 100% 100%;
+
+            transform: rotate(-90deg) translate(100%,100%);   
+
+        }
+
+        /* Top */
+
+        .ui-slideouttab-top {
+
+        	top: 0px;
+
+        	transform: translateY(-100%);
+
+        	border-top: none;
+
+        }
+
+        .ui-slideouttab-top.ui-slideouttab-open {
+
+        	transform: translateY(0%);
+
+        }
+
+        /* Bottom */
+
+        .ui-slideouttab-bottom {
+
+        	bottom: 0px;
+
+        	transform: translateY(100%);
+
+        	border-bottom: none;
+
+        }
+
+        .ui-slideouttab-bottom.ui-slideouttab-open {
+
+        		transform: translateY(0%);
+
+        }
+
+
+
+        /* turn font awesome icon in a tab upright */
+
+        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
+
+        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
+
+            transform: rotate(90deg);
+
+        }
+
+        .ui-slideouttab-handle>.fa-icon {
+
+            margin-left: 0.5em;
+
+        }
+
+
+
+        /* apply rounded corners if handle has the -rounded class */
+
+        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
+
+        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
+
+            border-radius: 0 0 4px 4px;
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
+
+        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
+
+            border-radius: 4px 4px 0 0;
+
+        }
+
     </style>
-<script>
-    function printDiv(divName) {
-         var printContents = document.getElementById(divName).innerHTML;
-         var originalContents = document.body.innerHTML;
-
-         document.body.innerHTML = printContents;
-
-         window.print();
-
-         document.body.innerHTML = originalContents;
-    }
-    	function show() {
-     
-                /* Access image by id and change
-                the display property to block*/
-                document.getElementById('image')
-                        .style.display = "block";
-     
-                document.getElementById('printableArea')
-                        .style.display = "none";
-    	}
-    	
-    	
+<script>
+
+    function printDiv(divName) {
+
+         var printContents = document.getElementById(divName).innerHTML;
+
+         var originalContents = document.body.innerHTML;
+
+
+
+         document.body.innerHTML = printContents;
+
+
+
+         window.print();
+
+
+
+         document.body.innerHTML = originalContents;
+
+    }
+
+    	function show() {
+
+     
+
+                /* Access image by id and change
+
+                the display property to block*/
+
+                document.getElementById('image')
+
+                        .style.display = "block";
+
+     
+
+                document.getElementById('printableArea')
+
+                        .style.display = "none";
+
+    	}
+
+    	
+
+    	
+
     </script>
 <!-- javascripts files -->
 <script src="../assets/js/jquery.min.js"></script>
@@ -3887,154 +4968,292 @@ Plant Diversity II
 <script src="../assets/js/slider-popup.js"></script>
 <!-- <script src="../assets/js/content-sliders.js "></script> -->
 <link href="../assets/css/form-widget.css" rel="stylesheet"/>
-<script type="text/javascript">
-        $('.top-notification-slider').not('.slick-initialized').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        pauseOnHover: true,
-        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
-    });
+<script type="text/javascript">
+
+        $('.top-notification-slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        pauseOnHover: true,
+
+        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
+
+    });
+
     </script>
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+<script type="text/javascript">
+
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+    (function(){
+
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+
+    s1.async=true;
+
+    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
+
+    s1.charset='UTF-8';
+
+    s1.setAttribute('crossorigin','*');
+
+    s0.parentNode.insertBefore(s1,s0);
+
+    })();
+
     </script>
 <!--End of Tawk.to Script-->
-<script type="text/javascript">
-    // Function to encode HTML special characters to prevent XSS
-    function encodeHTML(str) {
-      return str.replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#39;");
-    }
-
-    const chatInput = document.querySelector('.tawk-chatinput-editor');
-    const sendBtn = document.getElementById('send-btn');
-    const chatOutput = document.getElementById('chat-output');
-
-    sendBtn.addEventListener('click', function() {
-      const userInput = chatInput.value.trim();
-      if (!userInput) return; // ignore empty input
-
-      const safeMessage = encodeHTML(userInput);
-
-      // Append the safe message to chat output with a newline
-      chatOutput.innerHTML += safeMessage + '\n';
-
-      // Clear input field
-      chatInput.value = '';
-      chatInput.focus();
-
-      // Scroll to bottom
-      chatOutput.scrollTop = chatOutput.scrollHeight;
-    });
+<script type="text/javascript">
+
+    // Function to encode HTML special characters to prevent XSS
+
+    function encodeHTML(str) {
+
+      return str.replace(/&/g, "&amp;")
+
+                .replace(/</g, "&lt;")
+
+                .replace(/>/g, "&gt;")
+
+                .replace(/"/g, "&quot;")
+
+                .replace(/'/g, "&#39;");
+
+    }
+
+
+
+    const chatInput = document.querySelector('.tawk-chatinput-editor');
+
+    const sendBtn = document.getElementById('send-btn');
+
+    const chatOutput = document.getElementById('chat-output');
+
+
+
+    sendBtn.addEventListener('click', function() {
+
+      const userInput = chatInput.value.trim();
+
+      if (!userInput) return; // ignore empty input
+
+
+
+      const safeMessage = encodeHTML(userInput);
+
+
+
+      // Append the safe message to chat output with a newline
+
+      chatOutput.innerHTML += safeMessage + '\n';
+
+
+
+      // Clear input field
+
+      chatInput.value = '';
+
+      chatInput.focus();
+
+
+
+      // Scroll to bottom
+
+      chatOutput.scrollTop = chatOutput.scrollHeight;
+
+    });
+
     </script>
 <!-- ERP Login Popup JavaScript -->
-<script>
-        function handleERPLogin(type) {
-            // Handle login logic here
-            console.log('Login selected:', type);
-            
-            // Close modal after a brief delay to allow navigation
-            setTimeout(() => {
-                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
-                if (modal) {
-                    modal.hide();
-                }
-            }, 100);
-            
-            // Links will open in new tab due to target="_blank"
-            // URLs are now directly in the href attributes:
-            // Student: https://student.uttaranchaluniversity.ac.in/
-            // Staff: https://staff.uttaranchaluniversity.ac.in/
-        }
-        
-        // Initialize modal and handle URL hash changes
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize the modal
-            const modalElement = document.getElementById('erploginmodel');
-            if (modalElement) {
-                const modal = new bootstrap.Modal(modalElement);
-                
-                // Handle hash-based modal triggers (with UTM parameters support)
-                function handleHashChange() {
-                    const hash = window.location.hash;
-                    // Extract just the modal ID part, ignoring query parameters
-                    const modalId = hash.split('?')[0].replace('#', '');
-                    
-                    if (modalId === 'erploginmodel') {
-                        modal.show();
-                    }
-                }
-                
-                // Check hash on page load
-                handleHashChange();
-                
-                // Listen for hash changes
-                window.addEventListener('hashchange', handleHashChange);
-                
-                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
-                document.addEventListener('click', function(e) {
-                    const link = e.target.closest('a[href*="#erploginmodel"]');
-                    if (link) {
-                        e.preventDefault();
-                        modal.show();
-                    }
-                });
-            }
-        });
+<script>
+
+        function handleERPLogin(type) {
+
+            // Handle login logic here
+
+            console.log('Login selected:', type);
+
+            
+
+            // Close modal after a brief delay to allow navigation
+
+            setTimeout(() => {
+
+                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
+
+                if (modal) {
+
+                    modal.hide();
+
+                }
+
+            }, 100);
+
+            
+
+            // Links will open in new tab due to target="_blank"
+
+            // URLs are now directly in the href attributes:
+
+            // Student: https://student.uttaranchaluniversity.ac.in/
+
+            // Staff: https://staff.uttaranchaluniversity.ac.in/
+
+        }
+
+        
+
+        // Initialize modal and handle URL hash changes
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Initialize the modal
+
+            const modalElement = document.getElementById('erploginmodel');
+
+            if (modalElement) {
+
+                const modal = new bootstrap.Modal(modalElement);
+
+                
+
+                // Handle hash-based modal triggers (with UTM parameters support)
+
+                function handleHashChange() {
+
+                    const hash = window.location.hash;
+
+                    // Extract just the modal ID part, ignoring query parameters
+
+                    const modalId = hash.split('?')[0].replace('#', '');
+
+                    
+
+                    if (modalId === 'erploginmodel') {
+
+                        modal.show();
+
+                    }
+
+                }
+
+                
+
+                // Check hash on page load
+
+                handleHashChange();
+
+                
+
+                // Listen for hash changes
+
+                window.addEventListener('hashchange', handleHashChange);
+
+                
+
+                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
+
+                document.addEventListener('click', function(e) {
+
+                    const link = e.target.closest('a[href*="#erploginmodel"]');
+
+                    if (link) {
+
+                        e.preventDefault();
+
+                        modal.show();
+
+                    }
+
+                });
+
+            }
+
+        });
+
     </script>
 <!-- Google UTM Code -->
 <script src="https://google-utm-js.s3.ap-south-1.amazonaws.com/google-utm.js" type="text/javascript"></script>
 <script src="../assets/js/toggle-menu-js.js"></script>
-<script type="text/javascript">
-   
-
-        $('.placementLogos-section__slider').not('.slick-initialized').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        variableWidth: true,
-        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
-    });
-
-        
-         $('.specialization-slider').not('.slick-initialized').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        variableWidth: true,
-        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
-    });
-
-
+<script type="text/javascript">
+
+   
+
+
+
+        $('.placementLogos-section__slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        arrows: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        variableWidth: true,
+
+        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+    });
+
+
+
+        
+
+         $('.specialization-slider').not('.slick-initialized').slick({
+
+        dots: true,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        variableWidth: true,
+
+        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+    });
+
+
+
+
+
 </script>
 </body>
 </html>

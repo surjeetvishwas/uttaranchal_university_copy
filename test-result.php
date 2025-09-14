@@ -75,6 +75,6 @@ try {
 }
 
 echo "<h3>Links:</h3>";
-echo "<p><a href='result.php'>📄 Go to Result Page</a></p>";
+echo "<p><a href='result.html'>📄 Go to Result Page</a></p>";
 echo "<p><a href='fix-database.php'>🔧 Database Diagnostics</a></p>";
 ?>

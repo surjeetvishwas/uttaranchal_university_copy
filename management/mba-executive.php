@@ -41,191 +41,371 @@
 <!-- <link rel="stylesheet" href="../assets/css/custom-dark-mode.css"> -->
 <!-- <link rel="stylesheet" href="../assets/css/cuet-css.css"> -->
 <link href="" rel="icon"/>
-<meta content="#21337d" name="theme-color"/> <style type="text/css">
-                html, body {
-            
-            overflow-x: hidden;
-        }
-         #left {
-            
-            display: none !important;
-        }
-        
-        .keyfeatures .card {
-            background: #0e4fa3;
-            font-size: 14px;
-            color:#fff;
-        }
-        div#ee-form-8-modal-swapper {
-                padding-top: 0px;
-            }
-                    button#ee-form-8-form-8-submit {
-                        color:#fff !important;   
-                background: #1762ae !important;
-                border: 1px solid #1762ae !important;
-            }
-            button#ee-form-8-form-8-login{
-             background: #1762ae !important;
-             border: 1px solid #1762ae !important;
-             color: #fff !important;
-            }
-       .bigInfo-section__content .fa{
-            color:#61b239 !important;
-        }
-
-        .bigInfo-section__content h5{
-            margin-bottom: 10px;
-        }
-        .sFeaturesBox{
-              border: 0px solid #ddd;
-              padding: 15px 15px;
-              min-height: 245px;
-              margin-bottom: 14px;
-              border-radius: 10px;
-              background: #eee;
-        }
-        .sFeaturesBox h5{
-                   
-                    margin-bottom: 15px;
-        }
-.emab_wid {
-    background: #fff;
-    border-radius: 7px;
-}
-div#ee-form-8-modal-swapper {
-    max-width: 100%;
-}
-        .sFeaturesBox p{
-
-        }
-
-        .sFeaturesBox .fa{
-         color: #368c0b;
-        }
-
-        .st-images {
-            width: 267px !important;
-        }
-        .shadow{
-            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-        }
-        .SpBox{
-            margin-bottom: 25px;
-        }
-        .SpBox img{
-          border-radius: 10px;
-          width: 100%;
-        }
-.ee-form-widget {
-    padding-bottom: 10px !important;
-}
-
-        /* Faculty Slider */
-
-
-        .uuRankings{
-            background: url("newassets/images/uu-infra.jpg") !important;
-            background-size: cover !important;
-            background-repeat:no-repeat !important;
-            background-attachment: fixed;
-            background-position: center center;
-            padding-top: 40px;
-            padding-bottom: 40px;
-        }
-
-    .uuRankings .slide img{
-/*        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;*/
-     /* border:1px solid #ccc;
-      border-radius: 6px;*/
-
-    }
-
-    .uuRankings .slide h4{
-        font-size: 17px;
-    padding: 12px 5px 5px 10px;
-        color: #000;
-        font-weight: bold;
-
-    }
-     .uuRankings .slide h5{
-font-size:15px;
-padding: 0px 5px 5px 10px;
-    }
-
-     .uuRankings .slide{
-            border-radius: 9px;
-    /* border-right: 5px solid transparent !important; */
-    /* border-left: 5px solid transparent !important; */
-    /* width: 324px !important; */
-    background-color: #fff !important;
-    border: 0px solid #ccc;
-    margin-left: 5px;
-    margin-right: 5px;
-
-/*    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;*/
-     }
-
-     .uuRankings .slick-arrow {
-            position: absolute;
-            bottom: -2px;
-            border: 1px solid var(--text-green);
-            width: 20px;
-            height: 20px;
-            line-height: 18px;
-            text-align: center;
-            border-radius: 50%;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            -ms-border-radius: 50%;
-            -o-border-radius: 50%;
-            cursor: pointer;
-            color: var(--text-green);
-            z-index: 1;
-        }
-
-        
-
-            .adv-thumb__content {
-                
-                
-            }
-
-
-            @media only screen and (min-width: 1199px) {
-               /* .ee-form-footer.ee-row.controls {
-                    display: block;
-                }
-                button#ee-form-8-form-8-submit {
-                    margin-bottom: 2%;
-                }
-                div#ee-form-8-modal-swapper {
-                    max-width: 100%;
-                    margin: 0px auto;
-                }
-                #ee-form-8 {
-                    width: 100% !important;
-                }*/
-                }
-
-              .check-box-field{
-                display: none !important;
-              }
-                .check-box-field input {
-                 /* position: absolute;
-                  top: none !important;
-                  left: none !important;*/
-                }
+<meta content="#21337d" name="theme-color"/> <style type="text/css">
+
+                html, body {
+
+            
+
+            overflow-x: hidden;
+
+        }
+
+         #left {
+
+            
+
+            display: none !important;
+
+        }
+
+        
+
+        .keyfeatures .card {
+
+            background: #0e4fa3;
+
+            font-size: 14px;
+
+            color:#fff;
+
+        }
+
+        div#ee-form-8-modal-swapper {
+
+                padding-top: 0px;
+
+            }
+
+                    button#ee-form-8-form-8-submit {
+
+                        color:#fff !important;   
+
+                background: #1762ae !important;
+
+                border: 1px solid #1762ae !important;
+
+            }
+
+            button#ee-form-8-form-8-login{
+
+             background: #1762ae !important;
+
+             border: 1px solid #1762ae !important;
+
+             color: #fff !important;
+
+            }
+
+       .bigInfo-section__content .fa{
+
+            color:#61b239 !important;
+
+        }
+
+
+
+        .bigInfo-section__content h5{
+
+            margin-bottom: 10px;
+
+        }
+
+        .sFeaturesBox{
+
+              border: 0px solid #ddd;
+
+              padding: 15px 15px;
+
+              min-height: 245px;
+
+              margin-bottom: 14px;
+
+              border-radius: 10px;
+
+              background: #eee;
+
+        }
+
+        .sFeaturesBox h5{
+
+                   
+
+                    margin-bottom: 15px;
+
+        }
+
+.emab_wid {
+
+    background: #fff;
+
+    border-radius: 7px;
+
+}
+
+div#ee-form-8-modal-swapper {
+
+    max-width: 100%;
+
+}
+
+        .sFeaturesBox p{
+
+
+
+        }
+
+
+
+        .sFeaturesBox .fa{
+
+         color: #368c0b;
+
+        }
+
+
+
+        .st-images {
+
+            width: 267px !important;
+
+        }
+
+        .shadow{
+
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+        }
+
+        .SpBox{
+
+            margin-bottom: 25px;
+
+        }
+
+        .SpBox img{
+
+          border-radius: 10px;
+
+          width: 100%;
+
+        }
+
+.ee-form-widget {
+
+    padding-bottom: 10px !important;
+
+}
+
+
+
+        /* Faculty Slider */
+
+
+
+
+
+        .uuRankings{
+
+            background: url("newassets/images/uu-infra.jpg") !important;
+
+            background-size: cover !important;
+
+            background-repeat:no-repeat !important;
+
+            background-attachment: fixed;
+
+            background-position: center center;
+
+            padding-top: 40px;
+
+            padding-bottom: 40px;
+
+        }
+
+
+
+    .uuRankings .slide img{
+
+/*        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;*/
+
+     /* border:1px solid #ccc;
+
+      border-radius: 6px;*/
+
+
+
+    }
+
+
+
+    .uuRankings .slide h4{
+
+        font-size: 17px;
+
+    padding: 12px 5px 5px 10px;
+
+        color: #000;
+
+        font-weight: bold;
+
+
+
+    }
+
+     .uuRankings .slide h5{
+
+font-size:15px;
+
+padding: 0px 5px 5px 10px;
+
+    }
+
+
+
+     .uuRankings .slide{
+
+            border-radius: 9px;
+
+    /* border-right: 5px solid transparent !important; */
+
+    /* border-left: 5px solid transparent !important; */
+
+    /* width: 324px !important; */
+
+    background-color: #fff !important;
+
+    border: 0px solid #ccc;
+
+    margin-left: 5px;
+
+    margin-right: 5px;
+
+
+
+/*    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;*/
+
+     }
+
+
+
+     .uuRankings .slick-arrow {
+
+            position: absolute;
+
+            bottom: -2px;
+
+            border: 1px solid var(--text-green);
+
+            width: 20px;
+
+            height: 20px;
+
+            line-height: 18px;
+
+            text-align: center;
+
+            border-radius: 50%;
+
+            -webkit-border-radius: 50%;
+
+            -moz-border-radius: 50%;
+
+            -ms-border-radius: 50%;
+
+            -o-border-radius: 50%;
+
+            cursor: pointer;
+
+            color: var(--text-green);
+
+            z-index: 1;
+
+        }
+
+
+
+        
+
+
+
+            .adv-thumb__content {
+
+                
+
+                
+
+            }
+
+
+
+
+
+            @media only screen and (min-width: 1199px) {
+
+               /* .ee-form-footer.ee-row.controls {
+
+                    display: block;
+
+                }
+
+                button#ee-form-8-form-8-submit {
+
+                    margin-bottom: 2%;
+
+                }
+
+                div#ee-form-8-modal-swapper {
+
+                    max-width: 100%;
+
+                    margin: 0px auto;
+
+                }
+
+                #ee-form-8 {
+
+                    width: 100% !important;
+
+                }*/
+
+                }
+
+
+
+              .check-box-field{
+
+                display: none !important;
+
+              }
+
+                .check-box-field input {
+
+                 /* position: absolute;
+
+                  top: none !important;
+
+                  left: none !important;*/
+
+                }
+
     </style>
 </meta></meta></meta></head>
 <body>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RRKVSHXFXQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RRKVSHXFXQ');
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-RRKVSHXFXQ');
+
 </script>
 <header class="header shadow shadow-sm">
 <div class="header__top" style="padding-top: 6px;padding-bottom: 6px;">
@@ -233,31 +413,51 @@ padding: 0px 5px 5px 10px;
 <div class="row">
 <div class="col-lg-5">
 <div class="top-notification-slider" style="line-height: 15px;">
-<!-- <div class="tns-item">
-                                <a href="https://www.uudoon.in/admissions/" style="color:chartreuse"><strong>Apply Now | Online Registration Open <br> Today is the Last Date of Registration.</strong></a>
+<!-- <div class="tns-item">
+
+                                <a href="https://www.uudoon.in/admissions/" style="color:chartreuse"><strong>Apply Now | Online Registration Open <br> Today is the Last Date of Registration.</strong></a>
+
                             </div> -->
-<!-- <div class="tns-item">
-                                <a href="tel:18002124201" style="color:chartreuse"><strong>Our Admission Department is <br>Open on Sundays | 18002124201 </strong></a>
+<!-- <div class="tns-item">
+
+                                <a href="tel:18002124201" style="color:chartreuse"><strong>Our Admission Department is <br>Open on Sundays | 18002124201 </strong></a>
+
                             </div> -->
-<!--  <div class="tns-item">
-                                <a href="https://www.uudoon.in/cuet-2023/" target="_blank" style="color:chartreuse"><strong>Uttaranchal University <br>CUET Counselling - 2023 
+<!--  <div class="tns-item">
+
+                                <a href="https://www.uudoon.in/cuet-2023/" target="_blank" style="color:chartreuse"><strong>Uttaranchal University <br>CUET Counselling - 2023 
+
                             </div> -->
-<!-- <div class="tns-item">
-                                <a href="https://www.uudoon.in/assets/pdf/Call_for_Paper_DLR_2023.pdf" target="_blank" style="color:chartreuse"><strong>"Dehradun Law Review (UGC care Listed journal) - <br>Call for papers - 2023"</strong></a>
-                            </div>
-                            
-                            <div class="tns-item">
-                                <a href="https://innosustain.uudoon.in/" target="_blank" style="color:chartreuse"><strong>Two days National Conference on InnoSustain 2023: <br>Pursuit for Sustainable Development goals</strong></a>
-                            </div> 
-
-                            <div class="tns-item">
-                                <a href="https://www.eltaiconferences.in/" target="_blank" style="color:chartreuse"><strong>17th International & 53rd Annual Conference of ELTAI will be held at <br>Uttaranchal University, Dehradun from 11th to 14th October, 2023</strong></a>
+<!-- <div class="tns-item">
+
+                                <a href="https://www.uudoon.in/assets/pdf/Call_for_Paper_DLR_2023.pdf" target="_blank" style="color:chartreuse"><strong>"Dehradun Law Review (UGC care Listed journal) - <br>Call for papers - 2023"</strong></a>
+
+                            </div>
+
+                            
+
+                            <div class="tns-item">
+
+                                <a href="https://innosustain.uudoon.in/" target="_blank" style="color:chartreuse"><strong>Two days National Conference on InnoSustain 2023: <br>Pursuit for Sustainable Development goals</strong></a>
+
+                            </div> 
+
+
+
+                            <div class="tns-item">
+
+                                <a href="https://www.eltaiconferences.in/" target="_blank" style="color:chartreuse"><strong>17th International & 53rd Annual Conference of ELTAI will be held at <br>Uttaranchal University, Dehradun from 11th to 14th October, 2023</strong></a>
+
                             </div> -->
-<!-- <div class="tns-item">
-                                <a href="https://www.uudoon.in/assets/pdf/7_Days_National_Faculty_Development_Program_2023.pdf" target="_blank" style="color:chartreuse"><strong>"7-Days National Faculty Development program <br>22-29 July 2023"</strong></a>
+<!-- <div class="tns-item">
+
+                                <a href="https://www.uudoon.in/assets/pdf/7_Days_National_Faculty_Development_Program_2023.pdf" target="_blank" style="color:chartreuse"><strong>"7-Days National Faculty Development program <br>22-29 July 2023"</strong></a>
+
                             </div>  -->
-<!-- <div class="tns-item">
-                                <a class="text-white" href="https://www.uudoon.in/phd-programs/includes/pdf/Notice_Ph.D._Admission_2023-2024.pdf" target="_blank"><strong style="color:chartreuse">Notice: Ph.D. Admission<br>Summer Batch Academic Year : 2O23-2O24</strong><i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
+<!-- <div class="tns-item">
+
+                                <a class="text-white" href="https://www.uudoon.in/phd-programs/includes/pdf/Notice_Ph.D._Admission_2023-2024.pdf" target="_blank"><strong style="color:chartreuse">Notice: Ph.D. Admission<br>Summer Batch Academic Year : 2O23-2O24</strong><i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
+
                             </div> -->
 </div>
 </div>
@@ -272,8 +472,10 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="header__top--links">
 <ul class="d-flex justify-content-center list-unstyled m-0 p-0">
-<!--  <li>
-                                        <a href="..//international">International</a>
+<!--  <li>
+
+                                        <a href="..//international">International</a>
+
                                     </li> -->
 <li>
 <a href="../library.html">Library</a>
@@ -303,8 +505,10 @@ padding: 0px 5px 5px 10px;
 <a class="uu-pc-logo" href="../index.html"><img alt="Uttranchal University" src="../assets/images/uu-logo.svg" title="Uttranchal University" width="250"/></a>
 <a class="d-none uu-pc-logo uu-pc-dark-logo" href="../index.html"><img alt="Uttranchal University" src="../assets/images/uu-logo-dark.svg" title="Uttranchal University" width="250"/></a>
 </div>
-<!--                  <div class="cuetbx">
-                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank" class="btn btn-lg btn-primary btn-shadow">Click here for CUET Counselling <i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
+<!--                  <div class="cuetbx">
+
+                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank" class="btn btn-lg btn-primary btn-shadow">Click here for CUET Counselling <i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
+
                  </div> -->
 <div class="header__center--right d-flex align-items-center justify-content-end">
 <div class="headerApply d-flex justify-content-center">
@@ -563,8 +767,10 @@ padding: 0px 5px 5px 10px;
 <li>
 <a href="index.html">Top Management Program</a>
 </li>
-<!--<li>
-                                                                                <a href="">Program Fee</a>
+<!--<li>
+
+                                                                                <a href="">Program Fee</a>
+
                                                                             </li>-->
 <li>
 <a href="../admissions/how-to-apply.php">How to Apply</a>
@@ -592,8 +798,10 @@ padding: 0px 5px 5px 10px;
 <div class="ol-learning">
 <a href="../international.html" target="_blank"><i aria-hidden="true" class="fa fa-external-link me-2"></i> International</a>
 </div>
-<!--  <div class="ol-learning">
-                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+<!--  <div class="ol-learning">
+
+                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+
                                                                          </div> -->
 </div>
 </div>
@@ -722,8 +930,10 @@ padding: 0px 5px 5px 10px;
 <li>
 <a href="../campus-life/convocations.php">Convocations</a>
 </li>
-<!-- <li>
-                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+<!-- <li>
+
+                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+
                                                         </li>-->
 <li>
 <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
@@ -775,8 +985,10 @@ padding: 0px 5px 5px 10px;
 <li>
 <a href="../research/index.html">Overview</a>
 </li>
-<!-- <li>
-                                                            <a href="">Distinguished Faculty Members</a>
+<!-- <li>
+
+                                                            <a href="">Distinguished Faculty Members</a>
+
                                                         </li>-->
 <li>
 <a href="../research/research-and-development-cell.php">Research &amp; Development Cell</a>
@@ -790,8 +1002,10 @@ padding: 0px 5px 5px 10px;
 <li>
 <a href="../research/student-research-cell.php">Student Research Cell</a>
 </li>
-<!-- <li>
-                                                            <a href="../research/research-groups/">Research Groups</a>
+<!-- <li>
+
+                                                            <a href="../research/research-groups/">Research Groups</a>
+
                                                         </li> -->
 <li>
 <a href="../research/startups-and-enterpreneurship.php">Start Up, Incubation and Entrepreneurship Cell</a>
@@ -839,8 +1053,10 @@ padding: 0px 5px 5px 10px;
 <li>
 <a href="../placements/best-packages.php">Best Packages</a>
 </li>
-<!-- <li>
-                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
+<!-- <li>
+
+                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
+
                                                         </li> -->
 <li>
 <a href="../placements/corporate-partners.php">Corporate Partners</a>
@@ -896,8 +1112,10 @@ padding: 0px 5px 5px 10px;
 <div class="row g-3">
 <div class="col-md-4 col-6">
 <div class="card h-100 br-10 border-0">
-<div class="card-body">
-                                            Duration
+<div class="card-body">
+
+                                            Duration
+
                                         </div>
 <div class="card-footer border-0 bg-transparent pt-0">
 <h4>2 Years</h4>
@@ -907,8 +1125,10 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="col-md-4 col-6">
 <div class="card h-100 br-10 border-0" style="background: #3b8e12;">
-<div class="card-body">
-                                           Hours of Dedication
+<div class="card-body">
+
+                                           Hours of Dedication
+
                                         </div>
 <div class="card-footer border-0 bg-transparent pt-0">
 <h4>16-20 hours/week</h4>
@@ -918,8 +1138,10 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="col-md-4 col-6">
 <div class="card h-100 br-10 border-0">
-<div class="card-body">
-                                            Delivery
+<div class="card-body">
+
+                                            Delivery
+
                                         </div>
 <div class="card-footer border-0 bg-transparent pt-0">
 <h4>Blended Learning </h4>
@@ -934,16 +1156,25 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="col-lg-4">
 <div class="ee-form-widget" style="box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;border-radius: 7px;">
-<h2 style="
-    text-align: center;
-    padding-top: 4%;
-    font-size: 25px;
+<h2 style="
+
+    text-align: center;
+
+    padding-top: 4%;
+
+    font-size: 25px;
+
 "> Apply Now: 2025-26 Session</h2>
-<h2 style="
-    text-align: center;
-    padding-top: 0%;
-    font-size: 25px;
-    font-weight: bold;
+<h2 style="
+
+    text-align: center;
+
+    padding-top: 0%;
+
+    font-size: 25px;
+
+    font-weight: bold;
+
 ">Executive MBA</h2>
 <div class="lsq-portal-widget lsq-form-widget" id="lsq-portal-widget-8177160f-b6f1-11ee-b2e4-062290c66066-d95d6ead-f6d4-4eaf-9f4f-0a81a1c190d3">
 <script charset="utf-8" data-formjs="https://dhx9mmhpfsala.cloudfront.net/cdn/externalforms/r21/js/lsq.form.js" data-url="https://portal-widgets.lsqportal.com" data-version-id="d95d6ead-f6d4-4eaf-9f4f-0a81a1c190d3" data-widget-id="8177160f-b6f1-11ee-b2e4-062290c66066" onload="window['___lsq-portal-widget-helpers___'].bootstrapLSQWidget(event)" src="https://portal-widgets.lsqportal.com/assets/bootstrap-widget.js">
@@ -968,14 +1199,21 @@ padding: 0px 5px 5px 10px;
 <h1>Best MBA (Executive)  Program <br/> College in India</h1>
 </div>
 <p>In the present era, businesses are encountering fresh growth challenges, making it progressively arduous to establish and maintain a competitive edge. To surmount these challenges, corporations require their executives to possess not only profound expertise in functional domains but also the capacity for strategic thinking, a global outlook, and proficiency in managing diverse cross-cultural teams. Particularly, executives occupying middle-level supervisory positions must acquire a robust comprehension of contemporary management concepts, as this is imperative for organizations to achieve continuous growth and success.</p>
-<p>In accordance with the National Education Policy 2020, Uttaranchal University introduces an MBA Executive program with a blended learning approach, designed to offer flexibility and adaptability to the working executives. It prepares them to assume higher responsibilities within their organizations.
+<p>In accordance with the National Education Policy 2020, Uttaranchal University introduces an MBA Executive program with a blended learning approach, designed to offer flexibility and adaptability to the working executives. It prepares them to assume higher responsibilities within their organizations.
+
                         </p>
-<!-- <p><strong>The Programme aims to provide learners with:</strong></p>
-                        <ul>
-                            <li>An introduction to the study of business and management.</li>
-                            <li>A progressively higher level of understanding and critical awareness of the main issues in strategic management.</li>
-                            <li>A global holistic perspective of management and business administration.</li>
-                            <li>A range of intellectual skill and management competencies required for effective management practice.</li>
+<!-- <p><strong>The Programme aims to provide learners with:</strong></p>
+
+                        <ul>
+
+                            <li>An introduction to the study of business and management.</li>
+
+                            <li>A progressively higher level of understanding and critical awareness of the main issues in strategic management.</li>
+
+                            <li>A global holistic perspective of management and business administration.</li>
+
+                            <li>A range of intellectual skill and management competencies required for effective management practice.</li>
+
                         </ul> -->
 <div class="page-sub-heading mt-5">
 <h3>Salient Features: Executive MBA Program</h3>
@@ -1260,17 +1498,28 @@ padding: 0px 5px 5px 10px;
 </div>
 </div>
 </section>
-<!-- <section class="pt-5 pb-5 admissionProcess">
-        <div class="container">
-            <div class="page-sub-heading mb-4">
-                <h3>Admission Procedure:</h3>
-            </div>
-            <ul class="list-unstyled p-0 list-icon-3 ps-4">
-                <li>Admission is based on the merit, computed on the basis of score/percentile of MAT/ CAT /CMAT / XAT/ UU Entrance Test score or percentile/qualifying examination. University also conducts interviews of all applicants before admitting the eligible candidates.</li>
-				<li>Those awaiting graduation results can also apply.</li>
-                <li>Out of the total intake, 40% seats are allotted to students of Uttarakhand under the State Quota and the rest are open to students from all India. In case the allotted percentage of seats of State Quota remains vacant, it will be filled by All India students.</li>
-            </ul>
-        </div>
+<!-- <section class="pt-5 pb-5 admissionProcess">
+
+        <div class="container">
+
+            <div class="page-sub-heading mb-4">
+
+                <h3>Admission Procedure:</h3>
+
+            </div>
+
+            <ul class="list-unstyled p-0 list-icon-3 ps-4">
+
+                <li>Admission is based on the merit, computed on the basis of score/percentile of MAT/ CAT /CMAT / XAT/ UU Entrance Test score or percentile/qualifying examination. University also conducts interviews of all applicants before admitting the eligible candidates.</li>
+
+				<li>Those awaiting graduation results can also apply.</li>
+
+                <li>Out of the total intake, 40% seats are allotted to students of Uttarakhand under the State Quota and the rest are open to students from all India. In case the allotted percentage of seats of State Quota remains vacant, it will be filled by All India students.</li>
+
+            </ul>
+
+        </div>
+
     </section> -->
 <section class="programmeStructure-section pt-8 pb-8">
 <div class="container">
@@ -1283,8 +1532,10 @@ padding: 0px 5px 5px 10px;
 <div class="accordion mb-4" id="accordionExample">
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingOne">
-<button aria-controls="collapseOne" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
-                              Semester 1
+<button aria-controls="collapseOne" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
+
+                              Semester 1
+
                             </button>
 </h2>
 <div aria-labelledby="headingOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample" id="collapseOne">
@@ -1344,8 +1595,10 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingTwo">
-<button aria-controls="collapseTwo" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo" data-bs-toggle="collapse" type="button">
-                              Semester 2
+<button aria-controls="collapseTwo" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo" data-bs-toggle="collapse" type="button">
+
+                              Semester 2
+
                             </button>
 </h2>
 <div aria-labelledby="headingTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapseTwo">
@@ -1405,8 +1658,10 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingThree">
-<button aria-controls="collapseThree" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">
-                                    Semester 3
+<button aria-controls="collapseThree" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">
+
+                                    Semester 3
+
                             </button>
 </h2>
 <div aria-labelledby="headingThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapseThree">
@@ -1466,8 +1721,10 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingTwo1">
-<button aria-controls="collapseTwo1" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo1" data-bs-toggle="collapse" type="button">
-                                    Semester 4
+<button aria-controls="collapseTwo1" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo1" data-bs-toggle="collapse" type="button">
+
+                                    Semester 4
+
                             </button>
 </h2>
 <div aria-labelledby="headingTwo1" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapseTwo1">
@@ -1527,8 +1784,10 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingThree2">
-<button aria-controls="collapseThree2" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree2" data-bs-toggle="collapse" type="button">
-                                   Specialization Electives
+<button aria-controls="collapseThree2" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree2" data-bs-toggle="collapse" type="button">
+
+                                   Specialization Electives
+
                             </button>
 </h2>
 <div aria-labelledby="headingThree2" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapseThree2">
@@ -1686,8 +1945,10 @@ padding: 0px 5px 5px 10px;
 <h5 style="color: #61b239;">(Banking &amp; Finance)</h5><br/>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingOneB">
-<button aria-controls="collapseOneB" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOneB" data-bs-toggle="collapse" type="button">
-                      Semester 1
+<button aria-controls="collapseOneB" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOneB" data-bs-toggle="collapse" type="button">
+
+                      Semester 1
+
                     </button>
 </h2>
 <div aria-labelledby="headingOneB" class="accordion-collapse collapse show" data-bs-parent="#accordionExample2" id="collapseOneB">
@@ -1745,8 +2006,10 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingTwoB">
-<button aria-controls="collapseTwoB" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwoB" data-bs-toggle="collapse" type="button">
-                      Semester 2
+<button aria-controls="collapseTwoB" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwoB" data-bs-toggle="collapse" type="button">
+
+                      Semester 2
+
                     </button>
 </h2>
 <div aria-labelledby="headingTwoB" class="accordion-collapse collapse" data-bs-parent="#accordionExample2" id="collapseTwoB">
@@ -1804,8 +2067,10 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingThreeB">
-<button aria-controls="collapseThreeB" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThreeB" data-bs-toggle="collapse" type="button">
-                            Semester 3
+<button aria-controls="collapseThreeB" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThreeB" data-bs-toggle="collapse" type="button">
+
+                            Semester 3
+
                     </button>
 </h2>
 <div aria-labelledby="headingThreeB" class="accordion-collapse collapse" data-bs-parent="#accordionExample2" id="collapseThreeB">
@@ -1865,8 +2130,10 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingTwo1B">
-<button aria-controls="collapseTwo1B" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo1B" data-bs-toggle="collapse" type="button">
-                Semester 4
+<button aria-controls="collapseTwo1B" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo1B" data-bs-toggle="collapse" type="button">
+
+                Semester 4
+
         </button>
 </h2>
 <div aria-labelledby="headingTwo1B" class="accordion-collapse collapse" data-bs-parent="#accordionExample2" id="collapseTwo1B">
@@ -1926,8 +2193,10 @@ padding: 0px 5px 5px 10px;
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingThree2b">
-<button aria-controls="collapseThree2b" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree2b" data-bs-toggle="collapse" type="button">
-               Specialization Electives
+<button aria-controls="collapseThree2b" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree2b" data-bs-toggle="collapse" type="button">
+
+               Specialization Electives
+
         </button>
 </h2>
 <div aria-labelledby="headingThree2b" class="accordion-collapse collapse" data-bs-parent="#accordionExample2" id="collapseThree2b">
@@ -2098,7 +2367,8 @@ padding: 0px 5px 5px 10px;
 <div class="col-lg-6 col-md-8 col-sm-10">
 <div class="bigInfo-section__content pt-8 pb-8">
 <div class="page-heading">
-<h2>Why join Uttaranchal University?
+<h2>Why join Uttaranchal University?
+
                             </h2>
 </div>
 <p>Our valued degrees stand out from the crowd and prepare you for a job at industry-leading companies.</p>
@@ -2193,11 +2463,13 @@ padding: 0px 5px 5px 10px;
 <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button">
 <div class="step-div d-flex align-items-center">
 <div class="step-div__icon d-flex align-items-center">
-<i aria-hidden="true" class="fa fa-sign-in"></i>
+<i aria-hidden="true" class="fa fa-sign-inresult.html
 </div>
 <div class="step-div__content">
-<small>Step 1</small>
-                                                    Registration
+<small>Step 1</small>
+
+                                                    Registration
+
                                                 </div>
 </div>
 </button>
@@ -2207,8 +2479,10 @@ padding: 0px 5px 5px 10px;
 <i aria-hidden="true" class="fa fa-shield"></i>
 </div>
 <div class="step-div__content">
-<small>Step 2</small>
-                                                    Application form
+<small>Step 2</small>
+
+                                                    Application form
+
                                                 </div>
 </div>
 </button>
@@ -2218,8 +2492,10 @@ padding: 0px 5px 5px 10px;
 <i aria-hidden="true" class="fa fa-user"></i>
 </div>
 <div class="step-div__content">
-<small>Step 3</small>
-                                                    Document verification &amp; Admission
+<small>Step 3</small>
+
+                                                    Document verification &amp; Admission
+
                                                 </div>
 </div>
 </button>
@@ -2390,8 +2666,10 @@ padding: 0px 5px 5px 10px;
 <div class="st-image">
 <img alt="Placed Student" src="../assets/images/vishal.png"/>
 </div>
-<!-- <div class="st-image-logo">
-                        <img src="../assets/images//logos/logo-7.jpg" alt="Placed Student">
+<!-- <div class="st-image-logo">
+
+                        <img src="../assets/images//logos/logo-7.jpg" alt="Placed Student">
+
                     </div>  -->
 </div>
 <div class="testimoni-section__slider--item border p-4 br-20 position-relative">
@@ -2405,7 +2683,8 @@ padding: 0px 5px 5px 10px;
 <i aria-hidden="true" class="fa fa-star"></i>
 <i aria-hidden="true" class="fa fa-star-half"></i>
 </div>
-<p>A Step towards Success! That is what I call my three-year long tryst with Uttaranchal University. The first step towards climbing the corporate ladder is entry into a distinguished university. 
+<p>A Step towards Success! That is what I call my three-year long tryst with Uttaranchal University. The first step towards climbing the corporate ladder is entry into a distinguished university. 
+
 						<br/>In Uttaranchal University an awesome state-of-the-art infrastructure, extremely informative course curriculum and a great environment for studying made the learning experience truly indispensable. </p>
 <div class="st-name">
 <h5>Sukriti Chaudhary</h5>
@@ -2445,7 +2724,8 @@ padding: 0px 5px 5px 10px;
 </div>
 </div>
 </div>
-</div>    
+</div>    
+
     ﻿<div id="left" style="bottom: 85px !important">
 <a class="handle ui-slideouttab-handle-rounded" style="text-decoration: none">ENQUIRE NOW<i class="fa fa-icon fa-television"></i></a>
 <span style="padding-left:20px; font-weight: 500">Submit Your Enquiry</span>
@@ -2602,8 +2882,10 @@ padding: 0px 5px 5px 10px;
 <li>
 <a href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
 </li>
-<!--                                     <li>
-                                        <a href="../nirf.php">NIRF</a>
+<!--                                     <li>
+
+                                        <a href="../nirf.php">NIRF</a>
+
                                     </li> -->
 <li>
 <a href="https://www.digilocker.gov.in/" rel="nofollow" target="_blank">DigiLocker</a>
@@ -2660,8 +2942,10 @@ padding: 0px 5px 5px 10px;
 <div class="col-lg-6 col-md-6 col-12">
 <div class="footerInfo">
 <h4>About</h4>
-<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
-                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
+
+                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+
                                     this firmly positions us among the top 5% HEIs of the nation. <a href="../about/index.html">Read More</a></p>
 </div>
 </div>
@@ -2694,7 +2978,8 @@ padding: 0px 5px 5px 10px;
 </a>
 </div>
 <div class="uu-varification">
-<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+
                                         UU Degree Verification Service<br/>
 <span>Click Here</span>
 </a>
@@ -2791,163 +3076,319 @@ padding: 0px 5px 5px 10px;
 </li>
 </ul>
 </div>
-<style>
-        /* Set display to none for image*/
-        #image {
-            display: none;
-        }
-        @media print {
-            #printableArea {
-               display : block;
-            }
-        }
-        #left {
-            border-color: #0a58ca;
-        	width: 300px;
-        	border-radius: 4px;
-            bottom: 60px !important;
-        }
-        #left .handle {
-            background-color: #0a58ca;
-        }
-
-        	/*
-            tabSlideOUt
-
-            By  Michael Fielding
-            License: GPL v3.0
-        */
-
-        .ui-slideouttab-panel, .ui-slideouttab-handle {
-            background-color: white;
-            padding: 0.4em;
-            box-sizing: border-box;
-        }
-        .ui-slideouttab-panel {
-        	display: block;
-        	position: fixed;
-            border: 2px solid grey;
-        }
-        /* This class is added after the tabs are initialised, otherwise the user sees the 
-           tabs slide out of the way when the page is initialised. */
-        .ui-slideouttab-ready {
-        	transition: transform 0.5s ease 0s;
-        }
-
-        /* Hide tabs and panels when printed. */
-        @media print {
-            .ui-slideouttab-panel {
-                display: none;
-            }
-        }
-
-        /* Tab handles */
-        .ui-slideouttab-handle {
-            display: block;
-            position: absolute;
-            cursor: pointer;
-            color: white;
-            background-color: grey;
-        }
-        .ui-slideouttab-handle-image {
-            transform: rotate(0);
-        }
-
-        /* Right */
-        .ui-slideouttab-right {
-        	right: 0px;
-        	transform: translateX(100%);
-        	border-right: none;
-        }
-        .ui-slideouttab-right.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle {
-            transform-origin: 0% 0%;
-            transform: rotate(-90deg) translate(-100%,-100%);   
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
-            transform-origin: 0% 100%;
-            transform: rotate(-90deg);
-        }
-        /* Left */
-        .ui-slideouttab-left {
-        	left: 0px;
-        	transform: translateX(-100%);
-        	border-left: none;
-        }
-        .ui-slideouttab-left.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle {
-            transform-origin: 100% 0%;
-            transform: rotate(-90deg);   
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
-            transform-origin: 100% 100%;
-            transform: rotate(-90deg) translate(100%,100%);   
-        }
-        /* Top */
-        .ui-slideouttab-top {
-        	top: 0px;
-        	transform: translateY(-100%);
-        	border-top: none;
-        }
-        .ui-slideouttab-top.ui-slideouttab-open {
-        	transform: translateY(0%);
-        }
-        /* Bottom */
-        .ui-slideouttab-bottom {
-        	bottom: 0px;
-        	transform: translateY(100%);
-        	border-bottom: none;
-        }
-        .ui-slideouttab-bottom.ui-slideouttab-open {
-        		transform: translateY(0%);
-        }
-
-        /* turn font awesome icon in a tab upright */
-        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
-        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
-            transform: rotate(90deg);
-        }
-        .ui-slideouttab-handle>.fa-icon {
-            margin-left: 0.5em;
-        }
-
-        /* apply rounded corners if handle has the -rounded class */
-        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
-        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
-            border-radius: 0 0 4px 4px;
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
-        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
-            border-radius: 4px 4px 0 0;
-        }
+<style>
+
+        /* Set display to none for image*/
+
+        #image {
+
+            display: none;
+
+        }
+
+        @media print {
+
+            #printableArea {
+
+               display : block;
+
+            }
+
+        }
+
+        #left {
+
+            border-color: #0a58ca;
+
+        	width: 300px;
+
+        	border-radius: 4px;
+
+            bottom: 60px !important;
+
+        }
+
+        #left .handle {
+
+            background-color: #0a58ca;
+
+        }
+
+
+
+        	/*
+
+            tabSlideOUt
+
+
+
+            By  Michael Fielding
+
+            License: GPL v3.0
+
+        */
+
+
+
+        .ui-slideouttab-panel, .ui-slideouttab-handle {
+
+            background-color: white;
+
+            padding: 0.4em;
+
+            box-sizing: border-box;
+
+        }
+
+        .ui-slideouttab-panel {
+
+        	display: block;
+
+        	position: fixed;
+
+            border: 2px solid grey;
+
+        }
+
+        /* This class is added after the tabs are initialised, otherwise the user sees the 
+
+           tabs slide out of the way when the page is initialised. */
+
+        .ui-slideouttab-ready {
+
+        	transition: transform 0.5s ease 0s;
+
+        }
+
+
+
+        /* Hide tabs and panels when printed. */
+
+        @media print {
+
+            .ui-slideouttab-panel {
+
+                display: none;
+
+            }
+
+        }
+
+
+
+        /* Tab handles */
+
+        .ui-slideouttab-handle {
+
+            display: block;
+
+            position: absolute;
+
+            cursor: pointer;
+
+            color: white;
+
+            background-color: grey;
+
+        }
+
+        .ui-slideouttab-handle-image {
+
+            transform: rotate(0);
+
+        }
+
+
+
+        /* Right */
+
+        .ui-slideouttab-right {
+
+        	right: 0px;
+
+        	transform: translateX(100%);
+
+        	border-right: none;
+
+        }
+
+        .ui-slideouttab-right.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle {
+
+            transform-origin: 0% 0%;
+
+            transform: rotate(-90deg) translate(-100%,-100%);   
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
+
+            transform-origin: 0% 100%;
+
+            transform: rotate(-90deg);
+
+        }
+
+        /* Left */
+
+        .ui-slideouttab-left {
+
+        	left: 0px;
+
+        	transform: translateX(-100%);
+
+        	border-left: none;
+
+        }
+
+        .ui-slideouttab-left.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle {
+
+            transform-origin: 100% 0%;
+
+            transform: rotate(-90deg);   
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
+
+            transform-origin: 100% 100%;
+
+            transform: rotate(-90deg) translate(100%,100%);   
+
+        }
+
+        /* Top */
+
+        .ui-slideouttab-top {
+
+        	top: 0px;
+
+        	transform: translateY(-100%);
+
+        	border-top: none;
+
+        }
+
+        .ui-slideouttab-top.ui-slideouttab-open {
+
+        	transform: translateY(0%);
+
+        }
+
+        /* Bottom */
+
+        .ui-slideouttab-bottom {
+
+        	bottom: 0px;
+
+        	transform: translateY(100%);
+
+        	border-bottom: none;
+
+        }
+
+        .ui-slideouttab-bottom.ui-slideouttab-open {
+
+        		transform: translateY(0%);
+
+        }
+
+
+
+        /* turn font awesome icon in a tab upright */
+
+        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
+
+        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
+
+            transform: rotate(90deg);
+
+        }
+
+        .ui-slideouttab-handle>.fa-icon {
+
+            margin-left: 0.5em;
+
+        }
+
+
+
+        /* apply rounded corners if handle has the -rounded class */
+
+        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
+
+        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
+
+            border-radius: 0 0 4px 4px;
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
+
+        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
+
+            border-radius: 4px 4px 0 0;
+
+        }
+
     </style>
-<script>
-    function printDiv(divName) {
-         var printContents = document.getElementById(divName).innerHTML;
-         var originalContents = document.body.innerHTML;
-
-         document.body.innerHTML = printContents;
-
-         window.print();
-
-         document.body.innerHTML = originalContents;
-    }
-    	function show() {
-     
-                /* Access image by id and change
-                the display property to block*/
-                document.getElementById('image')
-                        .style.display = "block";
-     
-                document.getElementById('printableArea')
-                        .style.display = "none";
-    	}
-    	
-    	
+<script>
+
+    function printDiv(divName) {
+
+         var printContents = document.getElementById(divName).innerHTML;
+
+         var originalContents = document.body.innerHTML;
+
+
+
+         document.body.innerHTML = printContents;
+
+
+
+         window.print();
+
+
+
+         document.body.innerHTML = originalContents;
+
+    }
+
+    	function show() {
+
+     
+
+                /* Access image by id and change
+
+                the display property to block*/
+
+                document.getElementById('image')
+
+                        .style.display = "block";
+
+     
+
+                document.getElementById('printableArea')
+
+                        .style.display = "none";
+
+    	}
+
+    	
+
+    	
+
     </script>
 <!-- javascripts files -->
 <script src="../assets/js/jquery.min.js"></script>
@@ -2959,197 +3400,378 @@ padding: 0px 5px 5px 10px;
 <script src="../assets/js/slider-popup.js"></script>
 <!-- <script src="../assets/js/content-sliders.js "></script> -->
 <link href="../assets/css/form-widget.css" rel="stylesheet"/>
-<script type="text/javascript">
-        $('.top-notification-slider').not('.slick-initialized').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        pauseOnHover: true,
-        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
-    });
+<script type="text/javascript">
+
+        $('.top-notification-slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        pauseOnHover: true,
+
+        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
+
+    });
+
     </script>
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+<script type="text/javascript">
+
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+    (function(){
+
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+
+    s1.async=true;
+
+    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
+
+    s1.charset='UTF-8';
+
+    s1.setAttribute('crossorigin','*');
+
+    s0.parentNode.insertBefore(s1,s0);
+
+    })();
+
     </script>
 <!--End of Tawk.to Script-->
-<script type="text/javascript">
-    // Function to encode HTML special characters to prevent XSS
-    function encodeHTML(str) {
-      return str.replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#39;");
-    }
-
-    const chatInput = document.querySelector('.tawk-chatinput-editor');
-    const sendBtn = document.getElementById('send-btn');
-    const chatOutput = document.getElementById('chat-output');
-
-    sendBtn.addEventListener('click', function() {
-      const userInput = chatInput.value.trim();
-      if (!userInput) return; // ignore empty input
-
-      const safeMessage = encodeHTML(userInput);
-
-      // Append the safe message to chat output with a newline
-      chatOutput.innerHTML += safeMessage + '\n';
-
-      // Clear input field
-      chatInput.value = '';
-      chatInput.focus();
-
-      // Scroll to bottom
-      chatOutput.scrollTop = chatOutput.scrollHeight;
-    });
+<script type="text/javascript">
+
+    // Function to encode HTML special characters to prevent XSS
+
+    function encodeHTML(str) {
+
+      return str.replace(/&/g, "&amp;")
+
+                .replace(/</g, "&lt;")
+
+                .replace(/>/g, "&gt;")
+
+                .replace(/"/g, "&quot;")
+
+                .replace(/'/g, "&#39;");
+
+    }
+
+
+
+    const chatInput = document.querySelector('.tawk-chatinput-editor');
+
+    const sendBtn = document.getElementById('send-btn');
+
+    const chatOutput = document.getElementById('chat-output');
+
+
+
+    sendBtn.addEventListener('click', function() {
+
+      const userInput = chatInput.value.trim();
+
+      if (!userInput) return; // ignore empty input
+
+
+
+      const safeMessage = encodeHTML(userInput);
+
+
+
+      // Append the safe message to chat output with a newline
+
+      chatOutput.innerHTML += safeMessage + '\n';
+
+
+
+      // Clear input field
+
+      chatInput.value = '';
+
+      chatInput.focus();
+
+
+
+      // Scroll to bottom
+
+      chatOutput.scrollTop = chatOutput.scrollHeight;
+
+    });
+
     </script>
 <!-- ERP Login Popup JavaScript -->
-<script>
-        function handleERPLogin(type) {
-            // Handle login logic here
-            console.log('Login selected:', type);
-            
-            // Close modal after a brief delay to allow navigation
-            setTimeout(() => {
-                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
-                if (modal) {
-                    modal.hide();
-                }
-            }, 100);
-            
-            // Links will open in new tab due to target="_blank"
-            // URLs are now directly in the href attributes:
-            // Student: https://student.uttaranchaluniversity.ac.in/
-            // Staff: https://staff.uttaranchaluniversity.ac.in/
-        }
-        
-        // Initialize modal and handle URL hash changes
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize the modal
-            const modalElement = document.getElementById('erploginmodel');
-            if (modalElement) {
-                const modal = new bootstrap.Modal(modalElement);
-                
-                // Handle hash-based modal triggers (with UTM parameters support)
-                function handleHashChange() {
-                    const hash = window.location.hash;
-                    // Extract just the modal ID part, ignoring query parameters
-                    const modalId = hash.split('?')[0].replace('#', '');
-                    
-                    if (modalId === 'erploginmodel') {
-                        modal.show();
-                    }
-                }
-                
-                // Check hash on page load
-                handleHashChange();
-                
-                // Listen for hash changes
-                window.addEventListener('hashchange', handleHashChange);
-                
-                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
-                document.addEventListener('click', function(e) {
-                    const link = e.target.closest('a[href*="#erploginmodel"]');
-                    if (link) {
-                        e.preventDefault();
-                        modal.show();
-                    }
-                });
-            }
-        });
+<script>
+
+        function handleERPLogin(type) {
+
+            // Handle login logic here
+
+            console.log('Login selected:', type);
+
+            
+
+            // Close modal after a brief delay to allow navigation
+
+            setTimeout(() => {
+
+                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
+
+                if (modal) {
+
+                    modal.hide();
+
+                }
+
+            }, 100);
+
+            
+
+            // Links will open in new tab due to target="_blank"
+
+            // URLs are now directly in the href attributes:
+
+            // Student: https://student.uttaranchaluniversity.ac.in/
+
+            // Staff: https://staff.uttaranchaluniversity.ac.in/
+
+        }
+
+        
+
+        // Initialize modal and handle URL hash changes
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Initialize the modal
+
+            const modalElement = document.getElementById('erploginmodel');
+
+            if (modalElement) {
+
+                const modal = new bootstrap.Modal(modalElement);
+
+                
+
+                // Handle hash-based modal triggers (with UTM parameters support)
+
+                function handleHashChange() {
+
+                    const hash = window.location.hash;
+
+                    // Extract just the modal ID part, ignoring query parameters
+
+                    const modalId = hash.split('?')[0].replace('#', '');
+
+                    
+
+                    if (modalId === 'erploginmodel') {
+
+                        modal.show();
+
+                    }
+
+                }
+
+                
+
+                // Check hash on page load
+
+                handleHashChange();
+
+                
+
+                // Listen for hash changes
+
+                window.addEventListener('hashchange', handleHashChange);
+
+                
+
+                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
+
+                document.addEventListener('click', function(e) {
+
+                    const link = e.target.closest('a[href*="#erploginmodel"]');
+
+                    if (link) {
+
+                        e.preventDefault();
+
+                        modal.show();
+
+                    }
+
+                });
+
+            }
+
+        });
+
     </script>
 <!-- Google UTM Code -->
 <script src="https://google-utm-js.s3.ap-south-1.amazonaws.com/google-utm.js" type="text/javascript"></script>
 <script src="../assets/js/toggle-menu-js.js"></script>
-<script type="text/javascript">
-        $(document).ready(function(){
-            $('.ranking-logos').slick({
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 4000,
-                arrows: false,
-                dots: false,
-                    pauseOnHover: false,
-                    responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2
-                    }
-                }, {
-                    breakpoint: 520,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }]
-            });
-        });
-
-
-        $('.placementLogos-section__slider').not('.slick-initialized').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        variableWidth: true,
-        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
-    });
-
-
-          $('.testimoni-section__slider').not('.slick-initialized').slick({
-        dots: true,
-        infinite: true,
-        speed: 1200,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
-
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }]
-    });
-
-
-          $('.specialization-slider').not('.slick-initialized').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        variableWidth: true,
-        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
-    });
-
-
+<script type="text/javascript">
+
+        $(document).ready(function(){
+
+            $('.ranking-logos').slick({
+
+                slidesToShow: 4,
+
+                slidesToScroll: 1,
+
+                autoplay: true,
+
+                autoplaySpeed: 4000,
+
+                arrows: false,
+
+                dots: false,
+
+                    pauseOnHover: false,
+
+                    responsive: [{
+
+                    breakpoint: 768,
+
+                    settings: {
+
+                        slidesToShow: 2
+
+                    }
+
+                }, {
+
+                    breakpoint: 520,
+
+                    settings: {
+
+                        slidesToShow: 1
+
+                    }
+
+                }]
+
+            });
+
+        });
+
+
+
+
+
+        $('.placementLogos-section__slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        arrows: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        variableWidth: true,
+
+        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+    });
+
+
+
+
+
+          $('.testimoni-section__slider').not('.slick-initialized').slick({
+
+        dots: true,
+
+        infinite: true,
+
+        speed: 1200,
+
+        autoplay: true,
+
+        autoplaySpeed: 4000,
+
+        slidesToShow: 2,
+
+        slidesToScroll: 1,
+
+        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+
+
+        responsive: [{
+
+            breakpoint: 768,
+
+            settings: {
+
+                slidesToShow: 1,
+
+                slidesToScroll: 1
+
+            }
+
+        }]
+
+    });
+
+
+
+
+
+          $('.specialization-slider').not('.slick-initialized').slick({
+
+        dots: true,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        variableWidth: true,
+
+        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+    });
+
+
+
+
+
     </script>
 </body>
 </html>

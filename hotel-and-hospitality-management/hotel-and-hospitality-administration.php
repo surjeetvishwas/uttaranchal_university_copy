@@ -45,26 +45,35 @@
 <body>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RRKVSHXFXQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RRKVSHXFXQ');
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-RRKVSHXFXQ');
+
 </script>
 <header class="header shadow shadow-sm">
 <div class="header__top">
 <div class="container">
 <div class="row d-block d-md-none bg-white py-2">
-<div class="text-center text-danger fw-bold">
+<div class="text-center text-danger fw-bold">
+
                     Toll Free: <a class="text-decoration-none" href="../18002124201.html">18002124201</a>
 </div>
 </div>
 <div class="row">
 <div class="col-lg-5">
 <div class="top-notification-slider" style="line-height: 15px;">
-<!--                             <div class="tns-item">
-                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+<!--                             <div class="tns-item">
+
+                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+
                             </div>  -->
 <div class="tns-item">
 <a href="hotel-and-hospitality-administration.php" style="color:chartreuse" target="_blank">Summer Research Advisory Committee Meeting Proposed in July (1st - 15th)</a>
@@ -123,10 +132,14 @@
 <div class="uu-logo">
 <a class="uu-pc-logo" href="../index.html"><img alt="Uttranchal University" src="../assets/images/UU-Logo-Naac-Nirf.png" title="Uttranchal University" width="400"/></a>
 </div>
-<!--                 <div class="cuetbx d-none d-md-block">
-                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
-                    Last Date: 31 August 2025 - Apply Now
-                  </a>
+<!--                 <div class="cuetbx d-none d-md-block">
+
+                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
+
+                    Last Date: 31 August 2025 - Apply Now
+
+                  </a>
+
                 </div> -->
 <div class="header__center--right d-flex align-items-center justify-content-end">
 <div class="headerApply d-flex justify-content-center">
@@ -148,10 +161,14 @@
 <div class="header-bottom">
 <nav class="navbar navbar-expand-lg p-0">
 <div class="container">
-<!--                     <a href="https://www.uudoon.in/admissions/" 
-                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
-                       style="font-size: 15px;">
-                      Last Date: 31 August 2025 - Apply Now
+<!--                     <a href="https://www.uudoon.in/admissions/" 
+
+                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
+
+                       style="font-size: 15px;">
+
+                      Last Date: 31 August 2025 - Apply Now
+
                     </a> -->
 <button aria-label="Toggle navigation" class="navbar-toggler p-0 border-0" id="navbarSideCollapse" type="button">
 <span class="navbar-toggler-icon"></span>
@@ -288,8 +305,10 @@
 <li>
 <a href="../computing-sciences/index.html">Computer Applications</a>
 </li>
-<!-- <li>
-                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+<!-- <li>
+
+                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+
                                                                     </li> -->
 <li>
 <a href="index.html">Hotel &amp; Hospitality Management</a>
@@ -397,8 +416,10 @@
 <li>
 <a href="../management/index.html">Top Management Program</a>
 </li>
-<!--<li>
-                                                                                <a href="">Program Fee</a>
+<!--<li>
+
+                                                                                <a href="">Program Fee</a>
+
                                                                             </li>-->
 <li>
 <a href="../admissions/how-to-apply.php">How to Apply</a>
@@ -423,8 +444,10 @@
 <div class="ol-learning">
 <a href="../international.html" target="_blank"><i aria-hidden="true" class="fa fa-external-link me-2"></i> International</a>
 </div>
-<!--  <div class="ol-learning">
-                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+<!--  <div class="ol-learning">
+
+                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+
                                                                          </div> -->
 </div>
 </div>
@@ -535,29 +558,45 @@
 <li>
 <a href="../campus-life/sports.php">Sports</a>
 </li>
-<!--                                                         <li>
-                                                            <a href="../campus-life/seminars.php">Seminars</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/seminars.php">Seminars</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/workshops.php">Workshops</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/workshops.php">Workshops</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/convocations.php">Convocations</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/convocations.php">Convocations</a>
+
                                                         </li> -->
-<!-- <li>
-                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+<!-- <li>
+
+                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+
                                                         </li>-->
-<!--                                                         <li>
-                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/conferences.php">Conferences</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/conferences.php">Conferences</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+<!--                                                         <li>
+
+                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+
                                                         </li> -->
 <li>
 <a href="../ncc/index.html">NCC</a>
@@ -603,8 +642,10 @@
 <li>
 <a href="../research/index.html">Overview</a>
 </li>
-<!-- <li>
-                                                            <a href="">Distinguished Faculty Members</a>
+<!-- <li>
+
+                                                            <a href="">Distinguished Faculty Members</a>
+
                                                         </li>-->
 <li>
 <a href="../research/research-and-development-cell.php">Research &amp; Development Cell</a>
@@ -618,8 +659,10 @@
 <li>
 <a href="../research/student-research-cell.php">Student Research Cell</a>
 </li>
-<!-- <li>
-                                                            <a href="../research/research-groups/">Research Groups</a>
+<!-- <li>
+
+                                                            <a href="../research/research-groups/">Research Groups</a>
+
                                                         </li> -->
 <li>
 <a href="../research/startups-and-enterpreneurship.php">Startups, Entrepreneurship, and Innovation Cell</a>
@@ -652,55 +695,104 @@
 <li class="nav-item">
 <a class="nav-link" href="../placements/index.php">Placements</a>
 </li>
-<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
-                                <a class="nav-link" href="javascript:void(0)">Placements</a>
-                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
-                                    <div class="menu-programs-list__style">
-                                        <div class="row g-0">
-                                            <div class="col-lg-6">
-                                                <div class="pt-4 pb-4 ps-4">
-                                                    <h5>Placements</h5>
-                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
-                                                        <li>
-                                                            <a href="../placements/index.php">Placement Overview</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/best-packages.php">Best Packages</a>
-                                                        </li>
-                                                        <<li>
-                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
-                                                <div class="p-4">
-                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
-                                                    <div class="row g-0">
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
+
+                                <a class="nav-link" href="javascript:void(0)">Placements</a>
+
+                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
+
+                                    <div class="menu-programs-list__style">
+
+                                        <div class="row g-0">
+
+                                            <div class="col-lg-6">
+
+                                                <div class="pt-4 pb-4 ps-4">
+
+                                                    <h5>Placements</h5>
+
+                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
+
+                                                        <li>
+
+                                                            <a href="../placements/index.php">Placement Overview</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/best-packages.php">Best Packages</a>
+
+                                                        </li>
+
+                                                        <<li>
+
+                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
+
+                                                        </li>
+
+                                                    </ul>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
+
+                                                <div class="p-4">
+
+                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
+
+                                                    <div class="row g-0">
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </li> -->
 <li class="nav-item">
 <a class="nav-link" href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
@@ -755,7 +847,8 @@
 <div class="container">
 <div class="programDetailBanner__content">
 <h2>B.Sc. Hotel &amp; Hospitality Administration</h2>
-<p>Get an opportunity to work in Hotel &amp; Restaurant Management, Resort Management, Airlines Catering, Cabin Services, Club Management, Cruise Ship Management, and many more. </p>, 
+<p>Get an opportunity to work in Hotel &amp; Restaurant Management, Resort Management, Airlines Catering, Cabin Services, Club Management, Cruise Ship Management, and many more. </p>, 
+
                 <a class="btn btn-lg btn-primary btn-shadow" href="../admissions/index.php">Apply Now <i aria-hidden="true" class="fa fa-long-arrow-right ms-1"></i></a>
 </div>
 </div>
@@ -844,8 +937,10 @@
 <li class="nav-item" role="presentation">
 <button aria-controls="home-tab-pane" aria-selected="true" class="nav-link active" data-bs-target="#home-tab-pane" data-bs-toggle="tab" id="home-tab" role="tab" type="button">Fee Structure</button>
 </li>
-<!--<li class="nav-item" role="presentation">
-                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Lateral Entry Fee Structure</button>
+<!--<li class="nav-item" role="presentation">
+
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Lateral Entry Fee Structure</button>
+
                             </li>-->
 <li class="nav-item" role="presentation">
 <button aria-controls="contact-tab-pane" aria-selected="false" class="nav-link" data-bs-target="#contact-tab-pane" data-bs-toggle="tab" id="contact-tab" role="tab" type="button">Other Fees</button>
@@ -1318,7 +1413,8 @@
 <h3>Note:</h3>
 </div>
 <ul class="list-unstyled p-0 list-icon-3 ps-4">
-<li>Only one choice of scholarship will be allowed to the candidate from the following:
+<li>Only one choice of scholarship will be allowed to the candidate from the following:
+
                                 <ul class="list-unstyled p-0 list-icon-4 ps-4 mt-3">
 <li>5% scholarship on Net Academic Fee (after merit scholarship) to Girl Candidate for complete programme.</li>
 <li>5% scholarship on Net Academic Fee (after merit scholarship) to ward of Defence Personnel for complete programme.</li>
@@ -1355,8 +1451,10 @@
 <div class="accordion mb-4" id="accordionExample">
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingOne">
-<button aria-controls="collapseOne" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
-                              Semester 1
+<button aria-controls="collapseOne" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
+
+                              Semester 1
+
                             </button>
 </h2>
 <div aria-labelledby="headingOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample" id="collapseOne">
@@ -1371,129 +1469,201 @@
 </thead>
 <tbody>
 <tr>
-<td>
-1.
+<td>
+
+1.
+
 </td>
-<td>
-BSHM101(T)
+<td>
+
+BSHM101(T)
+
 </td>
-<td>
-Food Production Foundation– I
+<td>
+
+Food Production Foundation– I
+
 </td>
-<td>
-4
-</td>
-</tr>
-<tr>
-<td>
-2.
-</td>
-<td>
-BSHM 102(T)
-</td>
-<td>
-Food &amp; Beverage Service Foundation– I
-</td>
-<td>
-4
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-3.
+<td>
+
+2.
+
 </td>
-<td>
-BSHM 103(T)
+<td>
+
+BSHM 102(T)
+
 </td>
-<td>
-Room Division Foundation-I
+<td>
+
+Food &amp; Beverage Service Foundation– I
+
 </td>
-<td>
-4
-</td>
-</tr>
-<tr>
-<td>
-4.
-</td>
-<td>
-BSHM 104(T)
-</td>
-<td>
-Food Science &amp; Nutrition
-</td>
-<td>
-2
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-5.
+<td>
+
+3.
+
 </td>
-<td>
-BSHM 105(T)
+<td>
+
+BSHM 103(T)
+
 </td>
-<td>
-Environment Science
+<td>
+
+Room Division Foundation-I
+
 </td>
-<td>
-2
-</td>
-</tr>
-<tr>
-<td>
-6.
-</td>
-<td>
-BSHM 106(P)
-</td>
-<td>
-Food Production Foundation – I Lab
-</td>
-<td>
-2
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-7.
+<td>
+
+4.
+
 </td>
-<td>
-BSHM 107(P)
+<td>
+
+BSHM 104(T)
+
 </td>
-<td>
-Food &amp; Beverage Service Foundation – I Lab
+<td>
+
+Food Science &amp; Nutrition
+
 </td>
-<td>
-2
-</td>
-</tr>
-<tr>
-<td>
-8.
-</td>
-<td>
-BSHM 108 (P)
-</td>
-<td>
-Room Division Foundation -I Lab
-</td>
-<td>
-2
+<td>
+
+2
+
 </td>
 </tr>
 <tr>
-<td>
-9.
+<td>
+
+5.
+
 </td>
-<td>
-VAC-HM-01
+<td>
+
+BSHM 105(T)
+
 </td>
-<td>
-Life Skills
+<td>
+
+Environment Science
+
 </td>
-<td>
-2
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+6.
+
+</td>
+<td>
+
+BSHM 106(P)
+
+</td>
+<td>
+
+Food Production Foundation – I Lab
+
+</td>
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+7.
+
+</td>
+<td>
+
+BSHM 107(P)
+
+</td>
+<td>
+
+Food &amp; Beverage Service Foundation – I Lab
+
+</td>
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+8.
+
+</td>
+<td>
+
+BSHM 108 (P)
+
+</td>
+<td>
+
+Room Division Foundation -I Lab
+
+</td>
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+9.
+
+</td>
+<td>
+
+VAC-HM-01
+
+</td>
+<td>
+
+Life Skills
+
+</td>
+<td>
+
+2
+
 </td>
 </tr>
 </tbody>
@@ -1512,8 +1682,10 @@ Life Skills
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingTwo">
-<button aria-controls="collapseTwo" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo" data-bs-toggle="collapse" type="button">
-                              Semester 2
+<button aria-controls="collapseTwo" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo" data-bs-toggle="collapse" type="button">
+
+                              Semester 2
+
                             </button>
 </h2>
 <div aria-labelledby="headingTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapseTwo">
@@ -1528,101 +1700,157 @@ Life Skills
 </thead>
 <tbody>
 <tr>
-<td>
-1.
+<td>
+
+1.
+
 </td>
-<td>
-BSHM 201(T)
+<td>
+
+BSHM 201(T)
+
 </td>
-<td>
-Food Production Foundation – II
+<td>
+
+Food Production Foundation – II
+
 </td>
-<td>
-4
-</td>
-</tr>
-<tr>
-<td>
-2.
-</td>
-<td>
-BSHM 202(T)
-</td>
-<td>
-Food &amp; Beverage Service Foundation – II
-</td>
-<td>
-4
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-3.
+<td>
+
+2.
+
 </td>
-<td>
-BSHM 203(T)
+<td>
+
+BSHM 202(T)
+
 </td>
-<td>
-Room Division Foundation -II
+<td>
+
+Food &amp; Beverage Service Foundation – II
+
 </td>
-<td>
-4
-</td>
-</tr>
-<tr>
-<td>
-4.
-</td>
-<td>
-BSHM 204(T)
-</td>
-<td>
-English/MIL Communication
-</td>
-<td>
-2
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-5.
+<td>
+
+3.
+
 </td>
-<td>
-BSHM 205(P)
+<td>
+
+BSHM 203(T)
+
 </td>
-<td>
-Food Production Foundation – II Lab
+<td>
+
+Room Division Foundation -II
+
 </td>
-<td>
-2
-</td>
-</tr>
-<tr>
-<td>
-6.
-</td>
-<td>
-BSHM 206(P)
-</td>
-<td>
-Food &amp; Beverage Service Foundation – II Lab
-</td>
-<td>
-2
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-7.
+<td>
+
+4.
+
 </td>
-<td>
-BSHM 207(P)
+<td>
+
+BSHM 204(T)
+
 </td>
-<td>
-Room Division Foundation -II Lab
+<td>
+
+English/MIL Communication
+
 </td>
-<td>
-2
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+5.
+
+</td>
+<td>
+
+BSHM 205(P)
+
+</td>
+<td>
+
+Food Production Foundation – II Lab
+
+</td>
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+6.
+
+</td>
+<td>
+
+BSHM 206(P)
+
+</td>
+<td>
+
+Food &amp; Beverage Service Foundation – II Lab
+
+</td>
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+7.
+
+</td>
+<td>
+
+BSHM 207(P)
+
+</td>
+<td>
+
+Room Division Foundation -II Lab
+
+</td>
+<td>
+
+2
+
 </td>
 </tr>
 </tbody>
@@ -1641,8 +1869,10 @@ Room Division Foundation -II Lab
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingThree">
-<button aria-controls="collapseThree" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">
-                                    Semester 3
+<button aria-controls="collapseThree" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">
+
+                                    Semester 3
+
                             </button>
 </h2>
 <div aria-labelledby="headingThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapseThree">
@@ -1657,60 +1887,93 @@ Room Division Foundation -II Lab
 </thead>
 <tbody>
 <tr>
-<td>
-1.
+<td>
+
+1.
+
 </td>
-<td>
-BSHM 301 (P)
+<td>
+
+BSHM 301 (P)
+
 </td>
-<td>
-Food Production Operations-Industry Exposure-I
+<td>
+
+Food Production Operations-Industry Exposure-I
+
 </td>
-<td>
-6
-</td>
-</tr>
-<tr>
-<td>
-2.
-</td>
-<td>
-BSHM 302 (P)
-</td>
-<td>
-Food &amp; Beverage Service Operations-Industry
-Exposure-I
-</td>
-<td>
-6
+<td>
+
+6
+
 </td>
 </tr>
 <tr>
-<td>
-3.
+<td>
+
+2.
+
 </td>
-<td>
-BSHM 303 (P)
+<td>
+
+BSHM 302 (P)
+
 </td>
-<td>
-Room division Operations-Industry Exposure-I
+<td>
+
+Food &amp; Beverage Service Operations-Industry
+
+Exposure-I
+
 </td>
-<td>
-6
+<td>
+
+6
+
 </td>
 </tr>
 <tr>
-<td>
-4.
+<td>
+
+3.
+
 </td>
-<td>
-BSHM 304 (P)
+<td>
+
+BSHM 303 (P)
+
 </td>
-<td>
-Personality Skill for Hospitality-Learning from Industry
+<td>
+
+Room division Operations-Industry Exposure-I
+
 </td>
-<td>
-2
+<td>
+
+6
+
+</td>
+</tr>
+<tr>
+<td>
+
+4.
+
+</td>
+<td>
+
+BSHM 304 (P)
+
+</td>
+<td>
+
+Personality Skill for Hospitality-Learning from Industry
+
+</td>
+<td>
+
+2
+
 </td>
 </tr>
 </tbody>
@@ -1729,8 +1992,10 @@ Personality Skill for Hospitality-Learning from Industry
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading4">
-<button aria-controls="collapse4" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse4" data-bs-toggle="collapse" type="button">
-                                    Semester 4
+<button aria-controls="collapse4" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse4" data-bs-toggle="collapse" type="button">
+
+                                    Semester 4
+
                             </button>
 </h2>
 <div aria-labelledby="heading4" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse4">
@@ -1745,101 +2010,157 @@ Personality Skill for Hospitality-Learning from Industry
 </thead>
 <tbody>
 <tr>
-<td width="56">
-1.
+<td width="56">
+
+1.
+
 </td>
-<td width="104">
-BSHM 401(T)
+<td width="104">
+
+BSHM 401(T)
+
 </td>
-<td width="307">
-Introduction to Indian cookery
+<td width="307">
+
+Introduction to Indian cookery
+
 </td>
-<td width="81">
-4
-</td>
-</tr>
-<tr>
-<td width="56">
-2.
-</td>
-<td width="104">
-BSHM 402(T)
-</td>
-<td width="307">
-Food &amp; Beverage Service Operations-II
-</td>
-<td width="81">
-4
+<td width="81">
+
+4
+
 </td>
 </tr>
 <tr>
-<td width="56">
-3.
+<td width="56">
+
+2.
+
 </td>
-<td width="104">
-BSHM 403(T)
+<td width="104">
+
+BSHM 402(T)
+
 </td>
-<td width="307">
-Room Division Operations-II
+<td width="307">
+
+Food &amp; Beverage Service Operations-II
+
 </td>
-<td width="81">
-4
-</td>
-</tr>
-<tr>
-<td width="56">
-4.
-</td>
-<td width="104">
-BSHM 404(T)
-</td>
-<td width="307">
-Accounting skills for hospitality
-</td>
-<td width="81">
-2
+<td width="81">
+
+4
+
 </td>
 </tr>
 <tr>
-<td width="56">
-5.
+<td width="56">
+
+3.
+
 </td>
-<td width="104">
-BSHM 405(P)
+<td width="104">
+
+BSHM 403(T)
+
 </td>
-<td width="307">
-Introduction to Indian cookery Lab
+<td width="307">
+
+Room Division Operations-II
+
 </td>
-<td width="81">
-2
-</td>
-</tr>
-<tr>
-<td width="56">
-6.
-</td>
-<td width="104">
-BSHM 406(P)
-</td>
-<td width="307">
-Food &amp; Beverage Operations-II Lab
-</td>
-<td width="81">
-2
+<td width="81">
+
+4
+
 </td>
 </tr>
 <tr>
-<td width="56">
-7.
+<td width="56">
+
+4.
+
 </td>
-<td width="104">
-BSHM 407(P)
+<td width="104">
+
+BSHM 404(T)
+
 </td>
-<td width="307">
-Room Division Operations-II Lab
+<td width="307">
+
+Accounting skills for hospitality
+
 </td>
-<td width="81">
-2
+<td width="81">
+
+2
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+5.
+
+</td>
+<td width="104">
+
+BSHM 405(P)
+
+</td>
+<td width="307">
+
+Introduction to Indian cookery Lab
+
+</td>
+<td width="81">
+
+2
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+6.
+
+</td>
+<td width="104">
+
+BSHM 406(P)
+
+</td>
+<td width="307">
+
+Food &amp; Beverage Operations-II Lab
+
+</td>
+<td width="81">
+
+2
+
+</td>
+</tr>
+<tr>
+<td width="56">
+
+7.
+
+</td>
+<td width="104">
+
+BSHM 407(P)
+
+</td>
+<td width="307">
+
+Room Division Operations-II Lab
+
+</td>
+<td width="81">
+
+2
+
 </td>
 </tr>
 </tbody>
@@ -1858,8 +2179,10 @@ Room Division Operations-II Lab
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading5">
-<button aria-controls="collapse5" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse5" data-bs-toggle="collapse" type="button">
-                                    Semester 5
+<button aria-controls="collapse5" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse5" data-bs-toggle="collapse" type="button">
+
+                                    Semester 5
+
                             </button>
 </h2>
 <div aria-labelledby="heading5" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse5">
@@ -1874,115 +2197,179 @@ Room Division Operations-II Lab
 </thead>
 <tbody>
 <tr>
-<td>
-1
+<td>
+
+1
+
 </td>
-<td>
-BSHM 501(T)
+<td>
+
+BSHM 501(T)
+
 </td>
-<td>
-Foreign Language Skill (French)
+<td>
+
+Foreign Language Skill (French)
+
 </td>
-<td>
-1
-</td>
-</tr>
-<tr>
-<td>
-2
-</td>
-<td>
-BSHM 502(T)
-</td>
-<td>
-Regional Cuisine of India
-</td>
-<td>
-4
+<td>
+
+1
+
 </td>
 </tr>
 <tr>
-<td>
-3
+<td>
+
+2
+
 </td>
-<td>
-BSHM 503(T)
+<td>
+
+BSHM 502(T)
+
 </td>
-<td>
-Food &amp; Beverage Service Management - I
+<td>
+
+Regional Cuisine of India
+
 </td>
-<td>
-4
-</td>
-</tr>
-<tr>
-<td>
-4
-</td>
-<td>
-BSHM 504 (T)
-</td>
-<td>
-Hotel Engineering &amp; Facility Planning
-</td>
-<td>
-2
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-5
+<td>
+
+3
+
 </td>
-<td>
-BSHM 505(T)
+<td>
+
+BSHM 503(T)
+
 </td>
-<td>
-Room Division Management-I
+<td>
+
+Food &amp; Beverage Service Management - I
+
 </td>
-<td>
-4
-</td>
-</tr>
-<tr>
-<td>
-6
-</td>
-<td>
-BSHM 506 (P)
-</td>
-<td>
-Regional Cuisine of India Lab
-</td>
-<td>
-2
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-7
+<td>
+
+4
+
 </td>
-<td>
-BSHM 507 (P)
+<td>
+
+BSHM 504 (T)
+
 </td>
-<td>
-Food &amp; Beverage Service Management– I Lab
+<td>
+
+Hotel Engineering &amp; Facility Planning
+
 </td>
-<td>
-2
+<td>
+
+2
+
 </td>
 </tr>
 <tr>
-<td>
-8
+<td>
+
+5
+
 </td>
-<td>
-BSHM 508 (P)
+<td>
+
+BSHM 505(T)
+
 </td>
-<td>
-Room Division Management– I Lab
+<td>
+
+Room Division Management-I
+
 </td>
-<td>
-2
+<td>
+
+4
+
+</td>
+</tr>
+<tr>
+<td>
+
+6
+
+</td>
+<td>
+
+BSHM 506 (P)
+
+</td>
+<td>
+
+Regional Cuisine of India Lab
+
+</td>
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+7
+
+</td>
+<td>
+
+BSHM 507 (P)
+
+</td>
+<td>
+
+Food &amp; Beverage Service Management– I Lab
+
+</td>
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+8
+
+</td>result.html
+<td>
+
+BSHM 508 (P)
+
+</td>
+<td>
+
+Room Division Management– I Lab
+
+</td>
+<td>
+
+2
+
 </td>
 </tr>
 </tbody>
@@ -2001,8 +2388,10 @@ Room Division Management– I Lab
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading6">
-<button aria-controls="collapse6" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse6" data-bs-toggle="collapse" type="button">
-                                    Semester 6
+<button aria-controls="collapse6" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse6" data-bs-toggle="collapse" type="button">
+
+                                    Semester 6
+
                             </button>
 </h2>
 <div aria-labelledby="heading6" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse6">
@@ -2017,131 +2406,204 @@ Room Division Management– I Lab
 </thead>
 <tbody>
 <tr>
-<td>
-1
+<td>
+
+1
+
 </td>
-<td>
-BSHM 601(T)
+<td>
+
+BSHM 601(T)
+
 </td>
-<td>
-International (Foreign) Cuisines
+<td>
+
+International (Foreign) Cuisines
+
 </td>
-<td>
-4
-</td>
-</tr>
-<tr>
-<td>
-2
-</td>
-<td>
-BSHM 602(T)
-</td>
-<td>
-Food &amp;Beverage Service Management–II
-</td>
-<td>
-4
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-3
+<td>
+
+2
+
 </td>
-<td>
-BSHM 603(T)
+<td>
+
+BSHM 602(T)
+
 </td>
-<td>
-Room Division Management – II
+<td>
+
+Food &amp;Beverage Service Management–II
+
 </td>
-<td>
-4
-</td>
-</tr>
-<tr>
-<td>
-4
-</td>
-<td>
-BSHM 604(T)
-</td>
-<td>
-Hospitality Marketing
-</td>
-<td>
-4
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-5
+<td>
+
+3
+
 </td>
-<td>
-BSHM 605 (P)
+<td>
+
+BSHM 603(T)
+
 </td>
-<td>
-Traditional Indian Cooking-
-“Exploring Heritage, to achieve Sustainability and nutritional wisdom”
+<td>
+
+Room Division Management – II
+
 </td>
-<td>
-2
-</td>
-</tr>
-<tr>
-<td>
-6
-</td>
-<td>
-BSHM 606 (P)
-</td>
-<td>
-International (Foreign) Cuisine Lab
-</td>
-<td>
-2
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-7
+<td>
+
+4
+
 </td>
-<td>
-BSHM 607 (P)
+<td>
+
+BSHM 604(T)
+
 </td>
-<td>
-Food &amp; Beverage Service Management–II Lab
+<td>
+
+Hospitality Marketing
+
 </td>
-<td>
-2
+<td>
+
+4
+
 </td>
 </tr>
 <tr>
-<td>
-8
+<td>
+
+5
+
 </td>
-<td>
-BSHM 608 (P)
+<td>
+
+BSHM 605 (P)
+
 </td>
-<td>
-Room Division Management –II Lab
+<td>
+
+Traditional Indian Cooking-
+
+“Exploring Heritage, to achieve Sustainability and nutritional wisdom”
+
 </td>
-<td>
-2
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+6
+
+</td>
+<td>
+
+BSHM 606 (P)
+
+</td>
+<td>
+
+International (Foreign) Cuisine Lab
+
+</td>
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+7
+
+</td>
+<td>
+
+BSHM 607 (P)
+
+</td>
+<td>
+
+Food &amp; Beverage Service Management–II Lab
+
+</td>
+<td>
+
+2
+
+</td>
+</tr>
+<tr>
+<td>
+
+8
+
+</td>
+<td>
+
+BSHM 608 (P)
+
+</td>
+<td>
+
+Room Division Management –II Lab
+
+</td>
+<td>
+
+2
+
 </td>
 </tr>
 
 <tr>
-<td>
-9
+<td>
+
+9
+
 </td>
-<td>
-BSHM 609 (P)
+<td>
+
+BSHM 609 (P)
+
 </td>
-<td>
-Research Project
+<td>
+
+Research Project
+
 </td>
-<td>
-1
+<td>
+
+1
+
 </td>
 </tr>
 </tbody>
@@ -2227,9 +2689,11 @@ Research Project
 </div>
 <p>Uttaranchal School of Hotel &amp; Hospitality Management, a constituent institute of Uttaranchal University with an aim to prepare highly knowledgeable and more competent fraternities in the field of Hotel &amp; Hospitality Management.</p>
 <ul class="list-unstyled p-0 list-icon-3 ps-4">
-<li>The campus is well conceptualized and planned.
+<li>The campus is well conceptualized and planned.
+
                             </li>
-<li>The institute is abundantly enabled with the provision of rich resource center in the form of :
+<li>The institute is abundantly enabled with the provision of rich resource center in the form of :
+
                                 <ul class="list-unstyled p-0 list-icon-4 ps-4 mt-3">
 <li>Centrally operated library</li>
 <li>Modern laboratories</li>
@@ -2265,8 +2729,10 @@ Research Project
 <i aria-hidden="true" class="fa fa-sign-in"></i>
 </div>
 <div class="step-div__content">
-<small>Step 1</small>
-                                                    Registration
+<small>Step 1</small>
+
+                                                    Registration
+
                                                 </div>
 </div>
 </button>
@@ -2276,8 +2742,10 @@ Research Project
 <i aria-hidden="true" class="fa fa-shield"></i>
 </div>
 <div class="step-div__content">
-<small>Step 2</small>
-                                                    Application form
+<small>Step 2</small>
+
+                                                    Application form
+
                                                 </div>
 </div>
 </button>
@@ -2287,8 +2755,10 @@ Research Project
 <i aria-hidden="true" class="fa fa-user"></i>
 </div>
 <div class="step-div__content">
-<small>Step 3</small>
-                                                    Document verification &amp; Admission
+<small>Step 3</small>
+
+                                                    Document verification &amp; Admission
+
                                                 </div>
 </div>
 </button>
@@ -2335,9 +2805,12 @@ Research Project
 </div>
 </div>
 </div>
-</section>
-
- 
+</section>
+
+
+
+ 
+
     ﻿<div id="left" style="bottom: 85px !important">
 <a class="handle ui-slideouttab-handle-rounded" style="text-decoration: none">ENQUIRE NOW<i class="fa fa-icon fa-television"></i></a>
 <span style="padding-left:20px; font-weight: 500">Submit Your Enquiry</span>
@@ -2494,8 +2967,10 @@ Research Project
 <li>
 <a href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
 </li>
-<!--                                     <li>
-                                        <a href="../nirf.php">NIRF</a>
+<!--                                     <li>
+
+                                        <a href="../nirf.php">NIRF</a>
+
                                     </li> -->
 <li>
 <a href="https://www.digilocker.gov.in/" rel="nofollow" target="_blank">DigiLocker</a>
@@ -2552,8 +3027,10 @@ Research Project
 <div class="col-lg-6 col-md-6 col-12">
 <div class="footerInfo">
 <h4>About</h4>
-<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
-                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
+
+                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+
                                     this firmly positions us among the top 5% HEIs of the nation. <a href="../about/index.html">Read More</a></p>
 </div>
 </div>
@@ -2586,7 +3063,8 @@ Research Project
 </a>
 </div>
 <div class="uu-varification">
-<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+
                                         UU Degree Verification Service<br/>
 <span>Click Here</span>
 </a>
@@ -2683,163 +3161,319 @@ Research Project
 </li>
 </ul>
 </div>
-<style>
-        /* Set display to none for image*/
-        #image {
-            display: none;
-        }
-        @media print {
-            #printableArea {
-               display : block;
-            }
-        }
-        #left {
-            border-color: #0a58ca;
-        	width: 300px;
-        	border-radius: 4px;
-            bottom: 60px !important;
-        }
-        #left .handle {
-            background-color: #0a58ca;
-        }
-
-        	/*
-            tabSlideOUt
-
-            By  Michael Fielding
-            License: GPL v3.0
-        */
-
-        .ui-slideouttab-panel, .ui-slideouttab-handle {
-            background-color: white;
-            padding: 0.4em;
-            box-sizing: border-box;
-        }
-        .ui-slideouttab-panel {
-        	display: block;
-        	position: fixed;
-            border: 2px solid grey;
-        }
-        /* This class is added after the tabs are initialised, otherwise the user sees the 
-           tabs slide out of the way when the page is initialised. */
-        .ui-slideouttab-ready {
-        	transition: transform 0.5s ease 0s;
-        }
-
-        /* Hide tabs and panels when printed. */
-        @media print {
-            .ui-slideouttab-panel {
-                display: none;
-            }
-        }
-
-        /* Tab handles */
-        .ui-slideouttab-handle {
-            display: block;
-            position: absolute;
-            cursor: pointer;
-            color: white;
-            background-color: grey;
-        }
-        .ui-slideouttab-handle-image {
-            transform: rotate(0);
-        }
-
-        /* Right */
-        .ui-slideouttab-right {
-        	right: 0px;
-        	transform: translateX(100%);
-        	border-right: none;
-        }
-        .ui-slideouttab-right.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle {
-            transform-origin: 0% 0%;
-            transform: rotate(-90deg) translate(-100%,-100%);   
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
-            transform-origin: 0% 100%;
-            transform: rotate(-90deg);
-        }
-        /* Left */
-        .ui-slideouttab-left {
-        	left: 0px;
-        	transform: translateX(-100%);
-        	border-left: none;
-        }
-        .ui-slideouttab-left.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle {
-            transform-origin: 100% 0%;
-            transform: rotate(-90deg);   
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
-            transform-origin: 100% 100%;
-            transform: rotate(-90deg) translate(100%,100%);   
-        }
-        /* Top */
-        .ui-slideouttab-top {
-        	top: 0px;
-        	transform: translateY(-100%);
-        	border-top: none;
-        }
-        .ui-slideouttab-top.ui-slideouttab-open {
-        	transform: translateY(0%);
-        }
-        /* Bottom */
-        .ui-slideouttab-bottom {
-        	bottom: 0px;
-        	transform: translateY(100%);
-        	border-bottom: none;
-        }
-        .ui-slideouttab-bottom.ui-slideouttab-open {
-        		transform: translateY(0%);
-        }
-
-        /* turn font awesome icon in a tab upright */
-        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
-        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
-            transform: rotate(90deg);
-        }
-        .ui-slideouttab-handle>.fa-icon {
-            margin-left: 0.5em;
-        }
-
-        /* apply rounded corners if handle has the -rounded class */
-        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
-        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
-            border-radius: 0 0 4px 4px;
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
-        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
-            border-radius: 4px 4px 0 0;
-        }
+<style>
+
+        /* Set display to none for image*/
+
+        #image {
+
+            display: none;
+
+        }
+
+        @media print {
+
+            #printableArea {
+
+               display : block;
+
+            }
+
+        }
+
+        #left {
+
+            border-color: #0a58ca;
+
+        	width: 300px;
+
+        	border-radius: 4px;
+
+            bottom: 60px !important;
+
+        }
+
+        #left .handle {
+
+            background-color: #0a58ca;
+
+        }
+
+
+
+        	/*
+
+            tabSlideOUt
+
+
+
+            By  Michael Fielding
+
+            License: GPL v3.0
+
+        */
+
+
+
+        .ui-slideouttab-panel, .ui-slideouttab-handle {
+
+            background-color: white;
+
+            padding: 0.4em;
+
+            box-sizing: border-box;
+
+        }
+
+        .ui-slideouttab-panel {
+
+        	display: block;
+
+        	position: fixed;
+
+            border: 2px solid grey;
+
+        }
+
+        /* This class is added after the tabs are initialised, otherwise the user sees the 
+
+           tabs slide out of the way when the page is initialised. */
+
+        .ui-slideouttab-ready {
+
+        	transition: transform 0.5s ease 0s;
+
+        }
+
+
+
+        /* Hide tabs and panels when printed. */
+
+        @media print {
+
+            .ui-slideouttab-panel {
+
+                display: none;
+
+            }
+
+        }
+
+
+
+        /* Tab handles */
+
+        .ui-slideouttab-handle {
+
+            display: block;
+
+            position: absolute;
+
+            cursor: pointer;
+
+            color: white;
+
+            background-color: grey;
+
+        }
+
+        .ui-slideouttab-handle-image {
+
+            transform: rotate(0);
+
+        }
+
+
+
+        /* Right */
+
+        .ui-slideouttab-right {
+
+        	right: 0px;
+
+        	transform: translateX(100%);
+
+        	border-right: none;
+
+        }
+
+        .ui-slideouttab-right.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle {
+
+            transform-origin: 0% 0%;
+
+            transform: rotate(-90deg) translate(-100%,-100%);   
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
+
+            transform-origin: 0% 100%;
+
+            transform: rotate(-90deg);
+
+        }
+
+        /* Left */
+
+        .ui-slideouttab-left {
+
+        	left: 0px;
+
+        	transform: translateX(-100%);
+
+        	border-left: none;
+
+        }
+
+        .ui-slideouttab-left.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle {
+
+            transform-origin: 100% 0%;
+
+            transform: rotate(-90deg);   
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
+
+            transform-origin: 100% 100%;
+
+            transform: rotate(-90deg) translate(100%,100%);   
+
+        }
+
+        /* Top */
+
+        .ui-slideouttab-top {
+
+        	top: 0px;
+
+        	transform: translateY(-100%);
+
+        	border-top: none;
+
+        }
+
+        .ui-slideouttab-top.ui-slideouttab-open {
+
+        	transform: translateY(0%);
+
+        }
+
+        /* Bottom */
+
+        .ui-slideouttab-bottom {
+
+        	bottom: 0px;
+
+        	transform: translateY(100%);
+
+        	border-bottom: none;
+
+        }
+
+        .ui-slideouttab-bottom.ui-slideouttab-open {
+
+        		transform: translateY(0%);
+
+        }
+
+
+
+        /* turn font awesome icon in a tab upright */
+
+        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
+
+        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
+
+            transform: rotate(90deg);
+
+        }
+
+        .ui-slideouttab-handle>.fa-icon {
+
+            margin-left: 0.5em;
+
+        }
+
+
+
+        /* apply rounded corners if handle has the -rounded class */
+
+        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
+
+        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
+
+            border-radius: 0 0 4px 4px;
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
+
+        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
+
+            border-radius: 4px 4px 0 0;
+
+        }
+
     </style>
-<script>
-    function printDiv(divName) {
-         var printContents = document.getElementById(divName).innerHTML;
-         var originalContents = document.body.innerHTML;
-
-         document.body.innerHTML = printContents;
-
-         window.print();
-
-         document.body.innerHTML = originalContents;
-    }
-    	function show() {
-     
-                /* Access image by id and change
-                the display property to block*/
-                document.getElementById('image')
-                        .style.display = "block";
-     
-                document.getElementById('printableArea')
-                        .style.display = "none";
-    	}
-    	
-    	
+<script>
+
+    function printDiv(divName) {
+
+         var printContents = document.getElementById(divName).innerHTML;
+
+         var originalContents = document.body.innerHTML;
+
+
+
+         document.body.innerHTML = printContents;
+
+
+
+         window.print();
+
+
+
+         document.body.innerHTML = originalContents;
+
+    }
+
+    	function show() {
+
+     
+
+                /* Access image by id and change
+
+                the display property to block*/
+
+                document.getElementById('image')
+
+                        .style.display = "block";
+
+     
+
+                document.getElementById('printableArea')
+
+                        .style.display = "none";
+
+    	}
+
+    	
+
+    	
+
     </script>
 <!-- javascripts files -->
 <script src="../assets/js/jquery.min.js"></script>
@@ -2851,154 +3485,292 @@ Research Project
 <script src="../assets/js/slider-popup.js"></script>
 <!-- <script src="../assets/js/content-sliders.js "></script> -->
 <link href="../assets/css/form-widget.css" rel="stylesheet"/>
-<script type="text/javascript">
-        $('.top-notification-slider').not('.slick-initialized').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        pauseOnHover: true,
-        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
-    });
+<script type="text/javascript">
+
+        $('.top-notification-slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        pauseOnHover: true,
+
+        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
+
+    });
+
     </script>
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+<script type="text/javascript">
+
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+    (function(){
+
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+
+    s1.async=true;
+
+    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
+
+    s1.charset='UTF-8';
+
+    s1.setAttribute('crossorigin','*');
+
+    s0.parentNode.insertBefore(s1,s0);
+
+    })();
+
     </script>
 <!--End of Tawk.to Script-->
-<script type="text/javascript">
-    // Function to encode HTML special characters to prevent XSS
-    function encodeHTML(str) {
-      return str.replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#39;");
-    }
-
-    const chatInput = document.querySelector('.tawk-chatinput-editor');
-    const sendBtn = document.getElementById('send-btn');
-    const chatOutput = document.getElementById('chat-output');
-
-    sendBtn.addEventListener('click', function() {
-      const userInput = chatInput.value.trim();
-      if (!userInput) return; // ignore empty input
-
-      const safeMessage = encodeHTML(userInput);
-
-      // Append the safe message to chat output with a newline
-      chatOutput.innerHTML += safeMessage + '\n';
-
-      // Clear input field
-      chatInput.value = '';
-      chatInput.focus();
-
-      // Scroll to bottom
-      chatOutput.scrollTop = chatOutput.scrollHeight;
-    });
+<script type="text/javascript">
+
+    // Function to encode HTML special characters to prevent XSS
+
+    function encodeHTML(str) {
+
+      return str.replace(/&/g, "&amp;")
+
+                .replace(/</g, "&lt;")
+
+                .replace(/>/g, "&gt;")
+
+                .replace(/"/g, "&quot;")
+
+                .replace(/'/g, "&#39;");
+
+    }
+
+
+
+    const chatInput = document.querySelector('.tawk-chatinput-editor');
+
+    const sendBtn = document.getElementById('send-btn');
+
+    const chatOutput = document.getElementById('chat-output');
+
+
+
+    sendBtn.addEventListener('click', function() {
+
+      const userInput = chatInput.value.trim();
+
+      if (!userInput) return; // ignore empty input
+
+
+
+      const safeMessage = encodeHTML(userInput);
+
+
+
+      // Append the safe message to chat output with a newline
+
+      chatOutput.innerHTML += safeMessage + '\n';
+
+
+
+      // Clear input field
+
+      chatInput.value = '';
+
+      chatInput.focus();
+
+
+
+      // Scroll to bottom
+
+      chatOutput.scrollTop = chatOutput.scrollHeight;
+
+    });
+
     </script>
 <!-- ERP Login Popup JavaScript -->
-<script>
-        function handleERPLogin(type) {
-            // Handle login logic here
-            console.log('Login selected:', type);
-            
-            // Close modal after a brief delay to allow navigation
-            setTimeout(() => {
-                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
-                if (modal) {
-                    modal.hide();
-                }
-            }, 100);
-            
-            // Links will open in new tab due to target="_blank"
-            // URLs are now directly in the href attributes:
-            // Student: https://student.uttaranchaluniversity.ac.in/
-            // Staff: https://staff.uttaranchaluniversity.ac.in/
-        }
-        
-        // Initialize modal and handle URL hash changes
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize the modal
-            const modalElement = document.getElementById('erploginmodel');
-            if (modalElement) {
-                const modal = new bootstrap.Modal(modalElement);
-                
-                // Handle hash-based modal triggers (with UTM parameters support)
-                function handleHashChange() {
-                    const hash = window.location.hash;
-                    // Extract just the modal ID part, ignoring query parameters
-                    const modalId = hash.split('?')[0].replace('#', '');
-                    
-                    if (modalId === 'erploginmodel') {
-                        modal.show();
-                    }
-                }
-                
-                // Check hash on page load
-                handleHashChange();
-                
-                // Listen for hash changes
-                window.addEventListener('hashchange', handleHashChange);
-                
-                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
-                document.addEventListener('click', function(e) {
-                    const link = e.target.closest('a[href*="#erploginmodel"]');
-                    if (link) {
-                        e.preventDefault();
-                        modal.show();
-                    }
-                });
-            }
-        });
+<script>
+
+        function handleERPLogin(type) {
+
+            // Handle login logic here
+
+            console.log('Login selected:', type);
+
+            
+
+            // Close modal after a brief delay to allow navigation
+
+            setTimeout(() => {
+
+                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
+
+                if (modal) {
+
+                    modal.hide();
+
+                }
+
+            }, 100);
+
+            
+
+            // Links will open in new tab due to target="_blank"
+
+            // URLs are now directly in the href attributes:
+
+            // Student: https://student.uttaranchaluniversity.ac.in/
+
+            // Staff: https://staff.uttaranchaluniversity.ac.in/
+
+        }
+
+        
+
+        // Initialize modal and handle URL hash changes
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Initialize the modal
+
+            const modalElement = document.getElementById('erploginmodel');
+
+            if (modalElement) {
+
+                const modal = new bootstrap.Modal(modalElement);
+
+                
+
+                // Handle hash-based modal triggers (with UTM parameters support)
+
+                function handleHashChange() {
+
+                    const hash = window.location.hash;
+
+                    // Extract just the modal ID part, ignoring query parameters
+
+                    const modalId = hash.split('?')[0].replace('#', '');
+
+                    
+
+                    if (modalId === 'erploginmodel') {
+
+                        modal.show();
+
+                    }
+
+                }
+
+                
+
+                // Check hash on page load
+
+                handleHashChange();
+
+                
+
+                // Listen for hash changes
+
+                window.addEventListener('hashchange', handleHashChange);
+
+                
+
+                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
+
+                document.addEventListener('click', function(e) {
+
+                    const link = e.target.closest('a[href*="#erploginmodel"]');
+
+                    if (link) {
+
+                        e.preventDefault();
+
+                        modal.show();
+
+                    }
+
+                });
+
+            }
+
+        });
+
     </script>
 <!-- Google UTM Code -->
 <script src="https://google-utm-js.s3.ap-south-1.amazonaws.com/google-utm.js" type="text/javascript"></script>
 <script src="../assets/js/toggle-menu-js.js"></script>
-<script type="text/javascript">
-   
-
-        $('.placementLogos-section__slider').not('.slick-initialized').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        variableWidth: true,
-        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
-    });
-
-        
-         $('.specialization-slider').not('.slick-initialized').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        variableWidth: true,
-        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
-    });
-
-
+<script type="text/javascript">
+
+   
+
+
+
+        $('.placementLogos-section__slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        arrows: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        variableWidth: true,
+
+        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+    });
+
+
+
+        
+
+         $('.specialization-slider').not('.slick-initialized').slick({
+
+        dots: true,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        variableWidth: true,
+
+        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+    });
+
+
+
+
+
 </script>
 </body>
 </html>

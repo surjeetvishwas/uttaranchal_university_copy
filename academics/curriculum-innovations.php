@@ -53,26 +53,35 @@
 <body>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RRKVSHXFXQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RRKVSHXFXQ');
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-RRKVSHXFXQ');
+
 </script>
 <header class="header shadow shadow-sm">
 <div class="header__top">
 <div class="container">
 <div class="row d-block d-md-none bg-white py-2">
-<div class="text-center text-danger fw-bold">
+<div class="text-center text-danger fw-bold">
+
                     Toll Free: <a class="text-decoration-none" href="../18002124201.html">18002124201</a>
 </div>
 </div>
 <div class="row">
 <div class="col-lg-5">
 <div class="top-notification-slider" style="line-height: 15px;">
-<!--                             <div class="tns-item">
-                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+<!--                             <div class="tns-item">
+
+                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+
                             </div>  -->
 <div class="tns-item">
 <a href="curriculum-innovations.php" style="color:chartreuse" target="_blank">Summer Research Advisory Committee Meeting Proposed in July (1st - 15th)</a>
@@ -131,10 +140,14 @@
 <div class="uu-logo">
 <a class="uu-pc-logo" href="../index.html"><img alt="Uttranchal University" src="../assets/images/UU-Logo-Naac-Nirf.png" title="Uttranchal University" width="400"/></a>
 </div>
-<!--                 <div class="cuetbx d-none d-md-block">
-                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
-                    Last Date: 31 August 2025 - Apply Now
-                  </a>
+<!--                 <div class="cuetbx d-none d-md-block">
+
+                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
+
+                    Last Date: 31 August 2025 - Apply Now
+
+                  </a>
+
                 </div> -->
 <div class="header__center--right d-flex align-items-center justify-content-end">
 <div class="headerApply d-flex justify-content-center">
@@ -156,10 +169,14 @@
 <div class="header-bottom">
 <nav class="navbar navbar-expand-lg p-0">
 <div class="container">
-<!--                     <a href="https://www.uudoon.in/admissions/" 
-                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
-                       style="font-size: 15px;">
-                      Last Date: 31 August 2025 - Apply Now
+<!--                     <a href="https://www.uudoon.in/admissions/" 
+
+                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
+
+                       style="font-size: 15px;">
+
+                      Last Date: 31 August 2025 - Apply Now
+
                     </a> -->
 <button aria-label="Toggle navigation" class="navbar-toggler p-0 border-0" id="navbarSideCollapse" type="button">
 <span class="navbar-toggler-icon"></span>
@@ -296,8 +313,10 @@
 <li>
 <a href="../computing-sciences/index.html">Computer Applications</a>
 </li>
-<!-- <li>
-                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+<!-- <li>
+
+                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+
                                                                     </li> -->
 <li>
 <a href="../hotel-and-hospitality-management/index.html">Hotel &amp; Hospitality Management</a>
@@ -405,8 +424,10 @@
 <li>
 <a href="../management/index.html">Top Management Program</a>
 </li>
-<!--<li>
-                                                                                <a href="">Program Fee</a>
+<!--<li>
+
+                                                                                <a href="">Program Fee</a>
+
                                                                             </li>-->
 <li>
 <a href="../admissions/how-to-apply.php">How to Apply</a>
@@ -431,8 +452,10 @@
 <div class="ol-learning">
 <a href="../international.html" target="_blank"><i aria-hidden="true" class="fa fa-external-link me-2"></i> International</a>
 </div>
-<!--  <div class="ol-learning">
-                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+<!--  <div class="ol-learning">
+
+                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+
                                                                          </div> -->
 </div>
 </div>
@@ -543,29 +566,45 @@
 <li>
 <a href="../campus-life/sports.php">Sports</a>
 </li>
-<!--                                                         <li>
-                                                            <a href="../campus-life/seminars.php">Seminars</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/seminars.php">Seminars</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/workshops.php">Workshops</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/workshops.php">Workshops</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/convocations.php">Convocations</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/convocations.php">Convocations</a>
+
                                                         </li> -->
-<!-- <li>
-                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+<!-- <li>
+
+                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+
                                                         </li>-->
-<!--                                                         <li>
-                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/conferences.php">Conferences</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/conferences.php">Conferences</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+<!--                                                         <li>
+
+                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+
                                                         </li> -->
 <li>
 <a href="../ncc/index.html">NCC</a>
@@ -611,8 +650,10 @@
 <li>
 <a href="../research/index.html">Overview</a>
 </li>
-<!-- <li>
-                                                            <a href="">Distinguished Faculty Members</a>
+<!-- <li>
+
+                                                            <a href="">Distinguished Faculty Members</a>
+
                                                         </li>-->
 <li>
 <a href="../research/research-and-development-cell.php">Research &amp; Development Cell</a>
@@ -626,8 +667,10 @@
 <li>
 <a href="../research/student-research-cell.php">Student Research Cell</a>
 </li>
-<!-- <li>
-                                                            <a href="../research/research-groups/">Research Groups</a>
+<!-- <li>
+
+                                                            <a href="../research/research-groups/">Research Groups</a>
+
                                                         </li> -->
 <li>
 <a href="../research/startups-and-enterpreneurship.php">Startups, Entrepreneurship, and Innovation Cell</a>
@@ -660,55 +703,104 @@
 <li class="nav-item">
 <a class="nav-link" href="../placements/index.php">Placements</a>
 </li>
-<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
-                                <a class="nav-link" href="javascript:void(0)">Placements</a>
-                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
-                                    <div class="menu-programs-list__style">
-                                        <div class="row g-0">
-                                            <div class="col-lg-6">
-                                                <div class="pt-4 pb-4 ps-4">
-                                                    <h5>Placements</h5>
-                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
-                                                        <li>
-                                                            <a href="../placements/index.php">Placement Overview</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/best-packages.php">Best Packages</a>
-                                                        </li>
-                                                        <<li>
-                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
-                                                <div class="p-4">
-                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
-                                                    <div class="row g-0">
-                                                        <div class="col-6">
-                                                            <img src="../../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
+
+                                <a class="nav-link" href="javascript:void(0)">Placements</a>
+
+                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
+
+                                    <div class="menu-programs-list__style">
+
+                                        <div class="row g-0">
+
+                                            <div class="col-lg-6">
+
+                                                <div class="pt-4 pb-4 ps-4">
+
+                                                    <h5>Placements</h5>
+
+                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
+
+                                                        <li>
+
+                                                            <a href="../placements/index.php">Placement Overview</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/best-packages.php">Best Packages</a>
+
+                                                        </li>
+
+                                                        <<li>
+
+                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
+
+                                                        </li>
+
+                                                    </ul>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
+
+                                                <div class="p-4">
+
+                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
+
+                                                    <div class="row g-0">
+
+                                                        <div class="col-6">
+
+                                                            <img src="../../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </li> -->
 <li class="nav-item">
 <a class="nav-link" href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
@@ -766,7 +858,8 @@
 <div class="main-heading mb-2">
 <h1>Teaching Pedagogy of Uttaranchal University</h1>
 </div>
-<br/><!-- 
+<br/><!-- 
+
                     <a href="admissions/index.php" class="btn btn-lg btn-primary btn-shadow">HOW WE TEACH? <i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a> -->
 </div>
 </div>
@@ -775,13 +868,18 @@
 <section class="reseacrhStory-section pt-4 pb-8">
 <div class="container">
 <div class="row">
-<div class="col-lg-6"><!-- 
-                    <div class="page-heading mb-4">
-                        <h2 class="mb-3">Start Up, Incubation<br> and Entrepreneur Cell</h2>
+<div class="col-lg-6"><!-- 
+
+                    <div class="page-heading mb-4">
+
+                        <h2 class="mb-3">Start Up, Incubation<br> and Entrepreneur Cell</h2>
+
                     </div> -->
 <p>Uttaranchal University is focused to deliver high-quality education by utilizing personalized and innovative teaching methods that address the specific needs of each student. Our lively academic community embraces a variety of acclaimed teaching and learning approaches, cultivating an ideal environment for learning and setting the stage for student success.</p>
-<!--  <div class="page-heading mb-4">
-                        <h2 class="mb-3">Teaching-Learning Layout:</h2>
+<!--  <div class="page-heading mb-4">
+
+                        <h2 class="mb-3">Teaching-Learning Layout:</h2>
+
                           </div> -->
 <div class="page-sub-heading mb-4 text-muted">
 <h3 class="mb-3">Teaching-Learning Layout:</h3>
@@ -802,7 +900,8 @@
 <div class="page-sub-heading mb-4 text-muted">
 <h3 class="mb-3">Teaching Pedagogy:</h3>
 </div>
-<p style="text-align: justify;">UU’s pedagogy is induced with an interactive session to create an intuitive ambience and stands apart as it encourages  <strong>communication and activity-based learning</strong> for better learning outcomes among students. The faculty at UU are driven and motivated to continually create an atmosphere to assist and evaluate learning through Gap Analysis.
+<p style="text-align: justify;">UU’s pedagogy is induced with an interactive session to create an intuitive ambience and stands apart as it encourages  <strong>communication and activity-based learning</strong> for better learning outcomes among students. The faculty at UU are driven and motivated to continually create an atmosphere to assist and evaluate learning through Gap Analysis.
+
                           <a aria-controls="collapseExample2" aria-expanded="false" class="SeeMore3" data-bs-toggle="collapse" href="curriculum-innovations.php" role="button">Read more</a><br/></p>
 <div class="collapse" id="collapseExample2">
 <!-- <div class="card card-body" style="border:none"> -->
@@ -964,9 +1063,12 @@
 <div class="col-lg-4 col-md-6">
 <div class="card h-100 shadow br-20 overflow-hidden" style="padding:10px;">
 <h3 style="padding: 11px 7px 1px 3px;color: #61b239;font-size: 22px;font-weight: bold;">Zero Lecture</h3><br/>
-<!-- 
-                        <div class="card-body p-0">
-                            <img src="images/startup-1.jpg" alt="" class="w-100">
+<!-- 
+
+                        <div class="card-body p-0">
+
+                            <img src="images/startup-1.jpg" alt="" class="w-100">
+
                         </div> -->
 <p style="margin-top: -17px;">The concept of conducting an initial lecture referred to as the "Zero lecture" involves providing students with an overview of the core content of the subject being taught. During this lecture, the students gain an understanding of the subject's objectives and the expected outcomes of the course. Additionally, they are made aware of the program outcomes and specific achievements they can expect to attain as the course progresses in the near future.</p>
 </div>
@@ -974,9 +1076,12 @@
 <div class="col-lg-4 col-md-6">
 <div class="card h-100 shadow br-20 overflow-hidden" style="padding:10px;">
 <h3 style="padding: 11px 7px 1px 3px;color: #61b239;font-size: 22px;font-weight: bold;">Active Learning</h3><br/>
-<!-- 
-                        <div class="card-body p-0">
-                            <img src="images/startup-1.jpg" alt="" class="w-100">
+<!-- 
+
+                        <div class="card-body p-0">
+
+                            <img src="images/startup-1.jpg" alt="" class="w-100">
+
                         </div> -->
 <p style="margin-top: -17px;">We deliver subject-based lectures to give a strong overview of the topic being taught. Sometimes we give a short presentation while delivering lectures to better equip students with the topic. At the end of the classroom lectures, we invite students to ask questions and share their ideas and doubts. This method of teaching is impactful and engaging.</p>
 </div>
@@ -984,9 +1089,12 @@
 <div class="col-lg-4 col-md-6">
 <div class="card h-100 shadow br-20 overflow-hidden" style="padding:10px;">
 <h3 style="padding: 11px 7px 1px 3px;color: #61b239;font-size: 22px;font-weight: bold;">Problem-Based Learning</h3><br/>
-<!-- 
-                        <div class="card-body p-0">
-                            <img src="images/startup-1.jpg" alt="" class="w-100">
+<!-- 
+
+                        <div class="card-body p-0">
+
+                            <img src="images/startup-1.jpg" alt="" class="w-100">
+
                         </div> -->
 <p style="margin-top: -17px;">In problem-based learning, students are presented with complex real-world problems and are asked to come up with potential solutions to solve them. As this method of learning is often group-oriented, students are asked to work in groups. This helps in developing a teamwork spirit.</p>
 </div>
@@ -994,9 +1102,12 @@
 <div class="col-lg-4 col-md-6">
 <div class="card h-100 shadow br-20 overflow-hidden" style="padding:10px;">
 <h3 style="padding: 11px 7px 1px 3px;color: #61b239;font-size: 22px;font-weight: bold;">Project-Based Learning</h3><br/>
-<!-- 
-                        <div class="card-body p-0">
-                            <img src="images/startup-1.jpg" alt="" class="w-100">
+<!-- 
+
+                        <div class="card-body p-0">
+
+                            <img src="imagresult.html-1.jpg" alt="" class="w-100">
+
                         </div> -->
 <p style="margin-top: -17px;">Students work on extended projects that involve research, analysis, and presentation. It encourages critical thinking, problem-solving, and independent learning. Students typically collaborate in groups and may present their projects to the class or submit a final report.</p>
 </div>
@@ -1004,9 +1115,12 @@
 <div class="col-lg-4 col-md-6">
 <div class="card h-100 shadow br-20 overflow-hidden" style="padding:10px;">
 <h3 style="padding: 11px 7px 1px 3px;color: #61b239;font-size: 22px;font-weight: bold;">Blended Learning</h3><br/>
-<!-- 
-                        <div class="card-body p-0">
-                            <img src="images/startup-1.jpg" alt="" class="w-100">
+<!-- 
+
+                        <div class="card-body p-0">
+
+                            <img src="images/startup-1.jpg" alt="" class="w-100">
+
                         </div> -->
 <p style="margin-top: -17px;">Apart from traditional teaching which confines within a classroom, we deliver world-class education at the doorstep of learners through online education. Our e-materials and live and recorded videos accelerate and enhance their self-learning process.</p>
 </div>
@@ -1014,9 +1128,12 @@
 <div class="col-lg-4 col-md-6">
 <div class="card h-100 shadow br-20 overflow-hidden" style="padding:10px;">
 <h3 style="padding: 11px 7px 1px 3px;color: #61b239;font-size: 22px;font-weight: bold;">Practical and Laboratory Sessions</h3><br/>
-<!-- 
-                        <div class="card-body p-0">
-                            <img src="images/startup-1.jpg" alt="" class="w-100">
+<!-- 
+
+                        <div class="card-body p-0">
+
+                            <img src="images/startup-1.jpg" alt="" class="w-100">
+
                         </div> -->
 <p style="margin-top: -17px;">Particularly relevant in science, engineering, and other hands-on disciplines; students perform experiments, conduct research, or engage in practical exercises. Professors provide guidance and supervision to enhance practical skills and understanding.</p>
 </div>
@@ -1024,9 +1141,12 @@
 <div class="col-lg-4 col-md-6">
 <div class="card h-100 shadow br-20 overflow-hidden" style="padding:10px;">
 <h3 style="padding: 11px 7px 1px 3px;color: #61b239;font-size: 22px;font-weight: bold;">Technology Integration</h3><br/>
-<!-- 
-                        <div class="card-body p-0">
-                            <img src="images/startup-1.jpg" alt="" class="w-100">
+<!-- 
+
+                        <div class="card-body p-0">
+
+                            <img src="images/startup-1.jpg" alt="" class="w-100">
+
                         </div> -->
 <p style="margin-top: -17px;">We utilize technology tools and platforms to enhance teaching and learning. Online learning management systems <strong>(LMS)</strong> may be used for course delivery, assignment submission, and communication. Multimedia resources, virtual simulations, and online discussions are employed to support learning objectives.</p>
 </div>
@@ -1034,9 +1154,12 @@
 <div class="col-lg-4 col-md-6">
 <div class="card h-100 shadow br-20 overflow-hidden" style="padding:10px;">
 <h3 style="padding: 11px 7px 1px 3px;color: #61b239;font-size: 22px;font-weight: bold;">Personalized Mentorship</h3><br/>
-<!-- 
-                        <div class="card-body p-0">
-                            <img src="images/startup-1.jpg" alt="" class="w-100">
+<!-- 
+
+                        <div class="card-body p-0">
+
+                            <img src="images/startup-1.jpg" alt="" class="w-100">
+
                         </div> -->
 <p style="margin-top: -17px;">Professors provide personalized attention, mentorship, and guidance to students. Tailored instruction and additional support are offered to help students succeed academically. </p>
 </div>
@@ -1044,9 +1167,12 @@
 <div class="col-lg-4 col-md-6">
 <div class="card h-100 shadow br-20 overflow-hidden" style="padding:10px;">
 <h3 style="padding: 11px 7px 1px 3px;color: #61b239;font-size: 22px;font-weight: bold;">Assessment and Feedback</h3><br/>
-<!-- 
-                        <div class="card-body p-0">
-                            <img src="images/startup-1.jpg" alt="" class="w-100">
+<!-- 
+
+                        <div class="card-body p-0">
+
+                            <img src="images/startup-1.jpg" alt="" class="w-100">
+
                         </div> -->
 <p style="margin-top: -17px;">Assessments may include quizzes, exams, essays, presentations, and projects. Professors provide constructive feedback to help students improve their knowledge and skills.</p>
 </div>
@@ -1054,9 +1180,12 @@
 <div class="col-lg-4 col-md-6">
 <div class="card h-100 shadow br-20 overflow-hidden" style="padding:10px;">
 <h3 style="padding: 11px 7px 1px 3px;color: #61b239;font-size: 22px;font-weight: bold;">Seminars/Conferences/Webinars and Workshops</h3><br/>
-<!-- 
-                        <div class="card-body p-0">
-                            <img src="images/startup-1.jpg" alt="" class="w-100">
+<!-- 
+
+                        <div class="card-body p-0">
+
+                            <img src="images/startup-1.jpg" alt="" class="w-100">
+
                         </div> -->
 <p style="margin-top: -17px;">We often organize seminars/conferences/webinars and workshops etc. and invite guest or eminent speakers to give lectures on specific topics. This tends to be an open discussion and students are welcome to ask questions and share their views regarding the topic.</p>
 </div>
@@ -1088,7 +1217,8 @@
 </div>
 </div>
 </div>
-</div></section>
+</div></section>
+
    ﻿<div id="left" style="bottom: 85px !important">
 <a class="handle ui-slideouttab-handle-rounded" style="text-decoration: none">ENQUIRE NOW<i class="fa fa-icon fa-television"></i></a>
 <span style="padding-left:20px; font-weight: 500">Submit Your Enquiry</span>
@@ -1245,8 +1375,10 @@
 <li>
 <a href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
 </li>
-<!--                                     <li>
-                                        <a href="../nirf.php">NIRF</a>
+<!--                                     <li>
+
+                                        <a href="../nirf.php">NIRF</a>
+
                                     </li> -->
 <li>
 <a href="https://www.digilocker.gov.in/" rel="nofollow" target="_blank">DigiLocker</a>
@@ -1303,8 +1435,10 @@
 <div class="col-lg-6 col-md-6 col-12">
 <div class="footerInfo">
 <h4>About</h4>
-<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
-                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
+
+                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+
                                     this firmly positions us among the top 5% HEIs of the nation. <a href="../about/index.html">Read More</a></p>
 </div>
 </div>
@@ -1337,7 +1471,8 @@
 </a>
 </div>
 <div class="uu-varification">
-<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+
                                         UU Degree Verification Service<br/>
 <span>Click Here</span>
 </a>
@@ -1434,163 +1569,319 @@
 </li>
 </ul>
 </div>
-<style>
-        /* Set display to none for image*/
-        #image {
-            display: none;
-        }
-        @media print {
-            #printableArea {
-               display : block;
-            }
-        }
-        #left {
-            border-color: #0a58ca;
-        	width: 300px;
-        	border-radius: 4px;
-            bottom: 60px !important;
-        }
-        #left .handle {
-            background-color: #0a58ca;
-        }
-
-        	/*
-            tabSlideOUt
-
-            By  Michael Fielding
-            License: GPL v3.0
-        */
-
-        .ui-slideouttab-panel, .ui-slideouttab-handle {
-            background-color: white;
-            padding: 0.4em;
-            box-sizing: border-box;
-        }
-        .ui-slideouttab-panel {
-        	display: block;
-        	position: fixed;
-            border: 2px solid grey;
-        }
-        /* This class is added after the tabs are initialised, otherwise the user sees the 
-           tabs slide out of the way when the page is initialised. */
-        .ui-slideouttab-ready {
-        	transition: transform 0.5s ease 0s;
-        }
-
-        /* Hide tabs and panels when printed. */
-        @media print {
-            .ui-slideouttab-panel {
-                display: none;
-            }
-        }
-
-        /* Tab handles */
-        .ui-slideouttab-handle {
-            display: block;
-            position: absolute;
-            cursor: pointer;
-            color: white;
-            background-color: grey;
-        }
-        .ui-slideouttab-handle-image {
-            transform: rotate(0);
-        }
-
-        /* Right */
-        .ui-slideouttab-right {
-        	right: 0px;
-        	transform: translateX(100%);
-        	border-right: none;
-        }
-        .ui-slideouttab-right.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle {
-            transform-origin: 0% 0%;
-            transform: rotate(-90deg) translate(-100%,-100%);   
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
-            transform-origin: 0% 100%;
-            transform: rotate(-90deg);
-        }
-        /* Left */
-        .ui-slideouttab-left {
-        	left: 0px;
-        	transform: translateX(-100%);
-        	border-left: none;
-        }
-        .ui-slideouttab-left.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle {
-            transform-origin: 100% 0%;
-            transform: rotate(-90deg);   
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
-            transform-origin: 100% 100%;
-            transform: rotate(-90deg) translate(100%,100%);   
-        }
-        /* Top */
-        .ui-slideouttab-top {
-        	top: 0px;
-        	transform: translateY(-100%);
-        	border-top: none;
-        }
-        .ui-slideouttab-top.ui-slideouttab-open {
-        	transform: translateY(0%);
-        }
-        /* Bottom */
-        .ui-slideouttab-bottom {
-        	bottom: 0px;
-        	transform: translateY(100%);
-        	border-bottom: none;
-        }
-        .ui-slideouttab-bottom.ui-slideouttab-open {
-        		transform: translateY(0%);
-        }
-
-        /* turn font awesome icon in a tab upright */
-        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
-        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
-            transform: rotate(90deg);
-        }
-        .ui-slideouttab-handle>.fa-icon {
-            margin-left: 0.5em;
-        }
-
-        /* apply rounded corners if handle has the -rounded class */
-        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
-        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
-            border-radius: 0 0 4px 4px;
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
-        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
-            border-radius: 4px 4px 0 0;
-        }
+<style>
+
+        /* Set display to none for image*/
+
+        #image {
+
+            display: none;
+
+        }
+
+        @media print {
+
+            #printableArea {
+
+               display : block;
+
+            }
+
+        }
+
+        #left {
+
+            border-color: #0a58ca;
+
+        	width: 300px;
+
+        	border-radius: 4px;
+
+            bottom: 60px !important;
+
+        }
+
+        #left .handle {
+
+            background-color: #0a58ca;
+
+        }
+
+
+
+        	/*
+
+            tabSlideOUt
+
+
+
+            By  Michael Fielding
+
+            License: GPL v3.0
+
+        */
+
+
+
+        .ui-slideouttab-panel, .ui-slideouttab-handle {
+
+            background-color: white;
+
+            padding: 0.4em;
+
+            box-sizing: border-box;
+
+        }
+
+        .ui-slideouttab-panel {
+
+        	display: block;
+
+        	position: fixed;
+
+            border: 2px solid grey;
+
+        }
+
+        /* This class is added after the tabs are initialised, otherwise the user sees the 
+
+           tabs slide out of the way when the page is initialised. */
+
+        .ui-slideouttab-ready {
+
+        	transition: transform 0.5s ease 0s;
+
+        }
+
+
+
+        /* Hide tabs and panels when printed. */
+
+        @media print {
+
+            .ui-slideouttab-panel {
+
+                display: none;
+
+            }
+
+        }
+
+
+
+        /* Tab handles */
+
+        .ui-slideouttab-handle {
+
+            display: block;
+
+            position: absolute;
+
+            cursor: pointer;
+
+            color: white;
+
+            background-color: grey;
+
+        }
+
+        .ui-slideouttab-handle-image {
+
+            transform: rotate(0);
+
+        }
+
+
+
+        /* Right */
+
+        .ui-slideouttab-right {
+
+        	right: 0px;
+
+        	transform: translateX(100%);
+
+        	border-right: none;
+
+        }
+
+        .ui-slideouttab-right.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle {
+
+            transform-origin: 0% 0%;
+
+            transform: rotate(-90deg) translate(-100%,-100%);   
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
+
+            transform-origin: 0% 100%;
+
+            transform: rotate(-90deg);
+
+        }
+
+        /* Left */
+
+        .ui-slideouttab-left {
+
+        	left: 0px;
+
+        	transform: translateX(-100%);
+
+        	border-left: none;
+
+        }
+
+        .ui-slideouttab-left.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle {
+
+            transform-origin: 100% 0%;
+
+            transform: rotate(-90deg);   
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
+
+            transform-origin: 100% 100%;
+
+            transform: rotate(-90deg) translate(100%,100%);   
+
+        }
+
+        /* Top */
+
+        .ui-slideouttab-top {
+
+        	top: 0px;
+
+        	transform: translateY(-100%);
+
+        	border-top: none;
+
+        }
+
+        .ui-slideouttab-top.ui-slideouttab-open {
+
+        	transform: translateY(0%);
+
+        }
+
+        /* Bottom */
+
+        .ui-slideouttab-bottom {
+
+        	bottom: 0px;
+
+        	transform: translateY(100%);
+
+        	border-bottom: none;
+
+        }
+
+        .ui-slideouttab-bottom.ui-slideouttab-open {
+
+        		transform: translateY(0%);
+
+        }
+
+
+
+        /* turn font awesome icon in a tab upright */
+
+        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
+
+        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
+
+            transform: rotate(90deg);
+
+        }
+
+        .ui-slideouttab-handle>.fa-icon {
+
+            margin-left: 0.5em;
+
+        }
+
+
+
+        /* apply rounded corners if handle has the -rounded class */
+
+        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
+
+        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
+
+            border-radius: 0 0 4px 4px;
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
+
+        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
+
+            border-radius: 4px 4px 0 0;
+
+        }
+
     </style>
-<script>
-    function printDiv(divName) {
-         var printContents = document.getElementById(divName).innerHTML;
-         var originalContents = document.body.innerHTML;
-
-         document.body.innerHTML = printContents;
-
-         window.print();
-
-         document.body.innerHTML = originalContents;
-    }
-    	function show() {
-     
-                /* Access image by id and change
-                the display property to block*/
-                document.getElementById('image')
-                        .style.display = "block";
-     
-                document.getElementById('printableArea')
-                        .style.display = "none";
-    	}
-    	
-    	
+<script>
+
+    function printDiv(divName) {
+
+         var printContents = document.getElementById(divName).innerHTML;
+
+         var originalContents = document.body.innerHTML;
+
+
+
+         document.body.innerHTML = printContents;
+
+
+
+         window.print();
+
+
+
+         document.body.innerHTML = originalContents;
+
+    }
+
+    	function show() {
+
+     
+
+                /* Access image by id and change
+
+                the display property to block*/
+
+                document.getElementById('image')
+
+                        .style.display = "block";
+
+     
+
+                document.getElementById('printableArea')
+
+                        .style.display = "none";
+
+    	}
+
+    	
+
+    	
+
     </script>
 <!-- javascripts files -->
 <script src="../assets/js/jquery.min.js"></script>
@@ -1602,154 +1893,290 @@
 <script src="../assets/js/slider-popup.js"></script>
 <!-- <script src="../assets/js/content-sliders.js "></script> -->
 <link href="../assets/css/form-widget.css" rel="stylesheet"/>
-<script type="text/javascript">
-        $('.top-notification-slider').not('.slick-initialized').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        pauseOnHover: true,
-        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
-    });
+<script type="text/javascript">
+
+        $('.top-notification-slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        pauseOnHover: true,
+
+        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
+
+    });
+
     </script>
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+<script type="text/javascript">
+
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+    (function(){
+
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+
+    s1.async=true;
+
+    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
+
+    s1.charset='UTF-8';
+
+    s1.setAttribute('crossorigin','*');
+
+    s0.parentNode.insertBefore(s1,s0);
+
+    })();
+
     </script>
 <!--End of Tawk.to Script-->
-<script type="text/javascript">
-    // Function to encode HTML special characters to prevent XSS
-    function encodeHTML(str) {
-      return str.replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#39;");
-    }
-
-    const chatInput = document.querySelector('.tawk-chatinput-editor');
-    const sendBtn = document.getElementById('send-btn');
-    const chatOutput = document.getElementById('chat-output');
-
-    sendBtn.addEventListener('click', function() {
-      const userInput = chatInput.value.trim();
-      if (!userInput) return; // ignore empty input
-
-      const safeMessage = encodeHTML(userInput);
-
-      // Append the safe message to chat output with a newline
-      chatOutput.innerHTML += safeMessage + '\n';
-
-      // Clear input field
-      chatInput.value = '';
-      chatInput.focus();
-
-      // Scroll to bottom
-      chatOutput.scrollTop = chatOutput.scrollHeight;
-    });
+<script type="text/javascript">
+
+    // Function to encode HTML special characters to prevent XSS
+
+    function encodeHTML(str) {
+
+      return str.replace(/&/g, "&amp;")
+
+                .replace(/</g, "&lt;")
+
+                .replace(/>/g, "&gt;")
+
+                .replace(/"/g, "&quot;")
+
+                .replace(/'/g, "&#39;");
+
+    }
+
+
+
+    const chatInput = document.querySelector('.tawk-chatinput-editor');
+
+    const sendBtn = document.getElementById('send-btn');
+
+    const chatOutput = document.getElementById('chat-output');
+
+
+
+    sendBtn.addEventListener('click', function() {
+
+      const userInput = chatInput.value.trim();
+
+      if (!userInput) return; // ignore empty input
+
+
+
+      const safeMessage = encodeHTML(userInput);
+
+
+
+      // Append the safe message to chat output with a newline
+
+      chatOutput.innerHTML += safeMessage + '\n';
+
+
+
+      // Clear input field
+
+      chatInput.value = '';
+
+      chatInput.focus();
+
+
+
+      // Scroll to bottom
+
+      chatOutput.scrollTop = chatOutput.scrollHeight;
+
+    });
+
     </script>
 <!-- ERP Login Popup JavaScript -->
-<script>
-        function handleERPLogin(type) {
-            // Handle login logic here
-            console.log('Login selected:', type);
-            
-            // Close modal after a brief delay to allow navigation
-            setTimeout(() => {
-                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
-                if (modal) {
-                    modal.hide();
-                }
-            }, 100);
-            
-            // Links will open in new tab due to target="_blank"
-            // URLs are now directly in the href attributes:
-            // Student: https://student.uttaranchaluniversity.ac.in/
-            // Staff: https://staff.uttaranchaluniversity.ac.in/
-        }
-        
-        // Initialize modal and handle URL hash changes
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize the modal
-            const modalElement = document.getElementById('erploginmodel');
-            if (modalElement) {
-                const modal = new bootstrap.Modal(modalElement);
-                
-                // Handle hash-based modal triggers (with UTM parameters support)
-                function handleHashChange() {
-                    const hash = window.location.hash;
-                    // Extract just the modal ID part, ignoring query parameters
-                    const modalId = hash.split('?')[0].replace('#', '');
-                    
-                    if (modalId === 'erploginmodel') {
-                        modal.show();
-                    }
-                }
-                
-                // Check hash on page load
-                handleHashChange();
-                
-                // Listen for hash changes
-                window.addEventListener('hashchange', handleHashChange);
-                
-                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
-                document.addEventListener('click', function(e) {
-                    const link = e.target.closest('a[href*="#erploginmodel"]');
-                    if (link) {
-                        e.preventDefault();
-                        modal.show();
-                    }
-                });
-            }
-        });
+<script>
+
+        function handleERPLogin(type) {
+
+            // Handle login logic here
+
+            console.log('Login selected:', type);
+
+            
+
+            // Close modal after a brief delay to allow navigation
+
+            setTimeout(() => {
+
+                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
+
+                if (modal) {
+
+                    modal.hide();
+
+                }
+
+            }, 100);
+
+            
+
+            // Links will open in new tab due to target="_blank"
+
+            // URLs are now directly in the href attributes:
+
+            // Student: https://student.uttaranchaluniversity.ac.in/
+
+            // Staff: https://staff.uttaranchaluniversity.ac.in/
+
+        }
+
+        
+
+        // Initialize modal and handle URL hash changes
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Initialize the modal
+
+            const modalElement = document.getElementById('erploginmodel');
+
+            if (modalElement) {
+
+                const modal = new bootstrap.Modal(modalElement);
+
+                
+
+                // Handle hash-based modal triggers (with UTM parameters support)
+
+                function handleHashChange() {
+
+                    const hash = window.location.hash;
+
+                    // Extract just the modal ID part, ignoring query parameters
+
+                    const modalId = hash.split('?')[0].replace('#', '');
+
+                    
+
+                    if (modalId === 'erploginmodel') {
+
+                        modal.show();
+
+                    }
+
+                }
+
+                
+
+                // Check hash on page load
+
+                handleHashChange();
+
+                
+
+                // Listen for hash changes
+
+                window.addEventListener('hashchange', handleHashChange);
+
+                
+
+                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
+
+                document.addEventListener('click', function(e) {
+
+                    const link = e.target.closest('a[href*="#erploginmodel"]');
+
+                    if (link) {
+
+                        e.preventDefault();
+
+                        modal.show();
+
+                    }
+
+                });
+
+            }
+
+        });
+
     </script>
 <!-- Google UTM Code -->
 <script src="https://google-utm-js.s3.ap-south-1.amazonaws.com/google-utm.js" type="text/javascript"></script>
 <script src="../assets/js/toggle-menu-js.js"></script>
-<script type="text/javascript">
-            $('.SeeMore2').click(function(){
-                var $this = $(this);
-                $this.toggleClass('SeeMore2');
-                if($this.hasClass('SeeMore2')){
-                    $this.text('Read more');         
-                } else {
-                    $this.text('Read less');
-                }
-            });
+<script type="text/javascript">
+
+            $('.SeeMore2').click(function(){
+
+                var $this = $(this);
+
+                $this.toggleClass('SeeMore2');
+
+                if($this.hasClass('SeeMore2')){
+
+                    $this.text('Read more');         
+
+                } else {
+
+                    $this.text('Read less');
+
+                }
+
+            });
+
     </script>
-<script type="text/javascript">
-            $('.SeeMore3').click(function(){
-                var $this = $(this);
-                $this.toggleClass('SeeMore3');
-                if($this.hasClass('SeeMore3')){
-                    $this.text('Read more');         
-                } else {
-                    $this.text('Read less');
-                }
-            });
+<script type="text/javascript">
+
+            $('.SeeMore3').click(function(){
+
+                var $this = $(this);
+
+                $this.toggleClass('SeeMore3');
+
+                if($this.hasClass('SeeMore3')){
+
+                    $this.text('Read more');         
+
+                } else {
+
+                    $this.text('Read less');
+
+                }
+
+            });
+
     </script>
-<script type="text/javascript">
-            $('.SeeMore4').click(function(){
-                var $this = $(this);
-                $this.toggleClass('SeeMore4');
-                if($this.hasClass('SeeMore4')){
-                    $this.text('Read more');         
-                } else {
-                    $this.text('Read less');
-                }
-            });
+<script type="text/javascript">
+
+            $('.SeeMore4').click(function(){
+
+                var $this = $(this);
+
+                $this.toggleClass('SeeMore4');
+
+                if($this.hasClass('SeeMore4')){
+
+                    $this.text('Read more');         
+
+                } else {
+
+                    $this.text('Read less');
+
+                }
+
+            });
+
     </script>
 </body>
 </html>

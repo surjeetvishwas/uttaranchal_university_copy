@@ -55,7 +55,7 @@ try {
     
     echo "<h3>🔗 Navigation</h3>";
     echo "<p><a href='admin-dashboard.php' style='color: #1976d2;'>📊 Go to Admin Dashboard</a></p>";
-    echo "<p><a href='result.php' style='color: #f57c00;'>🔍 Check Result Portal</a></p>";
+    echo "<p><a href='result.html' style='color: #f57c00;'>🔍 Check Result Portal</a></p>";
     
 } catch (Exception $e) {
     echo "<p style='color: red;'>❌ Error: " . htmlspecialchars($e->getMessage()) . "</p>";

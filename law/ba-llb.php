@@ -45,26 +45,35 @@
 <body>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RRKVSHXFXQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RRKVSHXFXQ');
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-RRKVSHXFXQ');
+
 </script>
 <header class="header shadow shadow-sm">
 <div class="header__top">
 <div class="container">
 <div class="row d-block d-md-none bg-white py-2">
-<div class="text-center text-danger fw-bold">
+<div class="text-center text-danger fw-bold">
+
                     Toll Free: <a class="text-decoration-none" href="../18002124201.html">18002124201</a>
 </div>
 </div>
 <div class="row">
 <div class="col-lg-5">
 <div class="top-notification-slider" style="line-height: 15px;">
-<!--                             <div class="tns-item">
-                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+<!--                             <div class="tns-item">
+
+                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+
                             </div>  -->
 <div class="tns-item">
 <a href="ba-llb.php" style="color:chartreuse" target="_blank">Summer Research Advisory Committee Meeting Proposed in July (1st - 15th)</a>
@@ -123,10 +132,14 @@
 <div class="uu-logo">
 <a class="uu-pc-logo" href="../index.html"><img alt="Uttranchal University" src="../assets/images/UU-Logo-Naac-Nirf.png" title="Uttranchal University" width="400"/></a>
 </div>
-<!--                 <div class="cuetbx d-none d-md-block">
-                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
-                    Last Date: 31 August 2025 - Apply Now
-                  </a>
+<!--                 <div class="cuetbx d-none d-md-block">
+
+                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
+
+                    Last Date: 31 August 2025 - Apply Now
+
+                  </a>
+
                 </div> -->
 <div class="header__center--right d-flex align-items-center justify-content-end">
 <div class="headerApply d-flex justify-content-center">
@@ -148,10 +161,14 @@
 <div class="header-bottom">
 <nav class="navbar navbar-expand-lg p-0">
 <div class="container">
-<!--                     <a href="https://www.uudoon.in/admissions/" 
-                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
-                       style="font-size: 15px;">
-                      Last Date: 31 August 2025 - Apply Now
+<!--                     <a href="https://www.uudoon.in/admissions/" 
+
+                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
+
+                       style="font-size: 15px;">
+
+                      Last Date: 31 August 2025 - Apply Now
+
                     </a> -->
 <button aria-label="Toggle navigation" class="navbar-toggler p-0 border-0" id="navbarSideCollapse" type="button">
 <span class="navbar-toggler-icon"></span>
@@ -288,8 +305,10 @@
 <li>
 <a href="../computing-sciences/index.html">Computer Applications</a>
 </li>
-<!-- <li>
-                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+<!-- <li>
+
+                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+
                                                                     </li> -->
 <li>
 <a href="../hotel-and-hospitality-management/index.html">Hotel &amp; Hospitality Management</a>
@@ -397,8 +416,10 @@
 <li>
 <a href="../management/index.html">Top Management Program</a>
 </li>
-<!--<li>
-                                                                                <a href="">Program Fee</a>
+<!--<li>
+
+                                                                                <a href="">Program Fee</a>
+
                                                                             </li>-->
 <li>
 <a href="../admissions/how-to-apply.php">How to Apply</a>
@@ -423,8 +444,10 @@
 <div class="ol-learning">
 <a href="../international.html" target="_blank"><i aria-hidden="true" class="fa fa-external-link me-2"></i> International</a>
 </div>
-<!--  <div class="ol-learning">
-                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+<!--  <div class="ol-learning">
+
+                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+
                                                                          </div> -->
 </div>
 </div>
@@ -535,29 +558,45 @@
 <li>
 <a href="../campus-life/sports.php">Sports</a>
 </li>
-<!--                                                         <li>
-                                                            <a href="../campus-life/seminars.php">Seminars</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/seminars.php">Seminars</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/workshops.php">Workshops</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/workshops.php">Workshops</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/convocations.php">Convocations</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/convocations.php">Convocations</a>
+
                                                         </li> -->
-<!-- <li>
-                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+<!-- <li>
+
+                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+
                                                         </li>-->
-<!--                                                         <li>
-                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/conferences.php">Conferences</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/conferences.php">Conferences</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+<!--                                                         <li>
+
+                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+
                                                         </li> -->
 <li>
 <a href="../ncc/index.html">NCC</a>
@@ -603,8 +642,10 @@
 <li>
 <a href="../research/index.html">Overview</a>
 </li>
-<!-- <li>
-                                                            <a href="">Distinguished Faculty Members</a>
+<!-- <li>
+
+                                                            <a href="">Distinguished Faculty Members</a>
+
                                                         </li>-->
 <li>
 <a href="../research/research-and-development-cell.php">Research &amp; Development Cell</a>
@@ -618,8 +659,10 @@
 <li>
 <a href="../research/student-research-cell.php">Student Research Cell</a>
 </li>
-<!-- <li>
-                                                            <a href="../research/research-groups/">Research Groups</a>
+<!-- <li>
+
+                                                            <a href="../research/research-groups/">Research Groups</a>
+
                                                         </li> -->
 <li>
 <a href="../research/startups-and-enterpreneurship.php">Startups, Entrepreneurship, and Innovation Cell</a>
@@ -652,55 +695,104 @@
 <li class="nav-item">
 <a class="nav-link" href="../placements/index.php">Placements</a>
 </li>
-<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
-                                <a class="nav-link" href="javascript:void(0)">Placements</a>
-                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
-                                    <div class="menu-programs-list__style">
-                                        <div class="row g-0">
-                                            <div class="col-lg-6">
-                                                <div class="pt-4 pb-4 ps-4">
-                                                    <h5>Placements</h5>
-                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
-                                                        <li>
-                                                            <a href="../placements/index.php">Placement Overview</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/best-packages.php">Best Packages</a>
-                                                        </li>
-                                                        <<li>
-                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
-                                                <div class="p-4">
-                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
-                                                    <div class="row g-0">
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
+
+                                <a class="nav-link" href="javascript:void(0)">Placements</a>
+
+                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
+
+                                    <div class="menu-programs-list__style">
+
+                                        <div class="row g-0">
+
+                                            <div class="col-lg-6">
+
+                                                <div class="pt-4 pb-4 ps-4">
+
+                                                    <h5>Placements</h5>
+
+                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
+
+                                                        <li>
+
+                                                            <a href="../placements/index.php">Placement Overview</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/best-packages.php">Best Packages</a>
+
+                                                        </li>
+
+                                                        <<li>
+
+                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
+
+                                                        </li>
+
+                                                    </ul>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
+
+                                                <div class="p-4">
+
+                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
+
+                                                    <div class="row g-0">
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </li> -->
 <li class="nav-item">
 <a class="nav-link" href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
@@ -754,8 +846,10 @@
 <div class="container">
 <div class="programDetailBanner__content">
 <h2>B.A.LL.B. (Hons.)</h2>
-<p>Get an opportunity to work in Law Firms, Courts, Judicial Service and many more. </p>
-                    , 
+<p>Get an opportunity to work in Law Firms, Courts, Judicial Service and many more. </p>
+
+                    , 
+
                     <a class="btn btn-lg btn-primary btn-shadow" href="../admissions/index.php">Apply Now <i aria-hidden="true" class="fa fa-long-arrow-right ms-1"></i></a>
 </div>
 </div>
@@ -778,8 +872,10 @@
 <div class="page-sub-heading mt-5">
 <h3>Career Prospects:</h3>
 </div>
-<p>If you look around, you will find that there are a lot of opportunities for lawyers in the corporate sector. It is a good career option to get higher pay. Some of the companies have a pool of lawyers and legal experts working for them. Additionally, if you have 1-2 years of experience working in any law firm, you will have a great advantage over other people applying for career opportunities.BA LLB degree graduates in India will have several job opportunities for various sectors in today’s world. In the coming future, you can find job opportunities in almost every field in any city.
-                                There are different kinds of jobs that one can find after completing a BA LLB degree in India. The fields of work will also change based on one’s specialization.
+<p>If you look around, you will find that there are a lot of opportunities for lawyers in the corporate sector. It is a good career option to get higher pay. Some of the companies have a pool of lawyers and legal experts working for them. Additionally, if you have 1-2 years of experience working in any law firm, you will have a great advantage over other people applying for career opportunities.BA LLB degree graduates in India will have several job opportunities for various sectors in today’s world. In the coming future, you can find job opportunities in almost every field in any city.
+
+                                There are different kinds of jobs that one can find after completing a BA LLB degree in India. The fields of work will also change based on one’s specialization.
+
                             </p>
 </div>
 </div>
@@ -1295,7 +1391,8 @@
 <h3>Note:</h3>
 </div>
 <ul class="list-unstyled p-0 list-icon-3 ps-4">
-<li>Only one choice of scholarship will be allowed to the candidate from the following:
+<li>Only one choice of scholarship will be allowed to the candidate from the following:
+
                                 <ul class="list-unstyled p-0 list-icon-4 ps-4 mt-3">
 <li>5% scholarship on Net Academic Fee (after merit scholarship) to Girl Candidate for complete programme.</li>
 <li>5% scholarship on Net Academic Fee (after merit scholarship) to ward of Defence Personnel for complete programme.</li>
@@ -1316,9 +1413,12 @@
 </div>
 <ul class="list-unstyled p-0 list-icon-3 ps-4">
 <li>Admission is based on merit computed on the basis of marks secured in qualifying examination.</li>
-<!--<li>Candidates appearing for qualifying examination are also eligible to appear in ULET-2022 examination.</li>
-<li>CLAT score is admitted only for 100 seats of BA.LL.B.(Hons.) &amp; BBA.LL.B.(Hons.). (University also conducts interviews of all applicants before admitting the eligible candidates)</li>
-<li>Preference will be given to the candidates in the order of<br />1. ULET-2022<br />2. CLAT Score-2022<br />3. Merit in Qualifying Examination</li>
+<!--<li>Candidates appearing for qualifying examination are also eligible to appear in ULET-2022 examination.</li>
+
+<li>CLAT score is admitted only for 100 seats of BA.LL.B.(Hons.) &amp; BBA.LL.B.(Hons.). (University also conducts interviews of all applicants before admitting the eligible candidates)</li>
+
+<li>Preference will be given to the candidates in the order of<br />1. ULET-2022<br />2. CLAT Score-2022<br />3. Merit in Qualifying Examination</li>
+
 <li>In case of equal marks in entrance exam, the break of tie shall be by the following procedure:<br />1. Higher marks in the component / section on legal aptitude in the ULET-2022 exam.<br />2. Higher age.</li>-->
 <li>Out of the total intake, 25% seats are allotted to students of Uttarakhand under the State Quota and the rest are open to students from All India. In case the allotted percentage of seats of State Quota remains vacant, it will be filled by All India students.</li>
 </ul>
@@ -1334,8 +1434,10 @@
 <div class="accordion mb-4" id="accordionExample">
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingOne">
-<button aria-controls="collapseOne" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
-                                    Semester 1
+<button aria-controls="collapseOne" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
+
+                                    Semester 1
+
                                     </button>
 </h2>
 <div aria-labelledby="headingOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample" id="collapseOne">
@@ -1350,101 +1452,157 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1.
+<td>
+
+                                                            1.
+
                                                         </td>
-<td>
-                                                            BA001
+<td>
+
+                                                            BA001
+
                                                         </td>
-<td>
-                                                            Political Science I (Political Theory)
+<td>
+
+                                                            Political Science I (Political Theory)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2.
-                                                        </td>
-<td>
-                                                            BA002
-                                                        </td>
-<td>
-                                                            Sociology I (Basic Concepts and Perspectives)
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3.
+<td>
+
+                                                            2.
+
                                                         </td>
-<td>
-                                                            BA003
+<td>
+
+                                                            BA002
+
                                                         </td>
-<td>
-                                                            History I (Society and Polity in Ancient India)
+<td>
+
+                                                            Sociology I (Basic Concepts and Perspectives)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4.
-                                                        </td>
-<td>
-                                                            C-001
-                                                        </td>
-<td>
-                                                            English I (General English)
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5.
+<td>
+
+                                                            3.
+
                                                         </td>
-<td>
-                                                            C-002
+<td>
+
+                                                            BA003
+
                                                         </td>
-<td>
-                                                            English II (Communication Skills)
+<td>
+
+                                                            History I (Society and Polity in Ancient India)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6.
-                                                        </td>
-<td>
-                                                            L-102
-                                                        </td>
-<td>
-                                                            Law of Torts including Motor Vehicle Act and Consumer Protection Act
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            7.
+<td>
+
+                                                            4.
+
                                                         </td>
-<td>
-                                                            L-109
+<td>
+
+                                                            C-001
+
                                                         </td>
-<td>
-                                                            Specialization/ Honours Course - I
+<td>
+
+                                                            English I (General English)
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            5.
+
+                                                        </td>
+<td>
+
+                                                            C-002
+
+                                                        </td>
+<td>
+
+                                                            English II (Communication Skills)
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6.
+
+                                                        </td>
+<td>
+
+                                                            L-102
+
+                                                        </td>
+<td>
+
+                                                            Law of Torts including Motor Vehicle Act and Consumer Protection Act
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            7.
+
+                                                        </td>
+<td>
+
+                                                            L-109
+
+                                                        </td>
+<td>
+
+                                                            Specialization/ Honours Course - I
+
+                                                        </td>
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 </tbody>
@@ -1461,8 +1619,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingTwo">
-<button aria-controls="collapseTwo" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo" data-bs-toggle="collapse" type="button">
-                                    Semester 2
+<button aria-controls="collapseTwo" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo" data-bs-toggle="collapse" type="button">
+
+                                    Semester 2
+
                                     </button>
 </h2>
 <div aria-labelledby="headingTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapseTwo">
@@ -1477,115 +1637,179 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1.
+<td>
+
+                                                            1.
+
                                                         </td>
-<td>
-                                                            C-003
+<td>
+
+                                                            C-003
+
                                                         </td>
-<td>
-                                                            English III (Advanced English)
+<td>
+
+                                                            English III (Advanced English)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2.
-                                                        </td>
-<td>
-                                                            C-004
-                                                        </td>
-<td>
-                                                            English IV (Legal Language &amp; Legal Writing)
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3.
+<td>
+
+                                                            2.
+
                                                         </td>
-<td>
-                                                            BA004
+<td>
+
+                                                            C-004
+
                                                         </td>
-<td>
-                                                            Political Science II (Indian Government and Politics)
+<td>
+
+                                                            English IV (Legal Language &amp; Legal Writing)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4.
-                                                        </td>
-<td>
-                                                            BA005
-                                                        </td>
-<td>
-                                                            Sociology II (Sociological Theories, Social Change, Control and its Institutions)
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5.
+<td>
+
+                                                            3.
+
                                                         </td>
-<td>
-                                                            BA006
+<td>
+
+                                                            BA004
+
                                                         </td>
-<td>
-                                                            History II (Administrative Apparatus and Justice in Medieval Period)
+<td>
+
+                                                            Political Science II (Indian Government and Politics)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6.
-                                                        </td>
-<td>
-                                                            L-111
-                                                        </td>
-<td>
-                                                            Family Law I
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            7.
+<td>
+
+                                                            4.
+
                                                         </td>
-<td>
-                                                            L-104
+<td>
+
+                                                            BA005
+
                                                         </td>
-<td>
-                                                            Law of Contract
+<td>
+
+                                                            Sociology II (Sociological Theories, Social Change, Control and its Institutions)
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            8.
+<td>
+
+                                                            5.
+
                                                         </td>
-<td>
-                                                            -
+<td>
+
+                                                            BA006
+
                                                         </td>
-<td>
-                                                          Open Elective/SWAYAM/MOOC
+<td>
+
+                                                            History II (Administrative Apparatus and Justice in Medieval Period)
+
                                                         </td>
-<td>
-                                                            2
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6.
+
+                                                        </td>
+<td>
+
+                                                            L-111
+
+                                                        </td>
+<td>
+
+                                                            Family Law I
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            7.
+
+                                                        </td>
+<td>
+
+                                                            L-104
+
+                                                        </td>
+<td>
+
+                                                            Law of Contract
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            8.
+
+                                                        </td>
+<td>
+
+                                                            -
+
+                                                        </td>
+<td>
+
+                                                          Open Elective/SWAYAM/MOOC
+
+                                                        </td>
+<td>
+
+                                                            2
+
                                                         </td>
 </tr>
 </tbody>
@@ -1602,8 +1826,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="headingThree">
-<button aria-controls="collapseThree" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">
-                                    Semester 3
+<button aria-controls="collapseThree" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">
+
+                                    Semester 3
+
                                     </button>
 </h2>
 <div aria-labelledby="headingThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapseThree">
@@ -1618,101 +1844,157 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1.
+<td>
+
+                                                            1.
+
                                                         </td>
-<td>
-                                                            BA007
+<td>
+
+                                                            BA007
+
                                                         </td>
-<td>
-                                                            Political Science III (Political Thought I)
+<td>
+
+                                                            Political Science III (Political Thought I)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2.
-                                                        </td>
-<td>
-                                                            BA008
-                                                        </td>
-<td>
-                                                            Sociology III (Dynamics of Indian Society)
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3.
+<td>
+
+                                                            2.
+
                                                         </td>
-<td>
-                                                            BA009
+<td>
+
+                                                            BA008
+
                                                         </td>
-<td>
-                                                            History III (British Ascendancy and Birth of Indian Nationalism)
+<td>
+
+                                                            Sociology III (Dynamics of Indian Society)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4.
-                                                        </td>
-<td>
-                                                            L-101
-                                                        </td>
-<td>
-                                                            Constitutional Law I
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5.
+<td>
+
+                                                            3.
+
                                                         </td>
-<td>
-                                                            L-105
+<td>
+
+                                                            BA009
+
                                                         </td>
-<td>
-                                                            Special Contract
+<td>
+
+                                                            History III (British Ascendancy and Birth of Indian Nationalism)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6.
-                                                        </td>
-<td>
-                                                            L-106
-                                                        </td>
-<td>
-                                                            Environmental Law
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            7.
+<td>
+
+                                                            4.
+
                                                         </td>
-<td>
-                                                            L-116
+<td>
+
+                                                            L-101
+
                                                         </td>
-<td>
-                                                            Family Law II
+<td>
+
+                                                            Constitutional Law I
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            5.
+
+                                                        </td>
+<td>
+
+                                                            L-105
+
+                                                        </td>
+<td>
+
+                                                            Special Contract
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6.
+
+                                                        </td>
+<td>
+
+                                                            L-106
+
+                                                        </td>
+<td>
+
+                                                            Environmental Law
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            7.
+
+                                                        </td>
+<td>
+
+                                                            L-116
+
+                                                        </td>
+<td>
+
+                                                            Family Law II
+
+                                                        </td>
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 </tbody>
@@ -1729,8 +2011,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading4">
-<button aria-controls="collapse4" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse4" data-bs-toggle="collapse" type="button">
-                                    Semester 4
+<button aria-controls="collapse4" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse4" data-bs-toggle="collapse" type="button">
+
+                                    Semester 4
+
                                     </button>
 </h2>
 <div aria-labelledby="heading4" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse4">
@@ -1745,101 +2029,157 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1.
+<td>
+
+                                                            1.
+
                                                         </td>
-<td>
-                                                            BA010
+<td>
+
+                                                            BA010
+
                                                         </td>
-<td>
-                                                            Political Science IV (Political Thought II)
+<td>
+
+                                                            Political Science IV (Political Thought II)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2.
-                                                        </td>
-<td>
-                                                            BA011
-                                                        </td>
-<td>
-                                                            Sociology IV (Sociology of Law)
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3.
+<td>
+
+                                                            2.
+
                                                         </td>
-<td>
-                                                            BA012
+<td>
+
+                                                            BA011
+
                                                         </td>
-<td>
-                                                            History IV (Socio-Economic and Cultural Changes in British India)
+<td>
+
+                                                            Sociology IV (Sociology of Law)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4.
-                                                        </td>
-<td>
-                                                            L-110
-                                                        </td>
-<td>
-                                                            Administrative Law
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5.
+<td>
+
+                                                            3.
+
                                                         </td>
-<td>
-                                                            L-103
+<td>
+
+                                                            BA012
+
                                                         </td>
-<td>
-                                                            Constitutional Law II
+<td>
+
+                                                            History IV (Socio-Economic and Cultural Changes in British India)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6.
-                                                        </td>
-<td>
-                                                            L-134
-                                                        </td>
-<td>
-                                                            Company Law
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            6.
+<td>
+
+                                                            4.
+
                                                         </td>
-<td>
-                                                            -
+<td>
+
+                                                            L-110
+
                                                         </td>
-<td>
-                                                            Open Elective/SWAYAM/MOOC
+<td>
+
+                                                            Administrative Law
+
                                                         </td>
-<td>
-                                                            2
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            5.
+
+                                                        </td>
+<td>
+
+                                                            L-103
+
+                                                        </td>
+<td>
+
+                                                            Constitutional Law II
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6.
+
+                                                        </td>
+<td>
+
+                                                            L-134
+
+                                                        </td>
+<td>
+
+                                                            Company Law
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6.
+
+                                                        </td>
+<td>
+
+                                                            -
+
+                                                        </td>
+<td>
+
+                                                            Open Elective/SWAYAM/MOOC
+
+                                                        </td>
+<td>
+
+                                                            2
+
                                                         </td>
 </tr>
 </tbody>
@@ -1856,8 +2196,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading5">
-<button aria-controls="collapse5" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse5" data-bs-toggle="collapse" type="button">
-                                    Semester 5
+<button aria-controls="collapse5" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse5" data-bs-toggle="collapse" type="button">
+
+                                    Semester 5
+
                                     </button>
 </h2>
 <div aria-labelledby="heading5" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse5">
@@ -1872,101 +2214,157 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1.
+<td>
+
+                                                            1.
+
                                                         </td>
-<td>
-                                                            BA013
+<td>
+
+                                                            BA013
+
                                                         </td>
-<td>
-                                                            Political Science V (Comparative Government I)
+<td>
+
+                                                            Political Science V (Comparative Government I)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2.
-                                                        </td>
-<td>
-                                                            BA014
-                                                        </td>
-<td>
-                                                            Political Science VI (Comparative Government II)
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3.
+<td>
+
+                                                            2.
+
                                                         </td>
-<td>
-                                                            C-007
+<td>
+
+                                                            BA014
+
                                                         </td>
-<td>
-                                                            Environmental Science
+<td>
+
+                                                            Political Science VI (Comparative Government II)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4.
-                                                        </td>
-<td>
-                                                            L-115
-                                                        </td>
-<td>
-                                                            Jurisprudence
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5.
+<td>
+
+                                                            3.
+
                                                         </td>
-<td>
-                                                            L-143
+<td>
+
+                                                            C-007
+
                                                         </td>
-<td>
-                                                           Cyber Law
+<td>
+
+                                                            Environmental Science
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6.
-                                                        </td>
-<td>
-                                                            L-117
-                                                        </td>
-<td>
-                                                            Law of Crimes I (Indian Penal Code)
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            7.
+<td>
+
+                                                            4.
+
                                                         </td>
-<td>
-                                                            L-146
+<td>
+
+                                                            L-115
+
                                                         </td>
-<td>
-                                                            Research Methodology
+<td>
+
+                                                            Jurisprudence
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            5.
+
+                                                        </td>
+<td>
+
+                                                            L-143
+
+                                                        </td>
+<td>
+
+                                                           Cyber Law
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6.
+
+                                                        </td>
+<td>
+
+                                                            L-117
+
+                                                        </td>
+<td>
+
+                                                            Law of Crimes I (Indian Penal Code)
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            7.
+
+                                                        </td>
+<td>
+
+                                                            L-146
+
+                                                        </td>
+<td>
+
+                                                            Research Methodology
+
+                                                        </td>
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 </tbody>
@@ -1983,8 +2381,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading6">
-<button aria-controls="collapse6" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse6" data-bs-toggle="collapse" type="button">
-                                    Semester 6
+<button aria-controls="collapse6" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse6" data-bs-toggle="collapse" type="button">
+
+                                    Semester 6
+
                                     </button>
 </h2>
 <div aria-labelledby="heading6" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse6">
@@ -1999,129 +2399,201 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1.
+<td>
+
+                                                            1.
+
                                                         </td>
-<td>
-                                                            BA015
+<td>
+
+                                                            BA015
+
                                                         </td>
-<td>
-                                                            Political Science VII (Theory of International Politics &amp; Relations)
+<td>
+
+                                                            Political Science VII (Theory of International Politics &amp; Relations)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2.
-                                                        </td>
-<td>
-                                                            BA016
-                                                        </td>
-<td>
-                                                            Political Science VIII (Contemporary International Politics &amp; Relations)
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3.
+<td>
+
+                                                            2.
+
                                                         </td>
-<td>
-                                                           L-168
+<td>
+
+                                                            BA016
+
                                                         </td>
-<td>
-                                                            Health Care Laws
+<td>
+
+                                                            Political Science VIII (Contemporary International Politics &amp; Relations)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4.
-                                                        </td>
-<td>
-                                                           L-118
-                                                        </td>
-<td>
-                                                            Labour and Industrial Law I
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5.
+<td>
+
+                                                            3.
+
                                                         </td>
-<td>
-                                                            L-120
+<td>
+
+                                                           L-168
+
                                                         </td>
-<td>
-                                                            Law of Evidence
+<td>
+
+                                                            Health Care Laws
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6.
-                                                        </td>
-<td>
-                                                            L-167
-                                                        </td>
-<td>
-                                                            Mediation and Conciliation
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            7.
+<td>
+
+                                                            4.
+
                                                         </td>
-<td>
-                                                            L-142
+<td>
+
+                                                           L-118
+
                                                         </td>
-<td>
-                                                            Specialization/ Honours Course - II
+<td>
+
+                                                            Labour and Industrial Law I
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            8.
-                                                        </td>
-<td>
-                                                            L-145
-                                                        </td>
-<td>
-                                                            Specialization/ Honours Course - III
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            9.
+<td>
+
+                                                            5.
+
                                                         </td>
-<td>
-                                                           -
+<td>
+
+                                                            L-120
+
                                                         </td>
-<td>
-                                                            Open Elective/SWAYAM/MOOC
+<td>
+
+                                                            Law of Evidence
+
                                                         </td>
-<td>
-                                                            2
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6.
+
+                                                        </td>
+<td>
+
+                                                            L-167
+
+                                                        </td>
+<td>
+
+                                                            Mediation and Conciliation
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            7.
+
+                                                        </td>
+<td>
+
+                                                            L-142
+
+                                                        </td>
+<td>
+
+                                                            Specialization/ Honours Course - II
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            8.
+
+                                                        </td>
+<td>
+
+                                                            L-145
+
+                                                        </td>
+<td>
+
+                                                            Specialization/ Honours Course - III
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            9.
+
+                                                        </td>
+<td>
+
+                                                           -
+
+                                                        </td>
+<td>
+
+                                                            Open Elective/SWAYAM/MOOC
+
+                                                        </td>
+<td>
+
+                                                            2
+
                                                         </td>
 </tr>
 </tbody>
@@ -2138,8 +2610,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading7">
-<button aria-controls="collapse7" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse7" data-bs-toggle="collapse" type="button">
-                                    Semester 7
+<button aria-controls="collapse7" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse7" data-bs-toggle="collapse" type="button">
+
+                                    Semester 7
+
                                     </button>
 </h2>
 <div aria-labelledby="heading7" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse7">
@@ -2154,87 +2628,135 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1.
+<td>
+
+                                                            1.
+
                                                         </td>
-<td>
-                                                            L-122
+<td>
+
+                                                            L-122
+
                                                         </td>
-<td>
-                                                            Labour and Industrial Law II
+<td>
+
+                                                            Labour and Industrial Law II
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2.
-                                                        </td>
-<td>
-                                                            L-123
-                                                        </td>
-<td>
-                                                            Law of Crimes II (Criminal Procedure Code I)
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3.
+<td>
+
+                                                            2.
+
                                                         </td>
-<td>
-                                                            L-124
+<td>
+
+                                                            L-123
+
                                                         </td>
-<td>
-                                                            Public International Law
+<td>
+
+                                                            Law of Crimes II (Criminal Procedure Code I)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4.
-                                                        </td>
-<td>
-                                                            L-125
-                                                        </td>
-<td>
-                                                            Civil Procedure Code and Limitation Act I
-                                                        </td>
-<td>
-                                                           4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5.
+<td>
+
+                                                            3.
+
                                                         </td>
-<td>
-                                                           L-147
+<td>
+
+                                                            L-124
+
                                                         </td>
-<td>
-                                                            Intellectual Property Rights
+<td>
+
+                                                            Public International Law
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            6.
+<td>
+
+                                                            4.
+
                                                         </td>
-<td>
-                                                            L-133
+<td>
+
+                                                            L-125
+
                                                         </td>
-<td>
-                                                            Alternative Dispute Resolution
+<td>
+
+                                                            Civil Procedure Code and Limitation Act I
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                           4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            5.
+
+                                                        </td>
+<td>
+
+                                                           L-147
+
+                                                        </td>
+<td>
+
+                                                            Intellectual Property Rights
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6.
+
+                                                        </td>
+<td>
+
+                                                            L-133
+
+                                                        </td>
+<td>
+
+                                                            Alternative Dispute Resolution
+
+                                                        </td>
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 </tbody>
@@ -2251,8 +2773,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading8">
-<button aria-controls="collapse8" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse8" data-bs-toggle="collapse" type="button">
-                                    Semester 8
+<button aria-controls="collapse8" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse8" data-bs-toggle="collapse" type="button">
+
+                                    Semester 8
+
                                     </button>
 </h2>
 <div aria-labelledby="heading8" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse8">
@@ -2267,101 +2791,157 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1.
+<td>
+
+                                                            1.
+
                                                         </td>
-<td>
-                                                            L-128
+<td>
+
+                                                            L-128
+
                                                         </td>
-<td>
-                                                            Law of Crimes III (Criminal Procedure Code II)
+<td>
+
+                                                            Law of Crimes III (Criminal Procedure Code II)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2.
-                                                        </td>
-<td>
-                                                            L-129
-                                                        </td>
-<td>
-                                                            Civil Procedure Code and Limitation Act II
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3.
+<td>
+
+                                                            2.
+
                                                         </td>
-<td>
-                                                            L-130
+<td>
+
+                                                            L-129
+
                                                         </td>
-<td>
-                                                            Property Law (Transfer of Property Act &amp; Easement Act)
+<td>
+
+                                                            Civil Procedure Code and Limitation Act II
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4.
-                                                        </td>
-<td>
-                                                            L-131
-                                                        </td>
-<td>
-                                                            Land Laws including Tenure &amp; Tenancy System
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5.
+<td>
+
+                                                            3.
+
                                                         </td>
-<td>
-                                                            L-144
+<td>
+
+                                                            L-130
+
                                                         </td>
-<td>
-                                                            White Collar Crime
+<td>
+
+                                                            Property Law (Transfer of Property Act &amp; Easement Act)
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6.
-                                                        </td>
-<td>
-                                                            L-127
-                                                        </td>
-<td>
-                                                            Professional Ethics and Professional Accounting System
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            7.
+<td>
+
+                                                            4.
+
                                                         </td>
-<td>
-                                                            -
+<td>
+
+                                                            L-131
+
                                                         </td>
-<td>
-                                                            Open Elective/SWAYAM/MOOC
+<td>
+
+                                                            Land Laws including Tenure &amp; Tenancy System
+
                                                         </td>
-<td>
-                                                           2
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            5.
+
+                                                        </td>
+<td>
+
+                                                            L-144
+
+                                                        </td>
+<td>
+
+                                                            White Collar Crime
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6.
+
+                                                        </td>
+<td>
+
+                                                            L-127
+
+                                                        </td>
+<td>
+
+                                                            Professional Ethics and Professional Accounting System
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            7.
+
+                                                        </td>
+<td>
+
+                                                            -
+
+                                                        </td>
+<td>
+
+                                                            Open Elective/SWAYAM/MOOC
+
+                                                        </td>
+<td>
+
+                                                           2
+
                                                         </td>
 </tr>
 </tbody>
@@ -2378,8 +2958,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading9">
-<button aria-controls="collapse9" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse9" data-bs-toggle="collapse" type="button">
-                                    Semester 9
+<button aria-controls="collapse9" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse9" data-bs-toggle="collapse" type="button">
+
+                                    Semester 9
+
                                     </button>
 </h2>
 <div aria-labelledby="heading9" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse9">
@@ -2394,87 +2976,135 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1
+<td>
+
+                                                            1
+
                                                         </td>
-<td>
-                                                            L-136
+<td>
+
+                                                            L-136
+
                                                         </td>
-<td>
-                                                            Principles of Taxation Law
+<td>
+
+                                                            Principles of Taxation Law
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2
-                                                        </td>
-<td>
-                                                            L-139
-                                                        </td>
-<td>
-                                                            Drafting, Pleading and Conveyance
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3
+<td>
+
+                                                            2
+
                                                         </td>
-<td>
-                                                            L-126
+<td>
+
+                                                            L-139
+
                                                         </td>
-<td>
-                                                            Specialization/ Honours Course- IV
+<td>
+
+                                                            Drafting, Pleading and Conveyance
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4
-                                                        </td>
-<td>
-                                                            L-148
-                                                        </td>
-<td>
-                                                            Specialization/ Honours Course - V
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5
+<td>
+
+                                                            3
+
                                                         </td>
-<td>
-                                                            L-119
+<td>
+
+                                                            L-126
+
                                                         </td>
-<td>
-                                                            Specialization/ Honours Course - VI
+<td>
+
+                                                            Specialization/ Honours Course- IV
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            6
+<td>
+
+                                                            4
+
                                                         </td>
-<td>
-                                                           L-121
+<td>
+
+                                                            L-148
+
                                                         </td>
-<td>
-                                                            Specialization/ Honours Course - VII
+<td>
+
+                                                            Specialization/ Honours Course - V
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            5
+
+                                                        </td>
+<td>
+
+                                                            L-119
+
+                                                        </td>
+<td>
+
+                                                            Specialization/ Honours Course - VI
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6
+
+                                                        </td>
+<td>
+
+                                                           L-121
+
+                                                        </td>
+<td>
+
+                                                            Specialization/ Honours Course - VII
+
+                                                        </td>
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 </tbody>
@@ -2491,8 +3121,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading10">
-<button aria-controls="collapse10" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse10" data-bs-toggle="collapse" type="button">
-                                    Semester 10
+<button aria-controls="collapse10" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse10" data-bs-toggle="collapse" type="button">
+
+                                    Semester 10
+
                                     </button>
 </h2>
 <div aria-labelledby="heading10" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse10">
@@ -2507,45 +3139,69 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1.
+<td>
+
+                                                            1.
+
                                                         </td>
-<td>
-                                                            L-140
+<td>
+
+                                                            L-140
+
                                                         </td>
-<td>
-                                                            Moot Court Exercise and Internship
+<td>
+
+                                                            Moot Court Exercise and Internship
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2.
-                                                        </td>
-<td>
-                                                            C-008
-                                                        </td>
-<td>
-                                                            Dissertation
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3.
+<td>
+
+                                                            2.
+
                                                         </td>
-<td>
-                                                            -
+<td>
+
+                                                            C-008
+
                                                         </td>
-<td>
-                                                            Open Elective/SWAYAM/MOOC
+<td>
+
+                                                            Dissertation
+
                                                         </td>
-<td>
-                                                            2
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            3.
+
+                                                        </td>
+<td>
+
+                                                            -
+
+                                                        </td>
+<td>
+
+                                                            Open Elective/SWAYAM/MOOC
+
+                                                        </td>
+<td>
+
+                                                            2
+
                                                         </td>
 </tr>
 </tbody>
@@ -2562,8 +3218,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading11">
-<button aria-controls="collapse11" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse11" data-bs-toggle="collapse" type="button">
-                                    Specialization/ Honors Courses (SHC): Group A: Specialization/ Honors in Law
+<button aria-controls="collapse11" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse11" data-bs-toggle="collapse" type="button">
+
+                                    Specialization/ Honors Courses (SHC): Group A: Specialization/ Honors in Law
+
                                     </button>
 </h2>
 <div aria-labelledby="heading11" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse11">
@@ -2578,115 +3236,179 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1
+<td>
+
+                                                            1
+
                                                         </td>
-<td>
-                                                            L-109
+<td>
+
+                                                            L-109
+
                                                         </td>
-<td>
-                                                            International Organization
+<td>
+
+                                                            International Organization
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2
-                                                        </td>
-<td>
-                                                            L-142
-                                                        </td>
-<td>
-                                                            Competition Law
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3
+<td>
+
+                                                            2
+
                                                         </td>
-<td>
-                                                            L-145
+<td>
+
+                                                            L-142
+
                                                         </td>
-<td>
-                                                            Human Rights Law
+<td>
+
+                                                            Competition Law
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4
-                                                        </td>
-<td>
-                                                            L-126
-                                                        </td>
-<td>
-                                                            Interpretation of Statutes and Principles of Legislation
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5
+<td>
+
+                                                            3
+
                                                         </td>
-<td>
-                                                            L-169
+<td>
+
+                                                            L-145
+
                                                         </td>
-<td>
-                                                           Artificial Intelligence and Law
+<td>
+
+                                                            Human Rights Law
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6
-                                                        </td>
-<td>
-                                                            L-119
-                                                        </td>
-<td>
-                                                            Equity, Trust &amp; Fiduciary Relations
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            7
+<td>
+
+                                                            4
+
                                                         </td>
-<td>
-                                                            L-121
+<td>
+
+                                                            L-126
+
                                                         </td>
-<td>
-                                                            Banking Law
+<td>
+
+                                                            Interpretation of Statutes and Principles of Legislation
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            8
+<td>
+
+                                                            5
+
                                                         </td>
-<td>
-                                                            C-008
+<td>
+
+                                                            L-169
+
                                                         </td>
-<td>
-                                                            Dissertation
+<td>
+
+                                                           Artificial Intelligence and Law
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6
+
+                                                        </td>
+<td>
+
+                                                            L-119
+
+                                                        </td>
+<td>
+
+                                                            Equity, Trust &amp; Fiduciary Relations
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            7
+
+                                                        </td>
+<td>
+
+                                                            L-121
+
+                                                        </td>
+<td>
+
+                                                            Banking Law
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            8
+
+                                                        </td>
+<td>
+
+                                                            C-008
+
+                                                        </td>
+<td>
+
+                                                            Dissertation
+
+                                                        </td>
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 </tbody>
@@ -2697,8 +3419,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading12">
-<button aria-controls="collapse12" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse12" data-bs-toggle="collapse" type="button">
-                                    Group B: Specialization/ Honors in Constitutional Law
+<button aria-controls="collapse12" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse12" data-bs-toggle="collapse" type="button">
+
+                                    Group B: Specialization/ Honors in Constitutional Law
+
                                     </button>
 </h2>
 <div aria-labelledby="heading12" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse12">
@@ -2713,115 +3437,179 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1
+<td>
+
+                                                            1
+
                                                         </td>
-<td>
-                                                            L-149
+<td>
+
+                                                            L-149
+
                                                         </td>
-<td>
-                                                            Indian Federalism
+<td>
+
+                                                            Indian Federalism
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2
-                                                        </td>
-<td>
-                                                            L-108
-                                                        </td>
-<td>
-                                                            Right to Information
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3
+<td>
+
+                                                            2
+
                                                         </td>
-<td>
-                                                            L-145
+<td>
+
+                                                            L-108
+
                                                         </td>
-<td>
-                                                            Human Rights Law
+<td>
+
+                                                            Right to Information
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4
-                                                        </td>
-<td>
-                                                            L-126
-                                                        </td>
-<td>
-                                                            Interpretation of Statutes and Principles of Legislation
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5
+<td>
+
+                                                            3
+
                                                         </td>
-<td>
-                                                            L-132
+<td>
+result.html
+                                                            L-145
+
                                                         </td>
-<td>
-                                                            Media and Law
+<td>
+
+                                                            Human Rights Law
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6
-                                                        </td>
-<td>
-                                                            L-150
-                                                        </td>
-<td>
-                                                            Affirmative Action &amp; Discriminative Justice
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                           7
+<td>
+
+                                                            4
+
                                                         </td>
-<td>
-                                                            L-151
+<td>
+
+                                                            L-126
+
                                                         </td>
-<td>
-                                                            Comparative Constitution
+<td>
+
+                                                            Interpretation of Statutes and Principles of Legislation
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            8
+<td>
+
+                                                            5
+
                                                         </td>
-<td>
-                                                            C-008
+<td>
+
+                                                            L-132
+
                                                         </td>
-<td>
-                                                            Dissertation
+<td>
+
+                                                            Media and Law
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6
+
+                                                        </td>
+<td>
+
+                                                            L-150
+
+                                                        </td>
+<td>
+
+                                                            Affirmative Action &amp; Discriminative Justice
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                           7
+
+                                                        </td>
+<td>
+
+                                                            L-151
+
+                                                        </td>
+<td>
+
+                                                            Comparative Constitution
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            8
+
+                                                        </td>
+<td>
+
+                                                            C-008
+
+                                                        </td>
+<td>
+
+                                                            Dissertation
+
+                                                        </td>
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 </tbody>
@@ -2832,8 +3620,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading13">
-<button aria-controls="collapse13" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse13" data-bs-toggle="collapse" type="button">
-                                    Group C: Specialization/ Honors in Environment and Energy Law
+<button aria-controls="collapse13" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse13" data-bs-toggle="collapse" type="button">
+
+                                    Group C: Specialization/ Honors in Environment and Energy Law
+
                                     </button>
 </h2>
 <div aria-labelledby="heading13" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse13">
@@ -2848,115 +3638,179 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1
+<td>
+
+                                                            1
+
                                                         </td>
-<td>
-                                                            L-152
+<td>
+
+                                                            L-152
+
                                                         </td>
-<td>
-                                                            Environmental Jurisprudence
+<td>
+
+                                                            Environmental Jurisprudence
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2
-                                                        </td>
-<td>
-                                                            L-153
-                                                        </td>
-<td>
-                                                            Energy Law and Policy I
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                           3
+<td>
+
+                                                            2
+
                                                         </td>
-<td>
-                                                            L-154
+<td>
+
+                                                            L-153
+
                                                         </td>
-<td>
-                                                            Energy Law and Policy II
+<td>
+
+                                                            Energy Law and Policy I
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4
-                                                        </td>
-<td>
-                                                            L-155
-                                                        </td>
-<td>
-                                                            Renewable Energy Laws and Policies
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5
+<td>
+
+                                                           3
+
                                                         </td>
-<td>
-                                                            L-156
+<td>
+
+                                                            L-154
+
                                                         </td>
-<td>
-                                                            Biodiversity Laws
+<td>
+
+                                                            Energy Law and Policy II
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6
-                                                        </td>
-<td>
-                                                            L-157
-                                                        </td>
-<td>
-                                                            International Environmental Laws and Arbitration
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            7
+<td>
+
+                                                            4
+
                                                         </td>
-<td>
-                                                            L-158
+<td>
+
+                                                            L-155
+
                                                         </td>
-<td>
-                                                            Environmental Impact Assessment and Sustainable Development
+<td>
+
+                                                            Renewable Energy Laws and Policies
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            8
+<td>
+
+                                                            5
+
                                                         </td>
-<td>
-                                                            C-008
+<td>
+
+                                                            L-156
+
                                                         </td>
-<td>
-                                                            Dissertation
+<td>
+
+                                                            Biodiversity Laws
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6
+
+                                                        </td>
+<td>
+
+                                                            L-157
+
+                                                        </td>
+<td>
+
+                                                            International Environmental Laws and Arbitration
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            7
+
+                                                        </td>
+<td>
+
+                                                            L-158
+
+                                                        </td>
+<td>
+
+                                                            Environmental Impact Assessment and Sustainable Development
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            8
+
+                                                        </td>
+<td>
+
+                                                            C-008
+
+                                                        </td>
+<td>
+
+                                                            Dissertation
+
+                                                        </td>
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 </tbody>
@@ -2967,8 +3821,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading14">
-<button aria-controls="collapse14" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse14" data-bs-toggle="collapse" type="button">
-                                    Group D: Specialization/ Honors in Intellectual Property Law
+<button aria-controls="collapse14" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse14" data-bs-toggle="collapse" type="button">
+
+                                    Group D: Specialization/ Honors in Intellectual Property Law
+
                                     </button>
 </h2>
 <div aria-labelledby="heading14" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse14">
@@ -2983,115 +3839,179 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1
+<td>
+
+                                                            1
+
                                                         </td>
-<td>
-                                                            L-114
+<td>
+
+                                                            L-114
+
                                                         </td>
-<td>
-                                                            Copyright
+<td>
+
+                                                            Copyright
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2
-                                                        </td>
-<td>
-                                                            L-137
-                                                        </td>
-<td>
-                                                            Trademark and Design
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3
+<td>
+
+                                                            2
+
                                                         </td>
-<td>
-                                                            L-159
+<td>
+
+                                                            L-137
+
                                                         </td>
-<td>
-                                                            Information Technology Law
+<td>
+
+                                                            Trademark and Design
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                           4
-                                                        </td>
-<td>
-                                                            L-160
-                                                        </td>
-<td>
-                                                            Patent Right Creation and Registration
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5
+<td>
+
+                                                            3
+
                                                         </td>
-<td>
-                                                            L-161
+<td>
+
+                                                            L-159
+
                                                         </td>
-<td>
-                                                            Patent Drafting and Specification Writing
+<td>
+
+                                                            Information Technology Law
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6
-                                                        </td>
-<td>
-                                                            L-162
-                                                        </td>
-<td>
-                                                            Trade Secret and Trade Technology Transfer
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            7
+<td>
+
+                                                           4
+
                                                         </td>
-<td>
-                                                            L-163
+<td>
+
+                                                            L-160
+
                                                         </td>
-<td>
-                                                            IPR Litigations
+<td>
+
+                                                            Patent Right Creation and Registration
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            8
+<td>
+
+                                                            5
+
                                                         </td>
-<td>
-                                                            C-008
+<td>
+
+                                                            L-161
+
                                                         </td>
-<td>
-                                                            Dissertation
+<td>
+
+                                                            Patent Drafting and Specification Writing
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6
+
+                                                        </td>
+<td>
+
+                                                            L-162
+
+                                                        </td>
+<td>
+
+                                                            Trade Secret and Trade Technology Transfer
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            7
+
+                                                        </td>
+<td>
+
+                                                            L-163
+
+                                                        </td>
+<td>
+
+                                                            IPR Litigations
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            8
+
+                                                        </td>
+<td>
+
+                                                            C-008
+
+                                                        </td>
+<td>
+
+                                                            Dissertation
+
+                                                        </td>
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 </tbody>
@@ -3102,8 +4022,10 @@
 </div>
 <div class="accordion-item">
 <h2 class="accordion-header" id="heading15">
-<button aria-controls="collapse15" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse15" data-bs-toggle="collapse" type="button">
-                                    Group E: Specialization/ Honors in Corporate Law
+<button aria-controls="collapse15" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse15" data-bs-toggle="collapse" type="button">
+
+                                    Group E: Specialization/ Honors in Corporate Law
+
                                     </button>
 </h2>
 <div aria-labelledby="heading15" class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapse15">
@@ -3118,115 +4040,179 @@
 </thead>
 <tbody>
 <tr>
-<td>
-                                                            1
+<td>
+
+                                                            1
+
                                                         </td>
-<td>
-                                                            L-165
+<td>
+
+                                                            L-165
+
                                                         </td>
-<td>
-                                                            Corporate Governance
+<td>
+
+                                                            Corporate Governance
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            2
-                                                        </td>
-<td>
-                                                            L-142
-                                                        </td>
-<td>
-                                                            Competition Law
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            3
+<td>
+
+                                                            2
+
                                                         </td>
-<td>
-                                                            L-159
+<td>
+
+                                                            L-142
+
                                                         </td>
-<td>
-                                                            Information Technology Law
+<td>
+
+                                                            Competition Law
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            4
-                                                        </td>
-<td>
-                                                            L-164
-                                                        </td>
-<td>
-                                                            Merger and Acquisition
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            5
+<td>
+
+                                                            3
+
                                                         </td>
-<td>
-                                                            L-166
+<td>
+
+                                                            L-159
+
                                                         </td>
-<td>
-                                                            Bankruptcy and Insolvency
+<td>
+
+                                                            Information Technology Law
+
                                                         </td>
-<td>
-                                                            4
-                                                        </td>
-</tr>
-<tr>
-<td>
-                                                            6
-                                                        </td>
-<td>
-                                                            L-113
-                                                        </td>
-<td>
-                                                            Insurance Law
-                                                        </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            7
+<td>
+
+                                                            4
+
                                                         </td>
-<td>
-                                                            L-121
+<td>
+
+                                                            L-164
+
                                                         </td>
-<td>
-                                                            Banking Law
+<td>
+
+                                                            Merger and Acquisition
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 <tr>
-<td>
-                                                            8
+<td>
+
+                                                            5
+
                                                         </td>
-<td>
-                                                            C-008
+<td>
+
+                                                            L-166
+
                                                         </td>
-<td>
-                                                            Dissertation
+<td>
+
+                                                            Bankruptcy and Insolvency
+
                                                         </td>
-<td>
-                                                            4
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            6
+
+                                                        </td>
+<td>
+
+                                                            L-113
+
+                                                        </td>
+<td>
+
+                                                            Insurance Law
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            7
+
+                                                        </td>
+<td>
+
+                                                            L-121
+
+                                                        </td>
+<td>
+
+                                                            Banking Law
+
+                                                        </td>
+<td>
+
+                                                            4
+
+                                                        </td>
+</tr>
+<tr>
+<td>
+
+                                                            8
+
+                                                        </td>
+<td>
+
+                                                            C-008
+
+                                                        </td>
+<td>
+
+                                                            Dissertation
+
+                                                        </td>
+<td>
+
+                                                            4
+
                                                         </td>
 </tr>
 </tbody>
@@ -3361,10 +4347,13 @@
 </div>
 <p>Law College Dehradun Faculty of Uttaranchal Univesity, with an aim to prepare highly knowledgeable and more competent fraternities in the field of Legal Studies.</p>
 <ul class="list-unstyled p-0 list-icon-3 ps-4">
-<li>The campus is well conceptualized and planned.
+<li>The campus is well conceptualized and planned.
+
                                 </li>
-<li>
-                                    The institute is abundantly enabled with the provision of rich resource center in the form of :
+<li>
+
+                                    The institute is abundantly enabled with the provision of rich resource center in the form of :
+
                                     <ul class="list-unstyled p-0 list-icon-4 ps-4 mt-3">
 <li>Centrally operated library</li>
 <li>Modern laboratories</li>
@@ -3400,8 +4389,10 @@
 <i aria-hidden="true" class="fa fa-sign-in"></i>
 </div>
 <div class="step-div__content">
-<small>Step 1</small>
-                                                    Registration
+<small>Step 1</small>
+
+                                                    Registration
+
                                                 </div>
 </div>
 </button>
@@ -3411,8 +4402,10 @@
 <i aria-hidden="true" class="fa fa-shield"></i>
 </div>
 <div class="step-div__content">
-<small>Step 2</small>
-                                                    Application form
+<small>Step 2</small>
+
+                                                    Application form
+
                                                 </div>
 </div>
 </button>
@@ -3422,8 +4415,10 @@
 <i aria-hidden="true" class="fa fa-user"></i>
 </div>
 <div class="step-div__content">
-<small>Step 3</small>
-                                                    Document verification &amp; Admission
+<small>Step 3</small>
+
+                                                    Document verification &amp; Admission
+
                                                 </div>
 </div>
 </button>
@@ -3626,8 +4621,10 @@
 <li>
 <a href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
 </li>
-<!--                                     <li>
-                                        <a href="../nirf.php">NIRF</a>
+<!--                                     <li>
+
+                                        <a href="../nirf.php">NIRF</a>
+
                                     </li> -->
 <li>
 <a href="https://www.digilocker.gov.in/" rel="nofollow" target="_blank">DigiLocker</a>
@@ -3684,8 +4681,10 @@
 <div class="col-lg-6 col-md-6 col-12">
 <div class="footerInfo">
 <h4>About</h4>
-<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
-                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
+
+                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+
                                     this firmly positions us among the top 5% HEIs of the nation. <a href="../about/index.html">Read More</a></p>
 </div>
 </div>
@@ -3718,7 +4717,8 @@
 </a>
 </div>
 <div class="uu-varification">
-<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+
                                         UU Degree Verification Service<br/>
 <span>Click Here</span>
 </a>
@@ -3815,163 +4815,319 @@
 </li>
 </ul>
 </div>
-<style>
-        /* Set display to none for image*/
-        #image {
-            display: none;
-        }
-        @media print {
-            #printableArea {
-               display : block;
-            }
-        }
-        #left {
-            border-color: #0a58ca;
-        	width: 300px;
-        	border-radius: 4px;
-            bottom: 60px !important;
-        }
-        #left .handle {
-            background-color: #0a58ca;
-        }
-
-        	/*
-            tabSlideOUt
-
-            By  Michael Fielding
-            License: GPL v3.0
-        */
-
-        .ui-slideouttab-panel, .ui-slideouttab-handle {
-            background-color: white;
-            padding: 0.4em;
-            box-sizing: border-box;
-        }
-        .ui-slideouttab-panel {
-        	display: block;
-        	position: fixed;
-            border: 2px solid grey;
-        }
-        /* This class is added after the tabs are initialised, otherwise the user sees the 
-           tabs slide out of the way when the page is initialised. */
-        .ui-slideouttab-ready {
-        	transition: transform 0.5s ease 0s;
-        }
-
-        /* Hide tabs and panels when printed. */
-        @media print {
-            .ui-slideouttab-panel {
-                display: none;
-            }
-        }
-
-        /* Tab handles */
-        .ui-slideouttab-handle {
-            display: block;
-            position: absolute;
-            cursor: pointer;
-            color: white;
-            background-color: grey;
-        }
-        .ui-slideouttab-handle-image {
-            transform: rotate(0);
-        }
-
-        /* Right */
-        .ui-slideouttab-right {
-        	right: 0px;
-        	transform: translateX(100%);
-        	border-right: none;
-        }
-        .ui-slideouttab-right.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle {
-            transform-origin: 0% 0%;
-            transform: rotate(-90deg) translate(-100%,-100%);   
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
-            transform-origin: 0% 100%;
-            transform: rotate(-90deg);
-        }
-        /* Left */
-        .ui-slideouttab-left {
-        	left: 0px;
-        	transform: translateX(-100%);
-        	border-left: none;
-        }
-        .ui-slideouttab-left.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle {
-            transform-origin: 100% 0%;
-            transform: rotate(-90deg);   
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
-            transform-origin: 100% 100%;
-            transform: rotate(-90deg) translate(100%,100%);   
-        }
-        /* Top */
-        .ui-slideouttab-top {
-        	top: 0px;
-        	transform: translateY(-100%);
-        	border-top: none;
-        }
-        .ui-slideouttab-top.ui-slideouttab-open {
-        	transform: translateY(0%);
-        }
-        /* Bottom */
-        .ui-slideouttab-bottom {
-        	bottom: 0px;
-        	transform: translateY(100%);
-        	border-bottom: none;
-        }
-        .ui-slideouttab-bottom.ui-slideouttab-open {
-        		transform: translateY(0%);
-        }
-
-        /* turn font awesome icon in a tab upright */
-        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
-        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
-            transform: rotate(90deg);
-        }
-        .ui-slideouttab-handle>.fa-icon {
-            margin-left: 0.5em;
-        }
-
-        /* apply rounded corners if handle has the -rounded class */
-        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
-        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
-            border-radius: 0 0 4px 4px;
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
-        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
-            border-radius: 4px 4px 0 0;
-        }
+<style>
+
+        /* Set display to none for image*/
+
+        #image {
+
+            display: none;
+
+        }
+
+        @media print {
+
+            #printableArea {
+
+               display : block;
+
+            }
+
+        }
+
+        #left {
+
+            border-color: #0a58ca;
+
+        	width: 300px;
+
+        	border-radius: 4px;
+
+            bottom: 60px !important;
+
+        }
+
+        #left .handle {
+
+            background-color: #0a58ca;
+
+        }
+
+
+
+        	/*
+
+            tabSlideOUt
+
+
+
+            By  Michael Fielding
+
+            License: GPL v3.0
+
+        */
+
+
+
+        .ui-slideouttab-panel, .ui-slideouttab-handle {
+
+            background-color: white;
+
+            padding: 0.4em;
+
+            box-sizing: border-box;
+
+        }
+
+        .ui-slideouttab-panel {
+
+        	display: block;
+
+        	position: fixed;
+
+            border: 2px solid grey;
+
+        }
+
+        /* This class is added after the tabs are initialised, otherwise the user sees the 
+
+           tabs slide out of the way when the page is initialised. */
+
+        .ui-slideouttab-ready {
+
+        	transition: transform 0.5s ease 0s;
+
+        }
+
+
+
+        /* Hide tabs and panels when printed. */
+
+        @media print {
+
+            .ui-slideouttab-panel {
+
+                display: none;
+
+            }
+
+        }
+
+
+
+        /* Tab handles */
+
+        .ui-slideouttab-handle {
+
+            display: block;
+
+            position: absolute;
+
+            cursor: pointer;
+
+            color: white;
+
+            background-color: grey;
+
+        }
+
+        .ui-slideouttab-handle-image {
+
+            transform: rotate(0);
+
+        }
+
+
+
+        /* Right */
+
+        .ui-slideouttab-right {
+
+        	right: 0px;
+
+        	transform: translateX(100%);
+
+        	border-right: none;
+
+        }
+
+        .ui-slideouttab-right.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle {
+
+            transform-origin: 0% 0%;
+
+            transform: rotate(-90deg) translate(-100%,-100%);   
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
+
+            transform-origin: 0% 100%;
+
+            transform: rotate(-90deg);
+
+        }
+
+        /* Left */
+
+        .ui-slideouttab-left {
+
+        	left: 0px;
+
+        	transform: translateX(-100%);
+
+        	border-left: none;
+
+        }
+
+        .ui-slideouttab-left.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle {
+
+            transform-origin: 100% 0%;
+
+            transform: rotate(-90deg);   
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
+
+            transform-origin: 100% 100%;
+
+            transform: rotate(-90deg) translate(100%,100%);   
+
+        }
+
+        /* Top */
+
+        .ui-slideouttab-top {
+
+        	top: 0px;
+
+        	transform: translateY(-100%);
+
+        	border-top: none;
+
+        }
+
+        .ui-slideouttab-top.ui-slideouttab-open {
+
+        	transform: translateY(0%);
+
+        }
+
+        /* Bottom */
+
+        .ui-slideouttab-bottom {
+
+        	bottom: 0px;
+
+        	transform: translateY(100%);
+
+        	border-bottom: none;
+
+        }
+
+        .ui-slideouttab-bottom.ui-slideouttab-open {
+
+        		transform: translateY(0%);
+
+        }
+
+
+
+        /* turn font awesome icon in a tab upright */
+
+        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
+
+        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
+
+            transform: rotate(90deg);
+
+        }
+
+        .ui-slideouttab-handle>.fa-icon {
+
+            margin-left: 0.5em;
+
+        }
+
+
+
+        /* apply rounded corners if handle has the -rounded class */
+
+        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
+
+        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
+
+            border-radius: 0 0 4px 4px;
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
+
+        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
+
+            border-radius: 4px 4px 0 0;
+
+        }
+
     </style>
-<script>
-    function printDiv(divName) {
-         var printContents = document.getElementById(divName).innerHTML;
-         var originalContents = document.body.innerHTML;
-
-         document.body.innerHTML = printContents;
-
-         window.print();
-
-         document.body.innerHTML = originalContents;
-    }
-    	function show() {
-     
-                /* Access image by id and change
-                the display property to block*/
-                document.getElementById('image')
-                        .style.display = "block";
-     
-                document.getElementById('printableArea')
-                        .style.display = "none";
-    	}
-    	
-    	
+<script>
+
+    function printDiv(divName) {
+
+         var printContents = document.getElementById(divName).innerHTML;
+
+         var originalContents = document.body.innerHTML;
+
+
+
+         document.body.innerHTML = printContents;
+
+
+
+         window.print();
+
+
+
+         document.body.innerHTML = originalContents;
+
+    }
+
+    	function show() {
+
+     
+
+                /* Access image by id and change
+
+                the display property to block*/
+
+                document.getElementById('image')
+
+                        .style.display = "block";
+
+     
+
+                document.getElementById('printableArea')
+
+                        .style.display = "none";
+
+    	}
+
+    	
+
+    	
+
     </script>
 <!-- javascripts files -->
 <script src="../assets/js/jquery.min.js"></script>
@@ -3983,159 +5139,303 @@
 <script src="../assets/js/slider-popup.js"></script>
 <!-- <script src="../assets/js/content-sliders.js "></script> -->
 <link href="../assets/css/form-widget.css" rel="stylesheet"/>
-<script type="text/javascript">
-        $('.top-notification-slider').not('.slick-initialized').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        pauseOnHover: true,
-        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
-    });
+<script type="text/javascript">
+
+        $('.top-notification-slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        pauseOnHover: true,
+
+        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
+
+    });
+
     </script>
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+<script type="text/javascript">
+
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+    (function(){
+
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+
+    s1.async=true;
+
+    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
+
+    s1.charset='UTF-8';
+
+    s1.setAttribute('crossorigin','*');
+
+    s0.parentNode.insertBefore(s1,s0);
+
+    })();
+
     </script>
 <!--End of Tawk.to Script-->
-<script type="text/javascript">
-    // Function to encode HTML special characters to prevent XSS
-    function encodeHTML(str) {
-      return str.replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#39;");
-    }
-
-    const chatInput = document.querySelector('.tawk-chatinput-editor');
-    const sendBtn = document.getElementById('send-btn');
-    const chatOutput = document.getElementById('chat-output');
-
-    sendBtn.addEventListener('click', function() {
-      const userInput = chatInput.value.trim();
-      if (!userInput) return; // ignore empty input
-
-      const safeMessage = encodeHTML(userInput);
-
-      // Append the safe message to chat output with a newline
-      chatOutput.innerHTML += safeMessage + '\n';
-
-      // Clear input field
-      chatInput.value = '';
-      chatInput.focus();
-
-      // Scroll to bottom
-      chatOutput.scrollTop = chatOutput.scrollHeight;
-    });
+<script type="text/javascript">
+
+    // Function to encode HTML special characters to prevent XSS
+
+    function encodeHTML(str) {
+
+      return str.replace(/&/g, "&amp;")
+
+                .replace(/</g, "&lt;")
+
+                .replace(/>/g, "&gt;")
+
+                .replace(/"/g, "&quot;")
+
+                .replace(/'/g, "&#39;");
+
+    }
+
+
+
+    const chatInput = document.querySelector('.tawk-chatinput-editor');
+
+    const sendBtn = document.getElementById('send-btn');
+
+    const chatOutput = document.getElementById('chat-output');
+
+
+
+    sendBtn.addEventListener('click', function() {
+
+      const userInput = chatInput.value.trim();
+
+      if (!userInput) return; // ignore empty input
+
+
+
+      const safeMessage = encodeHTML(userInput);
+
+
+
+      // Append the safe message to chat output with a newline
+
+      chatOutput.innerHTML += safeMessage + '\n';
+
+
+
+      // Clear input field
+
+      chatInput.value = '';
+
+      chatInput.focus();
+
+
+
+      // Scroll to bottom
+
+      chatOutput.scrollTop = chatOutput.scrollHeight;
+
+    });
+
     </script>
 <!-- ERP Login Popup JavaScript -->
-<script>
-        function handleERPLogin(type) {
-            // Handle login logic here
-            console.log('Login selected:', type);
-            
-            // Close modal after a brief delay to allow navigation
-            setTimeout(() => {
-                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
-                if (modal) {
-                    modal.hide();
-                }
-            }, 100);
-            
-            // Links will open in new tab due to target="_blank"
-            // URLs are now directly in the href attributes:
-            // Student: https://student.uttaranchaluniversity.ac.in/
-            // Staff: https://staff.uttaranchaluniversity.ac.in/
-        }
-        
-        // Initialize modal and handle URL hash changes
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize the modal
-            const modalElement = document.getElementById('erploginmodel');
-            if (modalElement) {
-                const modal = new bootstrap.Modal(modalElement);
-                
-                // Handle hash-based modal triggers (with UTM parameters support)
-                function handleHashChange() {
-                    const hash = window.location.hash;
-                    // Extract just the modal ID part, ignoring query parameters
-                    const modalId = hash.split('?')[0].replace('#', '');
-                    
-                    if (modalId === 'erploginmodel') {
-                        modal.show();
-                    }
-                }
-                
-                // Check hash on page load
-                handleHashChange();
-                
-                // Listen for hash changes
-                window.addEventListener('hashchange', handleHashChange);
-                
-                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
-                document.addEventListener('click', function(e) {
-                    const link = e.target.closest('a[href*="#erploginmodel"]');
-                    if (link) {
-                        e.preventDefault();
-                        modal.show();
-                    }
-                });
-            }
-        });
+<script>
+
+        function handleERPLogin(type) {
+
+            // Handle login logic here
+
+            console.log('Login selected:', type);
+
+            
+
+            // Close modal after a brief delay to allow navigation
+
+            setTimeout(() => {
+
+                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
+
+                if (modal) {
+
+                    modal.hide();
+
+                }
+
+            }, 100);
+
+            
+
+            // Links will open in new tab due to target="_blank"
+
+            // URLs are now directly in the href attributes:
+
+            // Student: https://student.uttaranchaluniversity.ac.in/
+
+            // Staff: https://staff.uttaranchaluniversity.ac.in/
+
+        }
+
+        
+
+        // Initialize modal and handle URL hash changes
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Initialize the modal
+
+            const modalElement = document.getElementById('erploginmodel');
+
+            if (modalElement) {
+
+                const modal = new bootstrap.Modal(modalElement);
+
+                
+
+                // Handle hash-based modal triggers (with UTM parameters support)
+
+                function handleHashChange() {
+
+                    const hash = window.location.hash;
+
+                    // Extract just the modal ID part, ignoring query parameters
+
+                    const modalId = hash.split('?')[0].replace('#', '');
+
+                    
+
+                    if (modalId === 'erploginmodel') {
+
+                        modal.show();
+
+                    }
+
+                }
+
+                
+
+                // Check hash on page load
+
+                handleHashChange();
+
+                
+
+                // Listen for hash changes
+
+                window.addEventListener('hashchange', handleHashChange);
+
+                
+
+                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
+
+                document.addEventListener('click', function(e) {
+
+                    const link = e.target.closest('a[href*="#erploginmodel"]');
+
+                    if (link) {
+
+                        e.preventDefault();
+
+                        modal.show();
+
+                    }
+
+                });
+
+            }
+
+        });
+
     </script>
 <!-- Google UTM Code -->
 <script src="https://google-utm-js.s3.ap-south-1.amazonaws.com/google-utm.js" type="text/javascript"></script>
-<script src="../assets/js/toggle-menu-js.js"></script>
-
-
-        INternal
-
-
-<script type="text/javascript">
-   
-
-        $('.placementLogos-section__slider').not('.slick-initialized').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        variableWidth: true,
-        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
-    });
-
-        
-         $('.specialization-slider').not('.slick-initialized').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        variableWidth: true,
-        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
-    });
-
-
+<script src="../assets/js/toggle-menu-js.js"></script>
+
+
+
+
+
+        INternal
+
+
+
+
+
+<script type="text/javascript">
+
+   
+
+
+
+        $('.placementLogos-section__slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        arrows: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        variableWidth: true,
+
+        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+    });
+
+
+
+        
+
+         $('.specialization-slider').not('.slick-initialized').slick({
+
+        dots: true,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        variableWidth: true,
+
+        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+    });
+
+
+
+
+
 </script>
 </body>
 </html>

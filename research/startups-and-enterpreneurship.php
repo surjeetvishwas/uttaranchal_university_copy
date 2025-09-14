@@ -51,26 +51,35 @@
 <body>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RRKVSHXFXQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RRKVSHXFXQ');
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-RRKVSHXFXQ');
+
 </script>
 <header class="header shadow shadow-sm">
 <div class="header__top">
 <div class="container">
 <div class="row d-block d-md-none bg-white py-2">
-<div class="text-center text-danger fw-bold">
+<div class="text-center text-danger fw-bold">
+
                     Toll Free: <a class="text-decoration-none" href="../18002124201.html">18002124201</a>
 </div>
 </div>
 <div class="row">
 <div class="col-lg-5">
 <div class="top-notification-slider" style="line-height: 15px;">
-<!--                             <div class="tns-item">
-                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+<!--                             <div class="tns-item">
+
+                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+
                             </div>  -->
 <div class="tns-item">
 <a href="startups-and-enterpreneurship.php" style="color:chartreuse" target="_blank">Summer Research Advisory Committee Meeting Proposed in July (1st - 15th)</a>
@@ -129,10 +138,14 @@
 <div class="uu-logo">
 <a class="uu-pc-logo" href="../index.html"><img alt="Uttranchal University" src="../assets/images/UU-Logo-Naac-Nirf.png" title="Uttranchal University" width="400"/></a>
 </div>
-<!--                 <div class="cuetbx d-none d-md-block">
-                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
-                    Last Date: 31 August 2025 - Apply Now
-                  </a>
+<!--                 <div class="cuetbx d-none d-md-block">
+
+                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
+
+                    Last Date: 31 August 2025 - Apply Now
+
+                  </a>
+
                 </div> -->
 <div class="header__center--right d-flex align-items-center justify-content-end">
 <div class="headerApply d-flex justify-content-center">
@@ -154,10 +167,14 @@
 <div class="header-bottom">
 <nav class="navbar navbar-expand-lg p-0">
 <div class="container">
-<!--                     <a href="https://www.uudoon.in/admissions/" 
-                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
-                       style="font-size: 15px;">
-                      Last Date: 31 August 2025 - Apply Now
+<!--                     <a href="https://www.uudoon.in/admissions/" 
+
+                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
+
+                       style="font-size: 15px;">
+
+                      Last Date: 31 August 2025 - Apply Now
+
                     </a> -->
 <button aria-label="Toggle navigation" class="navbar-toggler p-0 border-0" id="navbarSideCollapse" type="button">
 <span class="navbar-toggler-icon"></span>
@@ -294,8 +311,10 @@
 <li>
 <a href="../computing-sciences/index.html">Computer Applications</a>
 </li>
-<!-- <li>
-                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+<!-- <li>
+
+                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+
                                                                     </li> -->
 <li>
 <a href="../hotel-and-hospitality-management/index.html">Hotel &amp; Hospitality Management</a>
@@ -403,8 +422,10 @@
 <li>
 <a href="../management/index.html">Top Management Program</a>
 </li>
-<!--<li>
-                                                                                <a href="">Program Fee</a>
+<!--<li>
+
+                                                                                <a href="">Program Fee</a>
+
                                                                             </li>-->
 <li>
 <a href="../admissions/how-to-apply.php">How to Apply</a>
@@ -429,8 +450,10 @@
 <div class="ol-learning">
 <a href="../international.html" target="_blank"><i aria-hidden="true" class="fa fa-external-link me-2"></i> International</a>
 </div>
-<!--  <div class="ol-learning">
-                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+<!--  <div class="ol-learning">
+
+                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+
                                                                          </div> -->
 </div>
 </div>
@@ -541,29 +564,45 @@
 <li>
 <a href="../campus-life/sports.php">Sports</a>
 </li>
-<!--                                                         <li>
-                                                            <a href="../campus-life/seminars.php">Seminars</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/seminars.php">Seminars</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/workshops.php">Workshops</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/workshops.php">Workshops</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/convocations.php">Convocations</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/convocations.php">Convocations</a>
+
                                                         </li> -->
-<!-- <li>
-                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+<!-- <li>
+
+                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+
                                                         </li>-->
-<!--                                                         <li>
-                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/conferences.php">Conferences</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/conferences.php">Conferences</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+<!--                                                         <li>
+
+                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+
                                                         </li> -->
 <li>
 <a href="../ncc/index.html">NCC</a>
@@ -609,8 +648,10 @@
 <li>
 <a href="index.html">Overview</a>
 </li>
-<!-- <li>
-                                                            <a href="">Distinguished Faculty Members</a>
+<!-- <li>
+
+                                                            <a href="">Distinguished Faculty Members</a>
+
                                                         </li>-->
 <li>
 <a href="research-and-development-cell.php">Research &amp; Development Cell</a>
@@ -624,8 +665,10 @@
 <li>
 <a href="student-research-cell.php">Student Research Cell</a>
 </li>
-<!-- <li>
-                                                            <a href="../research/research-groups/">Research Groups</a>
+<!-- <li>
+
+                                                            <a href="../research/research-groups/">Research Groups</a>
+
                                                         </li> -->
 <li>
 <a href="startups-and-enterpreneurship.php">Startups, Entrepreneurship, and Innovation Cell</a>
@@ -658,55 +701,104 @@
 <li class="nav-item">
 <a class="nav-link" href="../placements/index.php">Placements</a>
 </li>
-<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
-                                <a class="nav-link" href="javascript:void(0)">Placements</a>
-                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
-                                    <div class="menu-programs-list__style">
-                                        <div class="row g-0">
-                                            <div class="col-lg-6">
-                                                <div class="pt-4 pb-4 ps-4">
-                                                    <h5>Placements</h5>
-                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
-                                                        <li>
-                                                            <a href="../placements/index.php">Placement Overview</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/best-packages.php">Best Packages</a>
-                                                        </li>
-                                                        <<li>
-                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
-                                                <div class="p-4">
-                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
-                                                    <div class="row g-0">
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
+
+                                <a class="nav-link" href="javascript:void(0)">Placements</a>
+
+                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
+
+                                    <div class="menu-programs-list__style">
+
+                                        <div class="row g-0">
+
+                                            <div class="col-lg-6">
+
+                                                <div class="pt-4 pb-4 ps-4">
+
+                                                    <h5>Placements</h5>
+
+                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
+
+                                                        <li>
+
+                                                            <a href="../placements/index.php">Placement Overview</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/best-packages.php">Best Packages</a>
+
+                                                        </li>
+
+                                                        <<li>
+
+                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
+
+                                                        </li>
+
+                                                    </ul>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
+
+                                                <div class="p-4">
+
+                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
+
+                                                    <div class="row g-0">
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </li> -->
 <li class="nav-item">
 <a class="nav-link" href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
@@ -880,7 +972,8 @@
 <img alt="" class="w-100" src="images/startup-7.jpg"/>
 </div>
 <div class="card-footer text-center pt-3 pb-3">
-<p>Bee Ready is an emerging company that offers the best products ranging from different oral varieties of Honey. 
+<p>Bee Ready is an emerging company that offers the best products ranging from different oral varieties of Honey. 
+
                             </p>
 <a class="stretched-link text-link" data-bs-target="#staticBackdrop7" data-bs-toggle="modal" href="">Read More</a>
 </div>
@@ -892,7 +985,8 @@
 <img alt="" class="w-100" src="images/startup-8.jpg"/>
 </div>
 <div class="card-footer text-center pt-3 pb-3">
-<p>Chillum Chai stands out as a unique café franchise dedicated to creatively meeting the diverse needs of all customers. 
+<p>Chillum Chai stands out as a unique café franchise dedicated to creatively meeting the diverse needs of all customers. 
+
                             </p>
 <a class="stretched-link text-link" data-bs-target="#staticBackdrop8" data-bs-toggle="modal" href="">Read More</a>
 </div>
@@ -904,7 +998,8 @@
 <img alt="" class="w-100" src="images/startup-9.jpg"/>
 </div>
 <div class="card-footer text-center pt-3 pb-3">
-<p>RedSan is a cutting-edge content display platform that empowers brands to effectively communicate their messages. 
+<p>RedSan is a cutting-edge content display platform that empowers brands to effectively communicate their messages. 
+
                             </p>
 <a class="stretched-link text-link" data-bs-target="#staticBackdrop9" data-bs-toggle="modal" href="">Read More</a>
 </div>
@@ -916,7 +1011,8 @@
 <img alt="" class="w-100" src="images/startup-10.jpg"/>
 </div>
 <div class="card-footer text-center pt-3 pb-3">
-<p>Meta Catalyst aims to bridge the gap between pressing real- world issues- like climate change and social inequality- through innovative solutions. 
+<p>Meta Catalyst aims to bridge the gap between pressing real- world issues- like climate change and social inequality- through innovative solutions. 
+
                             </p>
 <a class="stretched-link text-link" data-bs-target="#staticBackdrop10" data-bs-toggle="modal" href="">Read More</a>
 </div>
@@ -988,8 +1084,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>Hostcob Solutions Pvt. Ltd. is one of the leading IT Service providers in the  country with its base of operations at Dehradun, Uttarakhand. Hostcob was co- founded in the Year 2012 by dynamic <br/><strong>Mr. Ankur Rautela and Mr. Anurag Painuly</strong>, with the vision to offer cost-effective web services and a mission to become a global leader.</p>
 <div class="page-sub-heading text-muted">
@@ -1012,8 +1110,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>Founded in October 2019 and based in Dehradun, Uttarakhand, Shelterooms is a first online Platform providing Co-living for Couples.  Shelterooms offer an opportunity to move into fully furnished, serviced, and managed rooms with nothing but your suitcases.</p>
 <p>Our aim is to provide affordable accommodation to college students or working professionals and those who are looking for a budget friendly accommodation at an affordable price.</p>
@@ -1041,8 +1141,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>The trio at the School of Agriculture, Uttaranchal University had the idea for this start-up because there wasn't a nice restaurant in Dehradun that was good at offering biryanis to the gourmet group.  The trio opened a restaurant at Suddhowala after completing their graduation on February 24, 2018 under the able leadership of Mr. Poorna Reddy.</p>
 <div class="page-sub-heading text-muted">
@@ -1066,8 +1168,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>Bus Restro was launched in 2019 with the goal of revolutionizing the internet food sector for those who commute by bus.  We are the first and only online and offline platform that enables the bus commuters to order food while they are travelling. We already have a contract in place with <strong>Uttarakhand Transport Corporation</strong> to serve their 1.25 lakh + Bus passengers on a daily basis.</p>
 <div class="page-sub-heading text-muted">
@@ -1091,8 +1195,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>Indi Tech News offers technological updates from all over the world to the common public under <strong>“MAKE IN INDIA”</strong> at a single click of the mouse.</p>
 <div class="page-sub-heading text-muted">
@@ -1116,8 +1222,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>Angstrom  Education Pvt. Ltd. is an Edtech  startup that was established in July 2020 with the  goal of offering K-12 students a high-quality, affordable live class experience irrespective of the subject or stream in the United  States, United  Kingdom, United  Arab Emirates and  South Africa.</p>
 <div class="page-sub-heading text-muted">
@@ -1141,8 +1249,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>Bee Ready is an emerging company that offers the best products ranging from different oral varieties of Honey. We practice traditional beekeeping and procure 100% pure and sweet elixir that honey bees produce from the concentrated nectar of flowers.</p>
 <div class="page-sub-heading text-muted">
@@ -1166,8 +1276,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>Chillum Chai stands out as a unique café franchise dedicated to creatively meeting the diverse needs of all customers. While achieving financial success is important, our true accomplishment lies in garnering positive feedback and offering unforgettable experiences. Our extensive food menu and gaming zones ensure customer satisfaction and a quick return on investment.</p>
 <div class="page-sub-heading text-muted">
@@ -1192,8 +1304,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>RedSan is a cutting-edge content display platform that empowers brands to effectively communicate their messages through a network of screens. Our user-friendly RedSan app enables brands to launch gamified campaigns that engage audiences with interactive experiences, offering opportunities to win coupons. We optimize screen usage to deliver impactful content to the right audience at the right time.</p>
 <div class="page-sub-heading text-muted">
@@ -1218,8 +1332,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>Meta Catalyst aims to bridge the gap between pressing real- world issues- like climate change and social inequality- through innovative solutions. Rather than simply addressing problems superficially, we reimagine systems to create sustainable advancements that empower positive change. Join us and become a catalyst for a brighter future.</p>
 <div class="page-sub-heading text-muted">
@@ -1244,8 +1360,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>BB Dynamics Private Limited is dedicated to harnessing advanced technology to tackle everyday challenges. Our flagship OBD Device offers real-time vehicle diagnostics to enhance safety and efficiency, while our Talking Plant product uses smart communication to ensure optimal care for indoor plants. With a commitment to innovation, quality, and sustainability, we strive to integrate our products seamlessly into daily life for a lasting impact.</p>
 <div class="page-sub-heading text-muted">
@@ -1255,7 +1373,7 @@
 <li>Comprehensive innovation, avoiding temporary solutions</li>
 <li>Collaborative development</li>
 <li>Responsible technology, rather than reckless advancement</li>
-<li>Continuous evolution, not outdated practices</li>
+<li>Continuous evolution, not outdated praresult.html>
 <li>Innovative trailblazers, not just another tech company</li>
 </ul>
 </div><!-- end modal body -->
@@ -1270,8 +1388,10 @@
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
 <div class="modal-body p-3">
-<!-- <div class="page-sub-heading">
-                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+<!-- <div class="page-sub-heading">
+
+                        <h3>Hostcob Solutions Pvt. Ltd.</h3>
+
                     </div> -->
 <p>It is an Innovative company in the field of Space Propulsion and its missions. Its aim is to become the world’s leading sustainable space propulsion and satellite research and development.</p>
 <div class="page-sub-heading text-muted">
@@ -1352,10 +1472,14 @@
 </div><!-- end modal body -->
 </div>
 </div>
-</div>
-
-    
-
+</div>
+
+
+
+    
+
+
+
     ﻿<div id="left" style="bottom: 85px !important">
 <a class="handle ui-slideouttab-handle-rounded" style="text-decoration: none">ENQUIRE NOW<i class="fa fa-icon fa-television"></i></a>
 <span style="padding-left:20px; font-weight: 500">Submit Your Enquiry</span>
@@ -1512,8 +1636,10 @@
 <li>
 <a href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
 </li>
-<!--                                     <li>
-                                        <a href="../nirf.php">NIRF</a>
+<!--                                     <li>
+
+                                        <a href="../nirf.php">NIRF</a>
+
                                     </li> -->
 <li>
 <a href="https://www.digilocker.gov.in/" rel="nofollow" target="_blank">DigiLocker</a>
@@ -1570,8 +1696,10 @@
 <div class="col-lg-6 col-md-6 col-12">
 <div class="footerInfo">
 <h4>About</h4>
-<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
-                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
+
+                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+
                                     this firmly positions us among the top 5% HEIs of the nation. <a href="../about/index.html">Read More</a></p>
 </div>
 </div>
@@ -1604,7 +1732,8 @@
 </a>
 </div>
 <div class="uu-varification">
-<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+
                                         UU Degree Verification Service<br/>
 <span>Click Here</span>
 </a>
@@ -1701,163 +1830,319 @@
 </li>
 </ul>
 </div>
-<style>
-        /* Set display to none for image*/
-        #image {
-            display: none;
-        }
-        @media print {
-            #printableArea {
-               display : block;
-            }
-        }
-        #left {
-            border-color: #0a58ca;
-        	width: 300px;
-        	border-radius: 4px;
-            bottom: 60px !important;
-        }
-        #left .handle {
-            background-color: #0a58ca;
-        }
-
-        	/*
-            tabSlideOUt
-
-            By  Michael Fielding
-            License: GPL v3.0
-        */
-
-        .ui-slideouttab-panel, .ui-slideouttab-handle {
-            background-color: white;
-            padding: 0.4em;
-            box-sizing: border-box;
-        }
-        .ui-slideouttab-panel {
-        	display: block;
-        	position: fixed;
-            border: 2px solid grey;
-        }
-        /* This class is added after the tabs are initialised, otherwise the user sees the 
-           tabs slide out of the way when the page is initialised. */
-        .ui-slideouttab-ready {
-        	transition: transform 0.5s ease 0s;
-        }
-
-        /* Hide tabs and panels when printed. */
-        @media print {
-            .ui-slideouttab-panel {
-                display: none;
-            }
-        }
-
-        /* Tab handles */
-        .ui-slideouttab-handle {
-            display: block;
-            position: absolute;
-            cursor: pointer;
-            color: white;
-            background-color: grey;
-        }
-        .ui-slideouttab-handle-image {
-            transform: rotate(0);
-        }
-
-        /* Right */
-        .ui-slideouttab-right {
-        	right: 0px;
-        	transform: translateX(100%);
-        	border-right: none;
-        }
-        .ui-slideouttab-right.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle {
-            transform-origin: 0% 0%;
-            transform: rotate(-90deg) translate(-100%,-100%);   
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
-            transform-origin: 0% 100%;
-            transform: rotate(-90deg);
-        }
-        /* Left */
-        .ui-slideouttab-left {
-        	left: 0px;
-        	transform: translateX(-100%);
-        	border-left: none;
-        }
-        .ui-slideouttab-left.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle {
-            transform-origin: 100% 0%;
-            transform: rotate(-90deg);   
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
-            transform-origin: 100% 100%;
-            transform: rotate(-90deg) translate(100%,100%);   
-        }
-        /* Top */
-        .ui-slideouttab-top {
-        	top: 0px;
-        	transform: translateY(-100%);
-        	border-top: none;
-        }
-        .ui-slideouttab-top.ui-slideouttab-open {
-        	transform: translateY(0%);
-        }
-        /* Bottom */
-        .ui-slideouttab-bottom {
-        	bottom: 0px;
-        	transform: translateY(100%);
-        	border-bottom: none;
-        }
-        .ui-slideouttab-bottom.ui-slideouttab-open {
-        		transform: translateY(0%);
-        }
-
-        /* turn font awesome icon in a tab upright */
-        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
-        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
-            transform: rotate(90deg);
-        }
-        .ui-slideouttab-handle>.fa-icon {
-            margin-left: 0.5em;
-        }
-
-        /* apply rounded corners if handle has the -rounded class */
-        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
-        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
-            border-radius: 0 0 4px 4px;
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
-        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
-            border-radius: 4px 4px 0 0;
-        }
+<style>
+
+        /* Set display to none for image*/
+
+        #image {
+
+            display: none;
+
+        }
+
+        @media print {
+
+            #printableArea {
+
+               display : block;
+
+            }
+
+        }
+
+        #left {
+
+            border-color: #0a58ca;
+
+        	width: 300px;
+
+        	border-radius: 4px;
+
+            bottom: 60px !important;
+
+        }
+
+        #left .handle {
+
+            background-color: #0a58ca;
+
+        }
+
+
+
+        	/*
+
+            tabSlideOUt
+
+
+
+            By  Michael Fielding
+
+            License: GPL v3.0
+
+        */
+
+
+
+        .ui-slideouttab-panel, .ui-slideouttab-handle {
+
+            background-color: white;
+
+            padding: 0.4em;
+
+            box-sizing: border-box;
+
+        }
+
+        .ui-slideouttab-panel {
+
+        	display: block;
+
+        	position: fixed;
+
+            border: 2px solid grey;
+
+        }
+
+        /* This class is added after the tabs are initialised, otherwise the user sees the 
+
+           tabs slide out of the way when the page is initialised. */
+
+        .ui-slideouttab-ready {
+
+        	transition: transform 0.5s ease 0s;
+
+        }
+
+
+
+        /* Hide tabs and panels when printed. */
+
+        @media print {
+
+            .ui-slideouttab-panel {
+
+                display: none;
+
+            }
+
+        }
+
+
+
+        /* Tab handles */
+
+        .ui-slideouttab-handle {
+
+            display: block;
+
+            position: absolute;
+
+            cursor: pointer;
+
+            color: white;
+
+            background-color: grey;
+
+        }
+
+        .ui-slideouttab-handle-image {
+
+            transform: rotate(0);
+
+        }
+
+
+
+        /* Right */
+
+        .ui-slideouttab-right {
+
+        	right: 0px;
+
+        	transform: translateX(100%);
+
+        	border-right: none;
+
+        }
+
+        .ui-slideouttab-right.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle {
+
+            transform-origin: 0% 0%;
+
+            transform: rotate(-90deg) translate(-100%,-100%);   
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
+
+            transform-origin: 0% 100%;
+
+            transform: rotate(-90deg);
+
+        }
+
+        /* Left */
+
+        .ui-slideouttab-left {
+
+        	left: 0px;
+
+        	transform: translateX(-100%);
+
+        	border-left: none;
+
+        }
+
+        .ui-slideouttab-left.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle {
+
+            transform-origin: 100% 0%;
+
+            transform: rotate(-90deg);   
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
+
+            transform-origin: 100% 100%;
+
+            transform: rotate(-90deg) translate(100%,100%);   
+
+        }
+
+        /* Top */
+
+        .ui-slideouttab-top {
+
+        	top: 0px;
+
+        	transform: translateY(-100%);
+
+        	border-top: none;
+
+        }
+
+        .ui-slideouttab-top.ui-slideouttab-open {
+
+        	transform: translateY(0%);
+
+        }
+
+        /* Bottom */
+
+        .ui-slideouttab-bottom {
+
+        	bottom: 0px;
+
+        	transform: translateY(100%);
+
+        	border-bottom: none;
+
+        }
+
+        .ui-slideouttab-bottom.ui-slideouttab-open {
+
+        		transform: translateY(0%);
+
+        }
+
+
+
+        /* turn font awesome icon in a tab upright */
+
+        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
+
+        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
+
+            transform: rotate(90deg);
+
+        }
+
+        .ui-slideouttab-handle>.fa-icon {
+
+            margin-left: 0.5em;
+
+        }
+
+
+
+        /* apply rounded corners if handle has the -rounded class */
+
+        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
+
+        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
+
+            border-radius: 0 0 4px 4px;
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
+
+        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
+
+            border-radius: 4px 4px 0 0;
+
+        }
+
     </style>
-<script>
-    function printDiv(divName) {
-         var printContents = document.getElementById(divName).innerHTML;
-         var originalContents = document.body.innerHTML;
-
-         document.body.innerHTML = printContents;
-
-         window.print();
-
-         document.body.innerHTML = originalContents;
-    }
-    	function show() {
-     
-                /* Access image by id and change
-                the display property to block*/
-                document.getElementById('image')
-                        .style.display = "block";
-     
-                document.getElementById('printableArea')
-                        .style.display = "none";
-    	}
-    	
-    	
+<script>
+
+    function printDiv(divName) {
+
+         var printContents = document.getElementById(divName).innerHTML;
+
+         var originalContents = document.body.innerHTML;
+
+
+
+         document.body.innerHTML = printContents;
+
+
+
+         window.print();
+
+
+
+         document.body.innerHTML = originalContents;
+
+    }
+
+    	function show() {
+
+     
+
+                /* Access image by id and change
+
+                the display property to block*/
+
+                document.getElementById('image')
+
+                        .style.display = "block";
+
+     
+
+                document.getElementById('printableArea')
+
+                        .style.display = "none";
+
+    	}
+
+    	
+
+    	
+
     </script>
 <!-- javascripts files -->
 <script src="../assets/js/jquery.min.js"></script>
@@ -1869,144 +2154,272 @@
 <script src="../assets/js/slider-popup.js"></script>
 <!-- <script src="../assets/js/content-sliders.js "></script> -->
 <link href="../assets/css/form-widget.css" rel="stylesheet"/>
-<script type="text/javascript">
-        $('.top-notification-slider').not('.slick-initialized').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        pauseOnHover: true,
-        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
-    });
+<script type="text/javascript">
+
+        $('.top-notification-slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        pauseOnHover: true,
+
+        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
+
+    });
+
     </script>
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+<script type="text/javascript">
+
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+    (function(){
+
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+
+    s1.async=true;
+
+    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
+
+    s1.charset='UTF-8';
+
+    s1.setAttribute('crossorigin','*');
+
+    s0.parentNode.insertBefore(s1,s0);
+
+    })();
+
     </script>
 <!--End of Tawk.to Script-->
-<script type="text/javascript">
-    // Function to encode HTML special characters to prevent XSS
-    function encodeHTML(str) {
-      return str.replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#39;");
-    }
-
-    const chatInput = document.querySelector('.tawk-chatinput-editor');
-    const sendBtn = document.getElementById('send-btn');
-    const chatOutput = document.getElementById('chat-output');
-
-    sendBtn.addEventListener('click', function() {
-      const userInput = chatInput.value.trim();
-      if (!userInput) return; // ignore empty input
-
-      const safeMessage = encodeHTML(userInput);
-
-      // Append the safe message to chat output with a newline
-      chatOutput.innerHTML += safeMessage + '\n';
-
-      // Clear input field
-      chatInput.value = '';
-      chatInput.focus();
-
-      // Scroll to bottom
-      chatOutput.scrollTop = chatOutput.scrollHeight;
-    });
+<script type="text/javascript">
+
+    // Function to encode HTML special characters to prevent XSS
+
+    function encodeHTML(str) {
+
+      return str.replace(/&/g, "&amp;")
+
+                .replace(/</g, "&lt;")
+
+                .replace(/>/g, "&gt;")
+
+                .replace(/"/g, "&quot;")
+
+                .replace(/'/g, "&#39;");
+
+    }
+
+
+
+    const chatInput = document.querySelector('.tawk-chatinput-editor');
+
+    const sendBtn = document.getElementById('send-btn');
+
+    const chatOutput = document.getElementById('chat-output');
+
+
+
+    sendBtn.addEventListener('click', function() {
+
+      const userInput = chatInput.value.trim();
+
+      if (!userInput) return; // ignore empty input
+
+
+
+      const safeMessage = encodeHTML(userInput);
+
+
+
+      // Append the safe message to chat output with a newline
+
+      chatOutput.innerHTML += safeMessage + '\n';
+
+
+
+      // Clear input field
+
+      chatInput.value = '';
+
+      chatInput.focus();
+
+
+
+      // Scroll to bottom
+
+      chatOutput.scrollTop = chatOutput.scrollHeight;
+
+    });
+
     </script>
 <!-- ERP Login Popup JavaScript -->
-<script>
-        function handleERPLogin(type) {
-            // Handle login logic here
-            console.log('Login selected:', type);
-            
-            // Close modal after a brief delay to allow navigation
-            setTimeout(() => {
-                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
-                if (modal) {
-                    modal.hide();
-                }
-            }, 100);
-            
-            // Links will open in new tab due to target="_blank"
-            // URLs are now directly in the href attributes:
-            // Student: https://student.uttaranchaluniversity.ac.in/
-            // Staff: https://staff.uttaranchaluniversity.ac.in/
-        }
-        
-        // Initialize modal and handle URL hash changes
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize the modal
-            const modalElement = document.getElementById('erploginmodel');
-            if (modalElement) {
-                const modal = new bootstrap.Modal(modalElement);
-                
-                // Handle hash-based modal triggers (with UTM parameters support)
-                function handleHashChange() {
-                    const hash = window.location.hash;
-                    // Extract just the modal ID part, ignoring query parameters
-                    const modalId = hash.split('?')[0].replace('#', '');
-                    
-                    if (modalId === 'erploginmodel') {
-                        modal.show();
-                    }
-                }
-                
-                // Check hash on page load
-                handleHashChange();
-                
-                // Listen for hash changes
-                window.addEventListener('hashchange', handleHashChange);
-                
-                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
-                document.addEventListener('click', function(e) {
-                    const link = e.target.closest('a[href*="#erploginmodel"]');
-                    if (link) {
-                        e.preventDefault();
-                        modal.show();
-                    }
-                });
-            }
-        });
+<script>
+
+        function handleERPLogin(type) {
+
+            // Handle login logic here
+
+            console.log('Login selected:', type);
+
+            
+
+            // Close modal after a brief delay to allow navigation
+
+            setTimeout(() => {
+
+                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
+
+                if (modal) {
+
+                    modal.hide();
+
+                }
+
+            }, 100);
+
+            
+
+            // Links will open in new tab due to target="_blank"
+
+            // URLs are now directly in the href attributes:
+
+            // Student: https://student.uttaranchaluniversity.ac.in/
+
+            // Staff: https://staff.uttaranchaluniversity.ac.in/
+
+        }
+
+        
+
+        // Initialize modal and handle URL hash changes
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Initialize the modal
+
+            const modalElement = document.getElementById('erploginmodel');
+
+            if (modalElement) {
+
+                const modal = new bootstrap.Modal(modalElement);
+
+                
+
+                // Handle hash-based modal triggers (with UTM parameters support)
+
+                function handleHashChange() {
+
+                    const hash = window.location.hash;
+
+                    // Extract just the modal ID part, ignoring query parameters
+
+                    const modalId = hash.split('?')[0].replace('#', '');
+
+                    
+
+                    if (modalId === 'erploginmodel') {
+
+                        modal.show();
+
+                    }
+
+                }
+
+                
+
+                // Check hash on page load
+
+                handleHashChange();
+
+                
+
+                // Listen for hash changes
+
+                window.addEventListener('hashchange', handleHashChange);
+
+                
+
+                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
+
+                document.addEventListener('click', function(e) {
+
+                    const link = e.target.closest('a[href*="#erploginmodel"]');
+
+                    if (link) {
+
+                        e.preventDefault();
+
+                        modal.show();
+
+                    }
+
+                });
+
+            }
+
+        });
+
     </script>
 <!-- Google UTM Code -->
 <script src="https://google-utm-js.s3.ap-south-1.amazonaws.com/google-utm.js" type="text/javascript"></script>
 <script src="../assets/js/toggle-menu-js.js"></script>
-<script type="text/javascript">
-    $('.testimoni-section__slider').not('.slick-initialized').slick({
-        dots: true,
-        infinite: true,
-        speed: 1200,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
-
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }]
-    });
-
-
+<script type="text/javascript">
+
+    $('.testimoni-section__slider').not('.slick-initialized').slick({
+
+        dots: true,
+
+        infinite: true,
+
+        speed: 1200,
+
+        autoplay: true,
+
+        autoplaySpeed: 4000,
+
+        slidesToShow: 2,
+
+        slidesToScroll: 1,
+
+        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+
+
+        responsive: [{
+
+            breakpoint: 768,
+
+            settings: {
+
+                slidesToShow: 1,
+
+                slidesToScroll: 1
+
+            }
+
+        }]
+
+    });
+
+
+
+
+
     </script>
 </body>
 </html>

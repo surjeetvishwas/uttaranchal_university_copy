@@ -35,26 +35,35 @@
 <body>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RRKVSHXFXQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RRKVSHXFXQ');
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-RRKVSHXFXQ');
+
 </script>
 <header class="header shadow shadow-sm">
 <div class="header__top">
 <div class="container">
 <div class="row d-block d-md-none bg-white py-2">
-<div class="text-center text-danger fw-bold">
+<div class="text-center text-danger fw-bold">
+
                     Toll Free: <a class="text-decoration-none" href="../18002124201.html">18002124201</a>
 </div>
 </div>
 <div class="row">
 <div class="col-lg-5">
 <div class="top-notification-slider" style="line-height: 15px;">
-<!--                             <div class="tns-item">
-                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+<!--                             <div class="tns-item">
+
+                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+
                             </div>  -->
 <div class="tns-item">
 <a href="research-and-development-cell.php" style="color:chartreuse" target="_blank">Summer Research Advisory Committee Meeting Proposed in July (1st - 15th)</a>
@@ -113,10 +122,14 @@
 <div class="uu-logo">
 <a class="uu-pc-logo" href="../index.html"><img alt="Uttranchal University" src="../assets/images/UU-Logo-Naac-Nirf.png" title="Uttranchal University" width="400"/></a>
 </div>
-<!--                 <div class="cuetbx d-none d-md-block">
-                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
-                    Last Date: 31 August 2025 - Apply Now
-                  </a>
+<!--                 <div class="cuetbx d-none d-md-block">
+
+                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
+
+                    Last Date: 31 August 2025 - Apply Now
+
+                  </a>
+
                 </div> -->
 <div class="header__center--right d-flex align-items-center justify-content-end">
 <div class="headerApply d-flex justify-content-center">
@@ -138,10 +151,14 @@
 <div class="header-bottom">
 <nav class="navbar navbar-expand-lg p-0">
 <div class="container">
-<!--                     <a href="https://www.uudoon.in/admissions/" 
-                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
-                       style="font-size: 15px;">
-                      Last Date: 31 August 2025 - Apply Now
+<!--                     <a href="https://www.uudoon.in/admissions/" 
+
+                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
+
+                       style="font-size: 15px;">
+
+                      Last Date: 31 August 2025 - Apply Now
+
                     </a> -->
 <button aria-label="Toggle navigation" class="navbar-toggler p-0 border-0" id="navbarSideCollapse" type="button">
 <span class="navbar-toggler-icon"></span>
@@ -278,8 +295,10 @@
 <li>
 <a href="../computing-sciences/index.html">Computer Applications</a>
 </li>
-<!-- <li>
-                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+<!-- <li>
+
+                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+
                                                                     </li> -->
 <li>
 <a href="../hotel-and-hospitality-management/index.html">Hotel &amp; Hospitality Management</a>
@@ -387,8 +406,10 @@
 <li>
 <a href="../management/index.html">Top Management Program</a>
 </li>
-<!--<li>
-                                                                                <a href="">Program Fee</a>
+<!--<li>
+
+                                                                                <a href="">Program Fee</a>
+
                                                                             </li>-->
 <li>
 <a href="../admissions/how-to-apply.php">How to Apply</a>
@@ -413,8 +434,10 @@
 <div class="ol-learning">
 <a href="../international.html" target="_blank"><i aria-hidden="true" class="fa fa-external-link me-2"></i> International</a>
 </div>
-<!--  <div class="ol-learning">
-                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+<!--  <div class="ol-learning">
+
+                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+
                                                                          </div> -->
 </div>
 </div>
@@ -525,29 +548,45 @@
 <li>
 <a href="../campus-life/sports.php">Sports</a>
 </li>
-<!--                                                         <li>
-                                                            <a href="../campus-life/seminars.php">Seminars</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/seminars.php">Seminars</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/workshops.php">Workshops</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/workshops.php">Workshops</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/convocations.php">Convocations</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/convocations.php">Convocations</a>
+
                                                         </li> -->
-<!-- <li>
-                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+<!-- <li>
+
+                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+
                                                         </li>-->
-<!--                                                         <li>
-                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/conferences.php">Conferences</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/conferences.php">Conferences</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+<!--                                                         <li>
+
+                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+
                                                         </li> -->
 <li>
 <a href="../ncc/index.html">NCC</a>
@@ -593,8 +632,10 @@
 <li>
 <a href="index.html">Overview</a>
 </li>
-<!-- <li>
-                                                            <a href="">Distinguished Faculty Members</a>
+<!-- <li>
+
+                                                            <a href="">Distinguished Faculty Members</a>
+
                                                         </li>-->
 <li>
 <a href="research-and-development-cell.php">Research &amp; Development Cell</a>
@@ -608,8 +649,10 @@
 <li>
 <a href="student-research-cell.php">Student Research Cell</a>
 </li>
-<!-- <li>
-                                                            <a href="../research/research-groups/">Research Groups</a>
+<!-- <li>
+
+                                                            <a href="../research/research-groups/">Research Groups</a>
+
                                                         </li> -->
 <li>
 <a href="startups-and-enterpreneurship.php">Startups, Entrepreneurship, and Innovation Cell</a>
@@ -642,55 +685,104 @@
 <li class="nav-item">
 <a class="nav-link" href="../placements/index.php">Placements</a>
 </li>
-<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
-                                <a class="nav-link" href="javascript:void(0)">Placements</a>
-                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
-                                    <div class="menu-programs-list__style">
-                                        <div class="row g-0">
-                                            <div class="col-lg-6">
-                                                <div class="pt-4 pb-4 ps-4">
-                                                    <h5>Placements</h5>
-                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
-                                                        <li>
-                                                            <a href="../placements/index.php">Placement Overview</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/best-packages.php">Best Packages</a>
-                                                        </li>
-                                                        <<li>
-                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
-                                                <div class="p-4">
-                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
-                                                    <div class="row g-0">
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
+
+                                <a class="nav-link" href="javascript:void(0)">Placements</a>
+
+                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
+
+                                    <div class="menu-programs-list__style">
+
+                                        <div class="row g-0">
+
+                                            <div class="col-lg-6">
+
+                                                <div class="pt-4 pb-4 ps-4">
+
+                                                    <h5>Placements</h5>
+
+                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
+
+                                                        <li>
+
+                                                            <a href="../placements/index.php">Placement Overview</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/best-packages.php">Best Packages</a>
+
+                                                        </li>
+
+                                                        <<li>
+
+                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
+
+                                                        </li>
+
+                                                    </ul>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
+
+                                                <div class="p-4">
+
+                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
+
+                                                    <div class="row g-0">
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </li> -->
 <li class="nav-item">
 <a class="nav-link" href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
@@ -1114,8 +1206,10 @@
 </tbody>
 </table>
 </div>
-<div class="alert alert-success mt-4">
-                        Ongoing Consultancy Projects- 15+
+<div class="alert alert-success mt-4">
+
+                        Ongoing Consultancy Projects- 15+
+
                         </div>
 </div>
 </div>
@@ -1309,534 +1403,1062 @@
 </div>
 </div>
 </section>
-<!--<section class="researchData-section pt-8 pb-8">
-        <div class="container">
-            <div class="main-heading text-center mb-5">
-                <h2>Funded Projects</h2>
-            </div>
-            <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">University Funded Projects</button>
-                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Consultancy Projects</button>
-                </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-                    <div class="rd-data p-4" style="background: var(--bg-gray);">
-                        <div class="table-responsive">
-                            <table class="table table-striped" id="example">
-                                <thead>
-                                    <tr>
-                                        <th valign="top" width="80px">S. No.</th>
-                                        <th valign="top">School</th>
-                                        <th valign="top">Name of PI & Co (PI)	</th>
-                                        <th valign="top">Title </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>UIT</td>
-                                        <td>Mr. Vivek John (PI), Ms. Ruby Pant (Co-PI), Dr. Shushant Singh (Co-PI)</td>
-                                        <td>Modeling and optimization of sustainable manufacturing process in machine of 17-4 PH stainless steel</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>UIM</td>
-                                        <td>Dr. Megha Aggarwal (PI), Mr. Manish Badoni (Co-PI),</td>
-                                        <td>Study on the impact of COVID-19 on customer satisfaction with reference to hospitality industry in specific region of Uttarakhand</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>SoA</td>
-                                        <td>Ms. Smritilekha Majumder (PI)</td>
-                                        <td>Integrated nutrient management on growth and yield of Chickpea (Cicerarietinum) under Dehradun&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>SoA</td>
-                                        <td>Dr. Rajendra Prasad (PI), Mr. Sunil Prakash (Co-PI)</td>
-                                        <td>Developing an Integrated Weed Management (IWM) system for lentil crop in Dehradun</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>SoA</td>
-                                        <td>Dr. Mohsin IKram (PI), Dr. Awaneesh Kumar (Co-PI)</td>
-                                        <td>Bio-systematic studies on egg parasitoid, Trichogrammatide (Hymenoptera Chalcidoidea) from Dehradun, Uttarakhand</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>SoA</td>
-                                        <td>Dr. Siddharth Shankar Bhatt (PI)</td>
-                                        <td>Standardization of weed management practices to enhance productivity of wheat (Triticum aestivum L.)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>SoA</td>
-                                        <td>Mr. Sunil Prakash (PI),&nbsp;</td>
-                                        <td>Efficacy of Rhizobium and PSB inoculation interaction on the growth and yield attributing character in Lentil (Lens culinaris. M) under Dehradun region.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>SoA</td>
-                                        <td>Dr. Awaneesh Kumar (PI), Dr. Mohsin Ikram (Co-PI)</td>
-                                        <td>Bio-efficacy study of important spices &amp; condiments agains Sitophilus oryzae (L.) in stored wheat</td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>SALS</td>
-                                        <td>Sarvesh Rustagi</td>
-                                        <td>To establish the relationship between human physilogy, psychology and food eating behaviour using electromyography</td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>SALS</td>
-                                        <td>Mr. Shivam Panday (PI), Dr. Ajay Singh (Co-PI),</td>
-                                        <td>Development of catalyst for degradation of pharmaceutical wastewater</td>
-                                    </tr>
-                                    <tr>
-                                        <td>11</td>
-                                        <td>SALS</td>
-                                        <td>Dr. Waseem Ahmad (PI), Dr. Ajay Singh (Co-PI)</td>
-                                        <td>Plant mediated green synthesis of Nickel oxide nanoparticles and their potential application in waste water treatment</td>
-                                    </tr>
-                                    <tr>
-                                        <td>12</td>
-                                        <td>UIPS</td>
-                                        <td>Dr. Tarun Prasahar (PI), Ms.Alka Singh</td>
-                                        <td>Formulation and in vitro study of valsartan bilayer tablet biphasic drug release</td>
-                                    </tr>
-                                    <tr>
-                                        <td>13</td>
-                                        <td>SALS</td>
-                                        <td>Dr.B.S.Rawat</td>
-                                        <td>Green Synthesis of carbon dots nanoparticles and evaluation of photophysical properties for pH sensing</td>
-                                    </tr>
-                                    <tr>
-                                        <td>14</td>
-                                        <td>SALS</td>
-                                        <td>Dr. Sudhanshu Mishra</td>
-                                        <td>Assessing impact of human activities and lifestyle on the interlinked microbiota in environmental samples:implication in health of human and ecosystem</td>
-                                    </tr>
-                                    <tr>
-                                        <td>15</td>
-                                        <td>UIPS</td>
-                                        <td>Mrs.Kiran Dobhal(PI) , Ms. Jaya Rautela(Co-PI)</td>
-                                        <td>Synthesis of herbal metallic azithromycin nanoparticles for the treatment of Haemophilus influenzae</td>
-                                    </tr>
-                                    <tr>
-                                        <td>16</td>
-                                        <td>UIM</td>
-                                        <td>Dr. Rajkumar &amp; Samina Akhtar</td>
-                                        <td>An Investigation and prediction of current scenerio of mental disorder and their types among young age person using machine learning model</td>
-                                    </tr>
-                                    <tr>
-                                        <td>17</td>
-                                        <td>SLA</td>
-                                        <td>Shravan Kumar (PI), Dr. Pinki Chugh(Co-PI)</td>
-                                        <td>Developing listening comprehension skills among students</td>
-                                    </tr>
-                                    <tr>
-                                        <td>18</td>
-                                        <td>UIT</td>
-                                        <td>Mr. Satish Kumar Mahariya (PI), Dr. Musheer Vaqur (Co-PI), Mr. Prashant Chaudhary (Co-PI)</td>
-                                        <td>Visitor&rsquo;s guide robot</td>
-                                    </tr>
-                                    <tr>
-                                        <td>19.</td>
-                                        <td>DRI</td>
-                                        <td>
-                                            Mr. Chetana S (PI),<br> Assistant Professor<br><br>Dr. Vikas Narayan Thakur (Co-PI)<br>Assistant Professor</p>
-                                        </td>
-                                        <td>Exfoliation of MAX Phase and MoS 2 /CZTS composite synthesis by Supercritical Fluid process</td>
-                                    </tr>
-                                    <tr>
-                                        <td>20.</td>
-                                        <td>DRI</td>
-                                        <td>
-                                            Dr Niraj Kumar (PI) <br>Assistant Professor,<br>
-                                            Dr. Vikas Narayan Thakur (Co-PI)
-                                        </td>
-                                        <td>Synergistically Advanced Li-ion Solid State Battery Composed of MnO2 Nanowires Based Solid Electrolyte and Electrodes</td>
-                                    </tr>
-                                    <tr>
-                                        <td>21.</td>
-                                        <td>DRI</td>
-                                        <td>
-                                            Mr. Shaik Vaseem Akram (PI)<br>Assistant Professor</p>
-                                        </td>
-                                        <td>3-D Printer for rapid prototype development</td>
-                                    </tr>
-                                    <tr>
-                                        <td>22.</td>
-                                        <td>DRI</td>
-                                        <td>Dr. Naveen Chandra Joshi (PI), Assistant Professor</td>
-                                        <td>An eco-friendly synthesis, characterisation, adsorption behviour and phot-catalytic activity of some graphene oxide/metal oxide- based nano materials</td>
-                                    </tr>
-                                    <tr>
-                                        <td>23.</td>
-                                        <td>DRI</td>
-                                        <td>Dr. Vikas Narayan Thakur (PI), Assistant Professor</td>
-                                        <td>Pervoskite lattice incorporation into 2D materials for improving supercapacitor performance</td>
-                                    </tr>
-                                    <tr>
-                                        <td>24.</td>
-                                        <td>SALS</td>
-                                        <td>Dr.Mohd Yasir Khan</td>
-                                        <td>
-                                            Bovine serum albumin (BSA) glycation induced protein aggregation inhibition by EB-saponin<br>
-                                            Dr.Mohd Yasir Khan
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>25</td>
-                                        <td>LCD</td>
-                                        <td>Dr. VaibhavUniyal</td>
-                                        <td>Comprehending and inquisitioning desecration of agricultural and forest lands in dehradun in the background of right to property in India</td>
-                                    </tr>
-                                    <tr>
-                                        <td>26</td>
-                                        <td>LCD</td>
-                                        <td>Dr. Shikha Uniyal Gairola</td>
-                                        <td>Assessing mitigation potential of Neriumindicum and Euphorbia milli planted along the roadside under the influence of vehicular emission</td>
-                                    </tr>
-                                    <tr>
-                                        <td>27</td>
-                                        <td>UIT</td>
-                                        <td>
-                                            Dr. A.K. Aggarwal<br>Ms.Nishima chadda
-                                        </td>
-                                        <td>Performance optimization of conventional rapid sand filter using brick and wood powder as capping material</td>
-                                    </tr>
-                                    <tr>
-                                        <td>28</td>
-                                        <td>SALS</td>
-                                        <td>
-                                            Dr. Nishesh Sharma <br>Dr V K Srivastava
-                                        </td>
-                                        <td>Assessment of inherent biofertilizer potential of rhizospheric bacteria of soil collected from Uttaranchal University campus, Dehradun</td>
-                                    </tr>
-                                    <tr>
-                                        <td>29</td>
-                                        <td>SALS</td>
-                                        <td>Mr. Yogesh Kumar Awasthi</td>
-                                        <td>Production of ready-to-eat baked products from minor millets for sustaining agricultural biodiversity and nutritional security</td>
-                                    </tr>
-                                    <tr>
-                                        <td>30</td>
-                                        <td>SALS</td>
-                                        <td>
-                                            Mr. Rajat Singh <br>Mr.JunaidAman
-                                        </td>
-                                        <td>Utilization of bio-waste and natural polysaccharides for preparation of edible filler</td>
-                                    </tr>
-                                    <tr>
-                                        <td>31</td>
-                                        <td>SALS</td>
-                                        <td>Dr. Bhagwati Prasad</td>
-                                        <td>Ab-initio study of substitution doping in gallium selenide monolayer for optoelectronic application</td>
-                                    </tr>
-                                    <tr>
-                                        <td>32</td>
-                                        <td>SALS</td>
-                                        <td>Dr.Sukriti Singh</td>
-                                        <td>Evaluating the millets varieties cultivated in Uttrakhand and product development for the same</td>
-                                    </tr>
-                                    <tr>
-                                        <td>33</td>
-                                        <td>SoA</td>
-                                        <td>
-                                            Dr. Rajendra Prasad <br>Mr.Sunil Prakash
-                                        </td>
-                                        <td>Cataloguing of tree species in Uttaranchal University campus and their contribution in Carbon sequestration</td>
-                                    </tr>
-                                    <tr>
-                                        <td>34</td>
-                                        <td>SoA</td>
-                                        <td>Dr. Sandeep Kumar</td>
-                                        <td>Assessment of locally available botanicals against production of Oyster mushroom</td>
-                                    </tr>
-                                    <tr>
-                                        <td>35</td>
-                                        <td>SoA</td>
-                                        <td>
-                                            Dr. MohsinIkram <br>Dr.Avaneesh Kumar
-                                        </td>
-                                        <td>Taxonomic study and host range of larval parasitoids of microgastrinae (Hymenoptera: braconidae) of Uttarakhand</td>
-                                    </tr>
-                                    <tr>
-                                        <td>36</td>
-                                        <td>SoA</td>
-                                        <td>
-                                            Mr. Sunil Prakash <br>Dr. Siddharth Shankar Bhatt</p>
-                                        </td>
-                                        <td>Agro forestry practices in suburbs of Dehradun district</td>
-                                    </tr>
-                                    <tr>
-                                        <td>37</td>
-                                        <td>SoA</td>
-                                        <td>
-                                            Mr. Jayantiballabh <br> Dr. Siddharth Shankar Bhatt</p>
-                                        </td>
-                                        <td>Efficacy of integrated nutrient management in potato under Dehradun region</td>
-                                    </tr>
-                                    <tr>
-                                        <td>38</td>
-                                        <td>SoA</td>
-                                        <td>Dr. Siddharth Shankar Bhatt &amp; Mr. Amit Bhatt</td>
-                                        <td>Nutraceutical properties of traditional vegetable grown under Uttarakhand regions</td>
-                                    </tr>
-                                    <tr>
-                                        <td>39</td>
-                                        <td>UIPS</td>
-                                        <td>
-                                            Ms. Taru Saklani<br>Dr. Vikash Jakhmola
-                                        </td>
-                                        <td>Synthesis characterization and biological activities of novel metalloantibiotics</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-                    <div class="rd-data p-4" style="background: var(--bg-gray);">
-                        <div class="page-sub-heading text-muted">
-                            <h3>Faculty of Applied Science</h3>
-                        </div>
-                        <div class="table-responsive">
-                            <table class="table table-striped" id="example2">
-                                <thead>
-                                    <tr>
-                                        <th valign="top" width="80px">S. No.</th>
-                                        <th valign="top" width="600px">Title of Consultancy of Project</th>
-                                        <th valign="top" width="400px">Client Organization</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Gene Cloning expression in yeast and Protein purification</td>
-                                        <td>TGTRI, Dehradun</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Treatment of Waste Water</td>
-                                        <td>Ved Life Savers, Dehradun</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <br>
-                        <div class="page-sub-heading text-muted">
-                            <h3>Faculty of Engineering</h3>
-                        </div>
-                        <div class="table-responsive">
-                            <table class="table table-striped" id="example3">
-                                <thead>
-                                    <tr>
-                                        <th valign="top" width="80px">S. No.</th>
-                                        <th valign="top" width="600px">Title of Consultancy of Project</th>
-                                        <th valign="top" width="400px">Client Organization</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                <td>1</td>
-                                <td>Brick Analysis-Strength, Properties and Structure</td>
-                                <td>Mintoo Construction, Selaqui, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>2</td>
-                                <td>Brick Analysis-Strength, Propertises and Structure</td>
-                                <td>Sharma Construction, Sevla Khurd, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>3</td>
-                                <td>Soil Testing, Building Construction/Structural Guidance</td>
-                                <td>Bala Ji Builders, Selaqui, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>4</td>
-                                <td>Soil Testing and Structural Guidance</td>
-                                <td>R. S. Verma , Niranjanpur, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>5</td>
-                                <td>Soil Testing and Structural Gudance</td>
-                                <td>Yash Builders, Rochipura, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>6</td>
-                                <td>Soil Testing and Brick Analysis</td>
-                                <td>Mazhar Consrutction Group, Suddinpur,&nbsp; Roorkee</td>
-                                </tr>
-                                <tr>
-                                <td>7</td>
-                                <td>Brick Analysis-Strength, Propertises and Structure</td>
-                                <td>Pant Construction, Baniawala, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>8</td>
-                                <td>Soil Testing</td>
-                                <td>Swastik Construction Co., Subhashnagar, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>9</td>
-                                <td>Soil Testing</td>
-                                <td>Classic Builders, Moti Bazar, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>10</td>
-                                <td>Soil Testing</td>
-                                <td>Classic Builders, Moti Bazar, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>11</td>
-                                <td>Soil Testing</td>
-                                <td>Dev Bhoomi Constructions, Krishna Market Road, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>12</td>
-                                <td>Brick Analysis-Strength, Propertises and Structure</td>
-                                <td>Classic Builders, Moti Bazar, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>13</td>
-                                <td>Training on CAM Solutions</td>
-                                <td>Insergo Technologies Pvt. Ltd., Dehrdun</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-
-                        <br>
-                        <div class="page-sub-heading text-muted">
-                            <h3>Faculty of Management</h3>
-                        </div>
-                        <div class="table-responsive">
-                            <table class="table table-striped" id="example4">
-                                <thead>
-                                    <tr>
-                                        <th valign="top" width="80px">S. No.</th>
-                                        <th valign="top" width="600px">Title of Consultancy of Project</th>
-                                        <th valign="top" width="400px">Client Organization</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                <td>1</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>Hotel Saffron Leaf, GMS Road, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>2</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>Hotel Softel Plaza, Saharanpur Road, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>3</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>Hotel The Pearl Grand, Saharanpur Road, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>4</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>Hotel Calista, Patel Nagar, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>5</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>Hotel City Star, Subhash Road, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>6</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>M/S Suresh Kumar Aggarwal, Park Road, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>7</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>M/S SYS Facility Provider Pvt. Lt., Laxmi Road, Dalanwala, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>8</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>M/S Aparna Food Company, Park Road,Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>9</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>M/S Aparna Food Company, Park Road,Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>10</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>M/S The Pavilion, Indiranagar, Colony, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>11</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>M/S Malsi Bakery, Indiranagar, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>12</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>M/S Sai Hospitality Services, C/O Uttaranchal University, Arcadia Grant, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>13</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>M/S Sai Hospitality Services, C/O Delhi Public School, Kalagaon, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>14</td>
-                                <td>Overall Management Performance Improvement</td>
-                                <td>M/S Sai Hospitality Services, C/O Delhi Public School, Kalagaon, Dehradun</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <br>
-                        <div class="page-sub-heading text-muted">
-                            <h3>Faculty of Management</h3>
-                        </div>
-                        <div class="table-responsive">
-                            <table class="table table-striped" id="example5">
-                                <thead>
-                                    <tr>
-                                        <th valign="top" width="80px">S. No.</th>
-                                        <th valign="top" width="600px">Title of Consultancy of Project</th>
-                                        <th valign="top" width="400px">Client Organization</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                <td>1</td>
-                                <td>Interpretation of FSSAI Act, Legal Implications</td>
-                                <td>M/S Hotel Softel Plaza, Saharanpur, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>2</td>
-                                <td>Interpretation of FSSAI Act, Legal Implications</td>
-                                <td>M/S Sai Hospitality Services, Balawala, Dehradun</td>
-                                </tr>
-                                <tr>
-                                <td>3</td>
-                                <td>Interpretation of FSSAI Act, Legal Implications</td>
-                                <td>M/S Shugan Hospitality, Park Road, Dehradun</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+<!--<section class="researchData-section pt-8 pb-8">
+
+        <div class="container">
+
+            <div class="main-heading text-center mb-5">
+
+                <h2>Funded Projects</h2>
+
+            </div>
+
+            <nav>
+
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">University Funded Projects</button>
+
+                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Consultancy Projects</button>
+
+                </div>
+
+            </nav>
+
+            <div class="tab-content" id="nav-tabContent">
+
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+
+                    <div class="rd-data p-4" style="background: var(--bg-gray);">
+
+                        <div class="table-responsive">
+
+                            <table class="table table-striped" id="example">
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th valign="top" width="80px">S. No.</th>
+
+                                        <th valign="top">School</th>
+
+                                        <th valign="top">Name of PI & Co (PI)	</th>
+
+                                        <th valign="top">Title </th>
+
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+
+                                        <td>1</td>
+
+                                        <td>UIT</td>
+
+                                        <td>Mr. Vivek John (PI), Ms. Ruby Pant (Co-PI), Dr. Shushant Singh (Co-PI)</td>
+
+                                        <td>Modeling and optimization of sustainable manufacturing process in machine of 17-4 PH stainless steel</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>2</td>
+
+                                        <td>UIM</td>
+
+                                        <td>Dr. Megha Aggarwal (PI), Mr. Manish Badoni (Co-PI),</td>
+
+                                        <td>Study on the impact of COVID-19 on customer satisfaction with reference to hospitality industry in specific region of Uttarakhand</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>3</td>
+
+                                        <td>SoA</td>
+
+                                        <td>Ms. Smritilekha Majumder (PI)</td>
+
+                                        <td>Integrated nutrient management on growth and yield of Chickpea (Cicerarietinum) under Dehradun&nbsp;</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>4</td>
+
+                                        <td>SoA</td>
+
+                                        <td>Dr. Rajendra Prasad (PI), Mr. Sunil Prakash (Co-PI)</td>
+
+                                        <td>Developing an Integrated Weed Management (IWM) system for lentil crop in Dehradun</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>5</td>
+
+                                        <td>SoA</td>
+
+                                        <td>Dr. Mohsin IKram (PI), Dr. Awaneesh Kumar (Co-PI)</td>
+
+                                        <td>Bio-systematic studies on egg parasitoid, Trichogrammatide (Hymenoptera Chalcidoidea) from Dehradun, Uttarakhand</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>6</td>
+
+                                        <td>SoA</td>
+
+                                        <td>Dr. Siddharth Shankar Bhatt (PI)</td>
+
+                                        <td>Standardization of weed management practices to enhance productivity of wheat (Triticum aestivum L.)</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>7</td>
+
+                                        <td>SoA</td>
+
+                                        <td>Mr. Sunil Prakash (PI),&nbsp;</td>
+
+                                        <td>Efficacy of Rhizobium and PSB inoculation interaction on the growth and yield attributing character in Lentil (Lens culinaris. M) under Dehradun region.</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>8</td>
+
+                                        <td>SoA</td>
+
+                                        <td>Dr. Awaneesh Kumar (PI), Dr. Mohsin Ikram (Co-PI)</td>
+
+                                        <td>Bio-efficacy study of important spices &amp; condiments agains Sitophilus oryzae (L.) in stored wheat</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>9</td>
+
+                                        <td>SALS</td>
+
+                                        <td>Sarvesh Rustagi</td>
+
+                                        <td>To establish the relationship between human physilogy, psychology and food eating behaviour using electromyography</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>10</td>
+
+                                        <td>SALS</td>
+
+                                        <td>Mr. Shivam Panday (PI), Dr. Ajay Singh (Co-PI),</td>
+
+                                        <td>Development of catalyst for degradation of pharmaceutical wastewater</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>11</td>
+
+                                        <td>SALS</td>
+
+                                        <td>Dr. Waseem Ahmad (PI), Dr. Ajay Singh (Co-PI)</td>
+
+                                        <td>Plant mediated green synthesis of Nickel oxide nanoparticles and their potential application in waste water treatment</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>12</td>
+
+                                        <td>UIPS</td>
+
+                                        <td>Dr. Tarun Prasahar (PI), Ms.Alka Singh</td>
+
+                                        <td>Formulation and in vitro study of valsartan bilayer tablet biphasic drug release</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>13</td>
+
+                                        <td>SALS</td>
+
+                                        <td>Dr.B.S.Rawat</td>
+
+                                        <td>Green Synthesis of carbon dots nanoparticles and evaluation of photophysical properties for pH sensing</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>14</td>
+
+                                        <td>SALS</td>
+
+                                        <td>Dr. Sudhanshu Mishra</td>
+
+                                        <td>Assessing impact of human activities and lifestyle on the interlinked microbiota in environmental samples:implication in health of human and ecosystem</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>15</td>
+
+                                        <td>UIPS</td>
+
+                                        <td>Mrs.Kiran Dobhal(PI) , Ms. Jaya Rautela(Co-PI)</td>
+
+                                        <td>Synthesis of herbal metallic azithromycin nanoparticles for the treatment of Haemophilus influenzae</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>16</td>
+
+                                        <td>UIM</td>
+
+                                        <td>Dr. Rajkumar &amp; Samina Akhtar</td>
+
+                                        <td>An Investigation and prediction of current scenerio of mental disorder and their types among young age person using machine learning model</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>17</td>
+
+                                        <td>SLA</td>
+
+                                        <td>Shravan Kumar (PI), Dr. Pinki Chugh(Co-PI)</td>
+
+                                        <td>Developing listening comprehension skills among students</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>18</td>
+
+                                        <td>UIT</td>
+
+                                        <td>Mr. Satish Kumar Mahariya (PI), Dr. Musheer Vaqur (Co-PI), Mr. Prashant Chaudhary (Co-PI)</td>
+
+                                        <td>Visitor&rsquo;s guide robot</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>19.</td>
+
+                                        <td>DRI</td>
+
+                                        <td>
+
+                                            Mr. Chetana S (PI),<br> Assistant Professor<br><br>Dr. Vikas Narayan Thakur (Co-PI)<br>Assistant Professor</p>
+
+                                        </td>
+
+                                        <td>Exfoliation of MAX Phase and MoS 2 /CZTS composite synthesis by Supercritical Fluid process</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>20.</td>
+
+                                        <td>DRI</td>
+
+                                        <td>
+
+                                            Dr Niraj Kumar (PI) <br>Assistant Professor,<br>
+
+                                            Dr. Vikas Narayan Thakur (Co-PI)
+
+                                        </td>
+
+                                        <td>Synergistically Advanced Li-ion Solid State Battery Composed of MnO2 Nanowires Based Solid Electrolyte and Electrodes</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>21.</td>
+
+                                        <td>DRI</td>
+
+                                        <td>
+
+                                            Mr. Shaik Vaseem Akram (PI)<br>Assistant Professor</p>
+
+                                        </td>
+
+                                        <td>3-D Printer for rapid prototype development</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>22.</td>
+
+                                        <td>DRI</td>
+
+                                        <td>Dr. Naveen Chandra Joshi (PI), Assistant Professor</td>
+
+                                        <td>An eco-friendly synthesis, characterisation, adsorption behviour and phot-catalytic activity of some graphene oxide/metal oxide- based nano materials</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>23.</td>
+
+                                        <td>DRI</td>
+
+                                        <td>Dr. Vikas Narayan Thakur (PI), Assistant Professor</td>
+
+                                        <td>Pervoskite lattice incorporation into 2D materials for improving supercapacitor performance</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>24.</td>
+
+                                        <td>SALS</td>
+
+                                        <td>Dr.Mohd Yasir Khan</td>
+
+                                        <td>
+
+                                            Bovine serum albumin (BSA) glycation induced protein aggregation inhibition by EB-saponin<br>
+
+                                            Dr.Mohd Yasir Khan
+
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>25</td>
+
+                                        <td>LCD</td>
+
+                                        <td>Dr. VaibhavUniyal</td>
+
+                                        <td>Comprehending and inquisitioning desecration of agricultural and forest lands in dehradun in the background of right to property in India</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>26</td>
+
+                                        <td>LCD</td>
+
+                                        <td>Dr. Shikha Uniyal Gairola</td>
+
+                                        <td>Assessing mitigation potential of Neriumindicum and Euphorbia milli planted along the roadside under the influence of vehicular emission</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>27</td>
+
+                                        <td>UIT</td>
+
+                                        <td>
+
+                                            Dr. A.K. Aggarwal<br>Ms.Nishima chadda
+
+                                        </td>
+
+                                        <td>Performance optimization of conventional rapid sand filter using brick and wood powder as capping material</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>28</td>
+
+                                        <td>SALS</td>
+
+                                        <td>
+
+                                            Dr. Nishesh Sharma <br>Dr V K Srivastava
+
+                                        </td>
+
+                                        <td>Assessment of inherent biofertilizer potential of rhizospheric bacteria of soil collected from Uttaranchal University campus, Dehradun</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>29</td>
+
+                                        <td>SALS</td>
+
+                                        <td>Mr. Yogesh Kumar Awasthi</td>
+
+                                        <td>Production of ready-to-eat baked products from minor millets for sustaining agricultural biodiversity and nutritional security</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>30</td>
+
+                                        <td>SALS</td>
+
+                                        <td>
+
+                                            Mr. Rajat Singh <br>Mr.JunaidAman
+
+                                        </td>
+
+                                        <td>Utilization of bio-waste and natural polysaccharides for preparation of edible filler</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>31</td>
+
+                                        <td>SALS</td>
+
+                                        <td>Dr. Bhagwati Prasad</td>
+
+                                        <td>Ab-initio study of substitution doping in gallium selenide monolayer for optoelectronic application</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>32</td>
+
+                                        <td>SALS</td>
+
+                                        <td>Dr.Sukriti Singh</td>
+
+                                        <td>Evaluating the millets varieties cultivated in Uttrakhand and product development for the same</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>33</td>
+
+                                        <td>SoA</td>
+
+                                        <td>
+
+                                            Dr. Rajendra Prasad <br>Mr.Sunil Prakash
+
+                                        </td>
+
+                                        <td>Cataloguing of tree species in Uttaranchal University campus and their contribution in Carbon sequestration</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>34</td>
+
+                                        <td>SoA</td>
+
+                                        <td>Dr. Sandeep Kumar</td>
+
+                                        <td>Assessment of locally available botanicals against production of Oyster mushroom</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>35</td>
+
+                                        <td>SoA</td>
+
+                                        <td>
+
+                                            Dr. MohsinIkram <br>Dr.Avaneesh Kumar
+
+                                        </td>
+
+                                        <td>Taxonomic study and host range of larval parasitoids of microgastrinae (Hymenoptera: braconidae) of Uttarakhand</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>36</td>
+
+                                        <td>SoA</td>
+
+                                        <td>
+
+                                            Mr. Sunil Prakash <br>Dr. Siddharth Shankar Bhatt</p>
+
+                                        </td>
+
+                                        <td>Agro forestry practices in suburbs of Dehradun district</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>37</td>
+
+                                        <td>SoA</td>
+
+                                        <td>
+
+                                            Mr. Jayantiballabh <br> Dr. Siddharth Shankar Bhatt</p>
+
+                                        </td>
+
+                                        <td>Efficacy of integrated nutrient management in potato under Dehradun region</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>38</td>
+
+                                        <td>SoA</td>
+
+                                        <td>Dr. Siddharth Shankar Bhatt &amp; Mr. Amit Bhatt</td>
+
+                                        <td>Nutraceutical properties of traditional vegetable grown under Uttarakhand regions</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>39</td>
+
+                                        <td>UIPS</td>
+
+                                        <td>
+
+                                            Ms. Taru Saklani<br>Dr. Vikash Jakhmola
+
+                                        </td>
+
+                                        <td>Synthesis characterization and biological activities of novel metalloantibiotics</td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+
+                    <div class="rd-data p-4" style="background: var(--bg-gray);">
+
+                        <div class="page-sub-heading text-muted">
+
+                            <h3>Faculty of Applied Science</h3>
+
+                        </div>
+
+                        <div class="table-responsive">
+
+                            <table class="table table-striped" id="example2">
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th valign="top" width="80px">S. No.</th>
+
+                                        <th valign="top" width="600px">Title of Consultancy of Project</th>
+
+                                        <th valign="top" width="400px">Client Organization</th>
+
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+
+                                        <td>1</td>
+
+                                        <td>Gene Cloning expression in yeast and Protein purification</td>
+
+                                        <td>TGTRI, Dehradun</td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>2</td>
+
+                                        <td>Treatment of Waste Water</td>
+
+                                        <td>Ved Life Savers, Dehradun</td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+
+
+                        <br>
+
+                        <div class="page-sub-heading text-muted">
+
+                            <h3>Faculty of Engineering</h3>
+
+                        </div>
+
+                        <div class="table-responsive">
+
+                            <table class="table table-striped" id="example3">
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th valign="top" width="80px">S. No.</th>
+
+                                        <th valign="top" width="600px">Title of Consultancy of Project</th>
+
+                                        <th valign="top" width="400px">Client Organization</th>
+
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                <tr>
+
+                                <td>1</td>
+
+                                <td>Brick Analysis-Strength, Properties and Structure</td>
+
+                                <td>Mintoo Construction, Selaqui, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>2</td>
+
+                                <td>Brick Analysis-Strength, Propertises and Structure</td>
+
+                                <td>Sharma Construction, Sevla Khurd, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>3</td>
+
+                                <td>Soil Testing, Building Construction/Structural Guidance</td>
+
+                                <td>Bala Ji Builders, Selaqui, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>4</td>
+
+                                <td>Soil Testing and Structural Guidance</td>
+
+                                <td>R. S. Verma , Niranjanpur, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>5</td>
+
+                                <td>Soil Testing and Structural Gudance</td>
+
+                                <td>Yash Builders, Rochipura, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>6</td>
+
+                                <td>Soil Testing and Brick Analysis</td>
+
+                                <td>Mazhar Consrutction Group, Suddinpur,&nbsp; Roorkee</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>7</td>
+
+                                <td>Brick Analysis-Strength, Propertises and Structure</td>
+
+                                <td>Pant Construction, Baniawala, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>8</td>
+
+                                <td>Soil Testing</td>
+
+                                <td>Swastik Construction Co., Subhashnagar, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>9</td>
+
+                                <td>Soil Testing</td>
+
+                                <td>Classic Builders, Moti Bazar, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>10</td>
+
+                                <td>Soil Testing</td>
+
+                                <td>Classic Builders, Moti Bazar, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>11</td>
+
+                                <td>Soil Testing</td>
+
+                                <td>Dev Bhoomi Constructions, Krishna Market Road, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>12</td>
+
+                                <td>Brick Analysis-Strength, Propertises and Structure</td>
+
+                                <td>Classic Builders, Moti Bazar, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>13</td>
+
+                                <td>Training on CAM Solutions</td>
+
+                                <td>Insergo Technologies Pvt. Ltd., Dehrdun</td>
+
+                                </tr>
+
+                                </tbody>result.html
+
+                            </table>
+
+                        </div>
+
+
+
+
+
+                        <br>
+
+                        <div class="page-sub-heading text-muted">
+
+                            <h3>Faculty of Management</h3>
+
+                        </div>
+
+                        <div class="table-responsive">
+
+                            <table class="table table-striped" id="example4">
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th valign="top" width="80px">S. No.</th>
+
+                                        <th valign="top" width="600px">Title of Consultancy of Project</th>
+
+                                        <th valign="top" width="400px">Client Organization</th>
+
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                <tr>
+
+                                <td>1</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>Hotel Saffron Leaf, GMS Road, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>2</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>Hotel Softel Plaza, Saharanpur Road, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>3</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>Hotel The Pearl Grand, Saharanpur Road, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>4</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>Hotel Calista, Patel Nagar, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>5</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>Hotel City Star, Subhash Road, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>6</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>M/S Suresh Kumar Aggarwal, Park Road, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>7</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>M/S SYS Facility Provider Pvt. Lt., Laxmi Road, Dalanwala, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>8</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>M/S Aparna Food Company, Park Road,Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>9</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>M/S Aparna Food Company, Park Road,Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>10</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>M/S The Pavilion, Indiranagar, Colony, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>11</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>M/S Malsi Bakery, Indiranagar, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>12</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>M/S Sai Hospitality Services, C/O Uttaranchal University, Arcadia Grant, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>13</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>M/S Sai Hospitality Services, C/O Delhi Public School, Kalagaon, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>14</td>
+
+                                <td>Overall Management Performance Improvement</td>
+
+                                <td>M/S Sai Hospitality Services, C/O Delhi Public School, Kalagaon, Dehradun</td>
+
+                                </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+
+
+                        <br>
+
+                        <div class="page-sub-heading text-muted">
+
+                            <h3>Faculty of Management</h3>
+
+                        </div>
+
+                        <div class="table-responsive">
+
+                            <table class="table table-striped" id="example5">
+
+                                <thead>
+
+                                    <tr>
+
+                                        <th valign="top" width="80px">S. No.</th>
+
+                                        <th valign="top" width="600px">Title of Consultancy of Project</th>
+
+                                        <th valign="top" width="400px">Client Organization</th>
+
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                <tr>
+
+                                <td>1</td>
+
+                                <td>Interpretation of FSSAI Act, Legal Implications</td>
+
+                                <td>M/S Hotel Softel Plaza, Saharanpur, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>2</td>
+
+                                <td>Interpretation of FSSAI Act, Legal Implications</td>
+
+                                <td>M/S Sai Hospitality Services, Balawala, Dehradun</td>
+
+                                </tr>
+
+                                <tr>
+
+                                <td>3</td>
+
+                                <td>Interpretation of FSSAI Act, Legal Implications</td>
+
+                                <td>M/S Shugan Hospitality, Park Road, Dehradun</td>
+
+                                </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </section> -->
 <section class="research-no pt-8 pb-8 text-center">
 <div class="container">
@@ -1868,43 +2490,80 @@
 </div>
 </div>
 </section>
-<!-- <section class="placementVideo-section pt-8 pb-8">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <div class="programVideo position-relative overflow-hidden br-20 shadow">
-                        <img src="images/placement-video.jpg" alt="" class="w-100">
-                        <a class="play-btn" data-fancybox="gallery" href="https://www.youtube.com/watch?v=1lOGlxngJHQ">
-                            <div class="circle pulse"></div>
-                            <div class="circle">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="40,30 65,50 40,70"></polygon></svg>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="placementVideo-section__content">
-                        <div class="page-heading">
-                            <h6>WHY CHRISTIAN RESEARCH?</h6>
-                            <h2>
-                            Cutting-Edge Research and Creative Work
-                                <span>Lorem ipsum amate </span>
-                                at top agency!
-                            </h2>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Quis ipsus.</p>
-
-                        <div class="placementVideo-student">
-                            <img src="images/placed-student-dp.jpg" alt="" class="br-20">
-                            <div class="placementVideo-student__name">
-                                <h4>Christian D</h4>
-                                <small>Reasearch on <br>Topic Name here</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- <section class="placementVideo-section pt-8 pb-8">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-8">
+
+                    <div class="programVideo position-relative overflow-hidden br-20 shadow">
+
+                        <img src="images/placement-video.jpg" alt="" class="w-100">
+
+                        <a class="play-btn" data-fancybox="gallery" href="https://www.youtube.com/watch?v=1lOGlxngJHQ">
+
+                            <div class="circle pulse"></div>
+
+                            <div class="circle">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="40,30 65,50 40,70"></polygon></svg>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="placementVideo-section__content">
+
+                        <div class="page-heading">
+
+                            <h6>WHY CHRISTIAN RESEARCH?</h6>
+
+                            <h2>
+
+                            Cutting-Edge Research and Creative Work
+
+                                <span>Lorem ipsum amate </span>
+
+                                at top agency!
+
+                            </h2>
+
+                        </div>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Quis ipsus.</p>
+
+
+
+                        <div class="placementVideo-student">
+
+                            <img src="images/placed-student-dp.jpg" alt="" class="br-20">
+
+                            <div class="placementVideo-student__name">
+
+                                <h4>Christian D</h4>
+
+                                <small>Reasearch on <br>Topic Name here</small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </section> -->
 <div class="testimoni-section pt-8 pb-8">
 <div class="container">
@@ -2032,8 +2691,10 @@
 <div class="st-image">
 <img alt="Placed Student" src="../assets/images/vibhuti-law.png"/>
 </div>
-<!-- <div class="st-image-logo">
-                        <img src="../assets/images/logos/logo-7.jpg" alt="Placed Student">
+<!-- <div class="st-image-logo">
+
+                        <img src="../assets/images/logos/logo-7.jpg" alt="Placed Student">
+
                     </div>  -->
 </div>
 <div class="testimoni-section__slider--item border p-4 br-20 position-relative">
@@ -2047,7 +2708,8 @@
 <i aria-hidden="true" class="fa fa-star"></i>
 <i aria-hidden="true" class="fa fa-star-half"></i>
 </div>
-<p>A Step towards Success! That is what I call my three-year long tryst with Uttaranchal University. The first step towards climbing the corporate ladder is entry into a distinguished university. 
+<p>A Step towards Success! That is what I call my three-year long tryst with Uttaranchal University. The first step towards climbing the corporate ladder is entry into a distinguished university. 
+
 						<br/>In Uttaranchal University an awesome state-of-the-art infrastructure, extremely informative course curriculum and a great environment for studying made the learning experience truly indispensable. </p>
 <div class="st-name">
 <h5>Sukriti Chaudhary</h5>
@@ -2129,8 +2791,10 @@
 <div class="st-image">
 <img alt="Placed Student" src="../assets/images/st-image6.png"/>
 </div>
-<!--<div class="st-image-logo">
-                        <img src="../assets/images/logos/logo-ntt.jpg" alt="Placed Student">
+<!--<div class="st-image-logo">
+
+                        <img src="../assets/images/logos/logo-ntt.jpg" alt="Placed Student">
+
                     </div> -->
 </div>
 <div class="testimoni-section__slider--item border p-4 br-20 position-relative">
@@ -2180,8 +2844,10 @@
 </div>
 </div>
 </div>
-</div>
-
+</div>
+
+
+
     ﻿<div id="left" style="bottom: 85px !important">
 <a class="handle ui-slideouttab-handle-rounded" style="text-decoration: none">ENQUIRE NOW<i class="fa fa-icon fa-television"></i></a>
 <span style="padding-left:20px; font-weight: 500">Submit Your Enquiry</span>
@@ -2338,8 +3004,10 @@
 <li>
 <a href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
 </li>
-<!--                                     <li>
-                                        <a href="../nirf.php">NIRF</a>
+<!--                                     <li>
+
+                                        <a href="../nirf.php">NIRF</a>
+
                                     </li> -->
 <li>
 <a href="https://www.digilocker.gov.in/" rel="nofollow" target="_blank">DigiLocker</a>
@@ -2396,8 +3064,10 @@
 <div class="col-lg-6 col-md-6 col-12">
 <div class="footerInfo">
 <h4>About</h4>
-<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
-                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
+
+                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+
                                     this firmly positions us among the top 5% HEIs of the nation. <a href="../about/index.html">Read More</a></p>
 </div>
 </div>
@@ -2430,7 +3100,8 @@
 </a>
 </div>
 <div class="uu-varification">
-<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+
                                         UU Degree Verification Service<br/>
 <span>Click Here</span>
 </a>
@@ -2527,163 +3198,319 @@
 </li>
 </ul>
 </div>
-<style>
-        /* Set display to none for image*/
-        #image {
-            display: none;
-        }
-        @media print {
-            #printableArea {
-               display : block;
-            }
-        }
-        #left {
-            border-color: #0a58ca;
-        	width: 300px;
-        	border-radius: 4px;
-            bottom: 60px !important;
-        }
-        #left .handle {
-            background-color: #0a58ca;
-        }
-
-        	/*
-            tabSlideOUt
-
-            By  Michael Fielding
-            License: GPL v3.0
-        */
-
-        .ui-slideouttab-panel, .ui-slideouttab-handle {
-            background-color: white;
-            padding: 0.4em;
-            box-sizing: border-box;
-        }
-        .ui-slideouttab-panel {
-        	display: block;
-        	position: fixed;
-            border: 2px solid grey;
-        }
-        /* This class is added after the tabs are initialised, otherwise the user sees the 
-           tabs slide out of the way when the page is initialised. */
-        .ui-slideouttab-ready {
-        	transition: transform 0.5s ease 0s;
-        }
-
-        /* Hide tabs and panels when printed. */
-        @media print {
-            .ui-slideouttab-panel {
-                display: none;
-            }
-        }
-
-        /* Tab handles */
-        .ui-slideouttab-handle {
-            display: block;
-            position: absolute;
-            cursor: pointer;
-            color: white;
-            background-color: grey;
-        }
-        .ui-slideouttab-handle-image {
-            transform: rotate(0);
-        }
-
-        /* Right */
-        .ui-slideouttab-right {
-        	right: 0px;
-        	transform: translateX(100%);
-        	border-right: none;
-        }
-        .ui-slideouttab-right.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle {
-            transform-origin: 0% 0%;
-            transform: rotate(-90deg) translate(-100%,-100%);   
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
-            transform-origin: 0% 100%;
-            transform: rotate(-90deg);
-        }
-        /* Left */
-        .ui-slideouttab-left {
-        	left: 0px;
-        	transform: translateX(-100%);
-        	border-left: none;
-        }
-        .ui-slideouttab-left.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle {
-            transform-origin: 100% 0%;
-            transform: rotate(-90deg);   
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
-            transform-origin: 100% 100%;
-            transform: rotate(-90deg) translate(100%,100%);   
-        }
-        /* Top */
-        .ui-slideouttab-top {
-        	top: 0px;
-        	transform: translateY(-100%);
-        	border-top: none;
-        }
-        .ui-slideouttab-top.ui-slideouttab-open {
-        	transform: translateY(0%);
-        }
-        /* Bottom */
-        .ui-slideouttab-bottom {
-        	bottom: 0px;
-        	transform: translateY(100%);
-        	border-bottom: none;
-        }
-        .ui-slideouttab-bottom.ui-slideouttab-open {
-        		transform: translateY(0%);
-        }
-
-        /* turn font awesome icon in a tab upright */
-        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
-        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
-            transform: rotate(90deg);
-        }
-        .ui-slideouttab-handle>.fa-icon {
-            margin-left: 0.5em;
-        }
-
-        /* apply rounded corners if handle has the -rounded class */
-        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
-        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
-            border-radius: 0 0 4px 4px;
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
-        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
-            border-radius: 4px 4px 0 0;
-        }
+<style>
+
+        /* Set display to none for image*/
+
+        #image {
+
+            display: none;
+
+        }
+
+        @media print {
+
+            #printableArea {
+
+               display : block;
+
+            }
+
+        }
+
+        #left {
+
+            border-color: #0a58ca;
+
+        	width: 300px;
+
+        	border-radius: 4px;
+
+            bottom: 60px !important;
+
+        }
+
+        #left .handle {
+
+            background-color: #0a58ca;
+
+        }
+
+
+
+        	/*
+
+            tabSlideOUt
+
+
+
+            By  Michael Fielding
+
+            License: GPL v3.0
+
+        */
+
+
+
+        .ui-slideouttab-panel, .ui-slideouttab-handle {
+
+            background-color: white;
+
+            padding: 0.4em;
+
+            box-sizing: border-box;
+
+        }
+
+        .ui-slideouttab-panel {
+
+        	display: block;
+
+        	position: fixed;
+
+            border: 2px solid grey;
+
+        }
+
+        /* This class is added after the tabs are initialised, otherwise the user sees the 
+
+           tabs slide out of the way when the page is initialised. */
+
+        .ui-slideouttab-ready {
+
+        	transition: transform 0.5s ease 0s;
+
+        }
+
+
+
+        /* Hide tabs and panels when printed. */
+
+        @media print {
+
+            .ui-slideouttab-panel {
+
+                display: none;
+
+            }
+
+        }
+
+
+
+        /* Tab handles */
+
+        .ui-slideouttab-handle {
+
+            display: block;
+
+            position: absolute;
+
+            cursor: pointer;
+
+            color: white;
+
+            background-color: grey;
+
+        }
+
+        .ui-slideouttab-handle-image {
+
+            transform: rotate(0);
+
+        }
+
+
+
+        /* Right */
+
+        .ui-slideouttab-right {
+
+        	right: 0px;
+
+        	transform: translateX(100%);
+
+        	border-right: none;
+
+        }
+
+        .ui-slideouttab-right.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle {
+
+            transform-origin: 0% 0%;
+
+            transform: rotate(-90deg) translate(-100%,-100%);   
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
+
+            transform-origin: 0% 100%;
+
+            transform: rotate(-90deg);
+
+        }
+
+        /* Left */
+
+        .ui-slideouttab-left {
+
+        	left: 0px;
+
+        	transform: translateX(-100%);
+
+        	border-left: none;
+
+        }
+
+        .ui-slideouttab-left.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle {
+
+            transform-origin: 100% 0%;
+
+            transform: rotate(-90deg);   
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
+
+            transform-origin: 100% 100%;
+
+            transform: rotate(-90deg) translate(100%,100%);   
+
+        }
+
+        /* Top */
+
+        .ui-slideouttab-top {
+
+        	top: 0px;
+
+        	transform: translateY(-100%);
+
+        	border-top: none;
+
+        }
+
+        .ui-slideouttab-top.ui-slideouttab-open {
+
+        	transform: translateY(0%);
+
+        }
+
+        /* Bottom */
+
+        .ui-slideouttab-bottom {
+
+        	bottom: 0px;
+
+        	transform: translateY(100%);
+
+        	border-bottom: none;
+
+        }
+
+        .ui-slideouttab-bottom.ui-slideouttab-open {
+
+        		transform: translateY(0%);
+
+        }
+
+
+
+        /* turn font awesome icon in a tab upright */
+
+        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
+
+        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
+
+            transform: rotate(90deg);
+
+        }
+
+        .ui-slideouttab-handle>.fa-icon {
+
+            margin-left: 0.5em;
+
+        }
+
+
+
+        /* apply rounded corners if handle has the -rounded class */
+
+        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
+
+        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
+
+            border-radius: 0 0 4px 4px;
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
+
+        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
+
+            border-radius: 4px 4px 0 0;
+
+        }
+
     </style>
-<script>
-    function printDiv(divName) {
-         var printContents = document.getElementById(divName).innerHTML;
-         var originalContents = document.body.innerHTML;
-
-         document.body.innerHTML = printContents;
-
-         window.print();
-
-         document.body.innerHTML = originalContents;
-    }
-    	function show() {
-     
-                /* Access image by id and change
-                the display property to block*/
-                document.getElementById('image')
-                        .style.display = "block";
-     
-                document.getElementById('printableArea')
-                        .style.display = "none";
-    	}
-    	
-    	
+<script>
+
+    function printDiv(divName) {
+
+         var printContents = document.getElementById(divName).innerHTML;
+
+         var originalContents = document.body.innerHTML;
+
+
+
+         document.body.innerHTML = printContents;
+
+
+
+         window.print();
+
+
+
+         document.body.innerHTML = originalContents;
+
+    }
+
+    	function show() {
+
+     
+
+                /* Access image by id and change
+
+                the display property to block*/
+
+                document.getElementById('image')
+
+                        .style.display = "block";
+
+     
+
+                document.getElementById('printableArea')
+
+                        .style.display = "none";
+
+    	}
+
+    	
+
+    	
+
     </script>
 <!-- javascripts files -->
 <script src="../assets/js/jquery.min.js"></script>
@@ -2695,155 +3522,292 @@
 <script src="../assets/js/slider-popup.js"></script>
 <!-- <script src="../assets/js/content-sliders.js "></script> -->
 <link href="../assets/css/form-widget.css" rel="stylesheet"/>
-<script type="text/javascript">
-        $('.top-notification-slider').not('.slick-initialized').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        pauseOnHover: true,
-        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
-    });
+<script type="text/javascript">
+
+        $('.top-notification-slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        pauseOnHover: true,
+
+        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
+
+    });
+
     </script>
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+<script type="text/javascript">
+
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+    (function(){
+
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+
+    s1.async=true;
+
+    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
+
+    s1.charset='UTF-8';
+
+    s1.setAttribute('crossorigin','*');
+
+    s0.parentNode.insertBefore(s1,s0);
+
+    })();
+
     </script>
 <!--End of Tawk.to Script-->
-<script type="text/javascript">
-    // Function to encode HTML special characters to prevent XSS
-    function encodeHTML(str) {
-      return str.replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#39;");
-    }
-
-    const chatInput = document.querySelector('.tawk-chatinput-editor');
-    const sendBtn = document.getElementById('send-btn');
-    const chatOutput = document.getElementById('chat-output');
-
-    sendBtn.addEventListener('click', function() {
-      const userInput = chatInput.value.trim();
-      if (!userInput) return; // ignore empty input
-
-      const safeMessage = encodeHTML(userInput);
-
-      // Append the safe message to chat output with a newline
-      chatOutput.innerHTML += safeMessage + '\n';
-
-      // Clear input field
-      chatInput.value = '';
-      chatInput.focus();
-
-      // Scroll to bottom
-      chatOutput.scrollTop = chatOutput.scrollHeight;
-    });
+<script type="text/javascript">
+
+    // Function to encode HTML special characters to prevent XSS
+
+    function encodeHTML(str) {
+
+      return str.replace(/&/g, "&amp;")
+
+                .replace(/</g, "&lt;")
+
+                .replace(/>/g, "&gt;")
+
+                .replace(/"/g, "&quot;")
+
+                .replace(/'/g, "&#39;");
+
+    }
+
+
+
+    const chatInput = document.querySelector('.tawk-chatinput-editor');
+
+    const sendBtn = document.getElementById('send-btn');
+
+    const chatOutput = document.getElementById('chat-output');
+
+
+
+    sendBtn.addEventListener('click', function() {
+
+      const userInput = chatInput.value.trim();
+
+      if (!userInput) return; // ignore empty input
+
+
+
+      const safeMessage = encodeHTML(userInput);
+
+
+
+      // Append the safe message to chat output with a newline
+
+      chatOutput.innerHTML += safeMessage + '\n';
+
+
+
+      // Clear input field
+
+      chatInput.value = '';
+
+      chatInput.focus();
+
+
+
+      // Scroll to bottom
+
+      chatOutput.scrollTop = chatOutput.scrollHeight;
+
+    });
+
     </script>
 <!-- ERP Login Popup JavaScript -->
-<script>
-        function handleERPLogin(type) {
-            // Handle login logic here
-            console.log('Login selected:', type);
-            
-            // Close modal after a brief delay to allow navigation
-            setTimeout(() => {
-                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
-                if (modal) {
-                    modal.hide();
-                }
-            }, 100);
-            
-            // Links will open in new tab due to target="_blank"
-            // URLs are now directly in the href attributes:
-            // Student: https://student.uttaranchaluniversity.ac.in/
-            // Staff: https://staff.uttaranchaluniversity.ac.in/
-        }
-        
-        // Initialize modal and handle URL hash changes
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize the modal
-            const modalElement = document.getElementById('erploginmodel');
-            if (modalElement) {
-                const modal = new bootstrap.Modal(modalElement);
-                
-                // Handle hash-based modal triggers (with UTM parameters support)
-                function handleHashChange() {
-                    const hash = window.location.hash;
-                    // Extract just the modal ID part, ignoring query parameters
-                    const modalId = hash.split('?')[0].replace('#', '');
-                    
-                    if (modalId === 'erploginmodel') {
-                        modal.show();
-                    }
-                }
-                
-                // Check hash on page load
-                handleHashChange();
-                
-                // Listen for hash changes
-                window.addEventListener('hashchange', handleHashChange);
-                
-                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
-                document.addEventListener('click', function(e) {
-                    const link = e.target.closest('a[href*="#erploginmodel"]');
-                    if (link) {
-                        e.preventDefault();
-                        modal.show();
-                    }
-                });
-            }
-        });
+<script>
+
+        function handleERPLogin(type) {
+
+            // Handle login logic here
+
+            console.log('Login selected:', type);
+
+            
+
+            // Close modal after a brief delay to allow navigation
+
+            setTimeout(() => {
+
+                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
+
+                if (modal) {
+
+                    modal.hide();
+
+                }
+
+            }, 100);
+
+            
+
+            // Links will open in new tab due to target="_blank"
+
+            // URLs are now directly in the href attributes:
+
+            // Student: https://student.uttaranchaluniversity.ac.in/
+
+            // Staff: https://staff.uttaranchaluniversity.ac.in/
+
+        }
+
+        
+
+        // Initialize modal and handle URL hash changes
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Initialize the modal
+
+            const modalElement = document.getElementById('erploginmodel');
+
+            if (modalElement) {
+
+                const modal = new bootstrap.Modal(modalElement);
+
+                
+
+                // Handle hash-based modal triggers (with UTM parameters support)
+
+                function handleHashChange() {
+
+                    const hash = window.location.hash;
+
+                    // Extract just the modal ID part, ignoring query parameters
+
+                    const modalId = hash.split('?')[0].replace('#', '');
+
+                    
+
+                    if (modalId === 'erploginmodel') {
+
+                        modal.show();
+
+                    }
+
+                }
+
+                
+
+                // Check hash on page load
+
+                handleHashChange();
+
+                
+
+                // Listen for hash changes
+
+                window.addEventListener('hashchange', handleHashChange);
+
+                
+
+                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
+
+                document.addEventListener('click', function(e) {
+
+                    const link = e.target.closest('a[href*="#erploginmodel"]');
+
+                    if (link) {
+
+                        e.preventDefault();
+
+                        modal.show();
+
+                    }
+
+                });
+
+            }
+
+        });
+
     </script>
 <!-- Google UTM Code -->
 <script src="https://google-utm-js.s3.ap-south-1.amazonaws.com/google-utm.js" type="text/javascript"></script>
 <script src="../assets/js/data-tables.min.js"></script>
-<script>
-        $(document).ready(function () {
-            $('#example').DataTable();
-            $('#example2').DataTable();
-            $('#example3').DataTable();
-            $('#example4').DataTable();
-            $('#example5').DataTable();
-        });
+<script>
+
+        $(document).ready(function () {
+
+            $('#example').DataTable();
+
+            $('#example2').DataTable();
+
+            $('#example3').DataTable();
+
+            $('#example4').DataTable();
+
+            $('#example5').DataTable();
+
+        });
+
     </script>
 <script src="../assets/js/toggle-menu-js.js"></script>
-<script type="text/javascript">
-     
-        $('.testimoni-section__slider').not('.slick-initialized').slick({
-        dots: true,
-        infinite: true,
-        speed: 1200,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
-
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }]
-    });
-
-
+<script type="text/javascript">
+
+     
+
+        $('.testimoni-section__slider').not('.slick-initialized').slick({
+
+        dots: true,
+
+        infinite: true,
+
+        speed: 1200,
+
+        autoplay: true,
+
+        autoplaySpeed: 4000,
+
+        slidesToShow: 2,
+
+        slidesToScroll: 1,
+
+        nextArrow: '<div class="fa fa-arrow-circle-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-arrow-circle-left slick-prev"></div>',
+
+
+
+        responsive: [{
+
+            breakpoint: 768,
+
+            settings: {
+
+                slidesToShow: 1,
+
+                slidesToScroll: 1
+
+            }
+
+        }]
+
+    });
+
+
+
+
+
     </script>
 
 </body>

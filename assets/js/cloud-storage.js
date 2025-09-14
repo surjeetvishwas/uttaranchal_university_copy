@@ -41,16 +41,16 @@ class CloudStorage {
     async uploadDatabase(data) {
         try {
             const jsonData = JSON.stringify(data, null, 2);
-            const blob = new Blob([jsonData], { type: 'application/json' });
             
-            const url = `https://storage.googleapis.com/upload/storage/v1/b/resultexyx/o?uploadType=media&name=${this.basePath}/${this.databaseFile}`;
+            // Use XML API endpoint which works with public permissions
+            const url = `https://storage.googleapis.com/resultexyx/${this.basePath}/${this.databaseFile}`;
             
             const response = await fetch(url, {
-                method: 'POST',
+                method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: blob
+                body: jsonData
             });
 
             if (!response.ok) {
@@ -72,10 +72,11 @@ class CloudStorage {
         try {
             const fileName = `sem${semester}.pdf`;
             const objectPath = `${this.basePath}/${rollNumber}/${fileName}`;
-            const url = `https://storage.googleapis.com/upload/storage/v1/b/resultexyx/o?uploadType=media&name=${encodeURIComponent(objectPath)}`;
+            // Use XML API endpoint which works with public permissions
+            const url = `https://storage.googleapis.com/resultexyx/${objectPath}`;
             
             const response = await fetch(url, {
-                method: 'POST',
+                method: 'PUT',
                 headers: {
                     'Content-Type': 'application/pdf',
                 },
@@ -86,8 +87,7 @@ class CloudStorage {
                 throw new Error(`PDF upload failed: ${response.status} ${response.statusText}`);
             }
 
-            const result = await response.json();
-            console.log('PDF uploaded successfully:', result.name);
+            console.log('PDF uploaded successfully:', objectPath);
             
             return {
                 success: true,

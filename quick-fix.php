@@ -124,6 +124,6 @@ xref 0 5 0000000000 65535 f 0000000009 00000 n 0000000058 00000 n 0000000115 000
 
 echo "<h3>Navigation:</h3>";
 echo "<p><a href='admin-dashboard.php'>📊 Admin Dashboard</a></p>";
-echo "<p><a href='result.php'>🔍 Test Result Page</a></p>";
+echo "<p><a href='result.html'>🔍 Test Result Page</a></p>";
 echo "<p><a href='index.html'>🏠 Home Page</a></p>";
 ?>

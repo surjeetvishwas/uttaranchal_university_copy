@@ -44,39 +44,56 @@
 <meta content="#21337d" name="theme-color"/>
 <link href="css/about.css" rel="stylesheet"/>
 <link href="../assets/images/favicon.ico" rel="icon" type="image/ico">
-<style>
-	body
-		{
-			overflow: unset !important;
-		}
-		.modal-backdrop {
-    --bs-backdrop-zindex: 1;
-			|
+<style>
+
+	body
+
+		{
+
+			overflow: unset !important;
+
+		}
+
+		.modal-backdrop {
+
+    --bs-backdrop-zindex: 1;
+
+			|
+
 	</style>
 </link></meta></meta></meta></head>
 <body>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RRKVSHXFXQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RRKVSHXFXQ');
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-RRKVSHXFXQ');
+
 </script>
 <header class="header shadow shadow-sm">
 <div class="header__top">
 <div class="container">
 <div class="row d-block d-md-none bg-white py-2">
-<div class="text-center text-danger fw-bold">
+<div class="text-center text-danger fw-bold">
+
                     Toll Free: <a class="text-decoration-none" href="../18002124201.html">18002124201</a>
 </div>
 </div>
 <div class="row">
 <div class="col-lg-5">
 <div class="top-notification-slider" style="line-height: 15px;">
-<!--                             <div class="tns-item">
-                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+<!--                             <div class="tns-item">
+
+                                <a href="https://www.uudoon.in/phd-programs/includes/pdf/Notification-346-Ph.D.Admissions-Summer-Batch-2025-2026.pdf" style="color:chartreuse" target=_blank>Notice Ph.D. Admission Notification (Summer Batch 2025-26)</strong></a>
+
                             </div>  -->
 <div class="tns-item">
 <a href="leadership.php" style="color:chartreuse" target="_blank">Summer Research Advisory Committee Meeting Proposed in July (1st - 15th)</a>
@@ -135,10 +152,14 @@
 <div class="uu-logo">
 <a class="uu-pc-logo" href="../index.html"><img alt="Uttranchal University" src="../assets/images/UU-Logo-Naac-Nirf.png" title="Uttranchal University" width="400"/></a>
 </div>
-<!--                 <div class="cuetbx d-none d-md-block">
-                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
-                    Last Date: 31 August 2025 - Apply Now
-                  </a>
+<!--                 <div class="cuetbx d-none d-md-block">
+
+                  <a href="https://www.uudoon.in/admissions/" class="text-danger text-decoration-none fw-bold" style="font-size: 15px;">
+
+                    Last Date: 31 August 2025 - Apply Now
+
+                  </a>
+
                 </div> -->
 <div class="header__center--right d-flex align-items-center justify-content-end">
 <div class="headerApply d-flex justify-content-center">
@@ -160,10 +181,14 @@
 <div class="header-bottom">
 <nav class="navbar navbar-expand-lg p-0">
 <div class="container">
-<!--                     <a href="https://www.uudoon.in/admissions/" 
-                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
-                       style="font-size: 15px;">
-                      Last Date: 31 August 2025 - Apply Now
+<!--                     <a href="https://www.uudoon.in/admissions/" 
+
+                       class="text-danger text-decoration-none d-block d-md-none fw-bold" 
+
+                       style="font-size: 15px;">
+
+                      Last Date: 31 August 2025 - Apply Now
+
                     </a> -->
 <button aria-label="Toggle navigation" class="navbar-toggler p-0 border-0" id="navbarSideCollapse" type="button">
 <span class="navbar-toggler-icon"></span>
@@ -300,8 +325,10 @@
 <li>
 <a href="../computing-sciences/index.html">Computer Applications</a>
 </li>
-<!-- <li>
-                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+<!-- <li>
+
+                                                                        <a href="../journalism-and-mass-communication/">Journalism & Mass Communication</a>
+
                                                                     </li> -->
 <li>
 <a href="../hotel-and-hospitality-management/index.html">Hotel &amp; Hospitality Management</a>
@@ -409,8 +436,10 @@
 <li>
 <a href="../management/index.html">Top Management Program</a>
 </li>
-<!--<li>
-                                                                                <a href="">Program Fee</a>
+<!--<li>
+
+                                                                                <a href="">Program Fee</a>
+
                                                                             </li>-->
 <li>
 <a href="../admissions/how-to-apply.php">How to Apply</a>
@@ -435,8 +464,10 @@
 <div class="ol-learning">
 <a href="../international.html" target="_blank"><i aria-hidden="true" class="fa fa-external-link me-2"></i> International</a>
 </div>
-<!--  <div class="ol-learning">
-                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+<!--  <div class="ol-learning">
+
+                                                                            <a href="https://www.uudoon.in/cuet-2023/" target="_blank"><i class="fa fa-external-link me-2" aria-hidden="true"></i> Click here for CUET Counselling </a>
+
                                                                          </div> -->
 </div>
 </div>
@@ -547,29 +578,45 @@
 <li>
 <a href="../campus-life/sports.php">Sports</a>
 </li>
-<!--                                                         <li>
-                                                            <a href="../campus-life/seminars.php">Seminars</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/seminars.php">Seminars</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/workshops.php">Workshops</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/workshops.php">Workshops</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/convocations.php">Convocations</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/convocations.php">Convocations</a>
+
                                                         </li> -->
-<!-- <li>
-                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+<!-- <li>
+
+                                                            <a href="../campus-life/bollywood-celebrities.php">Bollywood Celebrities</a>
+
                                                         </li>-->
-<!--                                                         <li>
-                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/prominent-visitors.php">Prominent Visitors</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/conferences.php">Conferences</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/conferences.php">Conferences</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+<!--                                                         <li>
+
+                                                            <a href="https://alumni.uudoon.in/" target='_blank'>Notable Alumni</a>
+
                                                         </li> -->
-<!--                                                         <li>
-                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+<!--                                                         <li>
+
+                                                            <a href="../campus-life/psychological-counselling-cell.php">Psychological Counselling Cell</a>
+
                                                         </li> -->
 <li>
 <a href="../ncc/index.html">NCC</a>
@@ -615,8 +662,10 @@
 <li>
 <a href="../research/index.html">Overview</a>
 </li>
-<!-- <li>
-                                                            <a href="">Distinguished Faculty Members</a>
+<!-- <li>
+
+                                                            <a href="">Distinguished Faculty Members</a>
+
                                                         </li>-->
 <li>
 <a href="../research/research-and-development-cell.php">Research &amp; Development Cell</a>
@@ -630,8 +679,10 @@
 <li>
 <a href="../research/student-research-cell.php">Student Research Cell</a>
 </li>
-<!-- <li>
-                                                            <a href="../research/research-groups/">Research Groups</a>
+<!-- <li>
+
+                                                            <a href="../research/research-groups/">Research Groups</a>
+
                                                         </li> -->
 <li>
 <a href="../research/startups-and-enterpreneurship.php">Startups, Entrepreneurship, and Innovation Cell</a>
@@ -664,55 +715,104 @@
 <li class="nav-item">
 <a class="nav-link" href="../placements/index.php">Placements</a>
 </li>
-<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
-                                <a class="nav-link" href="javascript:void(0)">Placements</a>
-                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
-                                    <div class="menu-programs-list__style">
-                                        <div class="row g-0">
-                                            <div class="col-lg-6">
-                                                <div class="pt-4 pb-4 ps-4">
-                                                    <h5>Placements</h5>
-                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
-                                                        <li>
-                                                            <a href="../placements/index.php">Placement Overview</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/best-packages.php">Best Packages</a>
-                                                        </li>
-                                                        <<li>
-                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
-                                                <div class="p-4">
-                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
-                                                    <div class="row g-0">
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<!--                             <li class="nav-item dd-menu dd-menu-right position-relative">
+
+                                <a class="nav-link" href="javascript:void(0)">Placements</a>
+
+                                <div class="mega-menu mega-menu-sm" style="height: 340px; width: 600px;">
+
+                                    <div class="menu-programs-list__style">
+
+                                        <div class="row g-0">
+
+                                            <div class="col-lg-6">
+
+                                                <div class="pt-4 pb-4 ps-4">
+
+                                                    <h5>Placements</h5>
+
+                                                    <ul class="p-0 m-0 list-unstyled list-icon-2">
+
+                                                        <li>
+
+                                                            <a href="../placements/index.php">Placement Overview</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/placement-tracker.php">Placement Tracker</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/best-packages.php">Best Packages</a>
+
+                                                        </li>
+
+                                                        <<li>
+
+                                                            <a href="../placements/leading-recruiters.php">Leading Recruiters</a>
+
+                                                        </li>
+
+                                                        <li>
+
+                                                            <a href="../placements/corporate-partners.php">Corporate Partners</a>
+
+                                                        </li>
+
+                                                    </ul>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-6 position-relative placement-dd hide-mob"  style="background:var(--bg-green); height: 340px;">
+
+                                                <div class="p-4">
+
+                                                    <h3>Most sought after Destination of <span>blue-chip companies</span></h3>
+
+                                                    <div class="row g-0">
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-1.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-2.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-3.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                        <div class="col-6">
+
+                                                            <img src="../assets/images//logos/h-logo-4.png" alt="company logo" class="w-100">
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </li> -->
 <li class="nav-item">
 <a class="nav-link" href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
@@ -823,23 +923,40 @@
 </div>
 </div>
 </div>
-<!--                 <div class="col-lg-6">
-                    <div class="leadership-testimonial position-relative" style="background: url('images/leader-1.jpg'); background-size: cover; background-position: top right; margin-top: -120px;">
-                        <div class="leaders-mob-pic d-none br-20 overflow-hidden mb-4">
-                            <img src="images/leader-1.jpg" alt="" class="w-100">
-                        </div>
-                        <div class="leader-quote-content text-white">
-                            <img src="images/quote-img.png" alt="">
-                            <h2>“Education is the tool that breaks down all barriers”</h2>
-                            <p>Uttaranchal University is among the top 5% Universities of India with the prestigious NAAC A+ Accreditation. UU has successfully created unique systems for harbouring a student-focused environment where learning unfolds through a strong academic structure, fundamental teaching methodologies, persistent research & innovation and a promise to usher in the best resources from all over the world.</p>
-                            <a href="#" class="btn btn-sm btn-primary btn-shadow" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Read More <i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
-                            <div class="leader-name">
-                                <h3>Dr. Satbir Sehgal</h3>
-                                <small>Vice President</small>
-                            </div>
-                            <a href="#" class="btn btn-sm btn-primary btn-shadow mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop12">View Profile <i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
+<!--                 <div class="col-lg-6">
+
+                    <div class="leadership-testimonial position-relative" style="background: url('images/leader-1.jpg'); background-size: cover; background-position: top right; margin-top: -120px;">
+
+                        <div class="leaders-mob-pic d-none br-20 overflow-hidden mb-4">
+
+                            <img src="images/leader-1.jpg" alt="" class="w-100">
+
+                        </div>
+
+                        <div class="leader-quote-content text-white">
+
+                            <img src="images/quote-img.png" alt="">
+
+                            <h2>“Education is the tool that breaks down all barriers”</h2>
+
+                            <p>Uttaranchal University is among the top 5% Universities of India with the prestigious NAAC A+ Accreditation. UU has successfully created unique systems for harbouring a student-focused environment where learning unfolds through a strong academic structure, fundamental teaching methodologies, persistent research & innovation and a promise to usher in the best resources from all over the world.</p>
+
+                            <a href="#" class="btn btn-sm btn-primary btn-shadow" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Read More <i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
+
+                            <div class="leader-name">
+
+                                <h3>Dr. Satbir Sehgal</h3>
+
+                                <small>Vice President</small>
+
+                            </div>
+
+                            <a href="#" class="btn btn-sm btn-primary btn-shadow mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop12">View Profile <i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
+
+                        </div>
+
+                    </div>
+
                 </div> -->
 </div>
 </div>
@@ -928,52 +1045,95 @@
 </div>
 </div>
 </section>
-<!--    <section class="leadersip-section" style="background: url('images/leadership-bg-3.jpg'); background-size: cover; background-position: top right;">
-        <div class="container-fluid">
-            <div class="row g-0">
-                <div class="col-lg-6">
-                    <div class="leadership-testimonial position-relative" style="background: url('images/leader-5.jpg'); background-size: cover; background-position: top right; margin-top: -120px;">
-                        <div class="leaders-mob-pic d-none br-20 overflow-hidden mb-4">
-                            <img src="images/leader-5.jpg" alt="" class="w-100">
-                        </div>    
-                        <div class="leader-quote-content text-white">
-                            <img src="images/quote-img.png" alt="">
-                            <h2>“We progress by elevating the academic community”</h2>
-                             <p>Welcome to Uttaranchal University! My office is dedicated to providing prompt, courteous & quality services that add value to Uttaranchal University’s commitment to its faculty, staff & students and mission to develop & sustain its variedly endowed community. Our goal is to continually seek new, innovative & productive ways to improve our processes & service delivery thus building and fostering a high-end professional working & learning environment.</p>
-                            <a href="#" class="btn btn-sm btn-primary btn-shadow" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">Read More <i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
-                            <div class="leader-name">
-                                <h3>Ms. Ankita Joshi</h3>
-                                <small>Executive Director- HR & Corporate Relations</small>
-                            </div>
-							<a href="#" class="btn btn-sm btn-primary btn-shadow mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop16">View Profile <i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
+<!--    <section class="leadersip-section" style="background: url('images/leadership-bg-3.jpg'); background-size: cover; background-position: top right;">
+
+        <div class="container-fluid">
+
+            <div class="row g-0">
+
+                <div class="col-lg-6">
+
+                    <div class="leadership-testimonial position-relative" style="background: url('images/leader-5.jpg'); background-size: cover; background-position: top right; margin-top: -120px;">
+
+                        <div class="leaders-mob-pic d-none br-20 overflow-hidden mb-4">
+
+                            <img src="images/leader-5.jpg" alt="" class="w-100">
+
+                        </div>    
+
+                        <div class="leader-quote-content text-white">
+
+                            <img src="images/quote-img.png" alt="">
+
+                            <h2>“We progress by elevating the academic community”</h2>
+
+                             <p>Welcome to Uttaranchal University! My office is dedicated to providing prompt, courteous & quality services that add value to Uttaranchal University’s commitment to its faculty, staff & students and mission to develop & sustain its variedly endowed community. Our goal is to continually seek new, innovative & productive ways to improve our processes & service delivery thus building and fostering a high-end professional working & learning environment.</p>
+
+                            <a href="#" class="btn btn-sm btn-primary btn-shadow" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">Read More <i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
+
+                            <div class="leader-name">
+
+                                <h3>Ms. Ankita Joshi</h3>
+
+                                <small>Executive Director- HR & Corporate Relations</small>
+
+                            </div>
+
+							<a href="#" class="btn btn-sm btn-primary btn-shadow mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop16">View Profile <i class="fa fa-long-arrow-right ms-1" aria-hidden="true"></i></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
     </section> -->
 <!--<section class="black-section"></section>-->
 <!-- Modal -->
-<!--     <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <div class="modal-header p-4">
-                    <h6 class="modal-title text-muted" id="staticBackdropLabel">Vice President's Message</h6>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body p-4">
-                    <h2>“Education is the tool that breaks down all barriers”</h2>
-                    <p>Uttaranchal University is among the top 5% Universities of India with the prestigious NAAC A+ Accreditation. UU has successfully created unique systems for harbouring a student-focused environment where learning unfolds through a strong academic structure, fundamental teaching methodologies, persistent research & innovation and a promise to usher in the best resources from all over the world.</p>
-                    <p>We are committed to nurture talent and provide the students and researchers with the best career opportunities. Our students are smart, collaborative, and entrepreneurial. We provide them with opportunities to develop a global mindset for a successful career. With a curriculum designed by industry and academic experts, we make our students industry-ready as soon as they step out of the university.</p>
-                    <p>The hallmark of the UU education system is its pedagogy that imbibes holistic development in each and every learner to harness goodness factor with a positive mindset. Our most valuable stakeholders are the students whom we support by providing a horizon of avenues. We develop their inquisitive minds through careful mentoring, and help them on their professional journey through the virtue of a friend, philosopher and guide.</p>
-                    <div class="leader-name mt-0 mb-3">
-                        <h3>Dr. Satbir Sehgal</h3>
-                        <small>Vice President</small>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!--     <div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+
+            <div class="modal-content">
+
+                <div class="modal-header p-4">
+
+                    <h6 class="modal-title text-muted" id="staticBackdropLabel">Vice President's Message</h6>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+
+                <div class="modal-body p-4">
+
+                    <h2>“Education is the tool that breaks down all barriers”</h2>
+
+                    <p>Uttaranchal University is among the top 5% Universities of India with the prestigious NAAC A+ Accreditation. UU has successfully created unique systems for harbouring a student-focused environment where learning unfolds through a strong academic structure, fundamental teaching methodologies, persistent research & innovation and a promise to usher in the best resources from all over the world.</p>
+
+                    <p>We are committed to nurture talent and provide the students and researchers with the best career opportunities. Our students are smart, collaborative, and entrepreneurial. We provide them with opportunities to develop a global mindset for a successful career. With a curriculum designed by industry and academic experts, we make our students industry-ready as soon as they step out of the university.</p>
+
+                    <p>The hallmark of the UU education system is its pedagogy that imbibes holistic development in each and every learner to harness goodness factor with a positive mindset. Our most valuable stakeholders are the students whom we support by providing a horizon of avenues. We develop their inquisitive minds through careful mentoring, and help them on their professional journey through the virtue of a friend, philosopher and guide.</p>
+
+                    <div class="leader-name mt-0 mb-3">
+
+                        <h3>Dr. Satbir Sehgal</h3>
+
+                        <small>Vice President</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div> -->
 <div aria-hidden="true" aria-labelledby="staticBackdropLabel2" class="modal fade" id="staticBackdrop2" tabindex="-1">
 <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -1060,40 +1220,74 @@
 </div>
 </div>
 </div>
-<!--         <div class="modal fade" id="staticBackdrop8" tabindex="-1" aria-labelledby="staticBackdropLabel4" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <div class="modal-header p-4">
-                    <h6 class="modal-title text-muted" id="staticBackdropLabel4">Advisor Message</h6>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body p-4">
-                    <h2>With 20 years of extensive career experience across various industries, functions, and regions,  I Saurav Badoni has built a remarkable professional journey.</h2>
-                    <p>He have accumulated 9 years of experience in the corporate sector and an additional 11 years in media, education, and international non-government organizations. His diverse background includes the following work which he achieved in the passing years :</p>
-
-                    <p>Successfully leading Learning & Development (L&D) and Crisis Management teams.</p>
-
-                    <p>Managing Marketing and Corporate Communications functions for a group.</p>
-
-                    <p>Positively impacting over 5 lakh students across 18 cities in India.</p>
-
-                    <p>Demonstrating exceptional project management skills.</p>
-
-                    <p>Excelling in Communication Training and Public Speaking.</p>
-
-                    <p>Possessing proven and effective counseling skills.</p>
-
-                    <p>Organizing workshops and meetings with government and non-government organizations to address various social issues and understand their perspectives.</p>
-
-                    <p>Conducting enterprise and skill-building training sessions.</p>
-                    <div class="leader-name mt-0 mb-3">
-                        <h3>Mr. Saurav Badoni</h3>
-                        <small>Advisor</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!--         <div class="modal fade" id="staticBackdrop8" tabindex="-1" aria-labelledby="staticBackdropLabel4" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+
+            <div class="modal-content">
+
+                <div class="modal-header p-4">
+
+                    <h6 class="modal-title text-muted" id="staticBackdropLabel4">Advisor Message</h6>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+
+                <div class="modal-body p-4">
+
+                    <h2>With 20 years of extensive career experience across various industries, functions, and regions,  I Saurav Badoni has built a remarkable professional journey.</h2>
+
+                    <p>He have accumulated 9 years of experience in the corporate sector and an additional 11 years in media, education, and international non-government organizations. His diverse background includes the following work which he achieved in the passing years :</p>
+
+
+
+                    <p>Successfully leading Learning & Development (L&D) and Crisis Management teams.</p>
+
+
+
+                    <p>Managing Marketing and Corporate Communications functions for a group.</p>
+
+
+
+                    <p>Positively impacting over 5 lakh students across 18 cities in India.</p>
+
+
+
+                    <p>Demonstrating exceptional project management skills.</p>
+
+
+
+                    <p>Excelling in Communication Training and Public Speaking.</p>
+
+
+
+                    <p>Possessing proven and effective counseling skills.</p>
+
+
+
+                    <p>Organizing workshops and meetings with government and non-government organizations to address various social issues and understand their perspectives.</p>
+
+
+
+                    <p>Conducting enterprise and skill-building training sessions.</p>
+
+                    <div class="leader-name mt-0 mb-3">
+
+                        <h3>Mr. Saurav Badoni</h3>
+
+                        <small>Advisor</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
  -->
 <div aria-hidden="true" aria-labelledby="staticBackdropLabel5" class="modal fade" id="staticBackdrop5" tabindex="-1">
 <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -1147,7 +1341,8 @@
 </div>
 <div class="modal-body p-4">
 <p>Prof. Rajesh Bahuguna did his LL.B. and LL.M. both from Jai Narayan Vyas Jodhpur University. He qualified UGC- NET examination and accomplished his Ph.D. from Kurukshetra University under the supervision of Prof. R.K. Sabbarwal on the topic ‘Alternative Dispute Resolution system in India.’ He specializes in Constitutional Law and Alternative Dispute Resolution. He has more than 43 years of working experience which include 15 years’ service in prestigious Indian Air Force and the residue is his teaching, research as well as administrative experience.</p>
-<p>A renowned face in legal academia of the state, he is a member of more than 13 top ranked institutions related to Law including Indian Law Institution (ILI) and International Centre for Alternate Dispute Resolution (ICADR). He is on the panel of more than 15 Universities and State Public Service Commissions. He is the Editor in Chief of UGC Care listed Journal Dehradun Law Review: A Journal of Law College Dehradun, Uttaranchal University and Law College Dehradun
+<p>A renowned face in legal academia of the state, he is a member of more than 13 top ranked institutions related to Law including Indian Law Institution (ILI) and International Centre for Alternate Dispute Resolution (ICADR). He is on the panel of more than 15 Universities and State Public Service Commissions. He is the Editor in Chief of UGC Care listed Journal Dehradun Law Review: A Journal of Law College Dehradun, Uttaranchal University and Law College Dehradun
+
                 Newsletter. He has published 42 research papers in National and International Journals and 5 Books and Chapters. He has participated in series of events as Chair, Keynote Speaker, Guest Speaker, and Judge in Moot Courts and at times as a participant.</p>
 <p>He is a trained mediator from International Centre for Alternative Dispute Resolution, New Delhi. 12 students have successfully completed their Ph.D. under his supervision. In addition to these, more than 40 LL.M. students have completed their dissertation under his guidance and supervision so far. </p>
 <p>Prof. Rajesh Bahuguna is recipient of numerous Awards and Appreciations, most noteworthy being, from His Excellency Dr. K.K. Paul, the then Hon’ble Governor of Uttarakhand and Hon’ble Mr. Justice Rajesh Tandon, Chairman of law Commission of Uttarakhand. He appears as a panelist on TV Channels and has shares his views on legal issues on Akashwani (AIR).</p>
@@ -1164,7 +1359,8 @@
 <div class="modal-dialog modal-dialog-centered modal-lg">
 <div class="modal-content">
 <div class="modal-header p-4">
-<h6 class="modal-title text-muted" id="staticBackdropLabel13">Professor Dharam Buddhi,<br/>
+<h6 class="modal-title text-muted" id="staticBackdropLabel13">Professor Dharam Buddhi,<br/>
+result.html
 Vice Chancellor, Uttaranchal University, Dehradun</h6>
 <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 </div>
@@ -1183,16 +1379,26 @@ Vice Chancellor, Uttaranchal University, Dehradun</h6>
 <p>He guided 20 research scholars leading to Ph.D. degree in the field of Heat Transfer, Solar Energy, Green Buildings, Thermal Load Management, Fuel Cell, Cold Chain Solutions &amp; RAC and has published/presented more than 250+ research papers and reviews and 150+ patents to his credit out of which a few has been granted. He has the credit of first patent granted at Devi Ahilya University, Indore.</p>
 <p>Dr Buddhi has international academic and industrial exposure of U.K, Portugal, Germany, Italy, Spain, France, Switzerland, Japan, Korea, New Zealand, Taiwan, Sri Lanka, Australia and US.</p>
 <p>Dr Buddhi has very high citations of the order of 14000+ of his publications. As per the report of Government of India, International Comparative Research Base (2009-14) by Department of Science &amp; Technology, Top 10 publications in Energy, Dr Buddhi's paper was ranked number one.</p>
-<!--                     <h2>“The innovations we do together, <br>make a difference in the society”</h2>
-                    <p><strong>Professor Dharam Buddhi</strong>, an <strong>alumnus of IIT Delhi</strong> (Ph.D.; Energy Systems) and Ex-Professor, School of Energy and Environmental Studies, Devi Ahilya University, Indore and became full Professor in the University in&nbsp; year 2000. Dr. Buddhi has also worked in industry as Director (Technical), Chief &nbsp;&nbsp;Technical Advisor &amp; Head R&amp;D, and also transferred the technology.</p>
-<p>His areas of research are Renewable Energy, Energy Conservation, Energy Storage and Green Buildings.</p>
-<p>He has been International consultant to Asian Development Bank during 2016-2018 for Green Power project in Sri Lanka. Dr. Buddhi is the Ex-Vice Chancellor, Suresh Gyan Vihar University, Jaipur.</p>
-<p>Presently, <strong>Dr. Buddhi</strong> is the Indian Coordinator of Indo-Australia collaboration Project on &ldquo;<strong>Thermal Energy Storage for Food/Grain Drying with CST/RE to Lower Pollution</strong>&rdquo;.</p>
-<p>He was member of &lsquo;<strong>Program Advisory Committee&rsquo;</strong>, on Technology System Development, Department of Science and Technology, GOI.</p>
-<p><strong>Professor Buddhi had been Visiting Professor at UPC Barcelona Spain, Mie University Japan, Kun Shan University Tainan, Taiwan and Auckland University New Zealand.</strong></p>
-<p><strong>Dr. Buddhi</strong> was on the Editorial Board of &ldquo;<strong>Energy Conversion and Management</strong>&rdquo;, an <strong>Elsevier International Journal</strong> and is Reviewer of severally globally renowned Research Journals and a member of numerous professional bodies. He has guided more than 90 M. Tech students&rsquo; theses.</p>
-<p>He has guided 16 research scholars leading to Ph.D. degree in the field of Heat Transfer, Solar Energy, Green Buildings, Thermal Load Management, Fuel Cell, Cold Chain Solutions &amp; RAC and has published/presented more than 126 research papers and reviews and 68 patents to his credit out of which a few are granted. He has the credit of first patent granted at Devi Ahilya University, Indore.</p>
-<p><strong>Dr. Buddhi has international academic and industrial exposure of U.K, Portugal, Germany, Italy, Spain, France, Switzerland, Japan, Korea, New Zealand, Taiwan, Sri Lanka, Australia and US.</strong></p>
+<!--                     <h2>“The innovations we do together, <br>make a difference in the society”</h2>
+
+                    <p><strong>Professor Dharam Buddhi</strong>, an <strong>alumnus of IIT Delhi</strong> (Ph.D.; Energy Systems) and Ex-Professor, School of Energy and Environmental Studies, Devi Ahilya University, Indore and became full Professor in the University in&nbsp; year 2000. Dr. Buddhi has also worked in industry as Director (Technical), Chief &nbsp;&nbsp;Technical Advisor &amp; Head R&amp;D, and also transferred the technology.</p>
+
+<p>His areas of research are Renewable Energy, Energy Conservation, Energy Storage and Green Buildings.</p>
+
+<p>He has been International consultant to Asian Development Bank during 2016-2018 for Green Power project in Sri Lanka. Dr. Buddhi is the Ex-Vice Chancellor, Suresh Gyan Vihar University, Jaipur.</p>
+
+<p>Presently, <strong>Dr. Buddhi</strong> is the Indian Coordinator of Indo-Australia collaboration Project on &ldquo;<strong>Thermal Energy Storage for Food/Grain Drying with CST/RE to Lower Pollution</strong>&rdquo;.</p>
+
+<p>He was member of &lsquo;<strong>Program Advisory Committee&rsquo;</strong>, on Technology System Development, Department of Science and Technology, GOI.</p>
+
+<p><strong>Professor Buddhi had been Visiting Professor at UPC Barcelona Spain, Mie University Japan, Kun Shan University Tainan, Taiwan and Auckland University New Zealand.</strong></p>
+
+<p><strong>Dr. Buddhi</strong> was on the Editorial Board of &ldquo;<strong>Energy Conversion and Management</strong>&rdquo;, an <strong>Elsevier International Journal</strong> and is Reviewer of severally globally renowned Research Journals and a member of numerous professional bodies. He has guided more than 90 M. Tech students&rsquo; theses.</p>
+
+<p>He has guided 16 research scholars leading to Ph.D. degree in the field of Heat Transfer, Solar Energy, Green Buildings, Thermal Load Management, Fuel Cell, Cold Chain Solutions &amp; RAC and has published/presented more than 126 research papers and reviews and 68 patents to his credit out of which a few are granted. He has the credit of first patent granted at Devi Ahilya University, Indore.</p>
+
+<p><strong>Dr. Buddhi has international academic and industrial exposure of U.K, Portugal, Germany, Italy, Spain, France, Switzerland, Japan, Korea, New Zealand, Taiwan, Sri Lanka, Australia and US.</strong></p>
+
 <p>Dr. Buddhi has very high citations of the order of 10000+ of his publications. As per the report of Government of India, International Comparative Research Base (2009-14) by Department of Science &amp; Technology, <strong>Top 10 publications in Energy, Dr. Buddhi's paper was ranked number one.</strong></p> -->
 <div class="leader-name mt-0 mb-3">
 <h3>Professor Dharam Buddhi</h3>
@@ -1341,8 +1547,10 @@ Vice Chancellor, Uttaranchal University, Dehradun</h6>
 </div>
 </div>
 </div>
-</div>
-
+</div>
+
+
+
     ﻿<div id="left" style="bottom: 85px !important">
 <a class="handle ui-slideouttab-handle-rounded" style="text-decoration: none">ENQUIRE NOW<i class="fa fa-icon fa-television"></i></a>
 <span style="padding-left:20px; font-weight: 500">Submit Your Enquiry</span>
@@ -1499,8 +1707,10 @@ Vice Chancellor, Uttaranchal University, Dehradun</h6>
 <li>
 <a href="https://iqac.uudoon.in/" target="_blank">IQAC</a>
 </li>
-<!--                                     <li>
-                                        <a href="../nirf.php">NIRF</a>
+<!--                                     <li>
+
+                                        <a href="../nirf.php">NIRF</a>
+
                                     </li> -->
 <li>
 <a href="https://www.digilocker.gov.in/" rel="nofollow" target="_blank">DigiLocker</a>
@@ -1557,8 +1767,10 @@ Vice Chancellor, Uttaranchal University, Dehradun</h6>
 <div class="col-lg-6 col-md-6 col-12">
 <div class="footerInfo">
 <h4>About</h4>
-<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
-                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+<p class="mt-2 text-muted">The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade”
+
+                                    by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first and only private University in the State of Uttarakhand to receive NAAC A+ Grade in the first cycle of Accreditation and
+
                                     this firmly positions us among the top 5% HEIs of the nation. <a href="index.html">Read More</a></p>
 </div>
 </div>
@@ -1591,7 +1803,8 @@ Vice Chancellor, Uttaranchal University, Dehradun</h6>
 </a>
 </div>
 <div class="uu-varification">
-<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+<a href="https://degree.uttaranchaluniversity.ac.in/" target="_blank">
+
                                         UU Degree Verification Service<br/>
 <span>Click Here</span>
 </a>
@@ -1688,163 +1901,319 @@ Vice Chancellor, Uttaranchal University, Dehradun</h6>
 </li>
 </ul>
 </div>
-<style>
-        /* Set display to none for image*/
-        #image {
-            display: none;
-        }
-        @media print {
-            #printableArea {
-               display : block;
-            }
-        }
-        #left {
-            border-color: #0a58ca;
-        	width: 300px;
-        	border-radius: 4px;
-            bottom: 60px !important;
-        }
-        #left .handle {
-            background-color: #0a58ca;
-        }
-
-        	/*
-            tabSlideOUt
-
-            By  Michael Fielding
-            License: GPL v3.0
-        */
-
-        .ui-slideouttab-panel, .ui-slideouttab-handle {
-            background-color: white;
-            padding: 0.4em;
-            box-sizing: border-box;
-        }
-        .ui-slideouttab-panel {
-        	display: block;
-        	position: fixed;
-            border: 2px solid grey;
-        }
-        /* This class is added after the tabs are initialised, otherwise the user sees the 
-           tabs slide out of the way when the page is initialised. */
-        .ui-slideouttab-ready {
-        	transition: transform 0.5s ease 0s;
-        }
-
-        /* Hide tabs and panels when printed. */
-        @media print {
-            .ui-slideouttab-panel {
-                display: none;
-            }
-        }
-
-        /* Tab handles */
-        .ui-slideouttab-handle {
-            display: block;
-            position: absolute;
-            cursor: pointer;
-            color: white;
-            background-color: grey;
-        }
-        .ui-slideouttab-handle-image {
-            transform: rotate(0);
-        }
-
-        /* Right */
-        .ui-slideouttab-right {
-        	right: 0px;
-        	transform: translateX(100%);
-        	border-right: none;
-        }
-        .ui-slideouttab-right.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle {
-            transform-origin: 0% 0%;
-            transform: rotate(-90deg) translate(-100%,-100%);   
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
-            transform-origin: 0% 100%;
-            transform: rotate(-90deg);
-        }
-        /* Left */
-        .ui-slideouttab-left {
-        	left: 0px;
-        	transform: translateX(-100%);
-        	border-left: none;
-        }
-        .ui-slideouttab-left.ui-slideouttab-open {
-        	transform: translateX(0%);
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle {
-            transform-origin: 100% 0%;
-            transform: rotate(-90deg);   
-        }
-        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
-            transform-origin: 100% 100%;
-            transform: rotate(-90deg) translate(100%,100%);   
-        }
-        /* Top */
-        .ui-slideouttab-top {
-        	top: 0px;
-        	transform: translateY(-100%);
-        	border-top: none;
-        }
-        .ui-slideouttab-top.ui-slideouttab-open {
-        	transform: translateY(0%);
-        }
-        /* Bottom */
-        .ui-slideouttab-bottom {
-        	bottom: 0px;
-        	transform: translateY(100%);
-        	border-bottom: none;
-        }
-        .ui-slideouttab-bottom.ui-slideouttab-open {
-        		transform: translateY(0%);
-        }
-
-        /* turn font awesome icon in a tab upright */
-        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
-        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
-            transform: rotate(90deg);
-        }
-        .ui-slideouttab-handle>.fa-icon {
-            margin-left: 0.5em;
-        }
-
-        /* apply rounded corners if handle has the -rounded class */
-        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
-        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
-            border-radius: 0 0 4px 4px;
-        }
-        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
-        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
-            border-radius: 4px 4px 0 0;
-        }
+<style>
+
+        /* Set display to none for image*/
+
+        #image {
+
+            display: none;
+
+        }
+
+        @media print {
+
+            #printableArea {
+
+               display : block;
+
+            }
+
+        }
+
+        #left {
+
+            border-color: #0a58ca;
+
+        	width: 300px;
+
+        	border-radius: 4px;
+
+            bottom: 60px !important;
+
+        }
+
+        #left .handle {
+
+            background-color: #0a58ca;
+
+        }
+
+
+
+        	/*
+
+            tabSlideOUt
+
+
+
+            By  Michael Fielding
+
+            License: GPL v3.0
+
+        */
+
+
+
+        .ui-slideouttab-panel, .ui-slideouttab-handle {
+
+            background-color: white;
+
+            padding: 0.4em;
+
+            box-sizing: border-box;
+
+        }
+
+        .ui-slideouttab-panel {
+
+        	display: block;
+
+        	position: fixed;
+
+            border: 2px solid grey;
+
+        }
+
+        /* This class is added after the tabs are initialised, otherwise the user sees the 
+
+           tabs slide out of the way when the page is initialised. */
+
+        .ui-slideouttab-ready {
+
+        	transition: transform 0.5s ease 0s;
+
+        }
+
+
+
+        /* Hide tabs and panels when printed. */
+
+        @media print {
+
+            .ui-slideouttab-panel {
+
+                display: none;
+
+            }
+
+        }
+
+
+
+        /* Tab handles */
+
+        .ui-slideouttab-handle {
+
+            display: block;
+
+            position: absolute;
+
+            cursor: pointer;
+
+            color: white;
+
+            background-color: grey;
+
+        }
+
+        .ui-slideouttab-handle-image {
+
+            transform: rotate(0);
+
+        }
+
+
+
+        /* Right */
+
+        .ui-slideouttab-right {
+
+        	right: 0px;
+
+        	transform: translateX(100%);
+
+        	border-right: none;
+
+        }
+
+        .ui-slideouttab-right.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle {
+
+            transform-origin: 0% 0%;
+
+            transform: rotate(-90deg) translate(-100%,-100%);   
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-reverse {
+
+            transform-origin: 0% 100%;
+
+            transform: rotate(-90deg);
+
+        }
+
+        /* Left */
+
+        .ui-slideouttab-left {
+
+        	left: 0px;
+
+        	transform: translateX(-100%);
+
+        	border-left: none;
+
+        }
+
+        .ui-slideouttab-left.ui-slideouttab-open {
+
+        	transform: translateX(0%);
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle {
+
+            transform-origin: 100% 0%;
+
+            transform: rotate(-90deg);   
+
+        }
+
+        .ui-slideouttab-left .ui-slideouttab-handle-reverse {
+
+            transform-origin: 100% 100%;
+
+            transform: rotate(-90deg) translate(100%,100%);   
+
+        }
+
+        /* Top */
+
+        .ui-slideouttab-top {
+
+        	top: 0px;
+
+        	transform: translateY(-100%);
+
+        	border-top: none;
+
+        }
+
+        .ui-slideouttab-top.ui-slideouttab-open {
+
+        	transform: translateY(0%);
+
+        }
+
+        /* Bottom */
+
+        .ui-slideouttab-bottom {
+
+        	bottom: 0px;
+
+        	transform: translateY(100%);
+
+        	border-bottom: none;
+
+        }
+
+        .ui-slideouttab-bottom.ui-slideouttab-open {
+
+        		transform: translateY(0%);
+
+        }
+
+
+
+        /* turn font awesome icon in a tab upright */
+
+        .ui-slideouttab-left .ui-slideouttab-handle>.fa-icon, 
+
+        .ui-slideouttab-right .ui-slideouttab-handle>.fa-icon { 
+
+            transform: rotate(90deg);
+
+        }
+
+        .ui-slideouttab-handle>.fa-icon {
+
+            margin-left: 0.5em;
+
+        }
+
+
+
+        /* apply rounded corners if handle has the -rounded class */
+
+        .ui-slideouttab-top .ui-slideouttab-handle-rounded,
+
+        .ui-slideouttab-left .ui-slideouttab-handle-rounded {
+
+            border-radius: 0 0 4px 4px;
+
+        }
+
+        .ui-slideouttab-right .ui-slideouttab-handle-rounded, 
+
+        .ui-slideouttab-bottom .ui-slideouttab-handle-rounded {
+
+            border-radius: 4px 4px 0 0;
+
+        }
+
     </style>
-<script>
-    function printDiv(divName) {
-         var printContents = document.getElementById(divName).innerHTML;
-         var originalContents = document.body.innerHTML;
-
-         document.body.innerHTML = printContents;
-
-         window.print();
-
-         document.body.innerHTML = originalContents;
-    }
-    	function show() {
-     
-                /* Access image by id and change
-                the display property to block*/
-                document.getElementById('image')
-                        .style.display = "block";
-     
-                document.getElementById('printableArea')
-                        .style.display = "none";
-    	}
-    	
-    	
+<script>
+
+    function printDiv(divName) {
+
+         var printContents = document.getElementById(divName).innerHTML;
+
+         var originalContents = document.body.innerHTML;
+
+
+
+         document.body.innerHTML = printContents;
+
+
+
+         window.print();
+
+
+
+         document.body.innerHTML = originalContents;
+
+    }
+
+    	function show() {
+
+     
+
+                /* Access image by id and change
+
+                the display property to block*/
+
+                document.getElementById('image')
+
+                        .style.display = "block";
+
+     
+
+                document.getElementById('printableArea')
+
+                        .style.display = "none";
+
+    	}
+
+    	
+
+    	
+
     </script>
 <!-- javascripts files -->
 <script src="../assets/js/jquery.min.js"></script>
@@ -1856,118 +2225,224 @@ Vice Chancellor, Uttaranchal University, Dehradun</h6>
 <script src="../assets/js/slider-popup.js"></script>
 <!-- <script src="../assets/js/content-sliders.js "></script> -->
 <link href="../assets/css/form-widget.css" rel="stylesheet"/>
-<script type="text/javascript">
-        $('.top-notification-slider').not('.slick-initialized').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        pauseOnHover: true,
-        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
-        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
-    });
+<script type="text/javascript">
+
+        $('.top-notification-slider').not('.slick-initialized').slick({
+
+        dots: false,
+
+        infinite: true,
+
+        speed: 300,
+
+        autoplay: true,
+
+        autoplaySpeed: 2000,
+
+        slidesToShow: 1,
+
+        slidesToScroll: 1,
+
+        pauseOnHover: true,
+
+        nextArrow: '<div class="fa fa-angle-double-right slick-next"></div>',
+
+        prevArrow: '<div class="fa fa-angle-double-left slick-prev"></div>',
+
+    });
+
     </script>
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+<script type="text/javascript">
+
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+    (function(){
+
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+
+    s1.async=true;
+
+    s1.src='https://embed.tawk.to/6822be4a6e1d72190c299ddb/1ir3relc7';
+
+    s1.charset='UTF-8';
+
+    s1.setAttribute('crossorigin','*');
+
+    s0.parentNode.insertBefore(s1,s0);
+
+    })();
+
     </script>
 <!--End of Tawk.to Script-->
-<script type="text/javascript">
-    // Function to encode HTML special characters to prevent XSS
-    function encodeHTML(str) {
-      return str.replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#39;");
-    }
-
-    const chatInput = document.querySelector('.tawk-chatinput-editor');
-    const sendBtn = document.getElementById('send-btn');
-    const chatOutput = document.getElementById('chat-output');
-
-    sendBtn.addEventListener('click', function() {
-      const userInput = chatInput.value.trim();
-      if (!userInput) return; // ignore empty input
-
-      const safeMessage = encodeHTML(userInput);
-
-      // Append the safe message to chat output with a newline
-      chatOutput.innerHTML += safeMessage + '\n';
-
-      // Clear input field
-      chatInput.value = '';
-      chatInput.focus();
-
-      // Scroll to bottom
-      chatOutput.scrollTop = chatOutput.scrollHeight;
-    });
+<script type="text/javascript">
+
+    // Function to encode HTML special characters to prevent XSS
+
+    function encodeHTML(str) {
+
+      return str.replace(/&/g, "&amp;")
+
+                .replace(/</g, "&lt;")
+
+                .replace(/>/g, "&gt;")
+
+                .replace(/"/g, "&quot;")
+
+                .replace(/'/g, "&#39;");
+
+    }
+
+
+
+    const chatInput = document.querySelector('.tawk-chatinput-editor');
+
+    const sendBtn = document.getElementById('send-btn');
+
+    const chatOutput = document.getElementById('chat-output');
+
+
+
+    sendBtn.addEventListener('click', function() {
+
+      const userInput = chatInput.value.trim();
+
+      if (!userInput) return; // ignore empty input
+
+
+
+      const safeMessage = encodeHTML(userInput);
+
+
+
+      // Append the safe message to chat output with a newline
+
+      chatOutput.innerHTML += safeMessage + '\n';
+
+
+
+      // Clear input field
+
+      chatInput.value = '';
+
+      chatInput.focus();
+
+
+
+      // Scroll to bottom
+
+      chatOutput.scrollTop = chatOutput.scrollHeight;
+
+    });
+
     </script>
 <!-- ERP Login Popup JavaScript -->
-<script>
-        function handleERPLogin(type) {
-            // Handle login logic here
-            console.log('Login selected:', type);
-            
-            // Close modal after a brief delay to allow navigation
-            setTimeout(() => {
-                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
-                if (modal) {
-                    modal.hide();
-                }
-            }, 100);
-            
-            // Links will open in new tab due to target="_blank"
-            // URLs are now directly in the href attributes:
-            // Student: https://student.uttaranchaluniversity.ac.in/
-            // Staff: https://staff.uttaranchaluniversity.ac.in/
-        }
-        
-        // Initialize modal and handle URL hash changes
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize the modal
-            const modalElement = document.getElementById('erploginmodel');
-            if (modalElement) {
-                const modal = new bootstrap.Modal(modalElement);
-                
-                // Handle hash-based modal triggers (with UTM parameters support)
-                function handleHashChange() {
-                    const hash = window.location.hash;
-                    // Extract just the modal ID part, ignoring query parameters
-                    const modalId = hash.split('?')[0].replace('#', '');
-                    
-                    if (modalId === 'erploginmodel') {
-                        modal.show();
-                    }
-                }
-                
-                // Check hash on page load
-                handleHashChange();
-                
-                // Listen for hash changes
-                window.addEventListener('hashchange', handleHashChange);
-                
-                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
-                document.addEventListener('click', function(e) {
-                    const link = e.target.closest('a[href*="#erploginmodel"]');
-                    if (link) {
-                        e.preventDefault();
-                        modal.show();
-                    }
-                });
-            }
-        });
+<script>
+
+        function handleERPLogin(type) {
+
+            // Handle login logic here
+
+            console.log('Login selected:', type);
+
+            
+
+            // Close modal after a brief delay to allow navigation
+
+            setTimeout(() => {
+
+                const modal = bootstrap.Modal.getInstance(document.getElementById('erploginmodel'));
+
+                if (modal) {
+
+                    modal.hide();
+
+                }
+
+            }, 100);
+
+            
+
+            // Links will open in new tab due to target="_blank"
+
+            // URLs are now directly in the href attributes:
+
+            // Student: https://student.uttaranchaluniversity.ac.in/
+
+            // Staff: https://staff.uttaranchaluniversity.ac.in/
+
+        }
+
+        
+
+        // Initialize modal and handle URL hash changes
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Initialize the modal
+
+            const modalElement = document.getElementById('erploginmodel');
+
+            if (modalElement) {
+
+                const modal = new bootstrap.Modal(modalElement);
+
+                
+
+                // Handle hash-based modal triggers (with UTM parameters support)
+
+                function handleHashChange() {
+
+                    const hash = window.location.hash;
+
+                    // Extract just the modal ID part, ignoring query parameters
+
+                    const modalId = hash.split('?')[0].replace('#', '');
+
+                    
+
+                    if (modalId === 'erploginmodel') {
+
+                        modal.show();
+
+                    }
+
+                }
+
+                
+
+                // Check hash on page load
+
+                handleHashChange();
+
+                
+
+                // Listen for hash changes
+
+                window.addEventListener('hashchange', handleHashChange);
+
+                
+
+                // Handle clicks on links with href="#erploginmodel" (with or without UTM parameters)
+
+                document.addEventListener('click', function(e) {
+
+                    const link = e.target.closest('a[href*="#erploginmodel"]');
+
+                    if (link) {
+
+                        e.preventDefault();
+
+                        modal.show();
+
+                    }
+
+                });
+
+            }
+
+        });
+
     </script>
 <!-- Google UTM Code -->
 <script src="https://google-utm-js.s3.ap-south-1.amazonaws.com/google-utm.js" type="text/javascript"></script>
