@@ -11,8 +11,25 @@ class CloudStorageHelper {
     /**
      * Get access token for Google Cloud API
      */
-    private function getAccessToken() {
+    private function getAccessToken    /**
+     * Sync database to cloud after operations
+     */
+    private function syncToCloud() {
         try {
+            // Create CloudStorageHelper instance to upload database
+            $cloudHelper = new CloudStorageHelper();
+            $success = $cloudHelper->saveDatabase($this->db);
+            if ($success) {
+                error_log("Database synced to cloud: gs://resultexyx/UUD/mapping.db");
+            } else {
+                error_log("Failed to sync database to cloud");
+            }
+            return $success;
+        } catch (Exception $e) {
+            error_log("Error syncing to cloud: " . $e->getMessage());
+            return false;
+        }
+    } {
             // Get token from metadata server (available in Cloud Run)
             $url = 'http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token';
             $context = stream_context_create([
@@ -391,7 +408,9 @@ class StudentManager {
      */
     private function syncToCloud() {
         try {
-            $success = $this->saveDatabase($this->db);
+            // Create CloudStorageHelper instance to upload database
+            $cloudHelper = new CloudStorageHelper();
+            $success = $cloudHelper->saveDatabase($this->db);
             if ($success) {
                 error_log("Database synced to cloud: gs://resultexyx/UUD/mapping.db");
             } else {
@@ -425,70 +444,63 @@ class StudentManager {
     }
     
     /**
-     * Add or update student with robust column handling
+     * Add or update student with comprehensive schema handling
      */
     public function saveStudent($rollNumber, $studentName) {
         try {
-            // First, try to determine the correct table structure
+            // Get the actual table structure
             $columns = $this->db->query("PRAGMA table_info(students)")->fetchAll();
-            $columnNames = array_column($columns, 'name');
-            
-            // Build the appropriate INSERT statement based on available columns
-            if (in_array('student_name', $columnNames) && in_array('created_at', $columnNames)) {
-                // Standard schema with student_name and created_at
-                $sql = "INSERT OR REPLACE INTO students (roll_number, student_name) VALUES (?, ?)";
-            } elseif (in_array('name', $columnNames)) {
-                // Alternative schema with name column
-                $sql = "INSERT OR REPLACE INTO students (roll_number, name) VALUES (?, ?)";
-            } else {
-                // Create the table if it doesn't exist properly
-                $this->db->exec("
-                    CREATE TABLE IF NOT EXISTS students (
-                        id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        roll_number VARCHAR(50) UNIQUE NOT NULL,
-                        student_name VARCHAR(100) NOT NULL,
-                        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-                    )
-                ");
-                $sql = "INSERT OR REPLACE INTO students (roll_number, student_name) VALUES (?, ?)";
+            $columnInfo = [];
+            foreach ($columns as $col) {
+                $columnInfo[$col['name']] = [
+                    'type' => $col['type'],
+                    'notnull' => $col['notnull'],
+                    'default' => $col['dflt_value']
+                ];
             }
             
+            // Build INSERT statement based on schema
+            $insertData = [$rollNumber, $studentName]; // roll_number, name (required)
+            $sql = "INSERT OR REPLACE INTO students (roll_number, name";
+            
+            // Add student_name if it exists (for compatibility)
+            if (isset($columnInfo['student_name'])) {
+                $sql .= ", student_name";
+                $insertData[] = $studentName;
+            }
+            
+            $sql .= ") VALUES (?" . str_repeat(", ?", count($insertData) - 1) . ")";
+            
             $stmt = $this->db->prepare($sql);
-            $result = $stmt->execute([$rollNumber, $studentName]);
+            $result = $stmt->execute($insertData);
             
             if ($result) {
                 error_log("Student saved successfully: $rollNumber - $studentName");
-                // Sync to cloud
                 $this->syncToCloud();
                 return true;
             } else {
-                error_log("Failed to save student: $rollNumber - $studentName");
+                error_log("Failed to execute INSERT for student: $rollNumber - $studentName");
                 return false;
             }
             
         } catch (PDOException $e) {
-            error_log("Database error in saveStudent: " . $e->getMessage());
+            error_log("PDO Error in saveStudent: " . $e->getMessage());
             
-            // Try creating a fresh database
+            // If the above fails, try the simplest approach based on the diagnostic
             try {
-                $this->db->exec("
-                    CREATE TABLE IF NOT EXISTS students (
-                        id INTEGER PRIMARY KEY AUTOINCREMENT,
-                        roll_number VARCHAR(50) UNIQUE NOT NULL,
-                        student_name VARCHAR(100) NOT NULL,
-                        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-                    )
-                ");
-                
-                $stmt = $this->db->prepare("INSERT OR REPLACE INTO students (roll_number, student_name) VALUES (?, ?)");
-                $result = $stmt->execute([$rollNumber, $studentName]);
+                // Based on diagnostic: 'name' column is NOT NULL and required
+                $stmt = $this->db->prepare("INSERT OR REPLACE INTO students (roll_number, name, student_name) VALUES (?, ?, ?)");
+                $result = $stmt->execute([$rollNumber, $studentName, $studentName]);
                 
                 if ($result) {
+                    error_log("Student saved with fallback method: $rollNumber - $studentName");
                     $this->syncToCloud();
                     return true;
+                } else {
+                    error_log("Fallback method also failed for: $rollNumber - $studentName");
                 }
             } catch (Exception $retryError) {
-                error_log("Retry failed: " . $retryError->getMessage());
+                error_log("Fallback method error: " . $retryError->getMessage());
             }
             
             throw new Exception('Error saving student: ' . $e->getMessage());
