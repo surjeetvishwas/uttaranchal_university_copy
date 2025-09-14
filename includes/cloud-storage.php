@@ -501,7 +501,7 @@ class StudentManager {
     public function getStudentResult($rollNumber, $semester) {
         try {
             $stmt = $this->db->prepare("
-                SELECT r.*, s.student_name as name
+                SELECT r.*, s.name
                 FROM results r 
                 LEFT JOIN students s ON r.roll_number = s.roll_number 
                 WHERE r.roll_number = ? AND r.semester = ?
@@ -539,8 +539,20 @@ class StudentManager {
     /**
      * Add student result
      */
-    public function addStudentResult($rollNumber, $semester, $filePath) {
+    public function addStudentResult($studentId, $semester, $filePath) {
         try {
+            // First get the roll number for this student ID
+            $stmt = $this->db->prepare("SELECT roll_number FROM students WHERE id = ?");
+            $stmt->execute([$studentId]);
+            $student = $stmt->fetch(PDO::FETCH_ASSOC);
+            
+            if (!$student) {
+                error_log("Student not found with ID: $studentId");
+                return false;
+            }
+            
+            $rollNumber = $student['roll_number'];
+            
             $stmt = $this->db->prepare("
                 INSERT OR REPLACE INTO results (roll_number, semester, file_path) 
                 VALUES (?, ?, ?)
@@ -586,6 +598,20 @@ class StudentManager {
         } catch (Exception $e) {
             $this->db->rollBack();
             throw new Exception('Error deleting student: ' . $e->getMessage());
+        }
+    }
+    
+    /**
+     * Get all results for debugging
+     */
+    public function getAllResults() {
+        try {
+            $stmt = $this->db->prepare("SELECT * FROM results ORDER BY roll_number, semester");
+            $stmt->execute();
+            return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {
+            error_log("Error in getAllResults: " . $e->getMessage());
+            return [];
         }
     }
 }

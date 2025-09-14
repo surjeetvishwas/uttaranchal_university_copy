@@ -376,29 +376,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <?php if ($resultFile): ?>
             <div class="result-display">
                 <h5><i class="fa fa-check-circle text-success"></i> Result Found!</h5>
-                <p>Your result for Semester <?php echo $semester; ?> is ready to view.</p>
-                
-                <!-- PDF Viewer Container -->
-                <div class="pdf-viewer-container" style="margin: 20px 0; border: 2px solid #ddd; border-radius: 10px; overflow: hidden;">
-                    <iframe src="download-result.php?roll=<?php echo urlencode($rollNumber); ?>&sem=<?php echo $semester; ?>&inline=1" 
-                            style="width: 100%; height: 600px; border: none;" 
-                            type="application/pdf">
-                        <p>Your browser does not support PDFs. 
-                           <a href="download-result.php?roll=<?php echo urlencode($rollNumber); ?>&sem=<?php echo $semester; ?>" target="_blank">
-                               Click here to download the PDF file.
-                           </a>
-                        </p>
-                    </iframe>
-                </div>
+                <p>Your result for Semester <?php echo $semester; ?> is ready for download.</p>
                 
                 <div style="margin-top: 15px;">
+                    <a href="download-result.php?roll=<?php echo urlencode($rollNumber); ?>&sem=<?php echo $semester; ?>&inline=1" 
+                       class="download-btn" target="_blank" style="background: #17a2b8;">
+                        <i class="fa fa-eye"></i> View Result Online
+                    </a>
                     <a href="download-result.php?roll=<?php echo urlencode($rollNumber); ?>&sem=<?php echo $semester; ?>" 
-                       class="download-btn" target="_blank">
+                       class="download-btn" target="_blank" style="margin-left: 10px;">
                         <i class="fa fa-download"></i> Download PDF
                     </a>
-                    <button onclick="window.print()" class="download-btn" style="background: #17a2b8; margin-left: 10px;">
-                        <i class="fa fa-print"></i> Print Result
-                    </button>
                 </div>
             </div>
         <?php else: ?>
