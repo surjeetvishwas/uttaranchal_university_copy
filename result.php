@@ -315,10 +315,26 @@ main {
     transform: translateY(-2px);
 }
 
+.pdf-viewer-container {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.pdf-viewer-container iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 768px) {
     .result-container {
         padding: 2rem 1.5rem;
         margin: 1rem;
+    }
+    
+    .pdf-viewer-container iframe {
+        height: 500px; /* Smaller height on mobile */
     }
     
     .services-grid {
@@ -327,6 +343,12 @@ main {
     
     .university-header h1 {
         font-size: 1.5rem;
+    }
+    
+    .download-btn {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
     }
 }
 </style>
@@ -354,11 +376,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <?php if ($resultFile): ?>
             <div class="result-display">
                 <h5><i class="fa fa-check-circle text-success"></i> Result Found!</h5>
-                <p>Your result for Semester <?php echo $semester; ?> is ready for download.</p>
-                <a href="download-result.php?roll=<?php echo urlencode($rollNumber); ?>&sem=<?php echo $semester; ?>" 
-                   class="download-btn" target="_blank">
-                    <i class="fa fa-download"></i> Download Result PDF
-                </a>
+                <p>Your result for Semester <?php echo $semester; ?> is ready to view.</p>
+                
+                <!-- PDF Viewer Container -->
+                <div class="pdf-viewer-container" style="margin: 20px 0; border: 2px solid #ddd; border-radius: 10px; overflow: hidden;">
+                    <iframe src="download-result.php?roll=<?php echo urlencode($rollNumber); ?>&sem=<?php echo $semester; ?>&inline=1" 
+                            style="width: 100%; height: 600px; border: none;" 
+                            type="application/pdf">
+                        <p>Your browser does not support PDFs. 
+                           <a href="download-result.php?roll=<?php echo urlencode($rollNumber); ?>&sem=<?php echo $semester; ?>" target="_blank">
+                               Click here to download the PDF file.
+                           </a>
+                        </p>
+                    </iframe>
+                </div>
+                
+                <div style="margin-top: 15px;">
+                    <a href="download-result.php?roll=<?php echo urlencode($rollNumber); ?>&sem=<?php echo $semester; ?>" 
+                       class="download-btn" target="_blank">
+                        <i class="fa fa-download"></i> Download PDF
+                    </a>
+                    <button onclick="window.print()" class="download-btn" style="background: #17a2b8; margin-left: 10px;">
+                        <i class="fa fa-print"></i> Print Result
+                    </button>
+                </div>
             </div>
         <?php else: ?>
             <div class="result-form">

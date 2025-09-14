@@ -49,9 +49,20 @@ try {
         die('Result file could not be retrieved.');
     }
     
-    // Set headers for PDF download
+    // Check if inline viewing is requested
+    $isInline = isset($_GET['inline']) && $_GET['inline'] == '1';
+    
+    // Set headers for PDF
     header('Content-Type: application/pdf');
-    header('Content-Disposition: attachment; filename="' . $rollNumber . '_Semester_' . $semester . '_Result.pdf"');
+    
+    if ($isInline) {
+        // For inline viewing in browser
+        header('Content-Disposition: inline; filename="' . $rollNumber . '_Semester_' . $semester . '_Result.pdf"');
+    } else {
+        // For download
+        header('Content-Disposition: attachment; filename="' . $rollNumber . '_Semester_' . $semester . '_Result.pdf"');
+    }
+    
     header('Content-Length: ' . strlen($fileContent));
     header('Cache-Control: private, max-age=0, must-revalidate');
     header('Pragma: public');
