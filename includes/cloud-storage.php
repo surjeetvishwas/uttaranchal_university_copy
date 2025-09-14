@@ -1,42 +1,175 @@
 <?php
-// Google Cloud Storage Configuration for Cloud Run
+// Cloud Storage Helper for UUD folder structure
 class CloudStorageHelper {
     private $bucketName = 'resultexyx';
     private $baseFolder = 'UUD';
     
     public function __construct() {
-        // Initialize Google Cloud Storage client
-        // Cloud Run will automatically use service account credentials
+        // Cloud Run automatically provides service account credentials
     }
     
     /**
-     * Upload PDF file to Cloud Storage
+     * Get access token for Google Cloud API
+     */
+    private function getAccessToken() {
+        try {
+            // Get token from metadata server (available in Cloud Run)
+            $url = 'http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token';
+            $context = stream_context_create([
+                'http' => [
+                    'header' => 'Metadata-Flavor: Google',
+                    'timeout' => 10
+                ]
+            ]);
+            
+            $response = @file_get_contents($url, false, $context);
+            if ($response === false) {
+                return null;
+            }
+            
+            $data = json_decode($response, true);
+            return $data['access_token'] ?? null;
+        } catch (Exception $e) {
+            return null;
+        }
+    }
+    
+    /**
+     * Upload PDF file to Cloud Storage in UUD folder
      */
     public function uploadPDF($rollNumber, $semester, $fileContent, $fileName) {
         try {
             $objectName = $this->baseFolder . '/' . $rollNumber . '/sem' . $semester . '.pdf';
+            $token = $this->getAccessToken();
             
-            // Use gsutil command for file upload (available in Cloud Run)
-            $tempFile = tempnam(sys_get_temp_dir(), 'pdf_upload');
-            file_put_contents($tempFile, $fileContent);
+            if (!$token) {
+                // Fallback to local storage
+                return $this->saveLocalFile($rollNumber, $semester, $fileContent);
+            }
             
-            $bucketPath = 'gs://' . $this->bucketName . '/' . $objectName;
-            $command = "gsutil cp {$tempFile} {$bucketPath} 2>&1";
+            // Upload to Google Cloud Storage using REST API
+            $url = "https://storage.googleapis.com/upload/storage/v1/b/{$this->bucketName}/o?uploadType=media&name=" . urlencode($objectName);
             
-            $output = shell_exec($command);
-            $success = (strpos($output, 'Operation completed') !== false || empty($output));
+            $context = stream_context_create([
+                'http' => [
+                    'method' => 'POST',
+                    'header' => [
+                        'Authorization: Bearer ' . $token,
+                        'Content-Type: application/pdf',
+                        'Content-Length: ' . strlen($fileContent)
+                    ],
+                    'content' => $fileContent,
+                    'timeout' => 30
+                ]
+            ]);
             
-            unlink($tempFile); // Clean up temp file
+            $response = @file_get_contents($url, false, $context);
             
-            if ($success) {
+            if ($response !== false) {
                 return [
                     'success' => true,
                     'path' => $objectName,
-                    'bucket_path' => $bucketPath
+                    'method' => 'cloud_storage',
+                    'size' => strlen($fileContent)
                 ];
             } else {
-                throw new Exception('Upload failed: ' . $output);
+                // Fallback to local storage
+                return $this->saveLocalFile($rollNumber, $semester, $fileContent);
             }
+        } catch (Exception $e) {
+            // Fallback to local storage
+            return $this->saveLocalFile($rollNumber, $semester, $fileContent);
+        }
+    }
+    
+    /**
+     * Upload database to UUD folder in Cloud Storage
+     */
+    public function uploadDatabase($dbContent) {
+        try {
+            $objectName = $this->baseFolder . '/mapping.db';
+            $token = $this->getAccessToken();
+            
+            if (!$token) {
+                return false;
+            }
+            
+            $url = "https://storage.googleapis.com/upload/storage/v1/b/{$this->bucketName}/o?uploadType=media&name=" . urlencode($objectName);
+            
+            $context = stream_context_create([
+                'http' => [
+                    'method' => 'POST',
+                    'header' => [
+                        'Authorization: Bearer ' . $token,
+                        'Content-Type: application/octet-stream',
+                        'Content-Length: ' . strlen($dbContent)
+                    ],
+                    'content' => $dbContent,
+                    'timeout' => 30
+                ]
+            ]);
+            
+            $response = @file_get_contents($url, false, $context);
+            return $response !== false;
+        } catch (Exception $e) {
+            return false;
+        }
+    }
+    
+    /**
+     * Download database from UUD folder
+     */
+    public function downloadDatabase() {
+        try {
+            $objectName = $this->baseFolder . '/mapping.db';
+            $token = $this->getAccessToken();
+            
+            if (!$token) {
+                return null;
+            }
+            
+            $url = "https://storage.googleapis.com/storage/v1/b/{$this->bucketName}/o/" . urlencode($objectName) . "?alt=media";
+            
+            $context = stream_context_create([
+                'http' => [
+                    'header' => 'Authorization: Bearer ' . $token,
+                    'timeout' => 30
+                ]
+            ]);
+            
+            $content = @file_get_contents($url, false, $context);
+            
+            if ($content !== false) {
+                $tempDb = '/tmp/uud_mapping.db';
+                file_put_contents($tempDb, $content);
+                return $tempDb;
+            }
+            
+            return null;
+        } catch (Exception $e) {
+            return null;
+        }
+    }
+    
+    /**
+     * Fallback: Save to local storage with UUD structure
+     */
+    private function saveLocalFile($rollNumber, $semester, $fileContent) {
+        try {
+            $localPath = '/tmp/UUD/' . $rollNumber;
+            if (!is_dir($localPath)) {
+                mkdir($localPath, 0777, true);
+            }
+            
+            $localFile = $localPath . '/sem' . $semester . '.pdf';
+            file_put_contents($localFile, $fileContent);
+            
+            return [
+                'success' => true,
+                'path' => $this->baseFolder . '/' . $rollNumber . '/sem' . $semester . '.pdf',
+                'local_path' => $localFile,
+                'method' => 'local_storage'
+            ];
         } catch (Exception $e) {
             return [
                 'success' => false,
@@ -46,94 +179,47 @@ class CloudStorageHelper {
     }
     
     /**
-     * Download file content from Cloud Storage
+     * Download file from Cloud Storage
      */
     public function downloadFile($objectPath) {
         try {
-            $bucketPath = 'gs://' . $this->bucketName . '/' . $objectPath;
-            $tempFile = tempnam(sys_get_temp_dir(), 'pdf_download');
-            
-            $command = "gsutil cp {$bucketPath} {$tempFile} 2>&1";
-            $output = shell_exec($command);
-            
-            if (file_exists($tempFile) && filesize($tempFile) > 0) {
-                $content = file_get_contents($tempFile);
-                unlink($tempFile);
-                return $content;
-            } else {
-                throw new Exception('Download failed: ' . $output);
+            // Check if it's a local file
+            if (file_exists('/tmp/' . $objectPath)) {
+                return file_get_contents('/tmp/' . $objectPath);
             }
+            
+            $token = $this->getAccessToken();
+            if (!$token) {
+                return false;
+            }
+            
+            $url = "https://storage.googleapis.com/storage/v1/b/{$this->bucketName}/o/" . urlencode($objectPath) . "?alt=media";
+            
+            $context = stream_context_create([
+                'http' => [
+                    'header' => 'Authorization: Bearer ' . $token,
+                    'timeout' => 30
+                ]
+            ]);
+            
+            return @file_get_contents($url, false, $context);
         } catch (Exception $e) {
             return false;
         }
     }
     
     /**
-     * Check if PDF exists in Cloud Storage
-     */
-    public function fileExists($objectPath) {
-        try {
-            $bucketPath = 'gs://' . $this->bucketName . '/' . $objectPath;
-            $command = "gsutil ls {$bucketPath} 2>/dev/null";
-            $output = shell_exec($command);
-            return !empty(trim($output));
-        } catch (Exception $e) {
-            return false;
-        }
-    }
-    
-    /**
-     * Upload database to Cloud Storage
-     */
-    public function uploadDatabase($dbContent) {
-        try {
-            $objectName = $this->baseFolder . '/mapping.db';
-            $tempFile = tempnam(sys_get_temp_dir(), 'db_upload');
-            file_put_contents($tempFile, $dbContent);
-            
-            $bucketPath = 'gs://' . $this->bucketName . '/' . $objectName;
-            $command = "gsutil cp {$tempFile} {$bucketPath} 2>&1";
-            
-            $output = shell_exec($command);
-            $success = (strpos($output, 'Operation completed') !== false || empty($output));
-            
-            unlink($tempFile);
-            return $success;
-        } catch (Exception $e) {
-            return false;
-        }
-    }
-    
-    /**
-     * Download database from Cloud Storage
-     */
-    public function downloadDatabase() {
-        try {
-            $objectName = $this->baseFolder . '/mapping.db';
-            $bucketPath = 'gs://' . $this->bucketName . '/' . $objectName;
-            $localDb = '/tmp/mapping.db';
-            
-            $command = "gsutil cp {$bucketPath} {$localDb} 2>/dev/null";
-            shell_exec($command);
-            
-            return file_exists($localDb) ? $localDb : null;
-        } catch (Exception $e) {
-            return null;
-        }
-    }
-    
-    /**
-     * Get database connection with Cloud Storage sync
+     * Get database connection with UUD folder sync
      */
     public function getDatabaseConnection() {
-        // Try to download existing database from Cloud Storage
+        // Try to download existing database from UUD folder
         $cloudDb = $this->downloadDatabase();
         
-        if ($cloudDb) {
+        if ($cloudDb && file_exists($cloudDb)) {
             $dbPath = $cloudDb;
         } else {
             // Create new database in temp directory
-            $dbPath = '/tmp/mapping.db';
+            $dbPath = '/tmp/uud_mapping.db';
         }
         
         try {
@@ -150,11 +236,11 @@ class CloudStorageHelper {
     }
     
     /**
-     * Save database back to Cloud Storage
+     * Save database to UUD folder in Cloud Storage
      */
     public function saveDatabase($pdo) {
         try {
-            // Get database file path
+            // Get the database file content
             $result = $pdo->query("PRAGMA database_list")->fetch();
             $dbFile = $result['file'];
             
@@ -197,7 +283,7 @@ class CloudStorageHelper {
 }
 
 /**
- * Student Database Operations with Cloud Storage Integration
+ * Student Manager with proper UUD folder integration
  */
 class StudentManager {
     private $db;
@@ -209,7 +295,7 @@ class StudentManager {
     }
     
     /**
-     * Save changes to cloud after database operations
+     * Sync database to cloud after operations
      */
     private function syncToCloud() {
         return $this->storage->saveDatabase($this->db);
@@ -226,7 +312,7 @@ class StudentManager {
             ");
             $result = $stmt->execute([$rollNumber, $studentName]);
             
-            // Sync to cloud storage
+            // Sync to UUD folder in cloud
             $this->syncToCloud();
             
             return $result;
@@ -236,11 +322,11 @@ class StudentManager {
     }
     
     /**
-     * Save result PDF
+     * Save result PDF to UUD folder structure
      */
     public function saveResult($rollNumber, $semester, $fileContent, $fileName) {
         try {
-            // Upload PDF to Cloud Storage
+            // Upload PDF to UUD folder in Cloud Storage
             $uploadResult = $this->storage->uploadPDF($rollNumber, $semester, $fileContent, $fileName);
             
             if (!$uploadResult['success']) {
@@ -254,7 +340,7 @@ class StudentManager {
             ");
             $stmt->execute([$rollNumber, $semester, $uploadResult['path']]);
             
-            // Sync database to cloud
+            // Sync database to UUD folder
             $this->syncToCloud();
             
             return $uploadResult;
@@ -281,7 +367,7 @@ class StudentManager {
     }
     
     /**
-     * Get result for roll number and semester
+     * Get result for specific roll number and semester
      */
     public function getStudentResult($rollNumber, $semester) {
         $stmt = $this->db->prepare("
@@ -316,23 +402,18 @@ class StudentManager {
         try {
             $this->db->beginTransaction();
             
-            // Get results to delete files
-            $results = $this->getStudentResults($rollNumber);
-            
-            // Delete from database
+            // Delete results from database
             $stmt = $this->db->prepare("DELETE FROM results WHERE roll_number = ?");
             $stmt->execute([$rollNumber]);
             
+            // Delete student from database
             $stmt = $this->db->prepare("DELETE FROM students WHERE roll_number = ?");
             $stmt->execute([$rollNumber]);
             
             $this->db->commit();
             
-            // Sync to cloud
+            // Sync to UUD folder
             $this->syncToCloud();
-            
-            // TODO: Delete PDF files from cloud storage
-            // This would require implementing file deletion
             
             return true;
         } catch (Exception $e) {

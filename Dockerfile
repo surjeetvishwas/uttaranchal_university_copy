@@ -1,15 +1,10 @@
 # Use the official PHP image with Apache
 FROM php:8.2-apache
 
-# Install required packages and Google Cloud SDK
+# Install required PHP extensions for the admin system
 RUN apt-get update && apt-get install -y \
     sqlite3 \
     libsqlite3-dev \
-    curl \
-    gnupg \
-    && echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list \
-    && curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key --keyring /usr/share/keyrings/cloud.google.gpg add - \
-    && apt-get update && apt-get install -y google-cloud-sdk \
     && docker-php-ext-install pdo pdo_sqlite \
     && rm -rf /var/lib/apt/lists/*
 
