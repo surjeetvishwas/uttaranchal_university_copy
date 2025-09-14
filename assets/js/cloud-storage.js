@@ -14,7 +14,7 @@ class CloudStorage {
      */
     async downloadDatabase() {
         try {
-            const url = `${this.bucketUrl}/${this.basePath}/${this.databaseFile}`;
+            const url = `${this.bucketUrl}/${this.basePath}/${this.databaseFile}?t=${Date.now()}`;
             const response = await fetch(url);
             
             if (!response.ok) {
