@@ -1,40 +1,36 @@
-# Use the official PHP image with Apache
-FROM php:8.2-apache
+# Multi-stage build for optimized frontend serving
+FROM nginx:alpine
 
-# Install required PHP extensions for the admin system
-RUN apt-get update && apt-get install -y \
-    sqlite3 \
-    libsqlite3-dev \
-    && docker-php-ext-install pdo pdo_sqlite \
-    && rm -rf /var/lib/apt/lists/*
+# Copy custom nginx configuration
+COPY nginx.conf /etc/nginx/nginx.conf
 
-# Copy website files to the Apache document root
-COPY . /var/www/html/
+# Copy website files to nginx document root
+COPY . /usr/share/nginx/html/
 
-# Create necessary directories with proper permissions
-RUN mkdir -p /tmp \
-    && chmod 777 /tmp \
-    && mkdir -p /var/www/html/uploads \
-    && chmod 777 /var/www/html/uploads
+# Remove unnecessary files from production image
+RUN rm -f /usr/share/nginx/html/Dockerfile \
+    && rm -f /usr/share/nginx/html/docker-compose.yml \
+    && rm -f /usr/share/nginx/html/.dockerignore \
+    && rm -f /usr/share/nginx/html/database.json \
+    && rm -rf /usr/share/nginx/html/.git* \
+    && rm -rf /usr/share/nginx/html/node_modules
 
-# Set recommended permissions
-RUN chown -R www-data:www-data /var/www/html \
-    && chmod -R 755 /var/www/html
+# Set proper permissions for nginx
+RUN chown -R nginx:nginx /usr/share/nginx/html \
+    && chmod -R 755 /usr/share/nginx/html
 
-# Configure PHP for file uploads and sessions
-RUN echo "upload_max_filesize = 50M" >> /usr/local/etc/php/conf.d/uploads.ini \
-    && echo "post_max_size = 50M" >> /usr/local/etc/php/conf.d/uploads.ini \
-    && echo "max_execution_time = 300" >> /usr/local/etc/php/conf.d/uploads.ini \
-    && echo "session.gc_maxlifetime = 3600" >> /usr/local/etc/php/conf.d/uploads.ini
+# Create directory for nginx logs
+RUN mkdir -p /var/log/nginx \
+    && touch /var/log/nginx/access.log \
+    && touch /var/log/nginx/error.log \
+    && chown -R nginx:nginx /var/log/nginx
 
-# Expose port 8080 for Cloud Run
+# Expose port 8080 for Cloud Run compatibility
 EXPOSE 8080
 
-# Change Apache to listen on port 8080 (Cloud Run requirement)
-RUN sed -i 's/80/8080/g' /etc/apache2/ports.conf /etc/apache2/sites-available/000-default.conf
+# Health check for container monitoring
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:8080/ || exit 1
 
-# Enable Apache mod_rewrite if needed
-RUN a2enmod rewrite
-
-# Start Apache in the foreground
-CMD ["apache2-foreground"]
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]
