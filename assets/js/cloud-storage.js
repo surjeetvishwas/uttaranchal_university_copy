@@ -153,7 +153,7 @@ class CloudStorage {
             const database = await this.downloadDatabase();
             const result = database.results.find(r => 
                 r.roll_number.toLowerCase() === rollNumber.toLowerCase() && 
-                r.semester === parseInt(semester)
+                r.semester === semester.toString()
             );
             
             if (!result) {
@@ -228,12 +228,12 @@ class CloudStorage {
             // Check if result exists
             const existingIndex = database.results.findIndex(r => 
                 r.roll_number.toLowerCase() === rollNumber.toLowerCase() && 
-                r.semester === parseInt(semester)
+                r.semester === semester.toString()
             );
             
             const resultData = {
                 roll_number: rollNumber,
-                semester: parseInt(semester),
+                semester: semester.toString(),
                 file_path: uploadResult.path,
                 uploaded_at: new Date().toISOString()
             };

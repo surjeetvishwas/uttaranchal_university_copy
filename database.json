@@ -1,6 +1,25 @@
 {
     "students": [],
-    "results": [],
+        "results": [
+            {
+                "roll_number": "12345678",
+                "semester": "1",
+                "file_path": "UUD/12345678/sem1.pdf",
+                "uploaded_at": "2025-09-14T21:30:32Z"
+            },
+            {
+                "roll_number": "12345678",
+                "semester": "2",
+                "file_path": "UUD/12345678/sem2.pdf",
+                "uploaded_at": "2025-09-14T21:30:48Z"
+            },
+            {
+                "roll_number": "12345678",
+                "semester": "3",
+                "file_path": "UUD/12345678/sem3.pdf",
+                "uploaded_at": "2025-09-14T21:31:02Z"
+            }
+        ],
     "version": "1.0",
     "created_at": "2024-12-30",
     "last_updated": "2024-12-30"
