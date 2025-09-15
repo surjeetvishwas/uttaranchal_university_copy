@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td>${student.roll_number}</td>
-                    <td>${student.student_name}</td>
+                    <td>${student.enroll_number}</td>
                     <td>${new Date(student.created_at).toLocaleDateString()}</td>
                     <td>
                         <button class="btn btn-danger btn-sm" onclick="deleteStudent('${student.roll_number}')">
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
             students.forEach(student => {
                 const option = document.createElement('option');
                 option.value = student.roll_number;
-                option.textContent = `${student.roll_number} - ${student.student_name}`;
+                option.textContent = `${student.roll_number} - ${student.enroll_number}`;
                 select.appendChild(option);
             });
         } catch (error) {

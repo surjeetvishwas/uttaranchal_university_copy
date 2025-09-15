@@ -83,13 +83,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function displayResult(student, result, pdfUrl) {
         // Update result display elements
-        document.getElementById('resultStudentName').textContent = student.student_name;
+        document.getElementById('resultStudentName').textContent = student.enroll_number;
         document.getElementById('resultRollNumber').textContent = student.roll_number;
         document.getElementById('resultSemester').textContent = result.semester;
         
-        // Set PDF viewer source
+        // Set PDF viewer source with disabled controls
         const pdfViewer = document.getElementById('pdfViewer');
-        pdfViewer.src = pdfUrl;
+        // Append parameters to disable PDF viewer controls
+        const cleanPdfUrl = pdfUrl + '#toolbar=0&navpanes=0&scrollbar=0&statusbar=0&messages=0&scrollbar=0';
+        pdfViewer.src = cleanPdfUrl;
         
         // Set download link
         const downloadLink = document.getElementById('downloadLink');

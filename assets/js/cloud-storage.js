@@ -134,7 +134,7 @@ class CloudStorage {
                 return { valid: false, error: 'Student not found' };
             }
             
-            if (student.student_name.toLowerCase() !== studentName.toLowerCase()) {
+            if (student.enroll_number.toLowerCase() !== studentName.toLowerCase()) {
                 return { valid: false, error: 'Student name does not match' };
             }
             
@@ -191,7 +191,7 @@ class CloudStorage {
             
             const studentData = {
                 roll_number: rollNumber,
-                student_name: studentName,
+                enroll_number: studentName,
                 created_at: new Date().toISOString()
             };
             
@@ -199,7 +199,7 @@ class CloudStorage {
                 // Update existing student
                 database.students[existingIndex] = {
                     ...database.students[existingIndex],
-                    student_name: studentName
+                    enroll_number: studentName
                 };
             } else {
                 // Add new student
